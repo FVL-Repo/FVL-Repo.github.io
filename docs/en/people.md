@@ -1,7 +1,7 @@
 ---
 layout: page
-title: FVL 实验室
-titleTemplate: 成员
+title: FVL Lab
+titleTemplate: People
 ---
 <script setup>
 import {
@@ -13,47 +13,48 @@ import {
 const orgnization = [
   {
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/head/teacher/caoyixin.png',
-    name: '曹艺馨',
-    title: '青年研究员'
+    name: 'Yixin Cao',
+    title: 'Professor',
+    desc: 'Pre-tenure'
   },
   {
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/cjj.jpeg',
-    name: '陈静静',
-    title: '副教授'
+    name: 'Jingjing Chen',
+    title: 'Associate Professor'
   },
   {
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/czn.png',
-    name: '陈智能',
-    title: '教授'
+    name: 'Zhineng Chen',
+    title: 'Professor'
   },
   {
     avatar: '/images/people/faculty/fuyanwei.jpg',
-    name: '付彦伟',
-    title: '教授'
+    name: 'Yanwei Fu',
+    title: 'Professor'
   },
   {
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/ygjiang.png',
-    name: '姜育刚',
-    title: '教授 & 实验室主任'
+    name: 'Yu-gang Jiang',
+    title: 'Professor & Director'
   },
   {
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/mxj.jpeg',
-    name: '马兴军',
-    title: '青年研究员'
+    name: 'Xingjun Ma',
+    title: 'Professor',
+    desc: 'Pre-tenure'
   },
   {
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/wzx.png',
-    name: '吴祖煊',
-    title: '副教授'
+    name: 'Zuxuan Wu',
+    title: 'Associate Professor'
   },
 ]
-
 
 </script>
 
 <VPTeamPage>
 <VPTeamPageSection>
-    <template #title>教师</template>
+    <template #title>Faculty</template>
     <template #members>
       <VPTeamMembers size="small" :members="orgnization" />
     </template>
