@@ -32,6 +32,10 @@
     .VPHero .image-container {
         transform: translate(-10px, 0.5vh);
     }
+
+    .VPNav .container {
+        max-width: 95%;
+    }
 }
 
 .VPNav {
@@ -39,6 +43,7 @@
         color: var(--vp-c-bg);
         font-size: 18px;
     }
+
     .text {
         color: var(--vp-c-bg);
         font-size: 18px;
@@ -62,10 +67,31 @@
     .VPNavBarMenuLink:hover {
         color: var(--vp-c-brand-3);
     }
+
+    .VPNavScreen {
+        .title {
+            font-size: 14px;
+            color: var(--vp-c-text-1);
+        }
+
+
+    }
+
+    .container {
+        .top {
+            background-color: var(--vp-c-bg);
+        }
+        .middle {
+            background-color: var(--vp-c-bg);
+        }
+        .bottom {
+            background-color: var(--vp-c-bg);
+        }
+    }
 }
 
-.VPMenu{
-    .title{
+.VPMenu {
+    .title {
         font-size: 14px;
         color: var(--vp-c-text-1);
     }
