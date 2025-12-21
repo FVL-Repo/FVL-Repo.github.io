@@ -1,0 +1,168 @@
+@import './style/font.css';
+@import './style/custom-block.css';
+@import './style/vp-code-group.css';
+@import './style/var.css';
+@import './style/main.css';
+
+
+@media (min-width: 960px) {
+
+    .VPContent .VPHero.has-image .container {
+        height: 25vh;
+        margin-bottom: 5vh;
+    }
+
+    .VPContent .VPHero.has-image .main {
+        max-width: 900px;
+    }
+
+    .VPHomeHero .main .name.clip {
+        font-size: 80px;
+        line-height: 120px;
+    }
+
+    .VPHomeHero .main .text {
+        max-width: 700px;
+    }
+
+    .VPContent.is-home {
+        padding-top: 10vh;
+    }
+
+    .VPHero .image-container {
+        transform: translate(-10px, 0.5vh);
+    }
+}
+
+.VPNav {
+    .button {
+        color: var(--vp-c-bg);
+        font-size: 18px;
+    }
+    .text {
+        color: var(--vp-c-bg);
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 24px;
+        color: var(--vp-c-bg);
+    }
+
+    .VPNavBarMenuLink {
+        font-size: 18px;
+        font-weight: 600;
+        color: var(--vp-c-bg);
+    }
+
+    .VPNavBarMenuLink.active {
+        color: var(--vp-c-bg);
+    }
+
+    .VPNavBarMenuLink:hover {
+        color: var(--vp-c-brand-3);
+    }
+}
+
+.VPMenu{
+    .title{
+        font-size: 14px;
+        color: var(--vp-c-text-1);
+    }
+}
+
+
+.VPNav .VPNavBar:not(.has-sidebar):not(.home.top) .divider-line {
+    background-color: var(--vp-c-brand-1);
+}
+
+/* .vitepress\theme\style\blur.css */
+:root {
+
+    body {
+        background-color: var(--vp-c-bg-soft);
+    }
+
+    /* 首页下滑后导航透明 */
+    .VPNavBar:not(.has-sidebar):not(.home.top) {
+        background-color: var(--vp-c-brand-1);
+        backdrop-filter: blur(10px);
+    }
+
+    /* 搜索框透明 */
+    .DocSearch-Button {
+        background-color: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+    }
+
+    /* Feature透明 */
+    .VPFeature {
+        border: none;
+        box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
+        background-color: transparent;
+    }
+
+    /* 文档页侧边栏顶部透明 */
+    .curtain {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    @media (min-width: 960px) {
+
+        /* 文档页导航中间透明 */
+        .VPNavBar:not(.home.top) .content-body {
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+        }
+    }
+
+    /* 移动端大纲栏透明 */
+    .VPLocalNav {
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(10px);
+    }
+
+}
+
+/* 成员页 */
+
+.VPTeamPage {
+
+    .VPTeamMembers.small.count-2 .container {
+        max-width: calc(360px * 2 + 24px);
+    }
+
+    .VPTeamMembersItem.small .avatar {
+        width: 160px;
+        height: 160px;
+    }
+
+    .VPTeamMembersItem.small .name {
+        line-height: 30px;
+        font-size: 24px;
+    }
+
+    .VPTeamMembersItem.small .desc {
+        line-height: 24px;
+        font-size: 18px;
+        color: var(--vp-c-brand-1);
+    }
+
+    .VPTeamMembersItem.small .profile {
+        padding: 28px;
+        flex-grow: 1;
+        background-color: var(--vp-c-bg);
+    }
+
+    .title {
+        margin-top: 60px;
+    }
+
+    .title-text {
+        font-size: 36px;
+        font-weight: 700;
+        color: var(--vp-c-text-1);
+        background-color: var(--vp-c-bg-soft);
+    }
+}
