@@ -11,7 +11,7 @@ import { transformerTwoslash } from '@shikijs/vitepress-twoslash';
 
 export const shared = defineConfig({
   title: 'FVL',
-  lastUpdated: true,
+  lastUpdated: false,
   appearance: false,
   cleanUrls: true,
   metaChunk: true,
