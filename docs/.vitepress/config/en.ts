@@ -6,19 +6,8 @@ export const en = defineConfig({
 
   themeConfig: {
     nav: nav(),
-
-    docFooter: {
-      prev: 'Previous',
-      next: 'Next'
-    },
-
-    outline: {
-      label: 'Page Navigation'
-    },
-
     langMenuLabel: 'Languages',
     returnToTopLabel: 'Back to top',
-    sidebarMenuLabel: 'Menu',
   }
 })
 
