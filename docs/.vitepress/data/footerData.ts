@@ -1,7 +1,7 @@
 import type { FooterData } from '@theojs/lumen'
 
 export const Footer_Data: FooterData = {
-    author: { name: 'FVL', link: 'https://github.com/FDUCSLG' },
+    author: { name: 'FVL', link: 'https://github.com/FVL-repo' },
     group: [
         // {
         //     title: '生态',

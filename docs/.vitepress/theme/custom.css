@@ -5,19 +5,15 @@
 @import './style/main.css';
 
 .VPNav {
-    .button {
-        color: var(--vp-c-bg);
-        font-size: 18px;
-    }
 
     .text {
-        color: var(--vp-c-bg);
+        color: var(--vp-nav-text);
         font-size: 18px;
     }
 
     .title {
         font-size: 24px;
-        color: var(--vp-c-bg);
+        color: var(--vp-nav-text);
     }
 
     @media (max-width: 768px) {
@@ -29,11 +25,11 @@
     .VPNavBarMenuLink {
         font-size: 18px;
         font-weight: 600;
-        color: var(--vp-c-bg);
+        color: var(--vp-nav-text);
     }
 
     .VPNavBarMenuLink.active {
-        color: var(--vp-c-bg);
+        color: var(--vp-nav-text);
     }
 
     .VPNavBarMenuLink:hover {
@@ -105,7 +101,8 @@
 }
 
 .VPNav .VPNavBar:not(.has-sidebar):not(.home.top) .divider-line {
-    background-color: var(--vp-c-brand-1);
+    background-color: var(--vp-nav-color);
+    transition: background-color 0.25s;
 }
 
 /* .vitepress\theme\style\blur.css */
@@ -118,7 +115,7 @@
 
     /* 首页下滑后导航透明 */
     .VPNavBar:not(.has-sidebar):not(.home.top) {
-        background-color: var(--vp-c-brand-1);
+        background-color: var(--vp-nav-color);
         backdrop-filter: blur(10px);
     }
 
