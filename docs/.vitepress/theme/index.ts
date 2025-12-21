@@ -7,6 +7,10 @@ import codeblocksFold from 'vitepress-plugin-codeblocks-fold';
 // import { ShareButton } from '@theojs/lumen';//不好看
 import { Footer } from '@theojs/lumen'
 import { Footer_Data } from '../data/footerData.ts';
+import {
+  NolebaseInlineLinkPreviewPlugin,
+} from '@nolebase/vitepress-plugin-inline-link-preview/client'
+
 
 import '@shikijs/vitepress-twoslash/style.css';
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
@@ -34,6 +38,7 @@ export default {
     app.use(TwoslashFloatingVue);
     app.component('NCard', NCard);
     app.use(TwoslashFloatingVue as unknown as Plugin);
+    app.use(NolebaseInlineLinkPreviewPlugin as Plugin);
   },
   setup() {
     const route = useRoute();

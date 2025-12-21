@@ -26,5 +26,9 @@ function nav(): DefaultTheme.NavItem[] {
       text: '成员',
       link: '/people',
     },
+    {
+      text: '加入我们',
+      link: '/joinus',
+    }
   ]
 }

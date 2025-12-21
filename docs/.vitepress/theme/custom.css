@@ -64,32 +64,6 @@
 
 @media (min-width: 960px) {
 
-    .VPContent .VPHero.has-image .container {
-        height: 25vh;
-        margin-bottom: 5vh;
-    }
-
-    .VPContent .VPHero.has-image .main {
-        max-width: 900px;
-    }
-
-    .VPHomeHero .main .name.clip {
-        font-size: 80px;
-        line-height: 120px;
-    }
-
-    .VPHomeHero .main .text {
-        max-width: 700px;
-    }
-
-    .VPContent.is-home {
-        padding-top: 10vh;
-    }
-
-    .VPHero .image-container {
-        transform: translate(-10px, 0.5vh);
-    }
-
     .VPNav .container {
         max-width: 95%;
     }
@@ -102,6 +76,34 @@
     }
 }
 
+.VPContent {
+    .custom-block-title {
+        font-size: 18px;
+    }
+
+    .custom-block {
+        font-size: 16px;
+    }
+
+    .custom-block p{
+        line-height: 28px;
+    }
+
+    .VPDoc {
+        .aside {
+            display: none;
+        }
+    }
+
+    .VPDoc:not(.has-sidebar) .content {
+        max-width: 90%;
+    }
+
+    .VPDoc.has-aside .content-container {
+        max-width: 100%;
+    }
+}
+
 .VPNav .VPNavBar:not(.has-sidebar):not(.home.top) .divider-line {
     background-color: var(--vp-c-brand-1);
 }
@@ -111,6 +113,7 @@
 
     body {
         background-color: var(--vp-c-bg-soft);
+        font-size: 18px;
     }
 
     /* 首页下滑后导航透明 */
