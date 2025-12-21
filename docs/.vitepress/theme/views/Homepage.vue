@@ -27,11 +27,13 @@ const current = ref(0)
 let locked = false
 
 const go = (index) => {
+    if (isMobile.value) return
     if (index < 0 || index >= pages.length) return
     current.value = index
 }
 
 const handleWheel = (e) => {
+    if (isMobile.value) return
     if (locked) return
     locked = true
     if (e.deltaY > 0) {
@@ -43,6 +45,22 @@ const handleWheel = (e) => {
         locked = false
     }, 700)
 }
+
+// 移动端检测
+const isMobile = ref(false)
+
+const checkMobile = () => {
+    isMobile.value = window.innerWidth <= 768
+}
+
+onMounted(() => {
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('resize', checkMobile)
+})
 
 // 页面切换时控制 html 的 class
 // const updateHtmlClass = () => {
@@ -112,5 +130,26 @@ const handleWheel = (e) => {
     border: 2px solid var(--vp-c-brand);
     background: var(--vp-c-bg);
     transform: scale(1.1);
+}
+
+/* 移动端滚动样式 */
+@media (max-width: 768px) {
+    .fullpage {
+        height: auto;
+        overflow: visible;
+    }
+
+    .container {
+        transition: none;
+        transform: none !important;
+    }
+
+    .page {
+        height: auto;
+    }
+
+    .indicator {
+        display: none;
+    }
 }
 </style>

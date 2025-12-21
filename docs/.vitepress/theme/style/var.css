@@ -5,6 +5,13 @@
   --vp-nav-height: 70px;
 }
 
+@media(max-width:768px) {
+  :root {
+    --vp-nav-height: 60px;
+
+  }
+}
+
 .dark {
   --vp-c-brand-3: #d1d6e5;
 }

@@ -36,6 +36,13 @@
     .VPNav .container {
         max-width: 95%;
     }
+
+    .VPMenu {
+        .title {
+            font-size: 14px;
+            color: var(--vp-c-text-1);
+        }
+    }
 }
 
 .VPNav {
@@ -52,6 +59,12 @@
     .title {
         font-size: 24px;
         color: var(--vp-c-bg);
+    }
+
+    @media (max-width: 768px) {
+        .title {
+            font-size: 20px;
+        }
     }
 
     .VPNavBarMenuLink {
@@ -81,19 +94,14 @@
         .top {
             background-color: var(--vp-c-bg);
         }
+
         .middle {
             background-color: var(--vp-c-bg);
         }
+
         .bottom {
             background-color: var(--vp-c-bg);
         }
-    }
-}
-
-.VPMenu {
-    .title {
-        font-size: 14px;
-        color: var(--vp-c-text-1);
     }
 }
 
