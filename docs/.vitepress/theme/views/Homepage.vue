@@ -83,6 +83,8 @@ onMounted(() => {
 
 onUnmounted(() => {
     window.removeEventListener('resize', checkMobile)
+    document.documentElement.style.setProperty('--vp-nav-color', 'var(--vp-c-brand)')
+    document.documentElement.style.setProperty('--vp-nav-text', 'var(--vp-c-bg)')
 })
 
 watch([current, isMobile], () => {
