@@ -52,10 +52,11 @@ const orgnization = [
 </script>
 
 <VPTeamPage>
-<VPTeamPageSection>
+  <VPTeamPageSection>
     <template #title>教师</template>
     <template #members>
       <VPTeamMembers size="small" :members="orgnization" />
     </template>
   </VPTeamPageSection>
+  <Footer/>
 </VPTeamPage>

@@ -73,6 +73,12 @@
 }
 
 .VPContent {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0;
+}
+
+.VPContent {
     .custom-block-title {
         font-size: 18px;
     }
@@ -81,7 +87,7 @@
         font-size: 16px;
     }
 
-    .custom-block p{
+    .custom-block p {
         line-height: 28px;
     }
 
@@ -157,6 +163,18 @@
 
 /* 成员页 */
 
+.VPPage .VPTeamPage {
+    min-height: calc(100vh - var(--vp-nav-height));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.VPTeamPage .VPTeamPageSection {
+    padding: 70px;
+}
+
 .VPTeamPage {
 
     .container {
@@ -169,10 +187,6 @@
 
     .VPTeamMembers.small.count-2 .container {
         max-width: 640px;
-    }
-
-    .VPTeamMembers.small.count-4 .container {
-        max-width: 1600px;
     }
 
     .VPTeamMembersItem.small .avatar {
@@ -205,14 +219,21 @@
         background-color: var(--vp-c-bg);
     }
 
-    .title {
-        margin-top: 60px;
-    }
-
     .title-text {
         font-size: 36px;
         font-weight: 700;
         color: var(--vp-c-text-1);
         background-color: var(--vp-c-bg-soft);
+    }
+}
+
+
+/* VPPage */
+
+
+
+.VPPage {
+    h1 {
+        text-align: center;
     }
 }

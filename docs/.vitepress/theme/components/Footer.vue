@@ -20,6 +20,7 @@ const year = new Date().getFullYear()
     min-height: 60px;
     padding: 15px;
     background-color: var(--vp-c-brand-1);
+    margin-top: auto;
 }
 
 .footer-inner {
@@ -28,7 +29,7 @@ const year = new Date().getFullYear()
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 4px;
     text-align: center;
 }
 
