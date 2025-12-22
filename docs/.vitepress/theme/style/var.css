@@ -2,7 +2,7 @@
 /*  */
 :root {
   --vp-c-brand-3: #8e9cd3;
-  --vp-nav-height: 7vh;
+  --vp-nav-height: 9vh;
   --vp-footer-height: 6vh;
   --vp-nav-color: var(--vp-c-brand-1);
   --vp-nav-text: var(--vp-c-bg);

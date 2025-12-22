@@ -155,7 +155,7 @@ const tabs = [
 }
 
 .intro {
-    max-width: 1000px;
+    max-width: 960px;
     text-align: center;
     margin: 0 auto;
     color: var(--vp-c-text-2);

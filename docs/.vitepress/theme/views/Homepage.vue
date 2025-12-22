@@ -97,7 +97,7 @@ watch([current, isMobile], () => {
     )
     document.documentElement.style.setProperty(
         '--vp-nav-text',
-        isMobile.value || current.value === 0 ? 'var(--vp-c-bg)' : 'var(--vp-c-text-2)'
+        isMobile.value || current.value === 0 ? 'var(--vp-c-bg)' : 'var(--vp-c-text-1)'
     )
 }, { immediate: true })
 

@@ -25,18 +25,19 @@ const sideNews = computed(() => newsList.slice(1, 5))
     width: 100%;
     max-width: 1900px;
     margin: 0 auto;
-    padding: 0 120px 60px 120px;
+    padding: 0 120px 12vh 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to bottom, var(--vp-c-bg-soft) 50%, rgb(235, 235, 250) 100%);
 }
 
 .news-title {
     width: 100%;
     padding: 10px 0;
     font-size: var(--vp-h1-size);
-    font-weight: 500;
+    font-weight: 400;
     color: var(--vp-c-brand);
     text-align: start;
     margin-bottom: 24px;
@@ -46,7 +47,7 @@ const sideNews = computed(() => newsList.slice(1, 5))
 .news-grid {
     display: grid;
     grid-template-columns: 0.9fr 1fr;
-    gap: 36px;
+    gap: 48px;
 }
 
 .side {
@@ -58,7 +59,7 @@ const sideNews = computed(() => newsList.slice(1, 5))
 @media (max-width: 768px) {
 
     .hot-news {
-        padding: 80px 60px;
+        padding: 30px 60px 50px 60px;
     }
 
     .news-grid {
