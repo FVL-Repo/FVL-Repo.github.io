@@ -17,7 +17,7 @@ const year = new Date().getFullYear()
 
 <style scoped>
 .footer {
-    min-height: 60px;
+    min-height: var(--vp-footer-height);
     padding: 15px;
     background-color: var(--vp-c-brand-1);
     margin-top: auto;

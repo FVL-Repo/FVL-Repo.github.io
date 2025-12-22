@@ -220,8 +220,8 @@
     }
 
     .title-text {
-        font-size: 36px;
-        font-weight: 700;
+        font-size: var(--vp-h1-size);
+        font-weight: var(--vp-h1-weight);
         color: var(--vp-c-text-1);
         background-color: var(--vp-c-bg-soft);
     }
@@ -230,10 +230,3 @@
 
 /* VPPage */
 
-
-
-.VPPage {
-    h1 {
-        text-align: center;
-    }
-}
