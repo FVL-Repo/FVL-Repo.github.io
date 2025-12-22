@@ -196,20 +196,20 @@
 
     .VPTeamMembersItem.small .name {
         padding: 8px;
-        line-height: 30px;
-        font-size: 25px;
+        line-height: 1.2;
+        font-size: var(--vp-h2-size);
     }
 
     .VPTeamMembersItem.small .title {
         line-height: 24px;
-        font-size: 18px;
+        font-size: var(--vp-h3-size);
         color: var(--vp-c-brand-1);
     }
 
     .VPTeamMembersItem.small .desc {
         padding-top: 8px;
-        line-height: 24px;
-        font-size: 18px;
+        line-height: 1.2;
+        font-size: var(--vp-h3-size);
         color: var(--vp-c-text-2);
     }
 
