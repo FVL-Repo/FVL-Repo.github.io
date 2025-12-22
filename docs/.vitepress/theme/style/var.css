@@ -2,15 +2,9 @@
 /*  */
 :root {
   --vp-c-brand-3: #8e9cd3;
-  --vp-nav-height: 70px;
+  --vp-nav-height: 7vh;
   --vp-nav-color: var(--vp-c-brand-1);
   --vp-nav-text: var(--vp-c-bg);
-}
-
-@media(max-width:768px) {
-  :root {
-    --vp-nav-height: 60px;
-  }
 }
 
 .dark {

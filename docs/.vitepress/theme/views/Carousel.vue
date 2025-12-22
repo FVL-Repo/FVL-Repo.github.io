@@ -161,7 +161,7 @@ const onTouchEnd = () => {
     height: auto;
     position: absolute;
     justify-content: center;
-    bottom: 32%;
+    bottom: 30%;
     object-fit: contain;
     display: block;
 }
@@ -192,7 +192,7 @@ const onTouchEnd = () => {
 
 .caption {
     position: absolute;
-    bottom: 32%;
+    bottom: 30%;
     left: 5%;
     right: 5%;
     width: 90%;
