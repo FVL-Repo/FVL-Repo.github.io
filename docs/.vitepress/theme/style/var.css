@@ -6,8 +6,22 @@
   --vp-footer-height: 6vh;
   --vp-nav-color: var(--vp-c-brand-1);
   --vp-nav-text: var(--vp-c-bg);
-  --vp-h1-size: 36px;
+  --vp-h1-size: 32px;
   --vp-h1-weight: 700;
+  --vp-h2-size: 24px;
+  --vp-h2-weight: 600;
+  --vp-h3-size: 20px;
+  --vp-h3-weight: 600;
+  --vp-p-size: 20px;
+}
+
+@media(max-width:768px) {
+  :root {
+    --vp-h1-size: 28px;
+    --vp-h2-size: 20px;
+    --vp-h3-size: 18px;
+    --vp-p-size: 18px;
+  }
 }
 
 .dark {
