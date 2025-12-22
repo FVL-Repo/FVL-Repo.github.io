@@ -19,6 +19,7 @@ import Confetti from "./components/Confetti.vue";
 import NCard from './components/NCard.vue';
 import Homepage from './views/Homepage.vue';
 import Footer from './components/Footer.vue'
+import JoinUs from './views/JoinUs.vue';
 
 import './custom.css';
 export default {
@@ -27,6 +28,7 @@ export default {
     app.component("Confetti", Confetti); //注册全局组件
     app.component("Homepage", Homepage);
     app.component("Footer", Footer);
+    app.component("JoinUs", JoinUs);
     app.use(TwoslashFloatingVue);
     app.component('NCard', NCard);
     app.use(TwoslashFloatingVue as unknown as Plugin);
