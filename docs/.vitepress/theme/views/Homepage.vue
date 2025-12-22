@@ -1,11 +1,12 @@
 <template>
-    <div class="fullpage" @wheel.prevent="handleWheel">
+    <div class="fullpage" @wheel="handleWheel">
         <div class="container" :style="{ transform: `translateY(-${current * 100}%)` }">
             <section v-for="(page, index) in pages" :key="index" class="page">
                 <!-- 非最后一页：正常 slot -->
                 <template v-if="index !== lastPageIndex">
                     <slot :name="`page-${index}`">
                         <Carousel v-if="index === 0" />
+                        <HotNews v-else-if="index === 1" />
                         <template v-else>
                             {{ page }}
                         </template>
@@ -38,6 +39,7 @@
 <script setup>
 import { ref, watch, onMounted, onUnmounted, computed } from 'vue'
 import Carousel from './Carousel.vue'
+import HotNews from './HotNews.vue'
 import Footer from '../components/Footer.vue'
 
 const pages = [0, 1, 2, 3]
