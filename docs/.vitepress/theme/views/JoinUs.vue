@@ -141,7 +141,7 @@ const tabs = [
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 80px 0;
+    padding: 80px 40px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -167,10 +167,10 @@ const tabs = [
     display: flex;
     justify-content: center;
     gap: 60px;
-    flex-wrap: wrap;
 }
 
 .tab-button {
+    min-width: 180px;
     padding: 12px 20px;
     border-radius: 3px;
     background-color: var(--vp-c-bg-soft);
@@ -179,6 +179,20 @@ const tabs = [
     font-size: 22px;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+    .button-group {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .tab-button {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+
 
 .tab-button:hover {
     color: var(--vp-c-brand-1);
