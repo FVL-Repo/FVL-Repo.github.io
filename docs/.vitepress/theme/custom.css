@@ -29,7 +29,7 @@
     }
 
     .VPNavBarMenuLink.active {
-        color: var(--vp-nav-text);
+        color: var(--vp-nav-text-activate);
     }
 
     .VPNavBarMenuLink:hover {

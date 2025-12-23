@@ -87,6 +87,7 @@ onUnmounted(() => {
     window.removeEventListener('resize', checkMobile)
     document.documentElement.style.setProperty('--vp-nav-color', 'var(--vp-c-brand)')
     document.documentElement.style.setProperty('--vp-nav-text', 'var(--vp-c-bg)')
+    document.documentElement.style.setProperty('--vp-nav-text-activate', 'var(--vp-c-brand-4)')
 })
 
 watch([current, isMobile], () => {
@@ -98,6 +99,10 @@ watch([current, isMobile], () => {
     document.documentElement.style.setProperty(
         '--vp-nav-text',
         isMobile.value || current.value === 0 ? 'var(--vp-c-bg)' : 'var(--vp-c-text-1)'
+    )
+    document.documentElement.style.setProperty(
+        '--vp-nav-text-activate',
+        isMobile.value || current.value === 0 ? 'var(--vp-c-brand-4)' : 'var(--vp-c-brand)'
     )
 }, { immediate: true })
 

@@ -82,7 +82,8 @@ defineProps({
     color: var(--vp-c-brand);
     font-size: 13px;
     line-height: 1;
-    font-weight: 500;
+    font-weight: 400;
+    font-style: italic;
     padding: 8px 8px;
     border-radius: 1px;
     border: 1.5px solid var(--vp-c-brand);

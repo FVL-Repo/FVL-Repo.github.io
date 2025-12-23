@@ -22,9 +22,6 @@ const sideNews = computed(() => newsList.slice(1, 5))
 
 <style scoped>
 .hot-news {
-    width: 100%;
-    max-width: 1900px;
-    margin: 0 auto;
     padding: 0 120px 12vh 120px;
     display: flex;
     flex-direction: column;
