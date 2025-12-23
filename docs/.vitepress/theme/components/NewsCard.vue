@@ -81,8 +81,9 @@ defineProps({
     background-color: rgba(245, 250, 255, 0.9);
     color: var(--vp-c-brand);
     font-size: 13px;
-    font-weight: 600;
-    padding: 4px 8px;
+    line-height: 1;
+    font-weight: 500;
+    padding: 8px 8px;
     border-radius: 1px;
     border: 1.5px solid var(--vp-c-brand);
 }
@@ -127,10 +128,9 @@ defineProps({
 }
 
 .news-card--small .title {
-    font-size: 14px;
+    font-size: var(--vp-small);
     color: #fff;
     line-height: 1.4;
-
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -148,6 +148,11 @@ defineProps({
 @media (max-width: 768px) {
     .news-card--small .title {
         -webkit-line-clamp: 1;
+    }
+
+    .date-badge {
+        font-size: 10px;
+        padding: 6px 6px;
     }
 }
 </style>

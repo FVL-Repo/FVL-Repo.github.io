@@ -141,7 +141,7 @@ const tabs = [
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 60px 40px;
+    padding: 40px 40px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -149,6 +149,7 @@ const tabs = [
 
 .title {
     font-size: var(--vp-h1-size);
+    line-height: 1;
     font-weight: var(--vp-h1-weight);
     text-align: center;
     color: var(--vp-c-text);
@@ -159,7 +160,7 @@ const tabs = [
     text-align: center;
     margin: 0 auto;
     color: var(--vp-c-text-2);
-    font-size: 20px;
+    font-size: var(--vp-h3-size);
     line-height: 1.8;
 }
 
@@ -180,20 +181,6 @@ const tabs = [
     font-size: var(--vp-h3-size);
 }
 
-@media (max-width: 768px) {
-    .button-group {
-        flex-direction: column;
-        align-items: center;
-        gap: 24px;
-    }
-
-    .tab-button {
-        width: 100%;
-        max-width: 320px;
-    }
-}
-
-
 .tab-button:hover {
     color: var(--vp-c-brand-1);
 }
@@ -205,7 +192,7 @@ const tabs = [
 
 .content-card {
     background-color: var(--vp-c-bg);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 40px 80px;
     color: var(--vp-c-text);
 }
@@ -260,5 +247,36 @@ const tabs = [
 
 .note {
     color: var(--vp-c-text-1);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 40px 40px;
+    }
+
+    .content-card {
+        background-color: var(--vp-c-bg);
+        border-radius: 4px;
+        padding: 20px 30px;
+        color: var(--vp-c-text);
+    }
+
+    .button-group {
+        gap: 12px;
+    }
+
+    .tab-button {
+        min-width: 120px;
+        padding: 6px 0;
+    }
+
+    .container {
+        ul,
+        ol {
+            padding-left: 2rem;
+        }
+    }
+
 }
 </style>

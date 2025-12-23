@@ -172,7 +172,13 @@
 }
 
 .VPTeamPage .VPTeamPageSection {
-    padding: 70px;
+    padding: 40px;
+}
+
+@media(max-width:768px) {
+    .VPTeamPage .VPTeamPageSection {
+        padding: 40px 90px;
+    }
 }
 
 .VPTeamPage {
@@ -182,11 +188,7 @@
     }
 
     .VPTeamMembers.small .container {
-        gap: 30px;
-    }
-
-    .VPTeamMembers.small.count-2 .container {
-        max-width: 640px;
+        gap: 24px;
     }
 
     .VPTeamMembersItem.small .avatar {
@@ -198,6 +200,7 @@
         padding: 8px;
         line-height: 1.2;
         font-size: var(--vp-h2-size);
+        font-weight: 500;
     }
 
     .VPTeamMembersItem.small .title {
@@ -229,4 +232,3 @@
 
 
 /* VPPage */
-

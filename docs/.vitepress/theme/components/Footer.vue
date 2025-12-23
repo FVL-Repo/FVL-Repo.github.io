@@ -18,7 +18,7 @@ const year = new Date().getFullYear()
 <style scoped>
 .footer {
     min-height: var(--vp-footer-height);
-    padding: 15px;
+    padding: var(--vp-small);
     background-color: var(--vp-c-brand-1);
     margin-top: auto;
 }
@@ -29,17 +29,13 @@ const year = new Date().getFullYear()
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 4px;
+    gap: 5px;
     text-align: center;
 }
 
-.message {
-    font-size: 16px;
+.message, .copyright {
+    font-size: var(--vp-small);
     color: var(--vp-c-bg-soft);
 }
 
-.copyright {
-    font-size: 16px;
-    color: var(--vp-c-bg-soft);
-}
 </style>
