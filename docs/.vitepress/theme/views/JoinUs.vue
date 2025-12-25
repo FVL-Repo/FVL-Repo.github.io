@@ -135,13 +135,13 @@ const tabs = [
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: var(--vp-c-bg-soft);
+    background-color: var(--vp-bg-soft);
 }
 
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 40px 40px;
+    padding: 50px 40px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -152,7 +152,7 @@ const tabs = [
     line-height: 1;
     font-weight: var(--vp-h1-weight);
     text-align: center;
-    color: var(--vp-c-text);
+    color: var(--vp-c-brand);
 }
 
 .intro {
@@ -172,13 +172,14 @@ const tabs = [
 }
 
 .tab-button {
-    min-width: 160px;
+    min-width: 150px;
     padding: 12px 20px;
     border-radius: 3px;
-    background-color: var(--vp-c-bg-soft);
+    background-color: var(--vp-bg-soft);
     color: var(--vp-c-text-1);
     cursor: pointer;
     font-size: var(--vp-h3-size);
+    font-weight: 500;
 }
 
 .tab-button:hover {
@@ -186,15 +187,15 @@ const tabs = [
 }
 
 .tab-button.active {
-    color: var(--vp-c-brand);
+    color: var(--vp-c-brand-1);
     border: 2px solid var(--vp-c-brand-2);
 }
 
 .content-card {
-    background-color: var(--vp-c-bg);
+    background-color: var(--vp-bg);
     border-radius: 4px;
     padding: 40px 80px;
-    color: var(--vp-c-text);
+    color: var(--vp-c-text-1);
 }
 
 .content {
@@ -207,7 +208,7 @@ const tabs = [
 
     h3 {
         font-size: var(--vp-h3-size);
-        font-weight: var(--vp-h3-weight);
+        font-weight: 600;
         line-height: 2.0;
     }
 
@@ -241,7 +242,7 @@ const tabs = [
 }
 
 .email a {
-    color: var(--vp-c-brand);
+    color: var(--vp-c-brand-1);
     text-decoration: none;
 }
 
@@ -256,10 +257,10 @@ const tabs = [
     }
 
     .content-card {
-        background-color: var(--vp-c-bg);
+        background-color: var(--vp-bg);
         border-radius: 4px;
         padding: 20px 30px;
-        color: var(--vp-c-text);
+        color: var(--vp-c-text-1);
     }
 
     .button-group {

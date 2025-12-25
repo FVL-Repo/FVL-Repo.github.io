@@ -34,7 +34,7 @@ const defaultProps = {
 }
 
 .ncard:hover {
-    border: 1px solid var(--vp-c-brand);
+    border: 1px solid var(--vp-c-brand-1);
     box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, .1);
 }
 

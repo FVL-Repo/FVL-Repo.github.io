@@ -1,36 +1,37 @@
 /* var.css */
 /*  */
 :root {
-  --vp-c-brand-3: #8e9cd3;
-  --vp-c-brand-4: #c3cefc;
+  --vp-bg: #fff;
+  --vp-bg-soft: #f6f6f7;
+  --vp-c-brand: rgba(8, 48, 144);
+  --vp-c-brand-1: rgba(8, 48, 144);
+  --vp-c-brand-2: rgba(8, 48, 144, 0.8);
+  --vp-c-brand-3: rgba(8, 48, 144, 0.6);
+  --vp-c-brand-4: rgba(8, 48, 144, 0.4);
   --vp-nav-height: 9vh;
   --vp-footer-height: 6vh;
-  --vp-nav-color: var(--vp-c-brand-1);
-  --vp-nav-text: var(--vp-c-bg);
-  --vp-nav-text-activate: var(--vp-c-brand-4);
-  --vp-h1-size: 32px;
-  --vp-h1-weight: 700;
+  --vp-nav-color: var(--vp-bg-soft);
+  --vp-nav-text: var(--vp-c-text-1);
+  --vp-nav-text-activate: var(--vp-c-brand-1);
+  --vp-h1-size: 34px;
+  --vp-h1-weight: 500;
   --vp-h2-size: 24px;
-  --vp-h2-weight: 600;
-  --vp-h3-size: 20px;
-  --vp-h3-weight: 600;
-  --vp-p-size: 20px;
+  --vp-h2-weight: 500;
+  --vp-h3-size: 18px;
+  --vp-h3-weight: 500;
+  --vp-p-size: 18px;
   --vp-small: 16px;
+  --vp-logo-filter: none;
 }
 
 @media(max-width:768px) {
   :root {
-    --vp-nav-height: 6.5vh;
     --vp-h1-size: 25px;
     --vp-h2-size: 18px;
     --vp-h3-size: 15px;
     --vp-p-size: 15px;
     --vp-small: 13px;
   }
-}
-
-.dark {
-  --vp-c-brand-3: #d1d6e5;
 }
 
 /* 移除链接跳转下划线 */

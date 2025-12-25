@@ -85,24 +85,30 @@ onMounted(() => {
 
 onUnmounted(() => {
     window.removeEventListener('resize', checkMobile)
-    document.documentElement.style.setProperty('--vp-nav-color', 'var(--vp-c-brand)')
-    document.documentElement.style.setProperty('--vp-nav-text', 'var(--vp-c-bg)')
-    document.documentElement.style.setProperty('--vp-nav-text-activate', 'var(--vp-c-brand-4)')
+    document.documentElement.style.setProperty('--vp-nav-color', 'var(--vp-bg-soft)')
+    document.documentElement.style.setProperty('--vp-nav-text', 'var(--vp-c-text-1)')
+    document.documentElement.style.setProperty('--vp-nav-text-activate', 'var(--vp-c-brand-1)')
+    document.documentElement.style.setProperty('--vp-logo-filter', 'none')
 })
 
 watch([current, isMobile], () => {
 
+    const isDark = isMobile.value || current.value === 0;
     document.documentElement.style.setProperty(
         '--vp-nav-color',
-        isMobile.value || current.value === 0 ? 'var(--vp-c-brand)' : 'var(--vp-c-bg-soft)'
+        isDark ? 'var(--vp-c-brand-1)' : 'var(--vp-bg-soft)'
     )
     document.documentElement.style.setProperty(
         '--vp-nav-text',
-        isMobile.value || current.value === 0 ? 'var(--vp-c-bg)' : 'var(--vp-c-text-1)'
+        isDark ? 'var(--vp-bg)' : 'var(--vp-c-text-1)'
     )
     document.documentElement.style.setProperty(
         '--vp-nav-text-activate',
-        isMobile.value || current.value === 0 ? 'var(--vp-c-brand-4)' : 'var(--vp-c-brand)'
+        isDark ? 'var(--vp-bg-soft)' : 'var(--vp-c-brand-1)'
+    )
+    document.documentElement.style.setProperty(
+        '--vp-logo-filter',
+        isDark ? 'brightness(30) saturate(0.1)' : 'none'
     )
 }, { immediate: true })
 
@@ -163,8 +169,8 @@ watch([current, isMobile], () => {
 }
 
 .dot.active {
-    border: 2px solid var(--vp-c-brand);
-    background: var(--vp-c-bg);
+    border: 2px solid var(--vp-c-brand-1);
+    background: var(--vp-bg);
     transform: scale(1.1);
 }
 

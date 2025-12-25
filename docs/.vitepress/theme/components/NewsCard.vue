@@ -50,8 +50,8 @@ defineProps({
     position: relative;
     display: flex;
     flex-direction: column;
-    background-color: var(--vp-c-bg);
-    color: var(--vp-c-text);
+    background-color: var(--vp-bg);
+    color: var(--vp-c-text-1);
     text-decoration: none;
     border-radius: 2px;
     --ratio: 8 / 5;
@@ -79,14 +79,14 @@ defineProps({
 .date-badge {
     position: absolute;
     background-color: rgba(245, 250, 255, 0.9);
-    color: var(--vp-c-brand);
+    color: var(--vp-c-brand-1);
     font-size: 13px;
     line-height: 1;
     font-weight: 400;
     font-style: italic;
     padding: 8px 8px;
     border-radius: 1px;
-    border: 1.5px solid var(--vp-c-brand);
+    border: 1.5px solid var(--vp-c-brand-1);
 }
 
 .date-badge {
@@ -124,7 +124,7 @@ defineProps({
 }
 
 .title {
-    color: var(--vp-c-text);
+    color: var(--vp-c-text-1);
     margin-top: 3%;
 }
 

@@ -35,7 +35,7 @@ const year = new Date().getFullYear()
 
 .message, .copyright {
     font-size: var(--vp-small);
-    color: var(--vp-c-bg-soft);
+    color: var(--vp-bg-soft);
 }
 
 </style>

@@ -74,13 +74,11 @@ export const shared = defineConfig({
         href: '/images/fudan.png'
       }
     ],
-    ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/fudan.png' }],
-    ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/fudan.png' }],
-    ['link', { rel: 'mask-icon', href: '/images/fudan.png', color: '#5bbad5' }],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
   ],
 
   themeConfig: {
+    logo: 'images/fudan.png',
     //开启本地搜索
     // search: {
     //   provider: 'local'

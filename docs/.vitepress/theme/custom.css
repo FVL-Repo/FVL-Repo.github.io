@@ -5,7 +5,6 @@
 @import './style/main.css';
 
 .VPNav {
-
     .text {
         color: var(--vp-nav-text);
         font-size: 18px;
@@ -16,9 +15,21 @@
         color: var(--vp-nav-text);
     }
 
-    @media (max-width: 768px) {
-        .title {
-            font-size: 20px;
+    .logo {
+        height: 45px;
+        width: 45px;
+        margin-right: 15px;
+    }
+
+    img{
+        filter: var(--vp-logo-filter);
+    }
+
+    @media(max-width:768px) {
+        .logo {
+            height: 33px;
+            width: 33px;
+            margin-right: 11px;
         }
     }
 
@@ -45,16 +56,20 @@
 
     .container {
         .top {
-            background-color: var(--vp-c-bg);
+            background-color: var(--vp-nav-text);
         }
 
         .middle {
-            background-color: var(--vp-c-bg);
+            background-color: var(--vp-nav-text);
         }
 
         .bottom {
-            background-color: var(--vp-c-bg);
+            background-color: var(--vp-nav-text);
         }
+    }
+
+    .button {
+        color: var(--vp-nav-text);
     }
 }
 
@@ -106,16 +121,17 @@
     }
 }
 
+
 .VPNav .VPNavBar:not(.has-sidebar):not(.home.top) .divider-line {
     background-color: var(--vp-nav-color);
-    transition: background-color 0.25s;
+    transition: background-color 0s;
 }
 
 /* .vitepress\theme\style\blur.css */
 :root {
 
     body {
-        background-color: var(--vp-c-bg-soft);
+        background-color: var(--vp-bg-soft);
         font-size: 18px;
     }
 
@@ -123,6 +139,7 @@
     .VPNavBar:not(.has-sidebar):not(.home.top) {
         background-color: var(--vp-nav-color);
         backdrop-filter: blur(10px);
+        transition: background-color 0s;
     }
 
     /* 搜索框透明 */
@@ -144,15 +161,6 @@
         backdrop-filter: blur(10px);
     }
 
-    @media (min-width: 960px) {
-
-        /* 文档页导航中间透明 */
-        .VPNavBar:not(.home.top) .content-body {
-            background-color: rgba(255, 255, 255, 0);
-            backdrop-filter: blur(10px);
-        }
-    }
-
     /* 移动端大纲栏透明 */
     .VPLocalNav {
         background-color: rgba(255, 255, 255, 0);
@@ -172,7 +180,7 @@
 }
 
 .VPTeamPage .VPTeamPageSection {
-    padding: 40px;
+    padding: 50px;
 }
 
 @media(max-width:768px) {
@@ -219,14 +227,19 @@
     .VPTeamMembersItem.small .profile {
         padding: 28px;
         flex-grow: 1;
-        background-color: var(--vp-c-bg);
+        background-color: var(--vp-bg);
     }
 
     .title-text {
         font-size: var(--vp-h1-size);
+        line-height: 1;
         font-weight: var(--vp-h1-weight);
         color: var(--vp-c-text-1);
-        background-color: var(--vp-c-bg-soft);
+        background-color: var(--vp-bg-soft);
+    }
+
+    .title-line {
+        display: none;
     }
 }
 

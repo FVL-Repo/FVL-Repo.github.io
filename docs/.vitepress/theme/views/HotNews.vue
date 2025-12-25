@@ -27,7 +27,7 @@ const sideNews = computed(() => newsList.slice(1, 5))
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, var(--vp-c-bg-soft) 50%, rgb(235, 235, 250) 100%);
+    background: linear-gradient(to bottom, var(--vp-bg-soft) 50%, rgb(235, 235, 250) 100%);
 }
 
 .news-title {
@@ -56,7 +56,7 @@ const sideNews = computed(() => newsList.slice(1, 5))
 @media (max-width: 768px) {
 
     .hot-news {
-        padding: 30px 60px 50px 60px;
+        padding: 35px 60px 50px 60px;
     }
 
     .news-grid {
