@@ -59,6 +59,8 @@ defineProps({
 
 .news-card--large {
     --ratio: 16 / 9;
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 .image-wrapper {
@@ -108,15 +110,13 @@ defineProps({
 }
 
 .content {
-    padding: 16px;
     position: relative;
     display: flex;
     align-items: center;
 }
 
-.news-card--large {
-    display: grid;
-    grid-template-rows: auto 1fr;
+.news-card--large .content{
+    padding: 2rem;
 }
 
 .news-card--small .content {
@@ -141,15 +141,12 @@ defineProps({
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-}
-
-.news-card--small .title {
     -webkit-line-clamp: 2;
 }
 
 .news-card--large .title {
     font-size: var(--vp-h3-size);
-    font-weight: 600;
+    font-weight: 500;
 }
 
 @media (max-width: 768px) {
