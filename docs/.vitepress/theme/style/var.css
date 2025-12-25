@@ -8,6 +8,9 @@
   --vp-c-brand-2: rgba(8, 48, 144, 0.8);
   --vp-c-brand-3: rgba(8, 48, 144, 0.6);
   --vp-c-brand-4: rgba(8, 48, 144, 0.4);
+  --vp-nav-active-light: var(--vp-c-brand-2);
+  --vp-nav-active-dark: rgb(200, 200, 255);
+  --vp-nav-active: var(--vp-nav-active-light);
   --vp-nav-height: 9vh;
   --vp-footer-height: 6vh;
   --vp-nav-color: var(--vp-bg-soft);

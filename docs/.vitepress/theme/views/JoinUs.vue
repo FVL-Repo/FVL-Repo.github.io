@@ -253,7 +253,8 @@ const tabs = [
 
 @media (max-width: 768px) {
     .container {
-        padding: 40px 40px;
+        padding: 40px 24px;
+        max-width: 100vw;
     }
 
     .content-card {
@@ -264,11 +265,11 @@ const tabs = [
     }
 
     .button-group {
-        gap: 12px;
+        gap: 8px;
     }
 
     .tab-button {
-        min-width: 120px;
+        min-width: 96px;
         padding: 6px 0;
     }
 
@@ -279,5 +280,8 @@ const tabs = [
         }
     }
 
+    .content p {
+        text-indent: 1rem;
+    }
 }
 </style>

@@ -40,11 +40,11 @@
     }
 
     .VPNavBarMenuLink.active {
-        color: var(--vp-nav-text-activate);
+        color: var(--vp-nav-active);
     }
 
     .VPNavBarMenuLink:hover {
-        color: var(--vp-c-brand-3);
+        color: rgb(152, 152, 255);
     }
 
     .VPNavScreen {
@@ -185,7 +185,7 @@
 
 @media(max-width:768px) {
     .VPTeamPage .VPTeamPageSection {
-        padding: 40px 90px;
+        padding: 40px 60px;
     }
 }
 
