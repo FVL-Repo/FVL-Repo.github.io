@@ -110,6 +110,13 @@ defineProps({
 .content {
     padding: 16px;
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.news-card--large {
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
 
 .news-card--small .content {
@@ -125,7 +132,6 @@ defineProps({
 
 .title {
     color: var(--vp-c-text-1);
-    margin-top: 3%;
 }
 
 .news-card--small .title {
@@ -154,6 +160,10 @@ defineProps({
     .date-badge {
         font-size: 10px;
         padding: 6px 6px;
+    }
+
+    .news-card--small .content {
+        padding: 1px 4px;
     }
 }
 </style>

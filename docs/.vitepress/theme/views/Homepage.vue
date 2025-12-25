@@ -78,21 +78,7 @@ const checkMobile = () => {
     isMobile.value = window.innerWidth <= 768
 }
 
-onMounted(() => {
-    checkMobile()
-    window.addEventListener('resize', checkMobile)
-})
-
-onUnmounted(() => {
-    window.removeEventListener('resize', checkMobile)
-    document.documentElement.style.setProperty('--vp-nav-color', 'var(--vp-bg-soft)')
-    document.documentElement.style.setProperty('--vp-nav-text', 'var(--vp-c-text-1)')
-    document.documentElement.style.setProperty('--vp-nav-text-activate', 'var(--vp-c-brand-1)')
-    document.documentElement.style.setProperty('--vp-logo-filter', 'none')
-})
-
-watch([current, isMobile], () => {
-
+const checkDark = () => {
     const isDark = isMobile.value || current.value === 0;
     document.documentElement.style.setProperty(
         '--vp-nav-color',
@@ -107,9 +93,36 @@ watch([current, isMobile], () => {
         isDark ? 'var(--vp-bg-soft)' : 'var(--vp-c-brand-1)'
     )
     document.documentElement.style.setProperty(
+        '--vp-nav-active',
+        isDark ? 'var(--vp-nav-active-dark)' : 'var(--vp-nav-active-light)'
+    )
+    document.documentElement.style.setProperty(
         '--vp-logo-filter',
         isDark ? 'brightness(30) saturate(0.1)' : 'none'
     )
+}
+
+const removeDark = () => {
+    document.documentElement.style.setProperty('--vp-nav-color', 'var(--vp-bg-soft)')
+    document.documentElement.style.setProperty('--vp-nav-text', 'var(--vp-c-text-1)')
+    document.documentElement.style.setProperty('--vp-nav-text-activate', 'var(--vp-c-brand-1)')
+    document.documentElement.style.setProperty('--vp-nav-active', 'var(--vp-nav-active-light)')
+    document.documentElement.style.setProperty('--vp-logo-filter', 'none')
+}
+
+onMounted(() => {
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    checkDark()
+})
+
+onUnmounted(() => {
+    window.removeEventListener('resize', checkMobile)
+    removeDark()
+})
+
+watch([current, isMobile], () => {
+    checkDark()
 }, { immediate: true })
 
 </script>

@@ -8,7 +8,7 @@
             </div>
         </div>
 
-        <div class="dots" @mouseenter="stopAutoPlay" @mouseleave="resetAutoPlay">
+        <div class="dots" v-if="slides.length > 1" @mouseenter="stopAutoPlay" @mouseleave="resetAutoPlay">
             <span v-for="(_, index) in slides" :key="index" :class="{ active: index === realIndex }"
                 @click="go(index)" />
         </div>
@@ -24,9 +24,9 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const slides = [
     { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/building.png', title: '', desc: '' },
-    { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_4.png', title: '姜育刚团队获国家自然科学奖二等奖', desc: '' },
-    { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/carousel_images/kexuejishujiang2023.png', title: '姜育刚团队获上海市技术发明一等奖', desc: '' },
-    { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_5.png', title: '实验室在 CVPR2024 三项挑战赛中斩获冠军', desc: '' },
+    // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_4.png', title: '姜育刚团队获国家自然科学奖二等奖', desc: '' },
+    // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/carousel_images/kexuejishujiang2023.png', title: '姜育刚团队获上海市技术发明一等奖', desc: '' },
+    // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_5.png', title: '实验室在 CVPR2024 三项挑战赛中斩获冠军', desc: '' },
 ]
 
 // 克隆首尾节点实现无缝轮播
@@ -64,6 +64,7 @@ const go = (index) => {
 }
 
 const startAutoPlay = () => {
+    if (slides.length < 2) return
     stopAutoPlay()
     timer = setInterval(next, 4000)
 }
@@ -89,7 +90,7 @@ const disableTransition = () => {
 }
 
 onMounted(() => {
-    timer = setInterval(next, 4000)
+    startAutoPlay()
 })
 
 onUnmounted(() => {
@@ -199,13 +200,17 @@ const onTouchEnd = () => {
     padding: 12px 20px;
     background: linear-gradient(to right, rgba(100, 100, 100, 0.7) 25%, rgba(120, 120, 120, 0.1) 70%);
     color: #fff;
-    font-size: 24px;
+    font-size: var(--vp-h3-size);
     text-align: center;
     z-index: 2;
     box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
+    .slide {
+        min-height: 120px;
+    }
+
     .slide img {
         bottom: 15%;
     }
@@ -213,7 +218,6 @@ const onTouchEnd = () => {
     .caption {
         bottom: 15%;
         padding: 2px 10px;
-        font-size: 16px;
     }
 
     .dots {

@@ -22,7 +22,7 @@ const sideNews = computed(() => newsList.slice(1, 5))
 
 <style scoped>
 .hot-news {
-    padding: 0 120px 12vh 120px;
+    padding: 0 8vw 12vh 8vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +56,7 @@ const sideNews = computed(() => newsList.slice(1, 5))
 @media (max-width: 768px) {
 
     .hot-news {
-        padding: 35px 60px 50px 60px;
+        padding: 35px 40px 50px 40px;
     }
 
     .news-grid {
