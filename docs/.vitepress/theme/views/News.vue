@@ -22,19 +22,25 @@
 
             <div class="pagination">
                 <span class="total">共 {{ newsList.length }} 条</span>
-                <div class="pages">
-                    <button v-for="p in visiblePages" :key="p" :class="{ active: p === currentPage }"
-                        @click="typeof p === 'number' && (currentPage = p)" :disabled="p === '...'">
-                        {{ p }}
-                    </button>
+                <div class="pages-wrapper">
+                    <button @click="currentPage--" :disabled="currentPage === 1">上一页</button>
+
+                    <div class="pages">
+                        <button v-for="p in visiblePages" :key="p" :class="{ active: p === currentPage }"
+                            @click="typeof p === 'number' && (currentPage = p)" :disabled="p === '...'">
+                            {{ p }}
+                        </button>
+                    </div>
+
+                    <button @click="currentPage++" :disabled="currentPage === totalPages">下一页</button>
                 </div>
+
                 <div class="jump-page">
                     <input type="number" min="1" :max="totalPages" v-model.number="jumpPage" placeholder="页" />
                     <button @click="goPage">跳转</button>
                 </div>
             </div>
         </div>
-
         <Footer />
     </div>
 </template>
@@ -273,8 +279,12 @@ watch(currentPage, () => {
 
 .pagination {
     display: flex;
+    flex-wrap: wrap;
+    /* 允许换行 */
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
+    margin-top: 25px;
 }
 
 .total {
@@ -282,25 +292,40 @@ watch(currentPage, () => {
     font-size: var(--vp-small);
 }
 
-.pages {
+.pages-wrapper {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 12px;
 }
 
-.pages button {
-    background: none;
-    border: 1px solid var(--vp-c-text-4);
+.pages-wrapper button {
     padding: 6px 9px;
-    font-size: var(--vp-small);
-    line-height: 1;
+    border: 1px solid var(--vp-c-text-4);
+    background: none;
     color: var(--vp-c-text-1);
     cursor: pointer;
-    transition: color 0.2s ease;
+    font-size: var(--vp-small);
+    line-height: 1;
+    transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
 }
 
-.pages button:hover {
-    color: var(--vp-c-brand);
+.pages-wrapper button:disabled {
+    cursor: default;
+    color: var(--vp-c-text-2);
+    border-color: var(--vp-c-text-4);
+    background-color: transparent;
+    cursor: not-allowed;
+}
+
+.pages-wrapper button:hover{
+    background-color: var(--vp-c-bg);
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
 .pages button.active {
@@ -344,9 +369,7 @@ watch(currentPage, () => {
 }
 
 .jump-page button:hover {
-    border-color: var(--vp-c-brand);
-    background-color: var(--vp-c-brand);
-    color: var(--vp-c-bg-soft);
+    background-color: var(--vp-c-bg);
 }
 
 @media (max-width: 768px) {
@@ -370,6 +393,18 @@ watch(currentPage, () => {
 
     .date-card {
         padding: 5px;
+    }
+
+    .pagination{
+        margin-top: 10px;
+    }
+
+    .pages-wrapper {
+        gap: 4px;
+    }
+
+    .pages-wrapper button {
+        padding: 3px 6px;
     }
 
     .pages {
