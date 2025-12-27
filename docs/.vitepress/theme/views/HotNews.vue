@@ -1,6 +1,12 @@
 <template>
     <section class="hot-news">
-        <h1 class="news-title">新闻</h1>
+        <h1 class="news-header">
+            <span class="news-title">新闻</span>
+
+            <a href="/news" class="more-link">
+                More
+            </a>
+        </h1>
         <div class="news-grid">
             <NewsCard v-if="mainNews" v-bind="mainNews" mode="large" />
 
@@ -30,15 +36,32 @@ const sideNews = computed(() => newsList.slice(1, 5))
     background: linear-gradient(to bottom, var(--vp-bg-soft) 50%, rgb(235, 235, 250) 100%);
 }
 
-.news-title {
+.news-header {
+    padding: 0 6px;
     width: 100%;
-    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.news-title {
     font-size: var(--vp-h1-size);
     font-weight: 400;
     color: var(--vp-c-brand);
-    text-align: start;
-    margin-bottom: 24px;
+    margin-bottom: 0;
     /* 与卡片列表的间距 */
+}
+
+.more-link {
+    font-size: var(--vp-h3-size);
+    font-weight: 500;
+    font-style: italic;
+    color: var(--vp-c-text-2);
+}
+
+.more-link:hover {
+    color: var(--vp-c-brand-3);
 }
 
 .news-grid {
@@ -54,9 +77,8 @@ const sideNews = computed(() => newsList.slice(1, 5))
 }
 
 @media (max-width: 768px) {
-
     .hot-news {
-        padding: 35px 40px 50px 40px;
+        padding: 35px 20px 50px 20px;
     }
 
     .news-grid {

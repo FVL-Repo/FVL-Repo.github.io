@@ -6,13 +6,17 @@
 
         <!-- small 模式使用 -->
         <div class="date-badge date-badge--card">
-            {{ date }}
+            <div class="md">{{ formatMD(date) }}</div>
+            <div class="divider"></div>
+            <div class="year">{{ formatYear(date) }}</div>
         </div>
 
         <div class="content">
             <!-- large 模式使用 -->
             <div class="date-badge date-badge--content">
-                {{ date }}
+                <div class="md">{{ formatMD(date) }}</div>
+                <div class="divider"></div>
+                <div class="year">{{ formatYear(date) }}</div>
             </div>
 
             <h3 class="title">{{ title }}</h3>
@@ -20,7 +24,7 @@
     </a>
 </template>
 
-<script setup>
+<script setup lang="ts">
 defineProps({
     date: {
         type: String,
@@ -43,6 +47,16 @@ defineProps({
         default: 'small'
     }
 })
+
+const formatMD = (date: string) => {
+    const d = new Date(date)
+    const m = String(d.getMonth() + 1).padStart(2, '0')
+    const day = String(d.getDate()).padStart(2, '0')
+    return `${m}-${day}`
+}
+
+const formatYear = (date: string) =>
+    new Date(date).getFullYear()
 </script>
 
 <style scoped>
@@ -82,17 +96,31 @@ defineProps({
     position: absolute;
     background-color: rgba(245, 250, 255, 0.9);
     color: var(--vp-c-brand-1);
-    font-size: 13px;
+    font-size: var(--vp-tiny);
     line-height: 1;
     font-weight: 400;
+    text-align: center;
     font-style: italic;
-    padding: 8px 8px;
+    padding: 6px 6px;
     border-radius: 1px;
     border: 1.5px solid var(--vp-c-brand-1);
 }
 
 .date-badge {
     display: none;
+}
+
+.date-badge .md,
+.year {
+    font-size: var(--vp-tiny);
+    line-height: 1;
+}
+
+.date-badge .divider {
+    height: 1px;
+    margin: 6px 0;
+    background-color: var(--vp-c-brand);
+    transition: background-color 0.3s ease;
 }
 
 .news-card--small .date-badge--card {
@@ -115,8 +143,8 @@ defineProps({
     align-items: center;
 }
 
-.news-card--large .content{
-    padding: 2rem;
+.news-card--large .content {
+    padding: 20px 20px 20px 80px;
 }
 
 .news-card--small .content {
@@ -126,8 +154,8 @@ defineProps({
     bottom: 0;
     padding: 8px 15px;
     background: linear-gradient(to top,
-            rgba(0, 0, 0, 0.5) 40%,
-            rgba(0, 0, 0, 0) 90%);
+            rgba(0, 0, 0, 0.6) 5%,
+            rgba(0, 0, 0, 0.3) 95%);
 }
 
 .title {
@@ -135,7 +163,7 @@ defineProps({
 }
 
 .news-card--small .title {
-    font-size: var(--vp-small);
+    font-size: var(--vp-tiny);
     color: #fff;
     line-height: 1.4;
     display: -webkit-box;
@@ -155,12 +183,29 @@ defineProps({
     }
 
     .date-badge {
-        font-size: 10px;
-        padding: 6px 6px;
+        padding: 3px;
+    }
+
+    .date-badge .divider {
+        margin: 2px 0;
+    }
+
+    .news-card--large .content {
+        padding: 15px 50px;
     }
 
     .news-card--small .content {
         padding: 1px 4px;
+    }
+
+    .news-card--small .date-badge--card {
+        left: -5px;
+        top: 5px;
+    }
+
+    .news-card--large .date-badge--content {
+        top: -8x;
+        left: 8px;
     }
 }
 </style>
