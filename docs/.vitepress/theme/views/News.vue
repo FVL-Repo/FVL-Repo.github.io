@@ -23,10 +23,14 @@
             <div class="pagination">
                 <span class="total">共 {{ newsList.length }} 条</span>
                 <div class="pages">
-                    <button v-for="p in totalPages" :key="p" :class="{ active: p === currentPage }"
-                        @click="currentPage = p">
+                    <button v-for="p in visiblePages" :key="p" :class="{ active: p === currentPage }"
+                        @click="typeof p === 'number' && (currentPage = p)" :disabled="p === '...'">
                         {{ p }}
                     </button>
+                </div>
+                <div class="jump-page">
+                    <input type="number" min="1" :max="totalPages" v-model.number="jumpPage" placeholder="页" />
+                    <button @click="goPage">跳转</button>
                 </div>
             </div>
         </div>
@@ -60,6 +64,40 @@ const formatMD = (date: string) => {
 
 const formatYear = (date: string) =>
     new Date(date).getFullYear()
+
+// 最多显示 maxPageButtons 个页索引
+const maxPageButtons = 7
+
+const visiblePages = computed<(number | string)[]>(() => {
+    const pages: (number | string)[] = []
+    if (totalPages.value <= maxPageButtons) {
+        for (let i = 1; i <= totalPages.value; i++) pages.push(i)
+    } else {
+        const start = Math.max(currentPage.value - 2, 2)
+        const end = Math.min(currentPage.value + 2, totalPages.value - 1)
+
+        pages.push(1)
+        if (start > 2) pages.push('...')
+        for (let i = start; i <= end; i++) pages.push(i)
+        if (end < totalPages.value - 1) pages.push('...')
+        pages.push(totalPages.value)
+    }
+    return pages
+})
+
+// 跳转页
+const jumpPage = ref<number | null>(null)
+
+const goPage = () => {
+    if (jumpPage.value != null) {
+        let page = Math.floor(jumpPage.value) // 取整
+        if (page < 1) page = 1
+        if (page > totalPages.value) page = totalPages.value
+        currentPage.value = page
+        jumpPage.value = null
+    }
+}
+
 
 // 翻页后回到顶部
 watch(currentPage, () => {
@@ -271,7 +309,46 @@ watch(currentPage, () => {
     color: var(--vp-c-bg-soft);
 }
 
-/* ========================= 响应式（可选微调） ========================= */
+.pages button:disabled {
+    cursor: default;
+    color: var(--vp-c-text-2);
+    border-color: var(--vp-c-text-4);
+    background-color: transparent;
+}
+
+.jump-page {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.jump-page input {
+    width: 40px;
+    height: 30px;
+    font-size: var(--vp-small);
+    line-height: 1;
+    border: 1px solid var(--vp-c-text-4);
+    text-align: center;
+    text-justify: center;
+}
+
+.jump-page button {
+    width: 45px;
+    height: 30px;
+    text-align: center;
+    font-size: var(--vp-small);
+    line-height: 1;
+    border: 1px solid var(--vp-c-text-4);
+    background-color: var(--vp-bg-soft);
+    cursor: pointer;
+}
+
+.jump-page button:hover {
+    border-color: var(--vp-c-brand);
+    background-color: var(--vp-c-brand);
+    color: var(--vp-c-bg-soft);
+}
+
 @media (max-width: 768px) {
     .container {
         padding: 40px 20px;
@@ -292,6 +369,30 @@ watch(currentPage, () => {
 
     .date-card {
         padding: 5px;
+    }
+
+    .pages {
+        gap: 4px;
+    }
+
+    .pages button {
+        padding: 3px 6px;
+    }
+
+    .jump-page {
+        gap: 4px;
+    }
+
+    .jump-page {
+        input {
+            width: 30px;
+            height: 20px;
+        }
+
+        button {
+            width: 30px;
+            height: 20px;
+        }
     }
 }
 </style>
