@@ -20,6 +20,7 @@ import NCard from './components/NCard.vue';
 import Homepage from './views/Homepage.vue';
 import Footer from './components/Footer.vue'
 import JoinUs from './views/JoinUs.vue';
+import News from './views/News.vue';
 
 import './custom.css';
 export default {
@@ -29,6 +30,7 @@ export default {
     app.component("Homepage", Homepage);
     app.component("Footer", Footer);
     app.component("JoinUs", JoinUs);
+    app.component("News", News);
     app.use(TwoslashFloatingVue);
     app.component('NCard', NCard);
     app.use(TwoslashFloatingVue as unknown as Plugin);
