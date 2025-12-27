@@ -130,7 +130,6 @@ const onTouchEnd = () => {
     else if (moveX.value < -threshold) next()
     moveX.value = 0
     isSwiping.value = false
-    timer = setInterval(next, 4000)
 }
 </script>
 
