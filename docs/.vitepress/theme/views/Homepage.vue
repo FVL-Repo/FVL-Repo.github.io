@@ -46,7 +46,15 @@ const pages = [0, 1, 2, 3]
 const current = ref(0)
 const lastPageIndex = pages.length - 1
 
+// 触控板防抖
 let locked = false
+let wheelValues = []
+let lastWheelTime = 0
+
+const WHEEL_AVG_COUNT = 10     // 取最近 10 次
+const WHEEL_THRESHOLD = 40    // 翻页阈值（可调）
+const ANIMATION_TIME = 700    
+
 
 const go = (index) => {
     if (isMobile.value) return
@@ -54,21 +62,59 @@ const go = (index) => {
     current.value = index
 }
 
+const getAverage = (arr, count) => {
+    const slice = arr.slice(-count)
+    const sum = slice.reduce((a, b) => a + b, 0)
+    return sum / slice.length
+}
+
 const handleWheel = (e) => {
     if (isMobile.value) return
-    if (locked) return
 
+    // 阻止默认滚动行为
+    e.preventDefault()
+
+    const now = Date.now()
+    const deltaY = e.deltaY
+    const deltaX = e.deltaX || 0
+
+    // 1. 忽略横向滚动（只处理纵向）
+    if (Math.abs(deltaX) > Math.abs(deltaY)) return
+
+    // 2. 记录滚动强度，用于惯性计算
+    wheelValues.push(Math.abs(deltaY))
+    if (wheelValues.length > 100) wheelValues.shift()
+
+    // 3. 超过一定时间间隔则重置滚动记录
+    if (now - lastWheelTime > 200) {
+        wheelValues = []
+    }
+    lastWheelTime = now
+
+    // 4. 计算最近滚动的平均强度
+    const avg = getAverage(wheelValues, WHEEL_AVG_COUNT)
+
+    // 5. 滚动强度不够，忽略本次滚动
+    if (avg < WHEEL_THRESHOLD) return
+
+    // 6. 防止动画期间重复触发
+    if (locked) return
     locked = true
 
-    if (e.deltaY > 0) {
+    // 7. 根据滚动方向决定翻页
+    if (deltaY > 0) {
         go(current.value + 1)
     } else {
         go(current.value - 1)
     }
 
+    // 8. 重置滚动记录，防止滞后行为
+    wheelValues = []
+
+    // 9. 设置解锁延迟，避免重复触发
     setTimeout(() => {
         locked = false
-    }, 700)
+    }, ANIMATION_TIME)
 }
 
 /* 移动端检测 */
