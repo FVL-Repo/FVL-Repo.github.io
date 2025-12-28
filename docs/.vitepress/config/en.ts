@@ -2,10 +2,11 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const en = defineConfig({
   lang: 'en',
-  title: 'FVL Lab',
+  title: 'FVL Laboratory',
 
   themeConfig: {
     nav: nav(),
+    siteTitle: "Fudan Vision and Learning Laboratory",
     langMenuLabel: 'Languages',
     returnToTopLabel: 'Back to top',
   }
@@ -21,5 +22,9 @@ function nav(): DefaultTheme.NavItem[] {
       text: 'People',
       link: '/en/people',
     },
+    {
+      text: 'Join Us',
+      link: '/en/joinus',
+    }
   ]
 }

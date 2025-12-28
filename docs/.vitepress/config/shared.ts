@@ -78,7 +78,7 @@ export const shared = defineConfig({
   ],
 
   themeConfig: {
-    logo: 'images/fudan.png',
+    logo: '/images/fudan.png',
     //开启本地搜索
     // search: {
     //   provider: 'local'

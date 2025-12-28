@@ -1,31 +1,12 @@
-import type { FooterData } from '@theojs/lumen'
-
-export const Footer_Data: FooterData = {
-    author: { name: 'FVL', link: 'https://github.com/FVL-repo' },
-    group: [
-        // {
-        //     title: '生态',
-        //     icon: 'fa-solid fa-lightbulb',
-        //     links: [
-        //         { name: '官方对接框架', href: 'https://node-napcat-ts.huankong.top' },
-        //         { name: '二次开发框架', href: 'https://napneko.github.io/develop/plugin' },
-        //     ]
-        // },
-        // {
-        //     title: '工具',
-        //     icon: 'fa-solid fa-puzzle-piece',
-        //     links: [
-        //         { name: '可视化管理工具', href: '#' },
-        //         { name: '可视化网页配置', href: '#' },
-        //     ]
-        // },
-        // {
-        //     title: '社区',
-        //     icon: 'fa-solid fa-expand',
-        //     links: [
-        //         { name: '官方 企鹅 社区', href: 'https://qm.qq.com/q/I6LU87a0Yq' },
-        //         { name: '官方 Telegram 社区', href: 'https://t.me/MelodicMoonlight' },
-        //     ]
-        // }
-    ]
-}
+export const FooterData = {
+    zh: {
+        address: '实验室地址: 上海市淞沪路2005号2号交叉学科楼5楼',
+        copyright: (year: number) =>
+            `© ${year} Fudan Vision and Learning Laboratory. All Rights Reserved.`
+    },
+    en: {
+        address: 'Lab Address: 5F, Interdisciplinary Building 2, 2005 Songhu Road, Shanghai',
+        copyright: (year: number) =>
+            `© ${year} Fudan Vision and Learning Laboratory. All Rights Reserved.`
+    }
+} as const

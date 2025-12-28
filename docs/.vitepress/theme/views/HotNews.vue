@@ -1,12 +1,13 @@
 <template>
     <section class="hot-news">
         <h1 class="news-header">
-            <span class="news-title">新闻</span>
+            <span class="news-title">{{ t.title }}</span>
 
-            <a href="/news" class="more-link">
-                More
+            <a href="news" class="more-link">
+                {{ t.more }}
             </a>
         </h1>
+
         <div class="news-grid">
             <NewsCard v-if="mainNews" v-bind="mainNews" mode="large" />
 
@@ -17,14 +18,64 @@
     </section>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { computed } from 'vue'
+import { useData } from 'vitepress'
 import NewsCard from '../components/NewsCard.vue'
 import { newsList } from '../../data/news'
 
-const mainNews = computed(() => newsList[0])
-const sideNews = computed(() => newsList.slice(1, 5))
+/* =========================
+   VitePress 语言上下文
+   ========================= */
+
+const { lang } = useData()
+
+const currentLang = computed < 'zh' | 'en' > (() =>
+    lang.value.startsWith('zh') ? 'zh' : 'en'
+)
+
+/* =========================
+   页面固定文案
+   ========================= */
+
+const TEXT = {
+    zh: {
+        title: '新闻',
+        more: '更多'
+    },
+    en: {
+        title: 'News',
+        more: 'More'
+    }
+} as const
+
+const t = computed(() => TEXT[currentLang.value])
+
+/* =========================
+   多语言新闻数据派生
+   ========================= */
+
+const localizedNewsList = computed(() =>
+    newsList.map(item => ({
+        ...item,
+        title: item.title[currentLang.value],
+        summary: item.summary[currentLang.value]
+    }))
+)
+
+/* =========================
+   首页新闻分组
+   ========================= */
+
+const mainNews = computed(() =>
+    localizedNewsList.value[0]
+)
+
+const sideNews = computed(() =>
+    localizedNewsList.value.slice(1, 5)
+)
 </script>
+
 
 <style scoped>
 .hot-news {
