@@ -22,5 +22,9 @@ function nav(): DefaultTheme.NavItem[] {
       text: 'People',
       link: '/en/people',
     },
+    {
+      text: 'Join Us',
+      link: '/en/joinus',
+    }
   ]
 }

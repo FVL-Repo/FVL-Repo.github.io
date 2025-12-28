@@ -59,4 +59,5 @@ const orgnization = [
       <VPTeamMembers size="small" :members="orgnization" />
     </template>
   </VPTeamPageSection>
+  <Footer/>
 </VPTeamPage>

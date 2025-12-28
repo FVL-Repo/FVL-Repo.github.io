@@ -3,7 +3,7 @@
         <h1 class="news-header">
             <span class="news-title">{{ t.title }}</span>
 
-            <a href="/news" class="more-link">
+            <a href="news" class="more-link">
                 {{ t.more }}
             </a>
         </h1>
