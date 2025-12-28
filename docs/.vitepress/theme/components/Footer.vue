@@ -1,17 +1,24 @@
 <template>
     <footer class="footer">
         <div class="footer-inner">
-            <div class="message">
-                实验室地址: 上海市淞沪路2005号2号交叉学科楼5楼
-            </div>
-            <div class="copyright">
-                All Rights Reserved by Fudan University
-            </div>
+            <div class="message">{{ t.address }}</div>
+            <div class="copyright">{{ t.copyright(year) }}</div>
         </div>
     </footer>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import { computed } from 'vue'
+import { useData } from 'vitepress'
+import { FooterData } from '../../data/footerData'
+
+const { lang } = useData()
+const currentLang = computed<'zh' | 'en'>(() =>
+    lang.value.startsWith('zh') ? 'zh' : 'en'
+)
+
+const t = computed(() => FooterData[currentLang.value])
+
 const year = new Date().getFullYear()
 </script>
 
@@ -33,9 +40,9 @@ const year = new Date().getFullYear()
     text-align: center;
 }
 
-.message, .copyright {
+.message,
+.copyright {
     font-size: var(--vp-small);
     color: var(--vp-bg-soft);
 }
-
 </style>
