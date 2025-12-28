@@ -1,7 +1,7 @@
 <template>
     <div class="all-news">
         <div class="container">
-            <h1 class="news-title">新闻</h1>
+            <h1 class="news-title">{{ t.pageTitle }}</h1>
 
             <!-- 关键：page 级 key，翻页即重建 DOM -->
             <div class="news-list" :key="currentPage">
@@ -21,10 +21,14 @@
             </div>
 
             <div class="pagination">
-                <span class="total">共 {{ newsList.length }} 条</span>
-                <div class="pages-wrapper">
-                    <button @click="currentPage--" :disabled="currentPage === 1">上一页</button>
+                <span class="total">
+                    {{ t.total(localizedNewsList.length) }}
+                </span>
 
+                <div class="pages-wrapper">
+                    <button @click="currentPage--" :disabled="currentPage === 1">
+                        {{ t.prev }}
+                    </button>
                     <div class="pages">
                         <button v-for="p in visiblePages" :key="p" :class="{ active: p === currentPage }"
                             @click="typeof p === 'number' && (currentPage = p)" :disabled="p === '...'">
@@ -32,13 +36,17 @@
                         </button>
                     </div>
 
-                    <button @click="currentPage++" :disabled="currentPage === totalPages">下一页</button>
+                    <button @click="currentPage++" :disabled="currentPage === totalPages">
+                        {{ t.next }}
+                    </button>
                 </div>
 
                 <div class="jump-page">
-                    <input type="number" min="1" :max="totalPages" v-model.number="jumpPage" placeholder="页" />
-                    <button @click="goPage">跳转</button>
+                    <input type="number" min="1" :max="totalPages" v-model.number="jumpPage"
+                        :placeholder="t.pagePlaceholder" />
+                    <button @click="goPage">{{ t.jump }}</button>
                 </div>
+
             </div>
         </div>
         <Footer />
@@ -47,35 +55,78 @@
 
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue'
+import { useData } from 'vitepress'
 import { newsList } from '../../data/news'
+
+/* =========================
+   VitePress 语言上下文
+   ========================= */
+
+const { lang } = useData()
+
+const currentLang = computed<'zh' | 'en'>(() =>
+    lang.value.startsWith('zh') ? 'zh' : 'en'
+)
+
+/* =========================
+   多语言新闻数据派生
+   ========================= */
+
+const localizedNewsList = computed(() =>
+    newsList.map(item => ({
+        ...item,
+        title: item.title[currentLang.value],
+        summary: item.summary[currentLang.value]
+    }))
+)
+
+const TEXT = {
+    zh: {
+        pageTitle: '新闻',
+        total: (n: number) => `共 ${n} 条`,
+        prev: '上一页',
+        next: '下一页',
+        jump: '跳转',
+        pagePlaceholder: '页'
+    },
+    en: {
+        pageTitle: 'News',
+        total: (n: number) => `Total ${n}`,
+        prev: 'Previous',
+        next: 'Next',
+        jump: 'Go',
+        pagePlaceholder: 'Page'
+    }
+} as const
+
+const t = computed(() => TEXT[currentLang.value])
+
+
+/* =========================
+   分页逻辑
+   ========================= */
 
 const pageSize = 6
 const currentPage = ref(1)
 
 const totalPages = computed(() =>
-    Math.ceil(newsList.length / pageSize)
+    Math.ceil(localizedNewsList.value.length / pageSize)
 )
 
 const pagedNews = computed(() => {
     const start = (currentPage.value - 1) * pageSize
-    return newsList.slice(start, start + pageSize)
+    return localizedNewsList.value.slice(start, start + pageSize)
 })
 
-const formatMD = (date: string) => {
-    const d = new Date(date)
-    const m = String(d.getMonth() + 1).padStart(2, '0')
-    const day = String(d.getDate()).padStart(2, '0')
-    return `${m}-${day}`
-}
+/* =========================
+   页索引显示
+   ========================= */
 
-const formatYear = (date: string) =>
-    new Date(date).getFullYear()
-
-// 最多显示 maxPageButtons 个页索引
 const maxPageButtons = 7
 
 const visiblePages = computed<(number | string)[]>(() => {
     const pages: (number | string)[] = []
+
     if (totalPages.value <= maxPageButtons) {
         for (let i = 1; i <= totalPages.value; i++) pages.push(i)
     } else {
@@ -88,24 +139,53 @@ const visiblePages = computed<(number | string)[]>(() => {
         if (end < totalPages.value - 1) pages.push('...')
         pages.push(totalPages.value)
     }
+
     return pages
 })
 
-// 跳转页
+/* =========================
+   跳转页
+   ========================= */
+
 const jumpPage = ref<number | null>(null)
 
 const goPage = () => {
-    if (jumpPage.value != null) {
-        let page = Math.floor(jumpPage.value) // 取整
-        if (page < 1) page = 1
-        if (page > totalPages.value) page = totalPages.value
-        currentPage.value = page
-        jumpPage.value = null
-    }
+    if (jumpPage.value == null) return
+
+    let page = Math.floor(jumpPage.value)
+    if (page < 1) page = 1
+    if (page > totalPages.value) page = totalPages.value
+
+    currentPage.value = page
+    jumpPage.value = null
 }
 
+/* =========================
+   日期格式
+   ========================= */
 
-// 翻页后回到顶部
+const formatMD = (date: string) => {
+    const d = new Date(date)
+    const m = String(d.getMonth() + 1).padStart(2, '0')
+    const day = String(d.getDate()).padStart(2, '0')
+    return `${m}-${day}`
+}
+
+const formatYear = (date: string) =>
+    new Date(date).getFullYear()
+
+/* =========================
+   监听：语言切换
+   ========================= */
+
+watch(lang, () => {
+    currentPage.value = 1
+})
+
+/* =========================
+   翻页回到顶部
+   ========================= */
+
 watch(currentPage, () => {
     window.scrollTo({
         top: 0,
@@ -113,6 +193,7 @@ watch(currentPage, () => {
     })
 })
 </script>
+
 
 <style scoped>
 .all-news {
@@ -158,7 +239,7 @@ watch(currentPage, () => {
     display: flex;
     gap: 24px;
     padding: 36px;
-    align-items: flex-start;
+    align-items: center;
 
     border-bottom: 1px solid var(--vp-c-text-2);
     overflow: hidden;
@@ -252,6 +333,7 @@ watch(currentPage, () => {
 
 .title {
     font-size: var(--vp-h3-size);
+    line-height: 1.5;
     font-weight: 500;
     color: var(--row-title);
     transition: color 0.3s ease;
@@ -265,7 +347,8 @@ watch(currentPage, () => {
 .summary {
     margin-top: 6px;
     color: var(--vp-c-text-2);
-    line-height: 1.6;
+    font-size: var(--vp-small);
+    line-height: 1.5;
 
     display: -webkit-box;
     -webkit-line-clamp: 2;
@@ -318,7 +401,7 @@ watch(currentPage, () => {
     cursor: not-allowed;
 }
 
-.pages-wrapper button:hover{
+.pages-wrapper button:hover {
     background-color: var(--vp-c-bg);
 }
 
@@ -395,7 +478,7 @@ watch(currentPage, () => {
         padding: 5px;
     }
 
-    .pagination{
+    .pagination {
         margin-top: 10px;
     }
 
