@@ -18,25 +18,25 @@
   --vp-nav-color: var(--vp-bg-soft);
   --vp-nav-text: var(--vp-c-text-1);
   --vp-nav-text-activate: var(--vp-c-brand-1);
-  --vp-h1-size: 34px;
+  --vp-h1-size: 30px;
   --vp-h1-weight: 500;
-  --vp-h2-size: 24px;
+  --vp-h2-size: 21px;
   --vp-h2-weight: 500;
   --vp-h3-size: 18px;
   --vp-h3-weight: 500;
   --vp-p-size: 18px;
-  --vp-small: 16px;
-  --vp-tiny: 15px;
+  --vp-small: 15px;
+  --vp-tiny: 14px;
   --vp-logo-filter: none;
 }
 
 @media(max-width:768px) {
   :root {
-    --vp-h1-size: 25px;
-    --vp-h2-size: 18px;
-    --vp-h3-size: 15px;
-    --vp-p-size: 15px;
-    --vp-small: 12px;
+    --vp-h1-size: 21px;
+    --vp-h2-size: 16px;
+    --vp-h3-size: 13px;
+    --vp-p-size: 13px;
+    --vp-small: 11px;
     --vp-tiny: 10px;
   }
 }

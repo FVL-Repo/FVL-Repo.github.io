@@ -236,7 +236,7 @@ const tabs = computed(() => [
 
 @media (max-width: 768px) {
     .container {
-        padding: 40px 24px;
+        padding: 20px 24px;
         max-width: 100vw;
     }
 

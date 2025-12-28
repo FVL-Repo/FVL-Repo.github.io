@@ -26,10 +26,13 @@
     }
 
     @media(max-width:768px) {
+        .title{
+            font-size: var(--vp-h3-size);
+        }
         .logo {
-            height: 33px;
-            width: 33px;
-            margin-right: 11px;
+            height: 24px;
+            width: 24px;
+            margin-right: 10px;
         }
     }
 
@@ -185,7 +188,7 @@
 
 @media(max-width:768px) {
     .VPTeamPage .VPTeamPageSection {
-        padding: 40px 60px;
+        padding: 20px 60px;
     }
 }
 

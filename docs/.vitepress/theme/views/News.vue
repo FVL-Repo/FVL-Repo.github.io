@@ -458,7 +458,7 @@ watch(currentPage, () => {
 @media (max-width: 768px) {
     .container {
         max-width: 100vw;
-        padding: 40px 30px;
+        padding: 20px 30px;
     }
 
     .news-row {
