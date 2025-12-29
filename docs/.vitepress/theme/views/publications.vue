@@ -19,7 +19,7 @@
             <div class="publications-list" :key="currentPage">
                 <div 
                     v-for="(item, index) in pagedPublications" 
-                    :key="item.date + item.title.en" 
+                    :key="item.date + item.title" 
                     class="publication-row"
                     :style="{ animationDelay: `${index * 150}ms` }"
                 >
