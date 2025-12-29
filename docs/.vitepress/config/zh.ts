@@ -17,6 +17,10 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/',
     },
     {
+      text: '论文',
+      link: '/publications',
+    },
+    {
       text: '成员',
       link: '/people',
     },
