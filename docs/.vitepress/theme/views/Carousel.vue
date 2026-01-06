@@ -23,7 +23,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const slides = [
-    { image: '/images/fvl.png', title: '', desc: '' },
+    { image: '/images/fvl-3.png', title: '', desc: '' },
     // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_4.png', title: '姜育刚团队获国家自然科学奖二等奖', desc: '' },
     // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/carousel_images/kexuejishujiang2023.png', title: '姜育刚团队获上海市技术发明一等奖', desc: '' },
     // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_5.png', title: '实验室在 CVPR2024 三项挑战赛中斩获冠军', desc: '' },
@@ -151,17 +151,15 @@ const onTouchEnd = () => {
     height: 100%;
     position: relative;
     background-color: rgb(0, 0, 2);
-    display: flex;
-    align-items: center;
-    justify-content: center;}
+}
 
 .slide img {
     position: absolute;
+    inset: 0;
     width: 100%;
-    height: auto;
-    bottom: 0;
-    max-width: 100%;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 1vh;
     display: block;
 }
 
@@ -206,22 +204,16 @@ const onTouchEnd = () => {
 
 @media (max-width: 768px) {
     .carousel {
-        height: auto;
+        height: 150px;
     }
 
-    .track {
-        height: auto;
-    }
-
+    .track,
     .slide {
-        height: auto;
+        height: 100%;
     }
 
     .slide img {
-        position: relative;
-        width: 100%;
-        height: auto;
-        object-fit: contain;
+        object-position: center -20px;
     }
 
     .caption {
