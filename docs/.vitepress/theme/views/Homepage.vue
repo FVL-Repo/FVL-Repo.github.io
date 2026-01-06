@@ -52,8 +52,8 @@ let wheelValues = []
 let lastWheelTime = 0
 
 const WHEEL_AVG_COUNT = 10     // 取最近 10 次
-const WHEEL_THRESHOLD = 40    // 翻页阈值（可调）
-const ANIMATION_TIME = 700    
+const WHEEL_THRESHOLD = 50    // 翻页阈值（可调）
+const ANIMATION_TIME = 700
 
 
 const go = (index) => {
@@ -128,7 +128,7 @@ const checkDark = () => {
     const isDark = isMobile.value || current.value === 0;
     document.documentElement.style.setProperty(
         '--vp-nav-color',
-        isDark ? 'var(--vp-c-brand-1)' : 'var(--vp-bg-soft)'
+        isDark ? 'var(--vp-nav-dark)' : 'var(--vp-bg-soft)'
     )
     document.documentElement.style.setProperty(
         '--vp-nav-text',
@@ -222,7 +222,7 @@ watch([current, isMobile], () => {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: var(--vp-c-brand-3);
+    background: rgb(200, 210, 255);
     cursor: pointer;
     transition: transform 0.8s, background 0.2s;
 }

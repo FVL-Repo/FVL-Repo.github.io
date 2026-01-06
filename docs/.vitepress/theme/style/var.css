@@ -10,18 +10,19 @@
   --vp-c-brand-4: rgba(8, 48, 144, 0.4);
   --vp-c-brand-5: rgba(8, 48, 144, 0.1);
   --vp-c-text-4: rgba(200, 200, 200, 0.8);
+  --vp-nav-dark: rgb(0,0,2);
   --vp-nav-active-light: var(--vp-c-brand-2);
-  --vp-nav-active-dark: rgb(200, 200, 255);
+  --vp-nav-active-dark: rgb(200, 220, 255);
   --vp-nav-active: var(--vp-nav-active-light);
-  --vp-nav-height: 9vh;
+  --vp-nav-height: 12vh;
   --vp-footer-height: 6vh;
   --vp-nav-color: var(--vp-bg-soft);
   --vp-nav-text: var(--vp-c-text-1);
   --vp-nav-text-activate: var(--vp-c-brand-1);
   --vp-h1-size: 30px;
   --vp-h1-weight: 500;
-  --vp-h2-size: 21px;
-  --vp-h2-weight: 500;
+  --vp-h2-size: 20px;
+  --vp-h2-weight: 600;
   --vp-h3-size: 18px;
   --vp-h3-weight: 500;
   --vp-p-size: 18px;
@@ -32,6 +33,7 @@
 
 @media(max-width:768px) {
   :root {
+    --vp-nav-height: 7vh;
     --vp-h1-size: 21px;
     --vp-h2-size: 16px;
     --vp-h3-size: 13px;
