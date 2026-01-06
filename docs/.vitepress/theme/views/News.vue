@@ -247,6 +247,7 @@ watch(currentPage, () => {
     /* 统一状态变量 */
     --row-title: var(--vp-c-text-1);
     --row-date-bg: rgba(245, 250, 255, 0.9);
+    --row-date-border: var(--vp-c-brand);
     --row-date-text: var(--vp-c-brand);
     --row-divider: var(--vp-c-brand);
 
@@ -300,7 +301,7 @@ watch(currentPage, () => {
     padding: 8px;
     background-color: var(--row-date-bg);
     color: var(--row-date-text);
-    border: 1.5px solid var(--row-date-text);
+    border: 1.5px solid var(--row-date-border);
     text-align: center;
     font-style: italic;
     transition:
@@ -395,13 +396,13 @@ watch(currentPage, () => {
 
 .pages-wrapper button:disabled {
     cursor: default;
-    color: var(--vp-c-text-2);
+    color: var(--vp-c-text-3);
     border-color: var(--vp-c-text-4);
     background-color: transparent;
     cursor: not-allowed;
 }
 
-.pages-wrapper button:hover {
+.pages-wrapper button:hover:not(:disabled){
     background-color: var(--vp-c-bg);
 }
 
@@ -422,6 +423,10 @@ watch(currentPage, () => {
     color: var(--vp-c-text-2);
     border-color: var(--vp-c-text-4);
     background-color: transparent;
+}
+
+.pages button.active:hover{
+    background-color: var(--vp-c-brand);
 }
 
 .jump-page {
