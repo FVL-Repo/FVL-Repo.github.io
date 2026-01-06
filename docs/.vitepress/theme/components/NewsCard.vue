@@ -191,11 +191,11 @@ const formatYear = (date: string) =>
     }
 
     .news-card--large .content {
-        padding: 15px 50px;
+        padding: 15px 20px 15px 50px;
     }
 
     .news-card--small .content {
-        padding: 1px 4px;
+        padding: 2px 4px;
     }
 
     .news-card--small .date-badge--card {

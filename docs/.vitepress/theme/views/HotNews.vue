@@ -129,7 +129,11 @@ const sideNews = computed(() =>
 
 @media (max-width: 768px) {
     .hot-news {
-        padding: 35px 20px 50px 20px;
+        padding: 30px;
+    }
+
+    .news-header{
+        margin-bottom: 24px;
     }
 
     .news-grid {
@@ -139,6 +143,7 @@ const sideNews = computed(() =>
 
     .news-grid {
         flex-direction: column;
+        gap: 24px;
     }
 
     .side {

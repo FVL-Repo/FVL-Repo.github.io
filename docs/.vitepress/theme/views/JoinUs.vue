@@ -105,7 +105,7 @@ const activeTab = ref<'postdoc' | 'graduate' | 'undergraduate'>('postdoc')
 
 const t = computed(() => (isZh.value ? content.zh : content.en))
 
-const tabs = computed(() => [
+const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label: string }[] => [
     { key: 'postdoc', label: t.value.tabs.postdoc },
     { key: 'graduate', label: t.value.tabs.graduate },
     { key: 'undergraduate', label: t.value.tabs.undergraduate }
@@ -124,7 +124,7 @@ const tabs = computed(() => [
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 50px 40px;
+    padding: 50px 40px 100px 40px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -155,13 +155,14 @@ const tabs = computed(() => [
 }
 
 .tab-button {
-    min-width: 150px;
-    padding: 12px 20px;
-    border-radius: 3px;
+    min-width: 120px;
+    padding: 12px 18px;
+    border-radius: 1px;
     background-color: var(--vp-bg-soft);
     color: var(--vp-c-text-1);
     cursor: pointer;
     font-size: var(--vp-h3-size);
+    line-height: 1;
     font-weight: 500;
 }
 
@@ -236,7 +237,7 @@ const tabs = computed(() => [
 
 @media (max-width: 768px) {
     .container {
-        padding: 20px 24px;
+        padding: 20px 30px 40px 30px;
         max-width: 100vw;
     }
 
@@ -248,12 +249,13 @@ const tabs = computed(() => [
     }
 
     .button-group {
+        flex-direction: column;
         gap: 8px;
     }
 
     .tab-button {
-        min-width: 96px;
-        padding: 6px 0;
+        min-width: 0;
+        padding: 6px;
     }
 
     .container {
