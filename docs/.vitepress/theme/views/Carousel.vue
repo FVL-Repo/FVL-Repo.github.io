@@ -150,19 +150,18 @@ const onTouchEnd = () => {
     flex: 0 0 100%;
     height: 100%;
     position: relative;
+    background-color: rgb(0, 0, 2);
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: linear-gradient(to bottom, var(--vp-c-brand-1) 20%, var(--vp-c-brand-3) 80%);
-}
+    justify-content: center;}
 
 .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
     position: absolute;
-    inset: 0;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    max-width: 100%;
+    object-fit: contain;
     display: block;
 }
 
