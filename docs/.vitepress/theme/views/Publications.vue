@@ -2,92 +2,47 @@
     <div class="all-publications">
         <div class="container">
             <h1 class="publications-title">{{ t.pageTitle }}</h1>
+            <div class="content-area">
+                <!-- 年份筛选器 -->
+                <div class="year-filter">
+                    <button v-for="year in availableYears" :key="year" :class="{ active: selectedYear === year }"
+                        @click="selectedYear = year">
+                        {{ year === 'all' ? t.allYears : year }}
+                    </button>
+                </div>
+                <div class="publications-list">
+                    <div v-for="(item, index) in filteredPublications" :key="item.year + item.title"
+                        class="publication-row" :style="{ animationDelay: `${index * 150}ms` }">
+                        <!-- 图片 -->
+                        <div class="thumb" v-if="item.image">
+                            <img :src="item.image" alt="publication teaser" />
+                            <span class="venue-badge">{{ item.venue }}</span>
+                        </div>
 
-            <!-- 年份筛选器 -->
-            <div class="year-filter">
-                <button 
-                    v-for="year in availableYears" 
-                    :key="year" 
-                    :class="{ active: selectedYear === year }"
-                    @click="selectedYear = year"
-                >
-                    {{ year === 'all' ? t.allYears : year }}
-                </button>
-            </div>
+                        <!-- 内容 -->
+                        <div class="content">
+                            <h2 class="title">{{ item.title }}</h2>
+                            <p class="authors">{{ item.authors }}</p>
 
-            <!-- 论文列表 - 带翻页动画 -->
-            <div class="publications-list" :key="currentPage">
-                <div 
-                    v-for="(item, index) in pagedPublications" 
-                    :key="item.date + item.title" 
-                    class="publication-row"
-                    :style="{ animationDelay: `${index * 150}ms` }"
-                >
-                    <div class="date-card">
-                        <div class="md">{{ formatMD(item.date) }}</div>
-                        <div class="divider"></div>
-                        <div class="year">{{ formatYear(item.date) }}</div>
-                    </div>
+                            <div class="links">
+                                <a v-if="item.pdf" :href="item.pdf" target="_blank" class="link-btn pdf">
+                                    <span class="icon">📄</span>
+                                    <span class="link-text">{{ t.pdf }}</span>
+                                </a>
 
-                    <div class="content">
-                        <h2 class="title">{{ item.title }}</h2>
-                        <p class="authors">{{ item.authors }}</p>
-                        <p class="venue">{{ item.venue }}</p>
-                        
-                        <div class="links">
-                            <a v-if="item.pdf" :href="item.pdf" target="_blank" class="link-btn pdf">
-                                <span class="icon">📄</span>
-                                {{ t.pdf }}
-                            </a>
-                            <a v-if="item.project" :href="item.project" target="_blank" class="link-btn project">
-                                <span class="icon">🌐</span>
-                                {{ t.project }}
-                            </a>
-                            <a v-if="item.code" :href="item.code" target="_blank" class="link-btn code">
-                                <span class="icon">💻</span>
-                                {{ t.code }}
-                            </a>
+                                <a v-if="item.dataset" :href="item.dataset" target="_blank" class="link-btn dataset">
+                                    <span class="icon">📦</span>
+                                    <span class="link-text">{{ t.dataset }}</span>
+                                </a>
+
+                                <a v-if="item.code" :href="item.code" target="_blank" class="link-btn code">
+                                    <img class="icon github-icon" src="/images/github-mark/github-mark.svg"
+                                        alt="GitHub" />
+                                    <span class="link-text">{{ t.code }}</span>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-
-            <!-- 分页器 -->
-            <div class="pagination">
-                <span class="total">
-                    {{ t.total(filteredPublications.length) }}
-                </span>
-
-                <div class="pages-wrapper">
-                    <button @click="currentPage--" :disabled="currentPage === 1">
-                        {{ t.prev }}
-                    </button>
-                    <div class="pages">
-                        <button 
-                            v-for="p in visiblePages" 
-                            :key="p" 
-                            :class="{ active: p === currentPage }"
-                            @click="typeof p === 'number' && (currentPage = p)" 
-                            :disabled="p === '...'"
-                        >
-                            {{ p }}
-                        </button>
-                    </div>
-
-                    <button @click="currentPage++" :disabled="currentPage === totalPages">
-                        {{ t.next }}
-                    </button>
-                </div>
-
-                <div class="jump-page">
-                    <input 
-                        type="number" 
-                        min="1" 
-                        :max="totalPages" 
-                        v-model.number="jumpPage"
-                        :placeholder="t.pagePlaceholder" 
-                    />
-                    <button @click="goPage">{{ t.jump }}</button>
                 </div>
             </div>
         </div>
@@ -124,8 +79,8 @@ const TEXT = {
         jump: '跳转',
         pagePlaceholder: '页',
         allYears: '全部',
-        pdf: 'PDF',
-        project: '项目',
+        pdf: '论文',
+        dataset: '数据集',
         code: '代码'
     },
     en: {
@@ -136,8 +91,8 @@ const TEXT = {
         jump: 'Go',
         pagePlaceholder: 'Page',
         allYears: 'All',
-        pdf: 'PDF',
-        project: 'Project',
+        pdf: 'Paper',
+        dataset: 'Dataset',
         code: 'Code'
     }
 } as const
@@ -149,12 +104,13 @@ const t = computed(() => TEXT[currentLang.value])
    ========================= */
 
 interface LocalizedPublication {
-    date: string
+    year: string
     authors: string
     title: string
     venue: string
+    image?: string
     pdf?: string
-    project?: string
+    dataset?: string
     code?: string
 }
 
@@ -173,7 +129,7 @@ const selectedYear = ref<string | 'all'>('all')
 
 const availableYears = computed(() => {
     const years = new Set(
-        publicationsList.map(p => p.date.split('-')[0])
+        publicationsList.map(p => p.year)
     )
     return ['all', ...Array.from(years).sort().reverse()]
 })
@@ -183,90 +139,33 @@ const filteredPublications = computed(() => {
         return localizedPublicationsList.value
     }
     return localizedPublicationsList.value.filter(
-        p => p.date.startsWith(selectedYear.value as string)
+        p => p.year.startsWith(selectedYear.value as string)
     )
 })
 
-/* =========================
-   分页逻辑
-   ========================= */
-
-const PAGE_SIZE = 10
-const currentPage = ref(1)
-const jumpPage = ref<number | null>(null)
-
-const totalPages = computed(() =>
-    Math.ceil(filteredPublications.value.length / PAGE_SIZE)
-)
-
-const pagedPublications = computed(() => {
-    const start = (currentPage.value - 1) * PAGE_SIZE
-    const end = start + PAGE_SIZE
-    return filteredPublications.value.slice(start, end)
-})
-
-// 显示的页码（省略号逻辑）
-const visiblePages = computed(() => {
-    const pages: (number | string)[] = []
-    const total = totalPages.value
-    const current = currentPage.value
-
-    if (total <= 7) {
-        for (let i = 1; i <= total; i++) pages.push(i)
-        return pages
-    }
-
-    pages.push(1)
-    if (current > 3) pages.push('...')
-
-    const start = Math.max(2, current - 1)
-    const end = Math.min(total - 1, current + 1)
-
-    for (let i = start; i <= end; i++) pages.push(i)
-
-    if (current < total - 2) pages.push('...')
-    pages.push(total)
-
-    return pages
-})
-
-// 跳转页面
-const goPage = () => {
-    if (!jumpPage.value) return
-    const target = Math.max(1, Math.min(totalPages.value, jumpPage.value))
-    currentPage.value = target
-    jumpPage.value = null
-}
-
-// 筛选年份时重置到第一页
 watch(selectedYear, () => {
-    currentPage.value = 1
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    })
 })
-
-/* =========================
-   日期格式化
-   ========================= */
-
-const formatMD = (date: string) => {
-    const [year, month, day] = date.split('-')
-    return `${month}-${day || '01'}`
-}
-
-const formatYear = (date: string) => {
-    return date.split('-')[0]
-}
 </script>
 
 <style scoped>
 .all-publications {
     min-height: calc(100vh - var(--vp-nav-height));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--vp-bg-soft);
 }
 
 .container {
-    max-width: 1200px;
+    width: 100vw;
     margin: 0 auto;
-    padding: 80px 40px 40px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .publications-title {
@@ -274,32 +173,33 @@ const formatYear = (date: string) => {
     font-weight: var(--vp-h1-weight);
     color: var(--vp-c-brand-1);
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 48px;
 }
 
 /* 年份筛选器 */
 .year-filter {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 18px;
     margin-bottom: 40px;
     flex-wrap: wrap;
 }
 
 .year-filter button {
-    padding: 8px 20px;
-    border: 2px solid var(--vp-c-brand-2);
-    border-radius: 20px;
+    padding: 5px 6px;
+    border: 1px solid var(--vp-c-brand-2);
+    border-radius: 1px;
     background: var(--vp-bg);
     color: var(--vp-c-text-1);
-    font-size: 16px;
+    font-size: var(--vp-h3-size);
+    line-height: 1;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .year-filter button:hover {
-    background: var(--vp-c-brand-soft);
+    background: var(--vp-c-bg);
     color: var(--vp-c-brand-1);
 }
 
@@ -313,23 +213,26 @@ const formatYear = (date: string) => {
 .publications-list {
     display: flex;
     flex-direction: column;
-    gap: 30px;
 }
 
 .publication-row {
+    position: relative;
     display: flex;
-    gap: 30px;
-    padding: 30px;
-    background: var(--vp-bg);
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    animation: slideInUp 0.6s ease-out backwards;
+    gap: 24px;
+    padding: 20px 30px;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-bottom: 1px solid var(--vp-c-divider);
+    transition: transform 0.25s ease, background-color 0.25s ease;
+    transform-origin: center left;
 }
 
 .publication-row:hover {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-    transform: translateY(-4px);
+    transform: scale(1.015);
+    background-color: var(--vp-bg);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 6px;
 }
 
 @keyframes slideInUp {
@@ -337,45 +240,46 @@ const formatYear = (date: string) => {
         opacity: 0;
         transform: translateY(30px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
 
-/* 日期卡片 */
-.date-card {
-    flex-shrink: 0;
-    width: 80px;
-    height: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--vp-c-brand-1);
+.thumb {
+    position: relative;
+    width: 240px;
     border-radius: 8px;
+    aspect-ratio: 16 / 9;
+    flex-shrink: 0;
+    overflow: visible;
     background: var(--vp-bg-soft);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
-.date-card .md {
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--vp-c-brand-1);
-    font-style: italic;
+.thumb img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: cover;
 }
 
-.date-card .divider {
-    width: 40px;
-    height: 1px;
-    background: var(--vp-c-brand-2);
-    margin: 4px 0;
-}
-
-.date-card .year {
-    font-size: 16px;
+.venue-badge {
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    padding: 9px;
+    font-size: var(--vp-small);
     font-weight: 500;
-    color: var(--vp-c-brand-1);
+    line-height: 1;
     font-style: italic;
+    color: white;
+    background: rgba(17, 24, 39, 0.4);
+    border-radius: 3px;
+    backdrop-filter: blur(6px);
 }
 
 /* 内容区域 */
@@ -383,236 +287,177 @@ const formatYear = (date: string) => {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 
 .content .title {
-    font-size: 22px;
+    font-size: var(--vp-h3-size);
     font-weight: 600;
-    color: var(--vp-c-text-1);
     line-height: 1.4;
-    margin: 0;
 }
 
 .content .authors {
-    font-size: 15px;
+    font-size: var(--vp-small);
+    line-height: 1.4;
     color: var(--vp-c-text-2);
-    line-height: 1.6;
-    margin: 0;
-}
-
-.content .venue {
-    font-size: 15px;
-    color: var(--vp-c-brand-1);
-    font-style: italic;
-    margin: 0;
 }
 
 .links {
     display: flex;
-    gap: 12px;
-    margin-top: 8px;
+    gap: 15px;
     flex-wrap: wrap;
+    margin-top: 8px;
 }
 
 .link-btn {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 16px;
-    border-radius: 6px;
-    font-size: 14px;
+    gap: 7px;
+    font-size: var(--vp-small);
+    line-height: 1;
     font-weight: 500;
-    text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .link-btn .icon {
-    font-size: 16px;
+    font-size: var(--vp-small);
 }
 
 .link-btn.pdf {
-    background: var(--vp-c-brand-soft);
     color: var(--vp-c-brand-1);
-    border: 1px solid var(--vp-c-brand-2);
-}
-
-.link-btn.pdf:hover {
-    background: var(--vp-c-brand-1);
-    color: var(--vp-bg);
-}
-
-.link-btn.project {
-    background: rgba(16, 185, 129, 0.1);
-    color: rgb(16, 185, 129);
-    border: 1px solid rgba(16, 185, 129, 0.3);
-}
-
-.link-btn.project:hover {
-    background: rgb(16, 185, 129);
-    color: white;
 }
 
 .link-btn.code {
-    background: rgba(139, 92, 246, 0.1);
-    color: rgb(139, 92, 246);
-    border: 1px solid rgba(139, 92, 246, 0.3);
-}
-
-.link-btn.code:hover {
-    background: rgb(139, 92, 246);
-    color: white;
-}
-
-/* 分页器样式 - 复用新闻页样式 */
-.pagination {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 60px;
-    padding: 30px;
-    background: var(--vp-bg);
-    border-radius: 12px;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.total {
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--vp-c-text-2);
-}
-
-.pages-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.pages-wrapper > button {
-    padding: 8px 16px;
-    border: 1px solid var(--vp-c-divider);
-    border-radius: 6px;
-    background: var(--vp-bg);
-    color: var(--vp-c-text-1);
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.pages-wrapper > button:hover:not(:disabled) {
-    background: var(--vp-c-brand-soft);
-    color: var(--vp-c-brand-1);
-    border-color: var(--vp-c-brand-2);
-}
-
-.pages-wrapper > button:disabled {
-    opacity: 0.4;
-    cursor: not-allowed;
-}
-
-.pages {
-    display: flex;
-    gap: 6px;
-}
-
-.pages button {
-    min-width: 36px;
-    height: 36px;
-    padding: 0 8px;
-    border: 1px solid var(--vp-c-divider);
-    border-radius: 6px;
-    background: var(--vp-bg);
-    color: var(--vp-c-text-1);
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.pages button:hover:not(:disabled) {
-    background: var(--vp-c-brand-soft);
     color: var(--vp-c-brand-1);
 }
 
-.pages button.active {
-    background: var(--vp-c-brand-1);
-    color: var(--vp-bg);
-    border-color: var(--vp-c-brand-1);
+.link-btn .icon {
+    width: var(--vp-small);
+    height: var(--vp-small);
+    display: inline-block;
+    flex-shrink: 0;
 }
 
-.pages button:disabled {
-    cursor: default;
-    color: var(--vp-c-text-3);
+.link-btn .link-text {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 
-.jump-page {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-}
 
-.jump-page input {
-    width: 80px;
-    padding: 8px 12px;
-    border: 1px solid var(--vp-c-divider);
-    border-radius: 6px;
-    background: var(--vp-bg-soft);
-    color: var(--vp-c-text-1);
-    font-size: 14px;
-}
+@media (min-width: 1024px) {
+    .container {
+        width: 84vw;
+    }
 
-.jump-page button {
-    padding: 8px 16px;
-    border: 1px solid var(--vp-c-brand-1);
-    border-radius: 6px;
-    background: var(--vp-c-brand-1);
-    color: var(--vp-bg);
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
+    .content-area {
+        display: flex;
+        align-items: flex-start;
+        gap: 120px;
+    }
 
-.jump-page button:hover {
-    background: var(--vp-c-brand-2);
+    .year-filter {
+        width: 180px;
+        padding-top: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: sticky;
+        top: calc(var(--vp-nav-height) + 64px);
+    }
+
+    .year-filter button {
+        all: unset;
+        cursor: pointer;
+        min-width: 120px;
+        text-align: start;
+        font-size: var(--vp-h3-size);
+        font-weight: 500;
+        color: var(--vp-c-text-3);
+        border-radius: 3px;
+        padding: 12px 15px;
+        line-height: 1;
+        transition: color 0.2s ease;
+    }
+
+    .year-filter button:hover {
+        color: var(--vp-c-text-1);
+    }
+
+    .year-filter button.active {
+        color: var(--vp-c-bg);
+        font-weight: 600;
+    }
+
+    .year-filter button {
+        position: relative;
+    }
+
+    .publications-list {
+        flex: 1;
+    }
 }
 
 /* 移动端适配 */
 @media (max-width: 768px) {
     .container {
-        padding: 40px 20px;
+        padding: 20px 30px 40px 30px;
+    }
+
+    .content-area {
+        display: block;
+    }
+
+    .year-filter {
+        padding: 0 10px;
+        flex-direction: row;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 10px;
+        margin-bottom: 8px;
+    }
+
+    .year-filter button {
+        min-width: 40px;
+        padding: 3px 5px;
+        flex-shrink: 0;
+        white-space: nowrap;
+        border-radius: 1px;
     }
 
     .publications-title {
-        font-size: 32px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .publication-row {
+        padding: 15px 12px;
         flex-direction: column;
-        gap: 20px;
-        padding: 20px;
+        gap: 12px;
     }
 
-    .date-card {
-        width: 70px;
-        height: 70px;
+    .thumb {
+        width: auto;
+        border-radius: 3px;
     }
 
-    .content .title {
-        font-size: 18px;
+    .venue-badge {
+        border-radius: 2px;
+        left: -1px;
+        top: -1px;
+        padding: 6px 9px;
     }
 
-    .pagination {
-        flex-direction: column;
-        align-items: stretch;
+    .content {
+        gap: 4px;
     }
 
-    .pages-wrapper {
-        justify-content: center;
+    .links {
+        margin-top: 5px;
     }
 
-    .jump-page {
-        justify-content: center;
+    .link-btn {
+        gap: 6px;
     }
 }
 </style>
