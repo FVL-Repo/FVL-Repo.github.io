@@ -10,7 +10,7 @@
                         {{ year === 'all' ? t.allYears : year }}
                     </button>
                 </div>
-                <div class="publications-list">
+                <div class="publications-list" :key="selectedYear">
                     <div v-for="(item, index) in filteredPublications" :key="item.year + item.title"
                         class="publication-row" :style="{ animationDelay: `${index * 150}ms` }">
                         <!-- 图片 -->
@@ -135,12 +135,16 @@ const availableYears = computed(() => {
 })
 
 const filteredPublications = computed(() => {
-    if (selectedYear.value === 'all') {
-        return localizedPublicationsList.value
-    }
-    return localizedPublicationsList.value.filter(
-        p => p.year.startsWith(selectedYear.value as string)
-    )
+    const list =
+        selectedYear.value === 'all'
+            ? localizedPublicationsList.value
+            : localizedPublicationsList.value.filter(
+                  p => p.year.startsWith(selectedYear.value as string)
+              )
+
+    return [...list].sort((a, b) => {
+        return Number(b.year) - Number(a.year)
+    })
 })
 
 watch(selectedYear, () => {
@@ -233,18 +237,6 @@ watch(selectedYear, () => {
     background-color: var(--vp-bg);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
-}
-
-@keyframes slideInUp {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
 }
 
 .thumb {
@@ -374,7 +366,7 @@ watch(selectedYear, () => {
         font-size: var(--vp-h3-size);
         font-weight: 500;
         color: var(--vp-c-text-3);
-        border-radius: 3px;
+        border-radius: 6px;
         padding: 12px 15px;
         line-height: 1;
         transition: color 0.2s ease;
