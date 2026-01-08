@@ -103,24 +103,6 @@ const t = computed(() => TEXT[currentLang.value])
    多语言论文数据派生
    ========================= */
 
-interface LocalizedPublication {
-    year: string
-    authors: string
-    title: string
-    venue: string
-    image?: string
-    pdf?: string
-    dataset?: string
-    code?: string
-}
-
-const localizedPublicationsList = computed<LocalizedPublication[]>(() =>
-    publicationsList.map(item => ({
-        ...item,
-        title: item.title[currentLang.value]
-    }))
-)
-
 /* =========================
    年份筛选
    ========================= */
@@ -137,10 +119,10 @@ const availableYears = computed(() => {
 const filteredPublications = computed(() => {
     const list =
         selectedYear.value === 'all'
-            ? localizedPublicationsList.value
-            : localizedPublicationsList.value.filter(
-                  p => p.year.startsWith(selectedYear.value as string)
-              )
+            ? publicationsList
+            : publicationsList.filter(
+                p => p.year.startsWith(selectedYear.value as string)
+            )
 
     return [...list].sort((a, b) => {
         return Number(b.year) - Number(a.year)
@@ -366,7 +348,7 @@ watch(selectedYear, () => {
         font-size: var(--vp-h3-size);
         font-weight: 500;
         color: var(--vp-c-text-3);
-        border-radius: 6px;
+        border-radius: 5px;
         padding: 12px 15px;
         line-height: 1;
         transition: color 0.2s ease;
