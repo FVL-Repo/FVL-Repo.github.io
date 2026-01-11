@@ -5,21 +5,34 @@
             <div class="content-area">
                 <!-- 年份筛选器 -->
                 <div class="year-filter">
-                    <button v-for="year in availableYears" :key="year" :class="{ active: selectedYear === year }"
-                        @click="selectedYear = year">
-                        {{ year === 'all' ? t.allYears : year }}
+                    <button
+                        v-for="year in availableYears"
+                        :key="year"
+                        :class="{ active: selectedYear === year }"
+                        @click="selectedYear = year"
+                    >
+                        {{
+                            year === 'all'
+                                ? t.allYears
+                                : year === 'earlier'
+                                    ? earlierLabel
+                                    : year
+                        }}
                     </button>
                 </div>
+
                 <div class="publications-list" :key="selectedYear">
-                    <div v-for="(item, index) in filteredPublications" :key="item.year + item.title"
-                        class="publication-row" :style="{ animationDelay: `${index * 150}ms` }">
-                        <!-- 图片 -->
+                    <div
+                        v-for="(item, index) in filteredPublications"
+                        :key="item.year + item.title"
+                        class="publication-row"
+                        :style="{ animationDelay: `${index * 150}ms` }"
+                    >
                         <div class="thumb" v-if="item.image">
-                            <img :src="item.image" alt="publication teaser" />
+                            <img :src="item.image" alt="" />
                             <span class="venue-badge">{{ item.venue }}</span>
                         </div>
 
-                        <!-- 内容 -->
                         <div class="content">
                             <h2 class="title">{{ item.title }}</h2>
                             <p class="authors">{{ item.authors }}</p>
@@ -36,8 +49,11 @@
                                 </a>
 
                                 <a v-if="item.code" :href="item.code" target="_blank" class="link-btn code">
-                                    <img class="icon github-icon" src="/images/github-mark/github-mark.svg"
-                                        alt="GitHub" />
+                                    <img
+                                        class="icon github-icon"
+                                        src="/images/github-mark/github-mark.svg"
+                                        alt="GitHub"
+                                    />
                                     <span class="link-text">{{ t.code }}</span>
                                 </a>
                             </div>
@@ -46,6 +62,7 @@
                 </div>
             </div>
         </div>
+
         <Footer />
     </div>
 </template>
@@ -57,7 +74,7 @@ import { publicationsList } from '../../data/publications'
 import Footer from '../components/Footer.vue'
 
 /* =========================
-   VitePress 语言上下文
+   语言上下文
    ========================= */
 
 const { lang } = useData()
@@ -67,17 +84,12 @@ const currentLang = computed<'zh' | 'en'>(() =>
 )
 
 /* =========================
-   多语言文本
+   文案
    ========================= */
 
 const TEXT = {
     zh: {
         pageTitle: '论文',
-        total: (n: number) => `共 ${n} 篇`,
-        prev: '上一页',
-        next: '下一页',
-        jump: '跳转',
-        pagePlaceholder: '页',
         allYears: '全部',
         pdf: '论文',
         dataset: '数据集',
@@ -85,11 +97,6 @@ const TEXT = {
     },
     en: {
         pageTitle: 'Publications',
-        total: (n: number) => `Total ${n}`,
-        prev: 'Previous',
-        next: 'Next',
-        jump: 'Go',
-        pagePlaceholder: 'Page',
         allYears: 'All',
         pdf: 'Paper',
         dataset: 'Dataset',
@@ -100,33 +107,48 @@ const TEXT = {
 const t = computed(() => TEXT[currentLang.value])
 
 /* =========================
-   多语言论文数据派生
+   年份逻辑
    ========================= */
 
-/* =========================
-   年份筛选
-   ========================= */
+type YearFilter = 'all' | 'earlier' | string
 
-const selectedYear = ref<string | 'all'>('all')
+const selectedYear = ref<YearFilter>('all')
 
-const availableYears = computed(() => {
-    const years = new Set(
-        publicationsList.map(p => p.year)
-    )
-    return ['all', ...Array.from(years).sort().reverse()]
+const currentYear = new Date().getFullYear()
+const recentYearThreshold = currentYear - 9
+const earlierYear = recentYearThreshold - 1
+
+/* earlier 文案：2016 & earlier / 2016 及更早 */
+const earlierLabel = computed(() => {
+    return `${earlierYear} & earlier`
 })
 
-const filteredPublications = computed(() => {
-    const list =
-        selectedYear.value === 'all'
-            ? publicationsList
-            : publicationsList.filter(
-                p => p.year.startsWith(selectedYear.value as string)
-            )
+/* 侧边栏年份 */
+const availableYears = computed<YearFilter[]>(() => {
+    const years = Array.from(
+        new Set(publicationsList.map(p => Number(p.year)))
+    ).sort((a, b) => b - a)
 
-    return [...list].sort((a, b) => {
-        return Number(b.year) - Number(a.year)
-    })
+    const recentYears = years.filter(y => y >= recentYearThreshold)
+
+    return ['all', ...recentYears.map(String), 'earlier']
+})
+
+/* 论文筛选 */
+const filteredPublications = computed(() => {
+    let list = publicationsList
+
+    if (selectedYear.value === 'earlier') {
+        list = publicationsList.filter(
+            p => Number(p.year) <= earlierYear
+        )
+    } else if (selectedYear.value !== 'all') {
+        list = publicationsList.filter(
+            p => p.year.startsWith(selectedYear.value)
+        )
+    }
+
+    return [...list].sort((a, b) => Number(b.year) - Number(a.year))
 })
 
 watch(selectedYear, () => {
@@ -243,10 +265,10 @@ watch(selectedYear, () => {
 
 .venue-badge {
     position: absolute;
-    top: -3px;
-    left: -3px;
-    padding: 9px;
-    font-size: var(--vp-small);
+    top: -1px;
+    left: -1px;
+    padding: 6px;
+    font-size: var(--vp-tiny);
     font-weight: 500;
     line-height: 1;
     font-style: italic;
@@ -417,8 +439,6 @@ watch(selectedYear, () => {
 
     .venue-badge {
         border-radius: 2px;
-        left: -1px;
-        top: -1px;
         padding: 6px 9px;
     }
 
