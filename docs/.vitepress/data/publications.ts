@@ -99,7 +99,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Shanshan Li, Da Huang, Yu He, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue",
         "title": "TP-MDDN: Task-Preferenced Multi-Demand-Driven Navigation with Autonomous Decision-Making.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
-        "pdf": ""
+        "pdf": "https://arxiv.org/pdf/2511.17225"
     },
     {
         "year": "2025",
@@ -239,7 +239,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Jiayu Wang, Yue Yu, Jingjing Chen, Qi Dai, Yu-Gang Jiang",
         "title": "FaceA-Net: Facial Attribute-Driven ID Preserving Image Generation Network.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": ""
+        "pdf": "https://dl.acm.org/doi/10.1609/aaai.v39i7.32833"
     },
     {
         "year": "2025",
@@ -274,21 +274,21 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Teng Li, Xingjun Ma, Yu-Gang Jiang",
         "title": "AIM: Additional Image Guided Generation of Transferable Adversarial Attacks.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": ""
+        "pdf": "https://arxiv.org/pdf/2501.01106"
     },
     {
         "year": "2025",
         "authors": "Yixu Wang, Tianle Gu, Yan Teng, Yingchun Wang, Xingjun Ma",
         "title": "HoneypotNet: Backdoor Attacks Against Model Extraction.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": ""
+        "pdf": "https://arxiv.org/pdf/2501.01090"
     },
     {
         "year": "2025",
         "authors": "Xiang Zheng, Longxiang Wang, Yi Liu, Xingjun Ma, Chao Shen, Cong Wang",
         "title": "CALM: Curiosity-Driven Auditing for Large Language Models.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": ""
+        "pdf": "https://arxiv.org/pdf/2501.02997"
     },
     {
         "year": "2024",
@@ -581,7 +581,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2024",
         "authors": "Xingjun Ma, Linxi Jiang, Hanxun Huang, Zejia Weng, James Bailey, Yu-Gang Jiang",
         "title": "Imbalanced gradients: a subtle cause of overestimated adversarial robustness.",
-        "venue": "Machine Learning, 113, 2301–2326 (2024).",
+        "venue": "Machine Learning, 113, 2301-2326 (2024).",
         "pdf": "https://link.springer.com/article/10.1007/s10994-023-06328-7"
     },
     {
@@ -932,7 +932,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Linhai Zhuo, Yuqian Fu, Jingjing Chen, Yixin Cao, Yu-Gang Jiang",
         "title": "TGDM: Target Guided Dynamic Mixup for Cross-Domain Few-Shot Learning.",
         "venue": "ACM Multimedia (ACM MM), Lisbon, Portugal, 2022.",
-        "pdf": "http://arxiv.org/abs/2210.05392"
+        "pdf": "https://arxiv.org/abs/2210.05392"
     },
     {
         "year": "2022",
@@ -1443,7 +1443,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yu-Gang Jiang, Zuxuan Wu, Jinhui Tang, Zechao Li, Xiangyang Xue, Shih-Fu Chang",
         "title": "Modeling Multimodal Clues in a Hybrid Deep Learning Framework for Video Classification.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 20, issue 11, pp. 3137-3147, 2018.",
-        "pdf": "http://arxiv.org/abs/1706.04508"
+        "pdf": "https://arxiv.org/abs/1706.04508"
     },
     {
         "year": "2018",
@@ -1478,7 +1478,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zuxuan Wu, Ting Yao, Yanwei Fu, Yu-Gang Jiang",
         "title": "Deep Learning for Video Classification and Captioning.",
         "venue": "In Frontiers of Multimedia Research, Shih-Fu Chang (Ed.), Association for Computing Machinery and Morgan & Claypool, New York, NY, USA, pp. 3-29, 2018.",
-        "pdf": "http://arxiv.org/pdf/1609.06782v1.pdf"
+        "pdf": "https://arxiv.org/pdf/1609.06782v1.pdf"
     },
     {
         "year": "2018",
@@ -1499,7 +1499,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yu-Gang Jiang, Zuxuan Wu, Jun Wang, Xiangyang Xue, Shih-Fu Chang",
         "title": "Exploiting Feature and Class Relationships in Video Categorization with Regularized Deep Neural Networks.",
         "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 40, issue 2, pp. 352-364, 2018.",
-        "pdf": "http://arxiv.org/abs/1502.07209"
+        "pdf": "https://arxiv.org/abs/1502.07209"
     },
     {
         "year": "2018",
@@ -1513,28 +1513,28 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Haroon Idrees, Amir R. Zamir, Yu-Gang Jiang, Alex Gorban, Ivan Laptev, Rahul Sukthankar, Mubarak Shah",
         "title": "The THUMOS Challenge on Action Recognition for Videos 'in the Wild'.",
         "venue": "Computer Vision and Image Understanding (CVIU), vol. 155, pp. 1-23, 2017.",
-        "pdf": "http://arxiv.org/abs/1604.06182"
+        "pdf": "https://arxiv.org/abs/1604.06182"
     },
     {
         "year": "2017",
         "authors": "Zhiqiang Shen, Zhuang Liu, Jianguo Li, Yu-Gang Jiang, Yurong Chen, Xiangyang Xue",
         "title": "DSOD: Learning Deeply Supervised Object Detectors from Scratch.",
         "venue": "International Conference on Computer Vision (ICCV), Italy, 2017.",
-        "pdf": "http://arxiv.org/abs/1708.01241"
+        "pdf": "https://arxiv.org/abs/1708.01241"
     },
     {
         "year": "2017",
         "authors": "Xuelin Qian, Yanwei Fu, Yu-Gang Jiang, Tao Xiang, Xiangyang Xue",
         "title": "Multi-scale Deep Learning Architectures for Person Re-identification.",
         "venue": "International Conference on Computer Vision (ICCV), Italy, 2017.",
-        "pdf": "http://arxiv.org/abs/1709.05165"
+        "pdf": "https://arxiv.org/abs/1709.05165"
     },
     {
         "year": "2017",
         "authors": "Xintong Han, Zuxuan Wu, Yu-Gang Jiang, Larry Davis",
         "title": "Learning Fashion Compatibility with Bidirectional LSTMs.",
         "venue": "ACM Multimedia (ACM MM), Mountain View, USA, 2017.",
-        "pdf": "http://arxiv.org/abs/1707.05691"
+        "pdf": "https://arxiv.org/abs/1707.05691"
     },
     {
         "year": "2017",
@@ -1569,7 +1569,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhiqiang Shen, Jianguo Li, Zhou Su, Minjun Li, Yurong Chen, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Weakly Supervised Dense Video Captioning.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Hawaii, USA, 2017.",
-        "pdf": "http://arxiv.org/abs/1704.01502v1"
+        "pdf": "https://arxiv.org/abs/1704.01502v1"
     },
     {
         "year": "2017",
@@ -1590,7 +1590,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhiqiang Shen, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Iterative Object and Part Transfer for Fine-Grained Recognition.",
         "venue": "IEEE International Conference on Multimedia & Expo (ICME), Hong Kong, China, 2017.",
-        "pdf": "http://arxiv.org/abs/1703.09983v1"
+        "pdf": "https://arxiv.org/abs/1703.09983v1"
     },
     {
         "year": "2017",

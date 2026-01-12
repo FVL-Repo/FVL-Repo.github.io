@@ -76,14 +76,14 @@ const TEXT = {
     zh: {
         pageTitle: '论文',
         allYears: '全部',
-        pdf: '论文',
+        pdf: 'PDF',
         dataset: '数据集',
         code: '代码'
     },
     en: {
         pageTitle: 'Publications',
         allYears: 'All',
-        pdf: 'Paper',
+        pdf: 'PDF',
         dataset: 'Dataset',
         code: 'Code'
     }
