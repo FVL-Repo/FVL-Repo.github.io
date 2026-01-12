@@ -931,21 +931,21 @@ export const publicationsList: PublicationItem[] = [
         "year": "2022",
         "authors": "Linhai Zhuo, Yuqian Fu, Jingjing Chen, Yixin Cao, Yu-Gang Jiang",
         "title": "TGDM: Target Guided Dynamic Mixup for Cross-Domain Few-Shot Learning.",
-        "venue": "ACM Multimedia (ACM MM), Lisbon, Portugal, 2022.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://arxiv.org/abs/2210.05392"
     },
     {
         "year": "2022",
         "authors": "Yuqian Fu, Yu Xie, Yanwei Fu, Jingjing Chen, Yu-Gang Jiang",
         "title": "ME-D2N: Multi-Expert Domain Decompositional Network for Cross-Domain Few-Shot Learning.",
-        "venue": "ACM Multimedia (ACM MM), Lisbon, Portugal, 2022.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://arxiv.org/abs/2210.05280"
     },
     {
         "year": "2022",
         "authors": "Yuehao Yin, Bin Zhu, Jingjing Chen, Lechao Cheng, Yu-Gang Jiang",
         "title": "Mix-DANN and Dynamic-Modal-Distillation for Video Domain Adaptation.",
-        "venue": "ACM Multimedia (ACM MM), Lisbon, Portugal, 2022.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3503161.3548313"
     },
     {
@@ -1022,28 +1022,28 @@ export const publicationsList: PublicationItem[] = [
         "year": "2021",
         "authors": "Zheng Wang, Jingjing Chen, Yu-Gang Jiang",
         "title": "Visual Co-Occurrence Alignment Learning for Weakly-Supervised Video Moment Retrieval.",
-        "venue": "ACM Multimedia (ACM MM), Chengdu, China, 2021.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://dl.acm.org/doi/10.1145/3474085.3475278"
     },
     {
         "year": "2021",
         "authors": "Yuqian Fu, Yanwei Fu, Yu-Gang Jiang",
         "title": "Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by Labeled Target Data.",
-        "venue": "ACM Multimedia (ACM MM), Chengdu, China, 2021.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://arxiv.org/abs/2107.11978"
     },
     {
         "year": "2021",
         "authors": "Yang Jiao, Zequn Jie, Weixin Luo, Jingjing Chen, Yu-Gang Jiang, Xiaolin Wei, Lin Ma",
         "title": "Two-stage Visual Cues Enhancement Network for Referring Image Segmentation.",
-        "venue": "ACM Multimedia (ACM MM), Chengdu, China, 2021.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3474085.3475222"
     },
     {
         "year": "2021",
         "authors": "Zejia Weng, Lingchen Meng, Rui Wang, Zuxuan Wu, Yu-Gang Jiang",
         "title": "A Multimodal Framework for Video Ads Understanding.",
-        "venue": "ACM Multimedia (ACM MM), Chengdu, China, 2021.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://arxiv.org/abs/2108.12868"
     },
     {
@@ -1225,7 +1225,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2019",
         "authors": "Zuxuan Wu, Caiming Xiong, Yu-Gang Jiang, Larry Davis",
         "title": "LiteEval: A Coarse-to-Fine Framework for Resource Efficient Video Recognition.",
-        "venue": "Thirty-third Conference on Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2019.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2019.",
         "pdf": "https://proceedings.neurips.cc/paper/2019/file/bd853b475d59821e100d3d24303d7747-Paper.pdf"
     },
     {
@@ -1281,42 +1281,42 @@ export const publicationsList: PublicationItem[] = [
         "year": "2019",
         "authors": "Linxi Jiang, Xingjun Ma, Shaoxiang Chen, James Bailey, Yu-Gang Jiang",
         "title": "Black-box Adversarial Attacks on Video Recognition Models.",
-        "venue": "ACM Multimedia (ACM MM), Nice, France, 2019.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://arxiv.org/abs/1904.05181"
     },
     {
         "year": "2019",
         "authors": "Yuqian Fu, Chengrong Wang, Yanwei Fu, Yu-Xiong Wang, Cong Bai, Xiangyang Xue, Yu-Gang Jiang",
         "title": "Embodied One-Shot Video Recognition: Learning from Actions of a Virtual Embodied Agent.",
-        "venue": "ACM Multimedia (ACM MM), Nice, France, 2019.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351015"
     },
     {
         "year": "2019",
         "authors": "Juntong Cheng, Yi-Ping Phoebe Chen, Minjun Li, Yu-Gang Jiang",
         "title": "TC-GAN: Triangle Cycle-Consistent GANs for Face Frontalization with Facial Features Preserved.",
-        "venue": "ACM Multimedia (ACM MM), Nice, France, 2019.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351031"
     },
     {
         "year": "2019",
         "authors": "Changmao Cheng, Chi Zhang, Yichen Wei, Yu-Gang Jiang",
         "title": "Sparse Temporal Causal Convolution for Efficient Action Modeling.",
-        "venue": "ACM Multimedia (ACM MM), Nice, France, 2019.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351054"
     },
     {
         "year": "2019",
         "authors": "Hangyu Lin, Yanwei Fu, Peng Lu, Shaogang Gong, Xiangyang Xue, Yu-Gang Jiang",
         "title": "TC-Net for iSBIR: Triplet Classification Network for Instance-level Sketch Based Image Retrieval.",
-        "venue": "ACM Multimedia (ACM MM), Nice, France, 2019.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "http://www.eecs.qmul.ac.uk/~sgg/papers/LinEtAl_ACM_MM2019.pdf"
     },
     {
         "year": "2019",
         "authors": "Wenxuan Wang, Qiang Sun, Yanwei Fu, Tao Chen, Chenjie Cao, Ziqi Zheng, Guoqiang Xu, Han Qiu, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Comp-GAN: Compositional Generative Adversarial Network in Synthesizing and Recognizing Facial Expression.",
-        "venue": "ACM Multimedia (ACM MM), Nice, France, 2019.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351032"
     },
     {
@@ -1533,35 +1533,35 @@ export const publicationsList: PublicationItem[] = [
         "year": "2017",
         "authors": "Xintong Han, Zuxuan Wu, Yu-Gang Jiang, Larry Davis",
         "title": "Learning Fashion Compatibility with Bidirectional LSTMs.",
-        "venue": "ACM Multimedia (ACM MM), Mountain View, USA, 2017.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "https://arxiv.org/abs/1707.05691"
     },
     {
         "year": "2017",
         "authors": "Rui-Wei Zhao, Zuxuan Wu, Jianguo Li, Yu-Gang Jiang",
         "title": "Learning Semantic Feature Map for Visual Content Recognition.",
-        "venue": "ACM Multimedia (ACM MM), Mountain View, USA, 2017.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/10.1145/3123266.3123379"
     },
     {
         "year": "2017",
         "authors": "Jun-Yan He, Xiao Wu, Yu-Gang Jiang, Bo Zhang, Qiang Peng",
         "title": "Sketch Recognition with Deep Visual-Sequential Fusion Model.",
-        "venue": "ACM Multimedia (ACM MM), Mountain View, USA, 2017.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "https://dl.acm.org/doi/10.1145/3123266.3123321"
     },
     {
         "year": "2017",
         "authors": "Weidong Yin, Yanwei Fu, Yiqing Ma, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Learning to Generate and Edit Hairstyles.",
-        "venue": "ACM Multimedia (ACM MM), Mountain View, USA, 2017.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/epdf/10.1145/3123266.3123423"
     },
     {
         "year": "2017",
         "authors": "Keke He, Zhanxiong Wang, Yanwei Fu, Yu-Gang Jiang, Rui Feng, Xiangyang Xue",
         "title": "Adaptively Weighted Multi-task Deep Network for Person Attribute Classification.",
-        "venue": "ACM Multimedia (ACM MM), Mountain View, USA, 2017.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/pdf/10.1145/3123266.3123424"
     },
     {
@@ -1610,14 +1610,14 @@ export const publicationsList: PublicationItem[] = [
         "year": "2016",
         "authors": "Zuxuan Wu, Yu-Gang Jiang, Xi Wang, Hao Ye, Xiangyang Xue",
         "title": "Multi-Stream Multi-Class Fusion of Deep Networks for Video Classification.",
-        "venue": "ACM Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
         "pdf": "https://dl.acm.org/citation.cfm?id=2964328"
     },
     {
         "year": "2016",
         "authors": "Qi Dai, Jianguo Li, Jingdong Wang, Yu-Gang Jiang",
         "title": "Binary Optimized Hashing.",
-        "venue": "ACM Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
         "pdf": "http://dl.acm.org/doi/epdf/10.1145/2964284.2964331"
     },
     {
@@ -1694,7 +1694,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2015",
         "authors": "Zuxuan Wu, Xi Wang, Yu-Gang Jiang, Hao Ye, Xiangyang Xue",
         "title": "Modeling Spatial-Temporal Clues in a Hybrid Deep Learning Framework for Video Classification.",
-        "venue": "ACM Multimedia (ACM MM), Brisbane, Australia, 2015.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Brisbane, Australia, 2015.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/47/d2/b538f59340d78dbe9908f8b113b3/06ffc8b2-9c9c-4399-8292-72d8edea5dfb.pdf"
     },
     {
@@ -1792,7 +1792,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2014",
         "authors": "Zuxuan Wu, Yu-Gang Jiang, Jun Wang, Jian Pu, Xiangyang Xue",
         "title": "Exploring Inter-feature and Inter-class Relationships with Deep Neural Networks for Video Classification.",
-        "venue": "ACM Multimedia (ACM MM), Orlando, USA, 2014.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/0a/c7/0c05933749488760552236d4026e/bc7b67c0-7dd4-4433-bdd8-f6baf2df0999.pdf"
     },
     {
@@ -1820,14 +1820,14 @@ export const publicationsList: PublicationItem[] = [
         "year": "2014",
         "authors": "Jiajun Wang, Yu-Gang Jiang, Qiang Wang, Kuiyuan Yang, Chong-Wah Ngo",
         "title": "Organizing Video Search Results to Adapted Semantic Hierarchies for Topic-based Browsing.",
-        "venue": "ACM Multimedia (ACM MM), Orlando, USA, 2014.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/db/4d/3cd3f507486aae45d60450def04d/4ab0bc87-eb4b-42a0-adde-afd17e5ec208.pdf"
     },
     {
         "year": "2014",
         "authors": "Xi Wang, Yu-Gang Jiang, Zhenhua Chai, Zichen Gu, Xinyu Du, Dong Wang",
         "title": "Real-Time Summarization of User-Generated Videos Based on Semantic Recognition.",
-        "venue": "ACM Multimedia (ACM MM), Orlando, USA, 2014.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d5/a8/48e889c240adbed4f608c87d3d0c/b214e337-9c2e-4f03-82a6-07b591b22728.pdf"
     },
     {
@@ -1932,14 +1932,14 @@ export const publicationsList: PublicationItem[] = [
         "year": "2013",
         "authors": "Yanran Wang, Qi Dai, Rui Feng, Yu-Gang Jiang",
         "title": "Beauty is Here: Evaluating Aesthetics in Videos Using Multimodal Features and Free Training Data.",
-        "venue": "ACM Multimedia (ACM MM), Barcelona, Spain, 2013.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d7/7a/4f40432547339034fa4434de1a46/8730fff9-e900-4383-abf2-070fca70de56.pdf"
     },
     {
         "year": "2013",
         "authors": "Junqiang Wang, Jinhui Tang, Yu-Gang Jiang",
         "title": "Strong Geometry Consistency for Large Scale Partial-Duplicate Image Search.",
-        "venue": "ACM Multimedia (ACM MM), Barcelona, Spain, 2013.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e6/16/80b7242e4ddab5222e66f48492a8/8fd885aa-e2d2-4ce9-98c1-2e9b45bedae5.pdf"
     },
     {
@@ -2002,7 +2002,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2012",
         "authors": "Yu-Gang Jiang, Qi Dai, Yingbin Zheng, Xiangyang Xue, Jie Liu, Dong Wang",
         "title": "A Fast Video Event Recognition System and Its Application to Video Search.",
-        "venue": "ACM Multimedia (ACM MM), Nara, Japan, 2012. (Demo session)",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Nara, Japan, 2012. (Demo session)",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e8/0b/062951304a5f90823e9f631f8866/ee9b1b92-01cd-4ab7-9446-a165f0ce9011.pdf"
     },
     {
@@ -2037,14 +2037,14 @@ export const publicationsList: PublicationItem[] = [
         "year": "2011",
         "authors": "Chun-Chet Tan, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Towards Textually Describing Complex Video Contents with Audio-Visual Concept Classifiers.",
-        "venue": "ACM Multimedia (ACM MM), Arizona, USA, 2011.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/6c/11/50f8def4496db63b110e24fbea74/56df451e-dc75-47b2-a483-24ccde0d27c5.pdf"
     },
     {
         "year": "2011",
         "authors": "Shiai Zhu, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "On the Pooling of Positive Examples with Ontology for Visual Concept Learning.",
-        "venue": "ACM Multimedia (ACM MM), Arizona, USA, 2011.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/0d/31/b4eff63d47c18629572c20f16b89/8248ea6c-b8ae-402e-8e52-cd83ba6ca3d6.pdf"
     },
     {
@@ -2114,14 +2114,14 @@ export const publicationsList: PublicationItem[] = [
         "year": "2009",
         "authors": "Jun Wang, Eric Pohlmeyer, Barbara Hanna, Yu-Gang Jiang, Paul Sajda, Shih-Fu Chang",
         "title": "Brain State Decoding for Rapid Image Retrieval.",
-        "venue": "ACM Multimedia (ACM MM), Beijing, China, 2009.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ca/ff/1e0aaf09439890647996c5c6eedd/3ee9ec3b-5a7e-454f-9b34-4c8cec6239cc.pdf"
     },
     {
         "year": "2009",
         "authors": "Yu-Gang Jiang, Chong-Wah Ngo, Shih-Fu Chang",
         "title": "Semantic Context Transfer across Heterogeneous Sources for Domain Adaptive Video Search.",
-        "venue": "ACM Multimedia (ACM MM), Beijing, China, 2009.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/4f/dc/a8d7aacc45b4bb091a87552ede61/c59c09bf-4901-4aa1-a5d9-0e29b9f86f72.pdf"
     },
     {
@@ -2163,7 +2163,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2008",
         "authors": "Feng Wang, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Video Event Detection Using Motion Relativity and Visual Relatedness.",
-        "venue": "ACM Multimedia (ACM MM), Vancouver, Canada, 2008.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Vancouver, Canada, 2008.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/66/ff/53ad0fde456b8f30a8da446def54/7fa2843f-ec9c-40fc-8245-0ad71ead7840.pdf"
     },
     {
@@ -2219,7 +2219,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2007",
         "authors": "Jun Yang, Yu-Gang Jiang, Alexander G. Hauptmann, Chong-Wah Ngo",
         "title": "Evaluating Bag-of-Visual-Words Representations in Scene Classification.",
-        "venue": "ACM SIGMM Workshop on Multimedia Information Retrieval (MIR), in conjunction with ACM Multimedia, Germany, 2007.",
+        "venue": "ACM SIGMM Workshop on Multimedia Information Retrieval (MIR), in conjunction with ACM International Conference on Multimedia (ACM MM), Germany, 2007.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ba/52/125b144e439eab33e1db669b123a/28cfa33e-68f0-43e2-ba28-cd3f602b5234.pdf"
     },
     {
@@ -2233,7 +2233,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2006",
         "authors": "Chong-Wah Ngo, Wan-Lei Zhao, Yu-Gang Jiang",
         "title": "Fast Tracking of Near-Duplicate Keyframes in Broadcast Domain with Transitivity Propagation.",
-        "venue": "ACM Multimedia (ACM MM), Santa Barbara, CA, USA, 2006.",
+        "venue": "ACM International Conference on Multimedia (ACM MM), Santa Barbara, CA, USA, 2006.",
         "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e4/a2/c890294049d28e015ea2b99bf6d4/75108302-bcf2-4ac4-98db-f9b66ccf85d2.pdf"
     },
     {
