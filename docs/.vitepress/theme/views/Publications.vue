@@ -5,12 +5,8 @@
             <div class="content-area">
                 <!-- 年份筛选器 -->
                 <div class="year-filter">
-                    <button
-                        v-for="year in availableYears"
-                        :key="year"
-                        :class="{ active: selectedYear === year }"
-                        @click="selectedYear = year"
-                    >
+                    <button v-for="year in availableYears" :key="year" :class="{ active: selectedYear === year }"
+                        @click="selectedYear = year">
                         {{
                             year === 'all'
                                 ? t.allYears
@@ -22,20 +18,12 @@
                 </div>
 
                 <div class="publications-list" :key="selectedYear">
-                    <div
-                        v-for="(item, index) in filteredPublications"
-                        :key="item.year + item.title"
-                        class="publication-row"
-                        :style="{ animationDelay: `${index * 150}ms` }"
-                    >
-                        <div class="thumb" v-if="item.image">
-                            <img :src="item.image" alt="" />
-                            <span class="venue-badge">{{ item.venue }}</span>
-                        </div>
-
+                    <div v-for="(item, index) in filteredPublications" :key="item.year + item.title"
+                        class="publication-row" :style="{ animationDelay: `${index * 150}ms` }">
                         <div class="content">
                             <h2 class="title">{{ item.title }}</h2>
                             <p class="authors">{{ item.authors }}</p>
+                            <p class="venue">{{ item.venue }}</p>
 
                             <div class="links">
                                 <a v-if="item.pdf" :href="item.pdf" target="_blank" class="link-btn pdf">
@@ -49,11 +37,8 @@
                                 </a>
 
                                 <a v-if="item.code" :href="item.code" target="_blank" class="link-btn code">
-                                    <img
-                                        class="icon github-icon"
-                                        src="/images/github-mark/github-mark.svg"
-                                        alt="GitHub"
-                                    />
+                                    <img class="icon github-icon" src="/images/github-mark/github-mark.svg"
+                                        alt="GitHub" />
                                     <span class="link-text">{{ t.code }}</span>
                                 </a>
                             </div>
@@ -227,55 +212,20 @@ watch(selectedYear, () => {
     position: relative;
     display: flex;
     gap: 24px;
-    padding: 20px 30px;
+    padding: 24px 36px;
     background: transparent;
     border-radius: 0;
     box-shadow: none;
-    border-bottom: 1px solid var(--vp-c-divider);
+    border-bottom: 1px solid rgba(150, 150, 150, 0.5);
     transition: transform 0.25s ease, background-color 0.25s ease;
     transform-origin: center left;
 }
 
 .publication-row:hover {
-    transform: scale(1.015);
+    transform: scale(1.02);
     background-color: var(--vp-bg);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     border-radius: 6px;
-}
-
-.thumb {
-    position: relative;
-    width: 240px;
-    border-radius: 8px;
-    aspect-ratio: 16 / 9;
-    flex-shrink: 0;
-    overflow: visible;
-    background: var(--vp-bg-soft);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-}
-
-.thumb img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-    object-fit: cover;
-}
-
-.venue-badge {
-    position: absolute;
-    top: -1px;
-    left: -1px;
-    padding: 6px;
-    font-size: var(--vp-tiny);
-    font-weight: 500;
-    line-height: 1;
-    font-style: italic;
-    color: white;
-    background: rgba(17, 24, 39, 0.4);
-    border-radius: 3px;
-    backdrop-filter: blur(6px);
 }
 
 /* 内容区域 */
@@ -294,8 +244,14 @@ watch(selectedYear, () => {
 
 .content .authors {
     font-size: var(--vp-small);
-    line-height: 1.4;
+    line-height: 1.5;
     color: var(--vp-c-text-2);
+}
+
+.content .venue {
+    font-size: var(--vp-small);
+    line-height: 1.4;
+    color: var(--vp-c-text-1);
 }
 
 .links {
