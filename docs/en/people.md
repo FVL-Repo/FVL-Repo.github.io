@@ -28,11 +28,6 @@ const orgnization = [
     title: 'Professor'
   },
   {
-    avatar: '/images/people/faculty/fuyanwei.jpg',
-    name: 'Yanwei Fu',
-    title: 'Professor'
-  },
-  {
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/ygjiang.png',
     name: 'Yu-gang Jiang',
     title: 'Professor & Director'
@@ -47,6 +42,16 @@ const orgnization = [
     avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/wzx.png',
     name: 'Zuxuan Wu',
     title: 'Associate Professor'
+  },
+  {
+    avatar: '/images/people/faculty/ZiyiYe.png',
+    name: 'Ziyi Ye',
+    title: 'Assistant Professor'
+  },
+  {
+    avatar: '/images/people/faculty/XiaosongJia.png',
+    name: 'Xiaosong Jia',
+    title: 'Assistant Professor'
   },
 ]
 
