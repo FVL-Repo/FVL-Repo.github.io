@@ -30,7 +30,7 @@ import { newsList } from '../../data/news'
 
 const { lang } = useData()
 
-const currentLang = computed < 'zh' | 'en' > (() =>
+const currentLang = computed<'zh' | 'en'>(() =>
     lang.value.startsWith('zh') ? 'zh' : 'en'
 )
 
@@ -56,11 +56,15 @@ const t = computed(() => TEXT[currentLang.value])
    ========================= */
 
 const localizedNewsList = computed(() =>
-    newsList.map(item => ({
-        ...item,
-        title: item.title[currentLang.value],
-        summary: item.summary[currentLang.value]
-    }))
+    newsList
+        // 1. 先筛选：只保留 image 存在且不为空字符串的项
+        .filter(item => item.image && item.image.trim() !== '')
+        // 2. 再转换：映射为当前语言的内容
+        .map(item => ({
+            ...item,
+            title: item.title[currentLang.value],
+            summary: item.summary[currentLang.value]
+        }))
 )
 
 /* =========================
@@ -132,7 +136,7 @@ const sideNews = computed(() =>
         padding: 30px 30px 0 30px;
     }
 
-    .news-header{
+    .news-header {
         margin-bottom: 24px;
     }
 
