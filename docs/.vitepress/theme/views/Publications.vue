@@ -154,7 +154,7 @@ watch(selectedYear, () => {
 }
 
 .container {
-    width: 100vw;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 50px;
     display: flex;
@@ -225,7 +225,7 @@ watch(selectedYear, () => {
     transform: scale(1.02);
     background-color: var(--vp-bg);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 /* 内容区域 */
