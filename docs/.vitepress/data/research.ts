@@ -19,7 +19,7 @@ export const researchList: ResearchItem[] = [
             en: 'Multimodal Large Language Model'
         },
         description: {
-            zh: '多模态人工智能是推动大模型迈向通用智能的关键。实验室聚焦多源信息融合、跨场景泛化与可解释推理，开展表征、架构与数据一体化研究，形成开放数据、算法与工具，成果广泛应用并在国际竞赛与国家级任务中取得突出成效。',
+            zh: '多模态大模型是推动大模型从语言智能迈向具备跨模态理解、生成与交互能力的通用智能形态的关键支撑。实验室围绕其在多源异构信息融合建模、跨场景泛化与可解释推理中的关键瓶颈，构建更贴近人类感知与认知习惯的智能范式，开展了表征、架构、数据三位一体的体系研究与系统化能力构建。',
             en: 'We explore alignment, reasoning, and generation across vision, language, and other modalities toward general AI.'
         },
         image: '/images/research/multimodal.png'
@@ -31,7 +31,7 @@ export const researchList: ResearchItem[] = [
             en: 'Video Generation'
         },
         description: {
-            zh: '视频生成技术正迈向真实复杂场景建模。实验室针对运动真实性、时序一致性与可控性，研究多模态引导的视频生成与编辑，并构建指令驱动的长视频生成框架。相关模型在国际基准中领先，成果开源并累计获得数千 GitHub Star，部分技术已落地应用。',
+            zh: '视频生成技术正从简单的画面合成转向对真实复杂场景的精细建模，并在数字内容生产、虚拟环境构建等方面展现出重要应用潜力。实验室围绕现有方法在运动真实性、时序一致与内容可控性等方面面临的关键问题，探索多模态引导的高质量视频生成与内容编辑方法，并支撑对现实世界演化过程的持续建模。',
             en: 'We explore alignment, reasoning, and generation across vision, language, and other modalities toward general AI.'
         },
         image: '/images/research/video-generation.png'
@@ -49,13 +49,13 @@ export const researchList: ResearchItem[] = [
         image: '/images/research/EmbodiedAI.png'
     },
     {
-        id: 'multimodal',
+        id: 'adversarial',
         title: {
             zh: '对抗机器学习',
-            en: 'Video Generation'
+            en: 'Adversarial Machine Learning'
         },
         description: {
-            zh: '面向大模型时代的安全与可信需求，实验室围绕语言、多模态与具身模型的安全性、公平性、隐私与可解释性开展研究，构建覆盖模型、数据与系统的安全框架，提出鲁棒建模与攻防方法，在国际社区产生积极影响。',
+            zh: '面向人工智能深度融入国家关键领域的发展需求，围绕大模型时代智能系统面临的安全、可信与可控挑战，开展关键技术研究。实验室重点聚焦多模态大模型与具身基础模型的安全性、公平性、隐私保护与可解释性，揭示复杂智能系统的内在机理与行为规律，构建覆盖模型、数据与系统层面的安全技术框架。',
             en: 'We explore alignment, reasoning, and generation across vision, language, and other modalities toward general AI.'
         },
         image: '/images/research/adversarial-machine-learning.png'
