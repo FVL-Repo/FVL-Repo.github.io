@@ -22,6 +22,7 @@ import Footer from './components/Footer.vue'
 import JoinUs from './views/JoinUs.vue';
 import News from './views/News.vue';
 import Publications from './views/Publications.vue';
+import People from './views/People.vue';
 
 import './custom.css';
 export default {
@@ -33,6 +34,7 @@ export default {
     app.component("JoinUs", JoinUs);
     app.component("News", News);
     app.component("Publications", Publications);
+    app.component("People", People);
     app.use(TwoslashFloatingVue);
     app.component('NCard', NCard);
     app.use(TwoslashFloatingVue as unknown as Plugin);
