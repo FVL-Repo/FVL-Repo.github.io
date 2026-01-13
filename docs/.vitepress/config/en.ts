@@ -20,7 +20,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: 'News',
-      link: '/news',
+      link: '/en/news',
     },
     {
       text: 'Publications',
