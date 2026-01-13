@@ -48,7 +48,7 @@ const t = {
 .research-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 36px;
+    gap: 48px;
 }
 
 .research-card {
@@ -68,7 +68,7 @@ const t = {
 
 .image-wrapper {
     width: 100%;
-    aspect-ratio: 5 / 4;
+    aspect-ratio: 1;
     overflow: hidden;
 }
 
@@ -84,8 +84,9 @@ const t = {
 
 .title {
     font-size: var(--vp-h3-size);
+    font-weight: 500;
     margin-bottom: 12px;
-    color: var(--vp-c-text-1);
+    color: var(--vp-c-brand);
 }
 
 .description {
