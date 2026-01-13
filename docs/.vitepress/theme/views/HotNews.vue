@@ -84,7 +84,7 @@ const sideNews = computed(() =>
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, var(--vp-bg-soft) 50%, rgb(235, 235, 250) 100%);
+    /* background: linear-gradient(to bottom, var(--vp-bg-soft) 60%, var(--vp-c-brand-soft) 100%); */
 }
 
 .news-header {
@@ -129,7 +129,7 @@ const sideNews = computed(() =>
 
 @media (max-width: 768px) {
     .hot-news {
-        padding: 30px;
+        padding: 30px 30px 0 30px;
     }
 
     .news-header{

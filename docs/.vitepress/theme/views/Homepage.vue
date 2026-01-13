@@ -7,6 +7,7 @@
                     <slot :name="`page-${index}`">
                         <Carousel v-if="index === 0" />
                         <HotNews v-else-if="index === 1" />
+                        <Research v-else-if="index === 2" />
                         <template v-else>
                             {{ page }}
                         </template>
@@ -40,6 +41,7 @@
 import { ref, watch, onMounted, onUnmounted, computed } from 'vue'
 import Carousel from './Carousel.vue'
 import HotNews from './HotNews.vue'
+import Research from './Research.vue'
 import Footer from '../components/Footer.vue'
 
 const pages = [0, 1, 2, 3]
