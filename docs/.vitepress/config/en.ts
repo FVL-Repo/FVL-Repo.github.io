@@ -19,6 +19,10 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/en/',
     },
     {
+      text: 'News',
+      link: '/news',
+    },
+    {
       text: 'Publications',
       link: '/en/publications',
     },

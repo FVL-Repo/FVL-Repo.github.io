@@ -17,6 +17,10 @@ function nav(): DefaultTheme.NavItem[] {
       link: '/',
     },
     {
+      text: '新闻',
+      link: '/news',
+    },
+    {
       text: '论文',
       link: '/publications',
     },
@@ -27,6 +31,6 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: '加入我们',
       link: '/joinus',
-    }
+    },
   ]
 }
