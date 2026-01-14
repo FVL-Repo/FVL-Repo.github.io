@@ -353,6 +353,7 @@ watch(selectedYear, () => {
 /* 移动端适配 */
 @media (max-width: 768px) {
     .container {
+        max-width: 100vw;
         padding: 20px 30px 40px 30px;
     }
 
