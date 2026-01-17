@@ -5,12 +5,12 @@
         <div class="research-grid">
             <article v-for="item in researchList" :key="item.id" class="research-card">
                 <div class="image-wrapper">
-                    <img :src="item.image" :alt="item.title[lang]" />
+                    <img :src="item.image" :alt="item.title[currentLang]" />
                 </div>
 
                 <div class="content">
-                    <h2 class="title">{{ item.title[lang] }}</h2>
-                    <p class="description">{{ item.description[lang] }}</p>
+                    <h2 class="title">{{ item.title[currentLang] }}</h2>
+                    <p class="description">{{ item.description[currentLang] }}</p>
                 </div>
             </article>
         </div>
@@ -18,12 +18,18 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
 import { researchList } from '../../data/research'
+import { useData } from 'vitepress'
 
-const lang = 'zh' // 或从 useI18n / useData 中获取
+const { lang } = useData()
+
+const currentLang = computed<'zh' | 'en'>(() =>
+    lang.value.startsWith('zh') ? 'zh' : 'en'
+)
 
 const t = {
-    title: lang === 'zh' ? '研究方向' : 'Research Directions'
+    title: currentLang.value === 'zh' ? '研究方向' : 'Research'
 }
 </script>
 
@@ -100,7 +106,7 @@ const t = {
         height: auto;
         width: 100vw;
         min-height: calc(100vh - var(--vp-nav-height));
-        padding: 40px 20px;
+        padding: 40px 10px;
         overflow-x: hidden;
     }
 
@@ -119,10 +125,10 @@ const t = {
     }
 
     .content {
-        padding: 6px 8px;
+        padding: 8px;
     }
 
-    .title{
+    .title {
         margin-bottom: 6px;
     }
 }

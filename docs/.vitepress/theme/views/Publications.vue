@@ -354,7 +354,7 @@ watch(selectedYear, () => {
 @media (max-width: 768px) {
     .container {
         max-width: 100vw;
-        padding: 20px 30px 40px 30px;
+        padding: 10px 20px 40px 20px;
     }
 
     .content-area {
@@ -362,13 +362,12 @@ watch(selectedYear, () => {
     }
 
     .year-filter {
-        padding: 0 10px;
         flex-direction: row;
         justify-content: flex-start;
         flex-wrap: nowrap;
         overflow-x: auto;
         gap: 10px;
-        margin-bottom: 8px;
+        margin: 24px 6px 8px;
     }
 
     .year-filter button {
@@ -380,11 +379,11 @@ watch(selectedYear, () => {
     }
 
     .publications-title {
-        margin-bottom: 30px;
+        margin-bottom: 0;
     }
 
     .publication-row {
-        padding: 15px 12px;
+        padding: 12px 6px;
         flex-direction: column;
         gap: 12px;
     }

@@ -463,7 +463,7 @@ watch(currentPage, () => {
 @media (max-width: 768px) {
     .container {
         max-width: 100vw;
-        padding: 20px 30px;
+        padding: 10px 30px 30px 30px;
         gap: 18px;
     }
 

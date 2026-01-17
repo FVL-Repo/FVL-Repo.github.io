@@ -191,7 +191,7 @@ const t = computed(() => TEXT[currentLang.value])
 
 @media (max-width: 768px) {
     .container {
-        padding: 20px 48px 40px 48px;
+        padding: 10px 48px 40px 48px;
     }
 
     .people-title {
