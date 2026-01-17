@@ -76,8 +76,6 @@
                     <h2>{{ t.undergraduate.title }}</h2>
 
                     <p>{{ t.undergraduate.p1 }}</p>
-                    <p>{{ t.undergraduate.p2 }}</p>
-                    <p>{{ t.undergraduate.p3 }}</p>
 
                     <p class="email">
                         {{ t.undergraduate.emailPrefix }}
@@ -96,7 +94,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { useData } from 'vitepress'
-import {content} from '../../data/recruitment'
+import { content } from '../../data/recruitment'
 
 const { lang } = useData()
 const isZh = computed(() => lang.value === 'zh-CN')
@@ -124,7 +122,7 @@ const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 50px 40px 100px 40px;
+    padding: 50px 40px;
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -139,7 +137,6 @@ const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label
 }
 
 .intro {
-    max-width: 960px;
     text-align: center;
     margin: 0 auto;
     color: var(--vp-c-text-2);
@@ -148,10 +145,12 @@ const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label
 }
 
 .button-group {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: center;
-    gap: 60px;
-    padding-bottom: 10px;
+    margin: 0 auto;
 }
 
 .tab-button {
@@ -176,9 +175,9 @@ const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label
 }
 
 .content-card {
-    background-color: var(--vp-bg);
+    background-color: var(--vp-bg-soft);
     border-radius: 4px;
-    padding: 40px 80px;
+    padding: 20px 10px;
     color: var(--vp-c-text-1);
 }
 
@@ -186,8 +185,8 @@ const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label
     h2 {
         text-align: center;
         font-size: var(--vp-h2-size);
-        font-weight: var(--vp-h2-weight);
-        margin-bottom: 3%;
+        font-weight: 600;
+        margin-bottom: 2%;
     }
 
     h3 {
@@ -237,29 +236,28 @@ const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label
 
 @media (max-width: 768px) {
     .container {
-        padding: 20px 30px 40px 30px;
+        padding: 10px 20px 40px 20px;
         max-width: 100vw;
+        gap: 16px;
     }
 
     .content-card {
-        background-color: var(--vp-bg);
-        border-radius: 4px;
-        padding: 20px 30px;
+        border-radius: 2px;
+        padding: 5px 0px;
         color: var(--vp-c-text-1);
     }
 
     .button-group {
-        flex-direction: column;
         gap: 8px;
     }
 
     .tab-button {
-        min-width: 0;
+        border-radius: 0px;
+        min-width: 90px;
         padding: 6px;
     }
 
     .container {
-
         ul,
         ol {
             padding-left: 2rem;
