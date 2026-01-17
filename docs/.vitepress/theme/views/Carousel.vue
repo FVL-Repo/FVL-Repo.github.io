@@ -204,18 +204,22 @@ const onTouchEnd = () => {
 
 @media (max-width: 768px) {
     .carousel {
-        height: 150px;
+        height: auto;
     }
 
     .track,
     .slide {
-        height: 100%;
+        height: auto;
+        position: relative;
     }
 
     .slide img {
-        object-position: center -20px;
+        position: static; 
+        width: 100vw;
+        height: auto;
+        display: block;
+        object-fit: contain;
     }
-
     .caption {
         bottom: 15%;
         padding: 2px 10px;
