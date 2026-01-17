@@ -34,12 +34,12 @@
 @media(max-width:768px) {
   :root {
     --vp-nav-height: 9vh;
-    --vp-h1-size: 21px;
-    --vp-h2-size: 16px;
-    --vp-h3-size: 13px;
-    --vp-p-size: 13px;
-    --vp-small: 11px;
-    --vp-tiny: 10px;
+    --vp-h1-size: 18px;
+    --vp-h2-size: 15px;
+    --vp-h3-size: 12px;
+    --vp-p-size: 12px;
+    --vp-small: 10px;
+    --vp-tiny: 9px;
   }
 }
 
