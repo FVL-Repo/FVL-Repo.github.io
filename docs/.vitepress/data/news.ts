@@ -20,7 +20,7 @@ export const newsList = [
         link: 'https://mp.weixin.qq.com/s/rWEsV1boXkaw3FTDvW-CMQ'
     },
     {
-        date: '2025-11-6',
+        date: '2025-11-06',
         image: '/images/news/2025-11-6.png',
         title: {
             zh: '杜永坤同学入选中国电子学会-腾讯博士生科研激励计划（混元大模型专项）',
@@ -46,7 +46,7 @@ export const newsList = [
         link: 'https://mp.weixin.qq.com/s/fJUUCAPoihSSP7NHHDWXMw'
     },
     {
-        "date": "2025-9-18",
+        "date": "2025-09-18",
         "image": "",
         "title": {
             "zh": "十四篇论文被NeurIPS 2025接收",
@@ -59,7 +59,7 @@ export const newsList = [
         "link": "/publications"
     },
     {
-        date: '2025-7-5',
+        date: '2025-07-05',
         image: '/images/news/2025-7-5.png',
         title: {
             zh: '15 篇论文入选 ICCV 2025',
@@ -72,7 +72,7 @@ export const newsList = [
         link: 'https://mp.weixin.qq.com/s/aJyxSIK8zxGkPEmzngMmcg'
     },
     {
-        date: '2025-1-6',
+        date: '2025-01-06',
         image: '/images/news/2025-1-6.png',
         title: {
             zh: '王君可入选首届中国科协青年人才托举工程博士生专项计划',
@@ -124,7 +124,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/kqVD747QEmNOTKgQSMEpOQ"
     },
     {
-        "date": "2024-7-11",
+        "date": "2024-07-11",
         "image": "",
         "title": {
             "zh": "八篇论文被ECCV 2024接收",
@@ -137,7 +137,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/VDUqba4DBPJ_iFIO2aro8g"
     },
     {
-        "date": "2024-6-24",
+        "date": "2024-06-24",
         "image": "",
         "title": {
             "zh": "姜育刚团队获2023年度国家自然科学二等奖",
@@ -150,7 +150,7 @@ export const newsList = [
         "link": "https://news.fudan.edu.cn/2024/0624/c31a141416/page.htm"
     },
     {
-        "date": "2024-6-22",
+        "date": "2024-06-22",
         "image": "",
         "title": {
             "zh": "实验室在CVPR 2024三项挑战赛中斩获冠军",
@@ -163,7 +163,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/xHOOIYkkAiD8jORj7jVTnQ"
     },
     {
-        "date": "2024-6-22",
+        "date": "2024-06-22",
         "image": "",
         "title": {
             "zh": "实验室在2024全球人工智能技术创新大赛算法挑战赛中荣获一等奖",
@@ -176,7 +176,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/_TTyu2zhGh8RT1w603IHZQ"
     },
     {
-        "date": "2023-12-2",
+        "date": "2023-12-02",
         "image": "",
         "title": {
             "zh": "实验室毕业生陈绍祥入选2023中国图象图形学学会博士学位论文激励计划",
@@ -202,7 +202,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/BEsSdJZc-K0s3ZrnkG0sgQ"
     },
     {
-        "date": "2023-3-9",
+        "date": "2023-03-09",
         "image": "",
         "title": {
             "zh": "十一篇论文被CVPR 2023接收",
@@ -215,7 +215,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/d1UP17zk5yz32pG0Rd3KTg"
     },
     {
-        "date": "2023-1-31",
+        "date": "2023-01-31",
         "image": "",
         "title": {
             "zh": "陈绍祥获得2022年度上海市计算机学会优秀博士学位论文奖",
@@ -228,7 +228,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/RNT_o4obCmc0S045-m-ygQ"
     },
     {
-        "date": "2022-11-5",
+        "date": "2022-11-05",
         "image": "",
         "title": {
             "zh": "最新报告—视频内容分析：现状与六大趋势",
@@ -241,7 +241,7 @@ export const newsList = [
         "link": "/assets/video-content-analysis.pdf"
     },
     {
-        "date": "2022-7-30",
+        "date": "2022-07-30",
         "image": "",
         "title": {
             "zh": "四篇论文被ECCV 2022接收，三篇论文被ACM MM 2022接收",
@@ -254,7 +254,7 @@ export const newsList = [
         "link": "/publications"
     },
     {
-        "date": "2022-7-10",
+        "date": "2022-07-10",
         "image": "",
         "title": {
             "zh": "蒋林曦获得2021年度上海市计算机学会优秀硕士学位论文奖",
@@ -267,7 +267,7 @@ export const newsList = [
         "link": "https://mp.weixin.qq.com/s/jq2NmoAz4tsp7Zzk5QZGiA"
     },
     {
-        "date": "2022-6-27",
+        "date": "2022-06-27",
         "image": "",
         "title": {
             "zh": "姜育刚教授当选2022年度国际模式识别学会会士（IAPR Fellow）",
@@ -280,7 +280,7 @@ export const newsList = [
         "link": "https://cs.fudan.edu.cn/e4/db/c24256a451803/page.htm"
     },
     {
-        "date": "2022-4-28",
+        "date": "2022-04-28",
         "image": "",
         "title": {
             "zh": "复旦大学首个国家科技创新2030—“新一代人工智能”重大项目正式启动",
@@ -293,7 +293,7 @@ export const newsList = [
         "link": "https://news.fudan.edu.cn/2022/0428/c40a131093/page.htm"
     },
     {
-        "date": "2022-3-29",
+        "date": "2022-03-29",
         "image": "",
         "title": {
             "zh": "开源了BEVT（BERT Pretraining of Video Transformers）的代码",
@@ -306,7 +306,7 @@ export const newsList = [
         "link": "https://github.com/xyzforever/BEVT"
     },
     {
-        "date": "2022-3-3",
+        "date": "2022-03-03",
         "image": "",
         "title": {
             "zh": "五篇论文被CVPR 2022接收",
@@ -319,7 +319,7 @@ export const newsList = [
         "link": "/publications"
     },
     {
-        "date": "2022-1-24",
+        "date": "2022-01-24",
         "image": "",
         "title": {
             "zh": "开源了长尾视频识别数据集及代码",
@@ -345,7 +345,7 @@ export const newsList = [
         "link": "https://cs.fudan.edu.cn/8d/1f/c24867a429343/page.htm"
     },
     {
-        "date": "2022-12-2",
+        "date": "2022-12-02",
         "image": "",
         "title": {
             "zh": "四篇论文被AAAI 2022接收",
