@@ -5,7 +5,7 @@ export const FooterData = {
             `© ${year} Fudan Vision and Learning Laboratory. All Rights Reserved.`
     },
     en: {
-        address: 'Lab Address: 5F, Interdisciplinary Building 2, 2005 Songhu Road, Shanghai',
+        address: 'Address: 5F, No. 2 Interdisciplinary Research Building, 2005 Songhu Road, Shanghai 200438, China.',
         copyright: (year: number) =>
             `© ${year} Fudan Vision and Learning Laboratory. All Rights Reserved.`
     }
