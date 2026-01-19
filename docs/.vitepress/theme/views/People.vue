@@ -67,6 +67,7 @@ const t = computed(() => TEXT[currentLang.value])
 
 .people-title {
     font-size: var(--vp-h1-size);
+    line-height: 1;
     font-weight: var(--vp-h1-weight);
     color: var(--vp-c-brand-1);
     text-align: center;
@@ -191,7 +192,7 @@ const t = computed(() => TEXT[currentLang.value])
 
 @media (max-width: 768px) {
     .container {
-        padding: 10px 48px 40px 48px;
+        padding: 20px 48px 40px 48px;
     }
 
     .people-title {

@@ -163,6 +163,7 @@ watch(selectedYear, () => {
 
 .publications-title {
     font-size: var(--vp-h1-size);
+    line-height: 1;
     font-weight: var(--vp-h1-weight);
     color: var(--vp-c-brand-1);
     text-align: center;
@@ -354,7 +355,7 @@ watch(selectedYear, () => {
 @media (max-width: 768px) {
     .container {
         max-width: 100vw;
-        padding: 10px 20px 40px 20px;
+        padding: 20px 20px 40px 20px;
     }
 
     .content-area {

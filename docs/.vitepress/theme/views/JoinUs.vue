@@ -236,7 +236,7 @@ const tabs = computed((): { key: 'postdoc' | 'graduate' | 'undergraduate'; label
 
 @media (max-width: 768px) {
     .container {
-        padding: 10px 20px 40px 20px;
+        padding: 20px 20px 40px 20px;
         max-width: 100vw;
         gap: 16px;
     }

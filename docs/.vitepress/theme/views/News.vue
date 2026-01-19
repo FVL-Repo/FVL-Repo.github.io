@@ -216,6 +216,7 @@ watch(currentPage, () => {
 
 .news-title {
     font-size: var(--vp-h1-size);
+    line-height: 1;
     font-weight: var(--vp-h1-weight);
     text-align: center;
     color: var(--vp-c-brand);
@@ -463,8 +464,8 @@ watch(currentPage, () => {
 @media (max-width: 768px) {
     .container {
         max-width: 100vw;
-        padding: 10px 30px 30px 30px;
-        gap: 18px;
+        padding: 20px 30px 30px 30px;
+        gap: 8px;
     }
 
     .news-row {
