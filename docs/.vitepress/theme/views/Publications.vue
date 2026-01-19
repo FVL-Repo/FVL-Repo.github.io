@@ -37,7 +37,7 @@
                                 </a>
 
                                 <a v-if="item.code" :href="item.code" target="_blank" class="link-btn code">
-                                    <img class="icon github-icon" src="/images/github-mark/github-mark.svg"
+                                    <img class="icon github-icon" src="/assets/icons/github-mark/github-mark.svg"
                                         alt="GitHub" />
                                     <span class="link-text">{{ t.code }}</span>
                                 </a>

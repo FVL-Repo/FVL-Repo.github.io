@@ -23,7 +23,7 @@
 import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const slides = [
-    { image: '/images/fvl.png', title: '', desc: '' },
+    { image: '/assets/images/fvl.png', title: '', desc: '' },
     // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_4.png', title: '姜育刚团队获国家自然科学奖二等奖', desc: '' },
     // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/carousel_images/kexuejishujiang2023.png', title: '姜育刚团队获上海市技术发明一等奖', desc: '' },
     // { image: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/jiangwan_5.png', title: '实验室在 CVPR2024 三项挑战赛中斩获冠军', desc: '' },

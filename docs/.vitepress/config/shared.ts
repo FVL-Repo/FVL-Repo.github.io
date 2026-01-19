@@ -71,14 +71,14 @@ export const shared = defineConfig({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/images/fudan.png'
+        href: '/assets/icons/fudan.png'
       }
     ],
     ['meta', { name: 'theme-color', content: '#5f67ee' }],
   ],
 
   themeConfig: {
-    logo: '/images/fudan.png',
+    logo: '/assets/icons/fudan.png',
     //开启本地搜索
     // search: {
     //   provider: 'local'

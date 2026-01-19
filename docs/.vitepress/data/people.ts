@@ -49,7 +49,7 @@ export const facultyList: Person[] = [
     },
     {
         name: { zh: '贾萧松', en: 'Xiaosong Jia' },
-        avatar: '/images/people/faculty/XiaosongJia.png',
+        avatar: '/assets/people/faculty/XiaosongJia.png',
         position: {
             zh: '助理教授',
             en: 'Assistant Professor'
@@ -89,7 +89,7 @@ export const facultyList: Person[] = [
     },
     {
         name: { zh: '叶子逸', en: 'Ziyi Ye' },
-        avatar: '/images/people/faculty/ZiyiYe.png',
+        avatar: '/assets/people/faculty/ZiyiYe.png',
         position: {
             zh: '助理教授',
             en: 'Assistant Professor'

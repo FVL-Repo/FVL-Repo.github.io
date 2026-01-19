@@ -8,7 +8,7 @@ export interface NewsItem {
 export const newsList = [
     {
         date: '2025-12-12',
-        image: '/images/news/2025-12-12.png',
+        image: '/assets/news/2025-12-12.png',
         title: {
             zh: '姜育刚教授入选 2025 年度 ACM 杰出会员',
             en: 'Prof. Yu-Gang Jiang elevated to ACM Distinguished Member'
@@ -21,7 +21,7 @@ export const newsList = [
     },
     {
         date: '2025-11-06',
-        image: '/images/news/2025-11-6.png',
+        image: '/assets/news/2025-11-6.png',
         title: {
             zh: '杜永坤同学入选中国电子学会-腾讯博士生科研激励计划（混元大模型专项）',
             en: 'Yongkun Du was selected for the CIE-Tencent PhD Research Incentive Program'
@@ -34,7 +34,7 @@ export const newsList = [
     },
     {
         date: '2025-10-20',
-        image: '/images/news/2025-10-20.png',
+        image: '/assets/news/2025-10-20.png',
         title: {
             zh: '王君可获 2025 年度 CCF-CV 学术新锐奖',
             en: 'Junke Wang received the CCF-CV Academic Rising Star Award in 2025'
@@ -60,7 +60,7 @@ export const newsList = [
     },
     {
         date: '2025-07-05',
-        image: '/images/news/2025-7-5.png',
+        image: '/assets/news/2025-7-5.png',
         title: {
             zh: '15 篇论文入选 ICCV 2025',
             en: 'Fifteen papers accepted by ICCV 2025'
@@ -73,7 +73,7 @@ export const newsList = [
     },
     {
         date: '2025-01-06',
-        image: '/images/news/2025-1-6.png',
+        image: '/assets/news/2025-1-6.png',
         title: {
             zh: '王君可入选首届中国科协青年人才托举工程博士生专项计划',
             en: 'Junke Wang Selected for the First CAS Youth Talent Support Program (Ph.D. Track)'
@@ -238,7 +238,7 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/assets/video-content-analysis.pdf"
+        "link": "/assets/talks/video-content-analysis.pdf"
     },
     {
         "date": "2022-07-30",
