@@ -6,3 +6,4 @@ dist
 docs/.vitepress/cache
 .DS_Store
 *.zip
+*.backup
