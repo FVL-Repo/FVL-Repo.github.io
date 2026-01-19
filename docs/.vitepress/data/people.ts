@@ -18,7 +18,7 @@ export interface Person {
 export const facultyList: Person[] = [
     {
         name: { zh: '曹艺馨', en: 'Yixin Cao' },
-        avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/head/teacher/caoyixin.png',
+        avatar: '/assets/people/faculty/YixinCao.png',
         position: {
             zh: '青年研究员',
             en: 'Professor'
@@ -31,7 +31,7 @@ export const facultyList: Person[] = [
     },
     {
         name: { zh: '陈静静', en: 'Jingjing Chen' },
-        avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/cjj.jpeg',
+        avatar: '/assets/people/faculty/JingjingChen.png',
         position: {
             zh: '副教授',
             en: 'Associate Professor'
@@ -40,7 +40,7 @@ export const facultyList: Person[] = [
     },
     {
         name: { zh: '陈智能', en: 'Zhineng Chen' },
-        avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/czn.png',
+        avatar: '/assets/people/faculty/ZhinengChen.png',
         position: {
             zh: '教授',
             en: 'Professor'
@@ -58,7 +58,7 @@ export const facultyList: Person[] = [
     },
     {
         name: { zh: '姜育刚', en: 'Yu-gang Jiang' },
-        avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/ygjiang.png',
+        avatar: '/assets/people/faculty/YugangJiang.png',
         position: {
             zh: '教授 & 实验室主任',
             en: 'Professor & Director'
@@ -67,7 +67,7 @@ export const facultyList: Person[] = [
     },
     {
         name: { zh: '马兴军', en: 'Xingjun Ma' },
-        avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/mxj.jpeg',
+        avatar: '/assets/people/faculty/XingjunMa.png',
         position: {
             zh: '青年研究员',
             en: 'Professor'
@@ -80,7 +80,7 @@ export const facultyList: Person[] = [
     },
     {
         name: { zh: '吴祖煊', en: 'Zuxuan Wu' },
-        avatar: 'https://fvl.fudan.edu.cn/_upload/tpl/0d/24/3364/template3364/img/wzx.png',
+        avatar: '/assets/people/faculty/ZuxuanWu.png',
         position: {
             zh: '副教授',
             en: 'Associate Professor'
