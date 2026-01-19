@@ -953,7 +953,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yongkun Du, Zhineng Chen, Caiyan Jia, Xiaoting Yin, Tianlun Zheng, Chenxia Li, Yuning Du, Yu-Gang Jiang",
         "title": "SVTR: Scene Text Recognition with a Single Visual Model.",
         "venue": "International Joint Conference on Artificial Intelligence (IJCAI), Vienna, Austria, 2022 (Oral).",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/83/76/379755194efca7060ffe0a4b5f51/38ec01b5-7a26-49bb-8bd1-d2958ce11b9a.pdf"
+        "pdf": "/assets/publications/pdfs/svtr-scene-text-recognition-with-a-single-visual-model.pdf"
     },
     {
         "year": "2022",
@@ -1604,7 +1604,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Jiawei Gu, Rui-Wei Zhao, Yu-Gang Jiang",
         "title": "Video Copy Detection Method: A Review (In Chinese).",
         "venue": "Journal of Computer Research and Development, vol. 54, issue 6, pp. 1238-1250, 2017. Special Issue Highlighting Research Works of NSF China Outstanding Young Researcher Awardees.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/4b/3a/3f80b9b347919fd67a44a34b8292/84838c7a-547e-42ad-9c27-915276a7e68e.pdf"
+        "pdf": "/assets/publications/pdfs/video-copy-detection-method-a-review-in-chinese.pdf"
     },
     {
         "year": "2016",
@@ -1646,615 +1646,615 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Rui-Wei Zhao, Jianguo Li, Yurong Chen, Jia-Ming Liu, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Regional Gating Neural Networks for Multi-Label Image Classification.",
         "venue": "British Machine Vision Conference (BMVC), York, UK, 2016.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/63/1a/fa9920e54d59a7cea862a5fd4989/4d27bb92-083b-48a5-aeb4-f421ab87af21.pdf"
+        "pdf": "/assets/publications/pdfs/regional-gating-neural-networks-for-multi-label-image-classification.pdf"
     },
     {
         "year": "2016",
         "authors": "Linbo Qiao, Tianyi Lin, Yu-Gang Jiang, Fan Yang, Wei Liu, Xicheng Lu",
         "title": "On Stochastic Primal-Dual Hybrid Gradient Approach for Compositely Regularized Minimization.",
         "venue": "European Conference on Artificial Intelligence (ECAI), The Hague, The Netherlands, 2016.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/44/ef/34e710754f749859902551fe0c86/ee23c233-0f98-4ba3-ad79-cf55e5337bb7.pdf"
+        "pdf": "/assets/publications/pdfs/on-stochastic-primal-dual-hybrid-gradient-approach-for-compositely-regularized-minimization.pdf"
     },
     {
         "year": "2016",
         "authors": "Yonqqing Sun, Rui-Wei Zhao, Minjun Li, Chuan Lu, Hiroyuki Arai, Tetsuya Kinebuchi, Yu-Gang Jiang",
         "title": "NTTFudan Team at TRECVID 2016: Multimedia Event Detection.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2016.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/15/2b/47f893b9490c9a758dd626ad0dbd/ba65b1f2-6608-45af-ba80-6f6f83f66e4d.pdf"
+        "pdf": "/assets/publications/pdfs/nttfudan-team-at-trecvid-2016-multimedia-event-detection.pdf"
     },
     {
         "year": "2016",
         "authors": "Baohan Xu, Yanwei Fu, Yu-Gang Jiang",
         "title": "BigVid at MediaEval 2016: Predicting Interestingness in Images and Videos.",
         "venue": "MediaEval 2016 Workshop, 2016.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/13/21/3775ec5f4a24aef21b0891f047fe/231628b5-27c7-47da-8644-5df942ecd594.pdf"
+        "pdf": "/assets/publications/pdfs/bigvid-at-mediaeval-2016-predicting-interestingness-in-images-and-videos.pdf"
     },
     {
         "year": "2016",
         "authors": "Yu-Gang Jiang, Jiajun Wang, Qiang Wang, Wei Liu, Chong-Wah Ngo",
         "title": "Hierarchical Visualization of Video Search Results for Topic-based Browsing.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 18, issue 11, pp. 2161-2170, 2016.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/06/64/ee4a3aa4467482ddf53202ed6804/bb1eb950-da53-4076-8399-3a43d6c5dbc3.pdf"
+        "pdf": "/assets/publications/pdfs/hierarchical-visualization-of-video-search-results-for-topic-based-browsing.pdf"
     },
     {
         "year": "2016",
         "authors": "Yu-Gang Jiang, Jiajun Wang",
         "title": "Partial Copy Detection in Videos: A Benchmark and an Evaluation of Popular Methods.",
         "venue": "IEEE Transactions on Big Data, vol. 2, issue 1, pp. 32-42, 2016.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/27/6b/e1da6a6c468786ddabb2cba5d555/730195ca-c512-4f9e-8f9e-5ad9bfd0d4fb.pdf"
+        "pdf": "/assets/publications/pdfs/partial-copy-detection-in-videos-a-benchmark-and-an-evaluation-of-popular-methods.pdf"
     },
     {
         "year": "2016",
         "authors": "Baohan Xu, Xi Wang, Yu-Gang Jiang",
         "title": "Fast Summarization of User-Generated Videos: Exploiting Semantic, Emotional and Quality Clues.",
         "venue": "IEEE Multimedia, vol. 23, issue 3, pp. 23-33, 2016.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/69/44/fec296e54248bcbd2734e1bbeb4f/6d3cc200-1c56-49d0-bcb1-8f8f00ad1574.pdf"
+        "pdf": "/assets/publications/pdfs/fast-summarization-of-user-generated-videos-exploiting-semantic-emotional-and-quality-clues.pdf"
     },
     {
         "year": "2015",
         "authors": "Zuxuan Wu, Xi Wang, Yu-Gang Jiang, Hao Ye, Xiangyang Xue",
         "title": "Modeling Spatial-Temporal Clues in a Hybrid Deep Learning Framework for Video Classification.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Brisbane, Australia, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/47/d2/b538f59340d78dbe9908f8b113b3/06ffc8b2-9c9c-4399-8292-72d8edea5dfb.pdf"
+        "pdf": "/assets/publications/pdfs/modeling-spatial-temporal-clues-in-a-hybrid-deep-learning-framework-for-video-classification.pdf"
     },
     {
         "year": "2015",
         "authors": "Hao Ye, Zuxuan Wu, Rui-Wei Zhao, Xi Wang, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Evaluating Two-Stream CNN for Video Classification.",
         "venue": "ACM International Conference on Multimedia Retrieval (ICMR), Shanghai, China, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/8c/bf/54060b9d4acc8cf1d1709578d25d/da7600cb-3cda-454b-b0ad-cf9646004569.pdf"
+        "pdf": "/assets/publications/pdfs/evaluating-two-stream-cnn-for-video-classification.pdf"
     },
     {
         "year": "2015",
         "authors": "Qi Dai, Jianguo Li, Jun Wang, Yurong Chen, Yu-Gang Jiang",
         "title": "Optimal Bayesian Hashing for Efficient Face Recognition.",
         "venue": "The 24th International Joint Conference on Artificial Intelligence (IJCAI), Buenos Aires, Argentina, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/26/97/ca61cc1d413aa1c4a4ef0d8cddfe/1c53fa42-752e-4d15-ba25-a44fbb627eb1.pdf"
+        "pdf": "/assets/publications/pdfs/optimal-bayesian-hashing-for-efficient-face-recognition.pdf"
     },
     {
         "year": "2015",
         "authors": "Weiwei Shen, Jun Wang, Yu-Gang Jiang, Hongyuan Zha",
         "title": "Portfolio Choices with Orthogonal Bandit Learning.",
         "venue": "The 24th International Joint Conference on Artificial Intelligence (IJCAI), Buenos Aires, Argentina, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/9b/27/3bc8a1ba4e7591787077ee5833d3/e5d4c72a-5827-44ba-aa34-f8a95796e298.pdf"
+        "pdf": "/assets/publications/pdfs/portfolio-choices-with-orthogonal-bandit-learning.pdf"
     },
     {
         "year": "2015",
         "authors": "Yu-Gang Jiang",
         "title": "Categorizing Big Video Data on the Web: Challenges and Opportunities.",
         "venue": "IEEE International Conference on Multimedia Big Data (IEEE BigMM), Beijing, China, April 2015. IEEE & ACM BigMM Summit 2015, Invited Position Paper.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/8a/d1/487e4c0543959b8602f725a190fd/2491a523-9320-4da5-bf67-4b28ab9afb0b.pdf"
+        "pdf": "/assets/publications/pdfs/categorizing-big-video-data-on-the-web-challenges-and-opportunities.pdf"
     },
     {
         "year": "2015",
         "authors": "Qi Dai, Rui-Wei Zhao, Zuxuan Wu, Xi Wang, Zichen Gu, Wenhai Wu, Yu-Gang Jiang",
         "title": "Fudan-Huawei at MediaEval 2015: Detecting Violent Scenes and Affective Impact in Movies with Deep Learning.",
         "venue": "MediaEval 2015 Workshop, Wurzen, Germany, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/c2/47/c81591a64bc48af48e57a9334b5a/e0ca1ab0-0905-4631-a724-cfaa600c2da1.pdf"
+        "pdf": "/assets/publications/pdfs/fudan-huawei-at-mediaeval-2015-detecting-violent-scenes-and-affective-impact-in-movies-with-deep-learning.pdf"
     },
     {
         "year": "2015",
         "authors": "Zuxuan Wu, Hao Ye, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Fudan at TRECVID 2015: Adaptive Feature Fusion for Multimedia Event Detection in Videos.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/cb/b2/e2b7b1094c0793f50807015b7eb4/54fdbed6-44e6-4e30-869f-4fe7b4c6adf5.pdf"
+        "pdf": "/assets/publications/pdfs/fudan-at-trecvid-2015-adaptive-feature-fusion-for-multimedia-event-detection-in-videos.pdf"
     },
     {
         "year": "2015",
         "authors": "Yongqing Sun, Zuxuan Wu, Xi Wang, Kyoko Sudo, Yukinobu Taniguchi, Tetsuya Kinebuchi, Yu-Gang Jiang",
         "title": "NTT-Fudan Team @ TRECVID 2015: Multimedia Event Detection.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/91/f1/1c874fa8435dbfa2d39b1442bac9/a01fba22-49af-4b61-8b2c-c58862af122e.pdf"
+        "pdf": "/assets/publications/pdfs/ntt-fudan-team-trecvid-2015-multimedia-event-detection.pdf"
     },
     {
         "year": "2015",
         "authors": "Markus Schedl, Mats Sjoberg, Ionut Mironica, Bogdan Ionescu, Vu Lam Quang, Yu-Gang Jiang and Claire-Helene Demarty",
         "title": "VSD2014: A Dataset for Violent Scenes Detection in Hollywood Movies and Web Videos.",
         "venue": "International Workshop on Content-Based Multimedia Indexing (CBMI), Prague, Czech Republic, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/7a/f0/c5cdc71f44969efe9f6d6e24bb4c/73cd14b5-a076-48ba-bfaf-1959b0a205e9.pdf"
+        "pdf": "/assets/publications/pdfs/vsd2014-a-dataset-for-violent-scenes-detection-in-hollywood-movies-and-web-videos.pdf"
     },
     {
         "year": "2015",
         "authors": "Hanli Wang, Fengkuangtian Zhu, Bo Xiao, Lei Wang, Yu-Gang Jiang",
         "title": "GPU-based MapReduce for Large-scale Near-duplicate Video Retrieval.",
         "venue": "Multimedia Tools and Applications, vol. 74, issue 23, pp. 10515-10534, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/71/69/bfbf08764490a8ecb2dbca174f40/d138acb7-e9d0-4fb8-a648-263ab900371d.pdf"
+        "pdf": "/assets/publications/pdfs/gpu-based-mapreduce-for-large-scale-near-duplicate-video-retrieval.pdf"
     },
     {
         "year": "2015",
         "authors": "Buyue Qian, Xiang Wang, Nan Cao, Hongfei Li, Yu-Gang Jiang",
         "title": "A Relative Similarity Based Method for Interactive Patient Risk Prediction.",
         "venue": "Data Mining and Knowledge Discovery (DMKD), vol. 29, issue 4, pp. 1070-1093, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/81/f8/3b0ef12544b39a8f04201b3cf022/2bdb9141-e384-491d-a56e-87628737008e.pdf"
+        "pdf": "/assets/publications/pdfs/a-relative-similarity-based-method-for-interactive-patient-risk-prediction.pdf"
     },
     {
         "year": "2015",
         "authors": "Yu-Gang Jiang, Qi Dai, Wei Liu, Xiangyang Xue, Chong-Wah Ngo",
         "title": "Human Action Recognition in Unconstrained Videos by Explicit Motion Modeling.",
         "venue": "IEEE Transactions on Image Processing (TIP), vol. 24, issue 11, pp. 3781-3795, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/89/68/f4d6690b4f8587856e28c5fa796f/8b811cd1-ccbd-4293-8e66-88730c5af434.pdf"
+        "pdf": "/assets/publications/pdfs/human-action-recognition-in-unconstrained-videos-by-explicit-motion-modeling.pdf"
     },
     {
         "year": "2015",
         "authors": "Yu-Gang Jiang, Qi Dai, Tao Mei, Yong Rui, Shih-Fu Chang",
         "title": "Super Fast Event Recognition in Internet Videos.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 17, issue 8, pp. 1-13, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/7e/9b/d2c00b724392b5c34daffdccfec9/afad4cac-374b-4e15-9f77-22e7e3445395.pdf"
+        "pdf": "/assets/publications/pdfs/super-fast-event-recognition-in-internet-videos.pdf"
     },
     {
         "year": "2015",
         "authors": "Hanli Wang, Bo Xiao, Lei Wang, Fengkuangtian Zhu, Yu-Gang Jiang, Jun Wu",
         "title": "CHCF: A Cloud-based Heterogeneous Computing Framework for Large-Scale Image Retrieval.",
         "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 25, issue 12, pp. 1900-1913, 2015.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/b2/73/1d56a2ae4fb1affffbab8fde24ae/b469798a-1d0a-4fdc-9ae1-6e944e8e1298.pdf"
+        "pdf": "/assets/publications/pdfs/chcf-a-cloud-based-heterogeneous-computing-framework-for-large-scale-image-retrieval.pdf"
     },
     {
         "year": "2014",
         "authors": "Zuxuan Wu, Yu-Gang Jiang, Jun Wang, Jian Pu, Xiangyang Xue",
         "title": "Exploring Inter-feature and Inter-class Relationships with Deep Neural Networks for Video Classification.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/0a/c7/0c05933749488760552236d4026e/bc7b67c0-7dd4-4433-bdd8-f6baf2df0999.pdf"
+        "pdf": "/assets/publications/pdfs/exploring-inter-feature-and-inter-class-relationships-with-deep-neural-networks-for-video-classification.pdf"
     },
     {
         "year": "2014",
         "authors": "Yu-Gang Jiang, Yudong Jiang, Jiajun Wang",
         "title": "VCDB: A Large-Scale Database for Partial Copy Detection in Videos.",
         "venue": "European Conference on Computer Vision (ECCV), Zurich, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/15/2f/e774b6264fd1aea47a280a0096ce/c1109b54-8f57-4917-9fa6-a19ca0d3bf87.pdf"
+        "pdf": "/assets/publications/pdfs/vcdb-a-large-scale-database-for-partial-copy-detection-in-videos.pdf"
     },
     {
         "year": "2014",
         "authors": "Jian Pu, Yu-Gang Jiang, Jun Wang, Xiangyang Xue",
         "title": "Which Looks Like Which: Exploring Inter-Class Relationships in Fine-Grained Visual Categorization.",
         "venue": "European Conference on Computer Vision (ECCV), Zurich, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/61/93/03d47e2240488639aa99063925d2/4f841d04-0f64-47c9-a59a-731f3ee35a88.pdf"
+        "pdf": "/assets/publications/pdfs/which-looks-like-which-exploring-inter-class-relationships-in-fine-grained-visual-categorization.pdf"
     },
     {
         "year": "2014",
         "authors": "Yu-Gang Jiang, Baohan Xu, Xiangyang Xue",
         "title": "Predicting Emotions in User-Generated Videos.",
         "venue": "The 28th AAAI Conference on Artificial Intelligence (AAAI), Quebec City, Canada, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/44/65/906147f543a7878f713d7125dbef/61647134-03df-4fc4-9c4a-407ec3790706.pdf"
+        "pdf": "/assets/publications/pdfs/predicting-emotions-in-user-generated-videos.pdf"
     },
     {
         "year": "2014",
         "authors": "Jiajun Wang, Yu-Gang Jiang, Qiang Wang, Kuiyuan Yang, Chong-Wah Ngo",
         "title": "Organizing Video Search Results to Adapted Semantic Hierarchies for Topic-based Browsing.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/db/4d/3cd3f507486aae45d60450def04d/4ab0bc87-eb4b-42a0-adde-afd17e5ec208.pdf"
+        "pdf": "/assets/publications/pdfs/organizing-video-search-results-to-adapted-semantic-hierarchies-for-topic-based-browsing.pdf"
     },
     {
         "year": "2014",
         "authors": "Xi Wang, Yu-Gang Jiang, Zhenhua Chai, Zichen Gu, Xinyu Du, Dong Wang",
         "title": "Real-Time Summarization of User-Generated Videos Based on Semantic Recognition.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d5/a8/48e889c240adbed4f608c87d3d0c/b214e337-9c2e-4f03-82a6-07b591b22728.pdf"
+        "pdf": "/assets/publications/pdfs/real-time-summarization-of-user-generated-videos-based-on-semantic-recognition.pdf"
     },
     {
         "year": "2014",
         "authors": "Zhiwei Jin, Juan Cao, Yu-Gang Jiang, Yongdong Zhang",
         "title": "News Credibility Evaluation on Microblog with a Hierarchical Propagation Model.",
         "venue": "IEEE International Conference on Data Mining (ICDM), Shenzhen, China, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/aa/8c/23e3a6a740898c411cf3b836fc9e/f75e7bc3-6180-4ba4-96fe-cab638480c6c.pdf"
+        "pdf": "/assets/publications/pdfs/news-credibility-evaluation-on-microblog-with-a-hierarchical-propagation-model.pdf"
     },
     {
         "year": "2014",
         "authors": "Claire-Helene Demarty, Bogdan Ionescu, Yu-Gang Jiang, Vu Lam Quang, Markus Schedl, Cedric Penet",
         "title": "Benchmarking Violent Scenes Detection in Movies.",
         "venue": "The 12th International Workshop on Content-Based Multimedia Indexing (CBMI), Klagenfurt, Austria, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d6/5d/d90cbd424beea2dc29cf29a5b313/c93d7476-7efb-4292-bb2d-59cbad0f860a.pdf"
+        "pdf": "/assets/publications/pdfs/benchmarking-violent-scenes-detection-in-movies.pdf"
     },
     {
         "year": "2014",
         "authors": "Jian Tu, Zuxuan Wu, Qi Dai, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Challenge Huawei Challenge: Fusing Multimodal Features with Deep Neural Networks for Mobile Video Annotation.",
         "venue": "IEEE International Conference on Multimedia & Expo (ICME), Chengdu, China, 2014. (Grand Challenge Session)",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/cd/51/6941198344918f785905e0adedc6/1979a161-7f21-4d24-a471-4a81e51757b8.pdf"
+        "pdf": "/assets/publications/pdfs/challenge-huawei-challenge-fusing-multimodal-features-with-deep-neural-networks-for-mobile-video-annotation.pdf"
     },
     {
         "year": "2014",
         "authors": "Mats Sjoberg, Bogdan Ionescu, Yu-Gang Jiang, Vu Lam Quang, Markus Schedl, Claire-Helene Demarty",
         "title": "The MediaEval 2014 Affect Task: Violent Scenes Detection.",
         "venue": "MediaEval 2014 Workshop, Barcelona, Spain, 2014. (Task Overview Paper)",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d5/4f/fcb8f71a4b37a85ca6a95152c325/b529ca92-2c45-430e-81ac-e36296009af8.pdf"
+        "pdf": "/assets/publications/pdfs/the-mediaeval-2014-affect-task-violent-scenes-detection.pdf"
     },
     {
         "year": "2014",
         "authors": "Qi Dai, Zuxuan Wu, Yu-Gang Jiang, Xiangyang Xue, Jinhui Tang",
         "title": "Fudan-NJUST at MediaEval 2014: Violent Scenes Detection Using Deep Neural Networks.",
         "venue": "MediaEval 2014 Workshop, Barcelona, Spain, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/64/65/4926ea0c4b26a26cbef3edc2c502/41b83976-3c61-4f4a-98e4-71d2cfb82ea6.pdf"
+        "pdf": "/assets/publications/pdfs/fudan-njust-at-mediaeval-2014-violent-scenes-detection-using-deep-neural-networks.pdf"
     },
     {
         "year": "2014",
         "authors": "Hanli Wang, Ming Ma, Yu-Gang Jiang, Zhihua Wei",
         "title": "A Framework of Video Coding for Compressing Near-Duplicate Videos.",
         "venue": "International Conference on Multimedia Modeling (MMM), Dublin, Ireland, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/8b/84/6908a2fc491d80eb03abef1854b8/d2419466-3fcb-4580-b014-e571108c0760.pdf"
+        "pdf": "/assets/publications/pdfs/a-framework-of-video-coding-for-compressing-near-duplicate-videos.pdf"
     },
     {
         "year": "2014",
         "authors": "Song Tan, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Placing Videos on a Semantic Hierarchy for Search Result Navigation.",
         "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM, vol. 10, issue 4, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/a9/25/b98eaa9b4a7ba669bd3e0f65c7d5/777338a7-c2fd-4643-b3ec-3a091eab563c.pdf"
+        "pdf": "/assets/publications/pdfs/placing-videos-on-a-semantic-hierarchy-for-search-result-navigation.pdf"
     },
     {
         "year": "2014",
         "authors": "Feng Wang, Zhanhu Sun, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Video Event Detection Using Motion Relativity and Feature Selection.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 16, issue 5, pp. 1303-1315, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e6/84/089cfb354441be84207234032c74/ebe709e0-a5fe-4d14-b88c-4deaa4f67ab3.pdf"
+        "pdf": "/assets/publications/pdfs/video-event-detection-using-motion-relativity-and-feature-selection.pdf"
     },
     {
         "year": "2014",
         "authors": "I-Hong Jhuo, Guangnan Ye, Shenghua Gao, Dong Liu, Yu-Gang Jiang, D. T. Lee, Shih-Fu Chang",
         "title": "Discovering Joint Audio-Visual Codewords for Video Event Detection.",
         "venue": "Machine Vision and Applications (MVA), vol. 25, issue 1, pp. 33-47, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/1f/fa/d0f8977a4a62a545045ee2055558/94a74dd8-6ec9-4a8d-88e2-6e2ae52eca54.pdf"
+        "pdf": "/assets/publications/pdfs/discovering-joint-audio-visual-codewords-for-video-event-detection.pdf"
     },
     {
         "year": "",
         "authors": "Zhi-Neng Chen, Chong-Wah Ngo, Wei Zhang, Juan Cao, Yu-Gang Jiang",
         "title": "Name-Face Association in Web Videos: A Large-Scale Dataset, Baselines, and Open Issues.",
         "venue": "Invited Paper, Special Issue on Current Advances in NSFC Joint Research Projects.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ca/73/62489ece4ba2bc29eb1920dd96ba/4733203b-6578-46ea-8422-d96636a02452.pdf"
+        "pdf": "/assets/publications/pdfs/name-face-association-in-web-videos-a-large-scale-dataset-baselines-and-open-issues.pdf"
     },
     {
         "year": "2014",
         "authors": "Buyue Qian, Xiang Wang, Nan Cao, Yu-Gang Jiang, Ian Davidson",
         "title": "Learning Multiple Relative Attributes With Humans in the Loop.",
         "venue": "IEEE Transactions on Image Processing (TIP), vol. 23, issue 12, pp. 5573-5585, 2014.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/b9/54/c04cbdd5402fbb6850dc57b2928e/00f24cfb-5c0b-4398-87e1-3a772c99a4c8.pdf"
+        "pdf": "/assets/publications/pdfs/learning-multiple-relative-attributes-with-humans-in-the-loop.pdf"
     },
     {
         "year": "2013",
         "authors": "Yu-Gang Jiang, Yanran Wang, Rui Feng, Xiangyang Xue, Yingbin Zheng, Hanfang Yang",
         "title": "Understanding and Predicting Interestingness of Videos.",
         "venue": "The 27th AAAI Conference on Artificial Intelligence (AAAI), Bellevue, Washington, USA, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/62/1c/b0b5e9034121a048275c08b7e48e/1d5469d4-5c49-4753-b1eb-20c6a8b0178a.pdf"
+        "pdf": "/assets/publications/pdfs/understanding-and-predicting-interestingness-of-videos.pdf"
     },
     {
         "year": "2013",
         "authors": "Jun Wang, Wei Liu, Andy X. Sun, Yu-Gang Jiang",
         "title": "Learning Hash Codes with Listwise Supervision.",
         "venue": "IEEE International Conference on Computer Vision (ICCV), Sydney, Australia, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/5d/ab/25beb41f40b8841458fab60ce933/e42d168c-8168-4d4c-aa22-00b665c1915e.pdf"
+        "pdf": "/assets/publications/pdfs/learning-hash-codes-with-listwise-supervision.pdf"
     },
     {
         "year": "2013",
         "authors": "Jian Pu, Yu-Gang Jiang, Jun Wang, Xiangyang Xue",
         "title": "Multiple Task Learning Using Iteratively Reweighted Least Square.",
         "venue": "The 23rd International Joint Conference on Artificial Intelligence (IJCAI), Beijing, China, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/6d/71/11c24d214154a220d10a5afef77a/9c800e6a-b9ce-41d3-bf82-14659e59908b.pdf"
+        "pdf": "/assets/publications/pdfs/multiple-task-learning-using-iteratively-reweighted-least-square.pdf"
     },
     {
         "year": "2013",
         "authors": "Yanran Wang, Qi Dai, Rui Feng, Yu-Gang Jiang",
         "title": "Beauty is Here: Evaluating Aesthetics in Videos Using Multimodal Features and Free Training Data.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d7/7a/4f40432547339034fa4434de1a46/8730fff9-e900-4383-abf2-070fca70de56.pdf"
+        "pdf": "/assets/publications/pdfs/beauty-is-here-evaluating-aesthetics-in-videos-using-multimodal-features-and-free-training-data.pdf"
     },
     {
         "year": "2013",
         "authors": "Junqiang Wang, Jinhui Tang, Yu-Gang Jiang",
         "title": "Strong Geometry Consistency for Large Scale Partial-Duplicate Image Search.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e6/16/80b7242e4ddab5222e66f48492a8/8fd885aa-e2d2-4ce9-98c1-2e9b45bedae5.pdf"
+        "pdf": "/assets/publications/pdfs/strong-geometry-consistency-for-large-scale-partial-duplicate-image-search.pdf"
     },
     {
         "year": "2013",
         "authors": "Claire-Helene Demarty, Cedric Penet, Markus Schedl, Bogdan Ionescu, Vu Lam Quang, Yu-Gang Jiang",
         "title": "The MediaEval 2013 Affect Task: Violent Scenes Detection.",
         "venue": "MediaEval 2013 Workshop, Barcelona, Spain, 2013. (Task Overview Paper)",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/09/82/43c8c7d94ff99eb24e8861340a51/8519dbd1-60e2-4708-ad75-ecab43895bc7.pdf"
+        "pdf": "/assets/publications/pdfs/the-mediaeval-2013-affect-task-violent-scenes-detection.pdf"
     },
     {
         "year": "2013",
         "authors": "Qi Dai, Jian Tu, Ziqiang Shi, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Fudan at MediaEval 2013: Violent Scenes Detection Using Motion Features and Part-Level Attributes.",
         "venue": "MediaEval 2013 Workshop, Barcelona, Spain, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/bf/2b/bbbabd8e45e68e93f35d839be470/c1d565cd-510f-4571-8ed6-0ae6d8b846e9.pdf"
+        "pdf": "/assets/publications/pdfs/fudan-at-mediaeval-2013-violent-scenes-detection-using-motion-features-and-part-level-attributes.pdf"
     },
     {
         "year": "2013",
         "authors": "Yu-Gang Jiang, Subhabrata Bhattacharya, Shih-Fu Chang, Mubarak Shah",
         "title": "High-Level Event Recognition in Unconstrained Videos.",
         "venue": "International Journal of Multimedia Information Retrieval (IJMIR), vol. 2, issue 2, pp. 73-101, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/99/e1/bb0999cd42bbb016571959f41333/41ab92d6-1661-41f0-b56a-cf0fb81d776e.pdf"
+        "pdf": "/assets/publications/pdfs/high-level-event-recognition-in-unconstrained-videos.pdf"
     },
     {
         "year": "2013",
         "authors": "Yu-Gang Jiang, Jun Wang, Xiangyang Xue, Shih-Fu Chang",
         "title": "Query-Adaptive Image Search with Hash Codes.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 15, issue 2, pp. 442-453, 2013.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ac/db/351de7a24fd3bef4d2a3a01d6982/94706b9c-4d95-47d6-bd24-289652a4e239.pdf"
+        "pdf": "/assets/publications/pdfs/query-adaptive-image-search-with-hash-codes.pdf"
     },
     {
         "year": "2012",
         "authors": "Yu-Gang Jiang, Qi Dai, Xiangyang Xue, Wei Liu, Chong-Wah Ngo",
         "title": "Trajectory-Based Modeling of Human Actions with Motion Reference Points.",
         "venue": "European Conference on Computer Vision (ECCV), Firenze, Italy, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/cd/7e/d59911d14338b2360e933765a6f2/82f5dccb-a521-42f8-ba2b-2a1a4b5b628c.pdf"
+        "pdf": "/assets/publications/pdfs/trajectory-based-modeling-of-human-actions-with-motion-reference-points.pdf"
     },
     {
         "year": "2012",
         "authors": "Yingbin Zheng, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Learning Hybrid Part Filters for Scene Recognition.",
         "venue": "European Conference on Computer Vision (ECCV), Firenze, Italy, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ae/d7/398052c040229490e3b3ebd0aa78/4a84b1b0-05b4-4475-9181-4eaa0ff1233b.pdf"
+        "pdf": "/assets/publications/pdfs/learning-hybrid-part-filters-for-scene-recognition.pdf"
     },
     {
         "year": "2012",
         "authors": "Wei Liu, Jun Wang, Rongrong Ji, Yu-Gang Jiang, Shih-Fu Chang",
         "title": "Supervised Hashing with Kernels.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Rhode Island, USA, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/15/8c/915b959b420384f513b4f0a80600/a9419ad2-c44e-4fb8-8565-9f1a67eae15b.pdf"
+        "pdf": "/assets/publications/pdfs/supervised-hashing-with-kernels.pdf"
     },
     {
         "year": "2012",
         "authors": "Yu-Gang Jiang",
         "title": "SUPER: Towards Real-time Event Recognition in Internet Videos.",
         "venue": "ACM International Conference on Multimedia Retrieval (ICMR), Hong Kong, China, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/55/f8/194e77be46718748e3a745f768e1/11e14d59-7b8d-4c43-a53d-0a34b79aa03c.pdf"
+        "pdf": "/assets/publications/pdfs/super-towards-real-time-event-recognition-in-internet-videos.pdf"
     },
     {
         "year": "2012",
         "authors": "Yu-Gang Jiang, Qi Dai, Yingbin Zheng, Xiangyang Xue, Jie Liu, Dong Wang",
         "title": "A Fast Video Event Recognition System and Its Application to Video Search.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nara, Japan, 2012. (Demo session)",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e8/0b/062951304a5f90823e9f631f8866/ee9b1b92-01cd-4ab7-9446-a165f0ce9011.pdf"
+        "pdf": "/assets/publications/pdfs/a-fast-video-event-recognition-system-and-its-application-to-video-search.pdf"
     },
     {
         "year": "2012",
         "authors": "Yu-Gang Jiang, Qi Dai, Chun Chet Tan, Xiangyang Xue, Chong-Wah Ngo",
         "title": "The Shanghai-Hongkong Team at MediaEval2012: Violent Scene Detection Using Trajectory-based Features.",
         "venue": "MediaEval 2012 Workshop, Pisa, Italy, 4-5, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d1/55/f4da707c4b6baf65d11f819dd94e/a39c135f-2704-4686-80b2-02a609c5bf0a.pdf"
+        "pdf": "/assets/publications/pdfs/the-shanghai-hongkong-team-at-mediaeval2012-violent-scene-detection-using-trajectory-based-features.pdf"
     },
     {
         "year": "2012",
         "authors": "Guangnan Ye, I-Hong Jhuo, Dong Liu, Yu-Gang Jiang, D. T. Lee, Shih-Fu Chang",
         "title": "Joint Audio-Visual Bi-Modal Codewords for Video Event Detection.",
         "venue": "ACM International Conference on Multimedia Retrieval (ICMR), Hong Kong, China, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ed/83/4c2853384efb97f3313936dddb91/e53fe739-b002-48fd-a8cd-8fa36c5b2523.pdf"
+        "pdf": "/assets/publications/pdfs/joint-audio-visual-bi-modal-codewords-for-video-event-detection.pdf"
     },
     {
         "year": "2012",
         "authors": "Shiai Zhu, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "Sampling and Ontologically Pooling Web Images for Visual Concept Learning.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 14, issue 4, pp. 1068-1078, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/71/4a/a4827707446d84de938f4f7cf20c/fdf09962-8f12-4503-a862-b4c97699bb5e.pdf"
+        "pdf": "/assets/publications/pdfs/sampling-and-ontologically-pooling-web-images-for-visual-concept-learning.pdf"
     },
     {
         "year": "2012",
         "authors": "Yu-Gang Jiang, Qi Dai, Jun Wang, Chong-Wah Ngo, Xiangyang Xue, Shih-Fu Chang",
         "title": "Fast Semantic Diffusion for Large Scale Context-Based Image and Video Annotation.",
         "venue": "IEEE Transactions on Image Processing (TIP), vol. 21, issue 6, pp. 3080-3091, 2012.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/df/37/688f3afb4fe99cacdc8bf2584152/b87e63c6-96cb-4dae-9094-c1b229a31774.pdf"
+        "pdf": "/assets/publications/pdfs/fast-semantic-diffusion-for-large-scale-context-based-image-and-video-annotation.pdf"
     },
     {
         "year": "2011",
         "authors": "Chun-Chet Tan, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Towards Textually Describing Complex Video Contents with Audio-Visual Concept Classifiers.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/6c/11/50f8def4496db63b110e24fbea74/56df451e-dc75-47b2-a483-24ccde0d27c5.pdf"
+        "pdf": "/assets/publications/pdfs/towards-textually-describing-complex-video-contents-with-audio-visual-concept-classifiers.pdf"
     },
     {
         "year": "2011",
         "authors": "Shiai Zhu, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "On the Pooling of Positive Examples with Ontology for Visual Concept Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/0d/31/b4eff63d47c18629572c20f16b89/8248ea6c-b8ae-402e-8e52-cd83ba6ca3d6.pdf"
+        "pdf": "/assets/publications/pdfs/on-the-pooling-of-positive-examples-with-ontology-for-visual-concept-learning.pdf"
     },
     {
         "year": "2011",
         "authors": "Yu-Gang Jiang, Guangnan Ye, Shih-Fu Chang, Daniel Ellis, Alexander C. Loui",
         "title": "Consumer Video Understanding: A Benchmark Database and An Evaluation of Human and Machine Performance.",
         "venue": "ACM International Conference on Multimedia Retrieval (ICMR), Trento, Italy, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/dd/1b/a8668c9949d89e9f077a7e1e1edd/25a40037-d39e-4789-8a87-e8ab3a270f2e.pdf"
+        "pdf": "/assets/publications/pdfs/consumer-video-understanding-a-benchmark-database-and-an-evaluation-of-human-and-machine-performance.pdf"
     },
     {
         "year": "2011",
         "authors": "Yu-Gang Jiang, Jun Wang, Shih-Fu Chang",
         "title": "Lost in Binarization: Query-Adaptive Ranking for Similar Image Search with Compact Codes.",
         "venue": "ACM International Conference on Multimedia Retrieval (ICMR), Trento, Italy, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/53/03/63368a584c948d7b0dfa026ec18c/36631c35-16bf-4a26-afbf-c13350fa9c10.pdf"
+        "pdf": "/assets/publications/pdfs/lost-in-binarization-query-adaptive-ranking-for-similar-image-search-with-compact-codes.pdf"
     },
     {
         "year": "2011",
         "authors": "Wei Liu, Yu-Gang Jiang, Jiebo Luo, Shih-Fu Chang",
         "title": "Noise Resistant Graph Ranking for Improved Web Image Search.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Colorado Springs, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/6e/38/83b355d4489db58a2d200e3b796d/d53587a2-cdb6-4740-b861-0c7173d07772.pdf"
+        "pdf": "/assets/publications/pdfs/noise-resistant-graph-ranking-for-improved-web-image-search.pdf"
     },
     {
         "year": "2011",
         "authors": "Cees G. M. Snoek, Koen E. A. van de Sande, Xirong Li, Masoud Mazloom, Yu-Gang Jiang, Dennis C. Koelma, Arnold W. M. Smeulders",
         "title": "The MediaMill TRECVID 2011 Semantic Video Search Engine.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/15/63/f225ff034ebf8171e9d81e1723c8/5de56369-4d08-4f7d-8aa0-b0860ad11714.pdf"
+        "pdf": "/assets/publications/pdfs/the-mediamill-trecvid-2011-semantic-video-search-engine.pdf"
     },
     {
         "year": "2011",
         "authors": "Yu-Gang Jiang, Zhenguo Li, Shih-Fu Chang",
         "title": "Modeling Scene and Object Contexts for Human Action Retrieval with Few Examples.",
         "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 21, issue 5, pp. 674-681, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/8d/f2/9098f6f648fd81beb65a4dc272b9/41f28145-1132-44c4-a514-aaf948384b7f.pdf"
+        "pdf": "/assets/publications/pdfs/modeling-scene-and-object-contexts-for-human-action-retrieval-with-few-examples.pdf"
     },
     {
         "year": "2011",
         "authors": "Xiao-Yong Wei, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Concept-Driven Multi-Modality Fusion for Video Search.",
         "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 21, issue 1, pp. 62-73, 2011.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/cc/0e/d088ebb542569657b48c69be8292/257f8821-dd72-49a1-a43e-f337ba884be0.pdf"
+        "pdf": "/assets/publications/pdfs/concept-driven-multi-modality-fusion-for-video-search.pdf"
     },
     {
         "year": "2010",
         "authors": "Yu-Gang Jiang, Jun Yang, Chong-Wah Ngo, Alexander G. Hauptmann",
         "title": "Representations of Keypoint-Based Semantic Concept Detection: A Comprehensive Study.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 12, issue 1, pp. 42-53, 2010.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/be/52/ef7564a04340bf5a8a68ad31b57e/6d97adcc-ebfd-4448-89e2-3c9009988fe0.pdf"
+        "pdf": "/assets/publications/pdfs/representations-of-keypoint-based-semantic-concept-detection-a-comprehensive-study.pdf"
     },
     {
         "year": "2010",
         "authors": "Yu-Gang Jiang, Xiaohong Zeng, Guangnan Ye, Subh Bhattacharya, Dan Ellis, Mubarak Shah, Shih-Fu Chang",
         "title": "Columbia-UCF TRECVID2010 Multimedia Event Detection: Combining Multiple Modalities, Contextual Concepts, and Temporal Matching.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2010.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/00/cd/13cc926e42c1b29ee0317be7db53/6ddc04cf-e8d4-4c83-bcf4-cf5d450d72d6.pdf"
+        "pdf": "/assets/publications/pdfs/columbia-ucf-trecvid2010-multimedia-event-detection-combining-multiple-modalities-contextual-concepts-and-temporal-matching.pdf"
     },
     {
         "year": "2010",
         "authors": "Shiai Zhu, Gang Wang, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "On the Sampling of Web Images for Learning Visual Concept Classifiers.",
         "venue": "ACM International Conference on Image and Video Retrieval (CIVR), Xi'an, China, 2010.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e0/b1/780f728c48d3b1d185a81437224c/8e5d3d41-74d2-4316-bc53-197b47e5ea67.pdf"
+        "pdf": "/assets/publications/pdfs/on-the-sampling-of-web-images-for-learning-visual-concept-classifiers.pdf"
     },
     {
         "year": "2009",
         "authors": "Jun Wang, Eric Pohlmeyer, Barbara Hanna, Yu-Gang Jiang, Paul Sajda, Shih-Fu Chang",
         "title": "Brain State Decoding for Rapid Image Retrieval.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ca/ff/1e0aaf09439890647996c5c6eedd/3ee9ec3b-5a7e-454f-9b34-4c8cec6239cc.pdf"
+        "pdf": "/assets/publications/pdfs/brain-state-decoding-for-rapid-image-retrieval.pdf"
     },
     {
         "year": "2009",
         "authors": "Yu-Gang Jiang, Chong-Wah Ngo, Shih-Fu Chang",
         "title": "Semantic Context Transfer across Heterogeneous Sources for Domain Adaptive Video Search.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/4f/dc/a8d7aacc45b4bb091a87552ede61/c59c09bf-4901-4aa1-a5d9-0e29b9f86f72.pdf"
+        "pdf": "/assets/publications/pdfs/semantic-context-transfer-across-heterogeneous-sources-for-domain-adaptive-video-search.pdf"
     },
     {
         "year": "2009",
         "authors": "Yu-Gang Jiang, Jun Wang, Shih-Fu Chang, Chong-Wah Ngo",
         "title": "Domain Adaptive Semantic Diffusion for Large Scale Context-Based Video Annotation.",
         "venue": "IEEE International Conference on Computer Vision (ICCV), Kyoto, Japan, 2009.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/0f/92/f078a9674d6f8c9ef947b89ee196/4dec3fbc-b085-4e13-85af-78597e8d9ebf.pdf"
+        "pdf": "/assets/publications/pdfs/domain-adaptive-semantic-diffusion-for-large-scale-context-based-video-annotation.pdf"
     },
     {
         "year": "2009",
         "authors": "Jun Wang, Yu-Gang Jiang, Shih-Fu Chang",
         "title": "Label Diagnosis through Self Tuning for Web Image Search.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Miami Beach, 2009.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/85/4a/ed806a06441aa6338682411d9ffe/b2c8db1c-c5ea-472b-8c11-c32fd55f85bc.pdf"
+        "pdf": "/assets/publications/pdfs/label-diagnosis-through-self-tuning-for-web-image-search.pdf"
     },
     {
         "year": "2009",
         "authors": "Xiao-Yong Wei, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Exploring Inter-Concept Relationship with Context Space for Semantic Video Indexing.",
         "venue": "ACM International Conference on Image and Video Retrieval (CIVR), Santorini, Greece, 2009.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/1a/28/bdb7366c412699a2a2a8acf2b30b/9e891e1e-0044-4f05-839d-faa502d23542.pdf"
+        "pdf": "/assets/publications/pdfs/exploring-inter-concept-relationship-with-context-space-for-semantic-video-indexing.pdf"
     },
     {
         "year": "2009",
         "authors": "Chong-Wah Ngo, Yu-Gang Jiang, Xiao-Yong Wei",
         "title": "VIREO/DVMM at TRECVID 2009: High-Level Feature Extraction, Automatic Video Search, and Content-Based Copy Detection.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2009.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ff/85/6aed38864550b10b38f6b54acb35/67f1adaf-5b63-4d2c-89dc-766a73bfc752.pdf"
+        "pdf": "/assets/publications/pdfs/vireodvmm-at-trecvid-2009-high-level-feature-extraction-automatic-video-search-and-content-based-copy-detection.pdf"
     },
     {
         "year": "2009",
         "authors": "Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Visual Word Proximity and Linguistics for Semantic Video Indexing and Near-Duplicate Retrieval.",
         "venue": "Computer Vision and Image Understanding (CVIU), vol. 113, issue 3, pp. 405-414, 2009.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/84/3d/6228164b44aa8befb9a9f3c2b8d3/bf6d5eb9-7549-45cc-887c-51e8943029ae.pdf"
+        "pdf": "/assets/publications/pdfs/visual-word-proximity-and-linguistics-for-semantic-video-indexing-and-near-duplicate-retrieval.pdf"
     },
     {
         "year": "2008",
         "authors": "Feng Wang, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Video Event Detection Using Motion Relativity and Visual Relatedness.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Vancouver, Canada, 2008.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/66/ff/53ad0fde456b8f30a8da446def54/7fa2843f-ec9c-40fc-8245-0ad71ead7840.pdf"
+        "pdf": "/assets/publications/pdfs/video-event-detection-using-motion-relativity-and-visual-relatedness.pdf"
     },
     {
         "year": "2008",
         "authors": "Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Bag-of-Visual-Words Expansion Using Visual Relatedness for Video Indexing.",
         "venue": "ACM SIGIR Conference on Research & Development on Information Retrieval (SIGIR), Singapore, 2008.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/9b/48/7484ecc24fe5a2c9bd598c6ed521/9124853b-31a9-484c-8f12-10f1e30693eb.pdf"
+        "pdf": "/assets/publications/pdfs/bag-of-visual-words-expansion-using-visual-relatedness-for-video-indexing.pdf"
     },
     {
         "year": "2008",
         "authors": "Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Ontology-Based Visual Word Matching for Near-Duplicate Retrieval.",
         "venue": "IEEE International Conference on Multimedia & Expo (ICME), Hannover, Germany, 2008.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/98/08/b238eaf4437c988acdc58f6ffb5f/d11cad43-ee9d-4a43-9f79-d4f847375a9e.pdf"
+        "pdf": "/assets/publications/pdfs/ontology-based-visual-word-matching-for-near-duplicate-retrieval.pdf"
     },
     {
         "year": "2008",
         "authors": "Yu-Gang Jiang, Akira Yanagawa, Shih-Fu Chang, Chong-Wah Ngo",
         "title": "CU-VIREO374: Fusing Columbia374 and VIREO-374 for Large Scale Semantic Concept Detection.",
         "venue": "Columbia University ADVENT Technical Report #223-2008-1, 2008.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/de/2d/0fcba92047d4a9d92b6d18f3f023/8bcc4ff7-708d-4a09-b52d-ef0014b9986a.pdf"
+        "pdf": "/assets/publications/pdfs/cu-vireo374-fusing-columbia374-and-vireo-374-for-large-scale-semantic-concept-detection.pdf"
     },
     {
         "year": "2008",
         "authors": "Shih-Fu Chang, Junfeng He, Yu-Gang Jiang, Elie El Khoury, Chong-Wah Ngo, Akira Yanagawa, Eric Zavesky",
         "title": "Columbia University/VIREO-CityU/IRIT TRECVID2008 High-Level Feature Extraction and Interactive Video Search.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2008.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/94/36/8d0a34ab4d26a4381d4c6f58319c/273629a5-2a8e-43e4-8224-3d1d1d35aef6.pdf"
+        "pdf": "/assets/publications/pdfs/columbia-universityvireo-cityuirit-trecvid2008-high-level-feature-extraction-and-interactive-video-search.pdf"
     },
     {
         "year": "2008",
         "authors": "Chong-Wah Ngo, Yu-Gang Jiang, Xiaoyong Wei",
         "title": "Beyond Semantic Search: What You Observe May Not Be What You Think.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2008.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/30/db/1b84a25d4ad4a0cb7a2b24e36f14/3e19860a-31c8-46ca-bc00-a15cbcab6820.pdf"
+        "pdf": "/assets/publications/pdfs/beyond-semantic-search-what-you-observe-may-not-be-what-you-think.pdf"
     },
     {
         "year": "2008",
         "authors": "Xiao-Yong Wei, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "Selection of Concept Detectors for Video Search by Ontology-Enriched Semantic Spaces.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 10, issue 6, pp. 1085-1096, 2008.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/70/d4/9963f93f4443ba4dd14ada630deb/6f6adf58-38ec-4f2b-8520-0089825fc24b.pdf"
+        "pdf": "/assets/publications/pdfs/selection-of-concept-detectors-for-video-search-by-ontology-enriched-semantic-spaces.pdf"
     },
     {
         "year": "2007",
         "authors": "Yu-Gang Jiang, Chong-Wah Ngo, Jun Yang",
         "title": "Towards Optimal Bag-of-Features for Object Categorization and Semantic Video Retrieval.",
         "venue": "ACM International Conference on Image and Video Retrieval (CIVR), Amsterdam, The Netherlands, 2007.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/b4/69/0b7a665e4f399949fa2c972aee7a/7e51121b-0353-408c-a970-9d283a057625.pdf"
+        "pdf": "/assets/publications/pdfs/towards-optimal-bag-of-features-for-object-categorization-and-semantic-video-retrieval.pdf"
     },
     {
         "year": "2007",
         "authors": "Jun Yang, Yu-Gang Jiang, Alexander G. Hauptmann, Chong-Wah Ngo",
         "title": "Evaluating Bag-of-Visual-Words Representations in Scene Classification.",
         "venue": "ACM SIGMM Workshop on Multimedia Information Retrieval (MIR), in conjunction with ACM International Conference on Multimedia (ACM MM), Germany, 2007.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/ba/52/125b144e439eab33e1db669b123a/28cfa33e-68f0-43e2-ba28-cd3f602b5234.pdf"
+        "pdf": "/assets/publications/pdfs/evaluating-bag-of-visual-words-representations-in-scene-classification.pdf"
     },
     {
         "year": "2007",
         "authors": "Chong-Wah Ngo, Yu-Gang Jiang, Xiaoyong Wei",
         "title": "Experimenting VIREO-374: Bag-of-Visual-Words and Visual-Based Ontology for Semantic Video Indexing and Search.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2007.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/16/7d/95d982254dc8acd4f0c209c0f6ef/15765691-ee9d-4cff-afde-c4e40cdc4131.pdf"
+        "pdf": "/assets/publications/pdfs/experimenting-vireo-374-bag-of-visual-words-and-visual-based-ontology-for-semantic-video-indexing-and-search.pdf"
     },
     {
         "year": "2006",
         "authors": "Chong-Wah Ngo, Wan-Lei Zhao, Yu-Gang Jiang",
         "title": "Fast Tracking of Near-Duplicate Keyframes in Broadcast Domain with Transitivity Propagation.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Santa Barbara, CA, USA, 2006.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/e4/a2/c890294049d28e015ea2b99bf6d4/75108302-bcf2-4ac4-98db-f9b66ccf85d2.pdf"
+        "pdf": "/assets/publications/pdfs/fast-tracking-of-near-duplicate-keyframes-in-broadcast-domain-with-transitivity-propagation.pdf"
     },
     {
         "year": "2006",
         "authors": "Yu-Gang Jiang, Wan-Lei Zhao, Chong-Wah Ngo",
         "title": "Exploring Semantic Concept Using Local Invariant Features.",
         "venue": "Asia-Pacific Workshop on Visual Information Processing, Beijing, China, 2006. (Invited paper&talk)",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/40/42/44648a0c4601b36dc7d2d20f385b/197f915b-254a-4844-a47d-9654cb37c997.pdf"
+        "pdf": "/assets/publications/pdfs/exploring-semantic-concept-using-local-invariant-features.pdf"
     },
     {
         "year": "2006",
         "authors": "Wanlei Zhao, Yu-Gang Jiang, Chong-Wah Ngo",
         "title": "Keyframe Retrieval by Keypoints: Can Point-to-Point Matching Help.",
         "venue": "International Conference on Image and Video Retrieval (CIVR), Tempe, USA, 2006.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/f6/82/6e1ec783407a9a49cadaeb1f15ca/fceeb746-0187-4146-b624-fc233501aaf2.pdf"
+        "pdf": "/assets/publications/pdfs/keyframe-retrieval-by-keypoints-can-point-to-point-matching-help.pdf"
     },
     {
         "year": "2006",
         "authors": "Yu-Gang Jiang, Xiaoyong Wei, Chong-Wah Ngo",
         "title": "Modeling Local Interest Points for Semantic Detection and Video Search.",
         "venue": "NIST TRECVID Workshop (TRECVID), Gaithersburg, USA, 2006.",
-        "pdf": "https://fvl.fudan.edu.cn/_upload/article/files/d4/71/fe0ca0e441d29c5236e7880ef41e/e43f9cb0-e07f-4f17-805f-1e681bf4408a.pdf"
+        "pdf": "/assets/publications/pdfs/modeling-local-interest-points-for-semantic-detection-and-video-search.pdf"
     }
 ]
