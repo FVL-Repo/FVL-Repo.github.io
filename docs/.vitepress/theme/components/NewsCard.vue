@@ -69,6 +69,13 @@ const formatYear = (date: string) =>
     text-decoration: none;
     border-radius: 2px;
     --ratio: 8 / 5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    will-change: transform; /* 性能优化 */
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 .news-card--large {
@@ -84,12 +91,16 @@ const formatYear = (date: string) =>
     aspect-ratio: var(--ratio);
 }
 
-
 .image-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.news-card:hover .image-wrapper img {
+    transform: scale(1.02);
 }
 
 .date-badge {
