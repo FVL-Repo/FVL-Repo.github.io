@@ -6,7 +6,7 @@
                 <!-- 年份筛选器 -->
                 <div class="year-filter">
                     <button v-for="year in availableYears" :key="year" :class="{ active: selectedYear === year }"
-                        @click="selectedYear = year">
+                        @click="selectYear(year)">
                         {{
                             year === 'all'
                                 ? t.allYears
@@ -19,7 +19,21 @@
 
                 <div class="publications-list" :key="selectedYear">
                     <div v-for="(item, index) in filteredPublications" :key="item.year + item.title"
-                        class="publication-row" :style="{ animationDelay: `${index * 150}ms` }">
+                        class="publication-row"
+                        :style="{ animationDelay: `${index * 150}ms` }">
+                        <div class="thumb">
+                            <template v-if="item.image">
+                                <img :src="item.image" loading="lazy"/>
+                            </template>
+
+                            <div v-else class="image-placeholder">
+                                <span class="placeholder-text">{{ item.title}}</span>
+                            </div>
+                            <span class="venue-badge" v-if="item.venue_abbreviated">
+                                {{ item.venue_abbreviated }}
+                            </span>
+                        </div>
+
                         <div class="content">
                             <h2 class="title">{{ item.title }}</h2>
                             <p class="authors">{{ item.authors }}</p>
@@ -53,24 +67,19 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue'
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue'
 import { useData } from 'vitepress'
 import { publicationsList } from '../../data/publications'
 import Footer from '../components/Footer.vue'
 
 /* =========================
-   语言上下文
+   1. 语言上下文与文案
    ========================= */
-
 const { lang } = useData()
 
 const currentLang = computed<'zh' | 'en'>(() =>
     lang.value.startsWith('zh') ? 'zh' : 'en'
 )
-
-/* =========================
-   文案
-   ========================= */
 
 const TEXT = {
     zh: {
@@ -92,9 +101,8 @@ const TEXT = {
 const t = computed(() => TEXT[currentLang.value])
 
 /* =========================
-   年份逻辑
+   2. 年份定义与筛选逻辑
    ========================= */
-
 type YearFilter = 'all' | 'earlier' | string
 
 const selectedYear = ref<YearFilter>('all')
@@ -103,12 +111,10 @@ const currentYear = new Date().getFullYear()
 const recentYearThreshold = currentYear - 9
 const earlierYear = recentYearThreshold - 1
 
-/* earlier 文案：2016 & earlier / 2016 及更早 */
-const earlierLabel = computed(() => {
-    return `${earlierYear} & earlier`
-})
+// earlier 文案显示
+const earlierLabel = computed(() => `${earlierYear} & earlier`)
 
-/* 侧边栏年份 */
+// 侧边栏/顶部显示的合法年份列表
 const availableYears = computed<YearFilter[]>(() => {
     const years = Array.from(
         new Set(publicationsList.map(p => Number(p.year)))
@@ -119,7 +125,85 @@ const availableYears = computed<YearFilter[]>(() => {
     return ['all', ...recentYears.map(String), 'earlier']
 })
 
-/* 论文筛选 */
+/* =========================
+   3. Hash 路由、重定向与同步逻辑
+   ========================= */
+
+/**
+ * 核心逻辑：校验 Hash 并返回规范化的年份标签
+ * 处理输入如 #2014 重定向到 #earlier，输入 #abc 重定向到全部
+ */
+const getNormalizedYear = (hashStr: string): YearFilter => {
+    const rawTag = hashStr.replace('#', '').trim()
+
+    if (!rawTag) return 'all'
+
+    // 1. 如果直接在合法选项中 (all, 2026, earlier等)
+    if (availableYears.value.includes(rawTag)) {
+        return rawTag as YearFilter
+    }
+
+    // 2. 检查是否是数字，进行范围判定
+    const yearNum = parseInt(rawTag)
+    if (!isNaN(yearNum)) {
+        // 如果输入的年份小于等于“早期”阈值，判定为 earlier
+        if (yearNum <= earlierYear) {
+            // 确保数据中确实有该年份或更早的论文，否则跳到 all
+            const hasEarlierData = publicationsList.some(p => Number(p.year) <= earlierYear)
+            return hasEarlierData ? 'earlier' : 'all'
+        }
+        // 如果是比当前年还大的数字，或者不在 recent 列表里的数字，统一归为 all
+        return 'all'
+    }
+
+    // 3. 其他非法字符串
+    return 'all'
+}
+
+/**
+ * 同步状态到 URL 地址栏
+ */
+const syncUrlToState = (year: YearFilter) => {
+    const newHash = year === 'all' ? '' : `#${year}`
+    // 使用 replaceState 更新 URL，避免在历史记录中产生大量垃圾条目
+    // 同时也保证了重定向（如 #2010 -> #earlier）在地址栏即时生效
+    const newUrl = window.location.pathname + window.location.search + newHash
+    window.history.replaceState(null, '', newUrl)
+}
+
+/**
+ * 按钮点击触发函数
+ */
+const selectYear = (year: YearFilter) => {
+    selectedYear.value = year
+    syncUrlToState(year)
+}
+
+/**
+ * 监听 Hash 变化（处理浏览器前进/后退或手动修改 URL）
+ */
+const handleHashChange = () => {
+    const normalized = getNormalizedYear(window.location.hash)
+    selectedYear.value = normalized
+    syncUrlToState(normalized) // 再次同步确保地址栏显示的是标准化后的结果
+}
+
+onMounted(() => {
+    // 页面加载时执行初始化校验
+    const initialYear = getNormalizedYear(window.location.hash)
+    selectedYear.value = initialYear
+    syncUrlToState(initialYear)
+
+    window.addEventListener('hashchange', handleHashChange)
+})
+
+onUnmounted(() => {
+    window.removeEventListener('hashchange', handleHashChange)
+})
+
+/* =========================
+   4. 论文数据计算
+   ========================= */
 const filteredPublications = computed(() => {
     let list = publicationsList
 
@@ -133,9 +217,11 @@ const filteredPublications = computed(() => {
         )
     }
 
+    // 默认按年份降序排列
     return [...list].sort((a, b) => Number(b.year) - Number(a.year))
 })
 
+// 监听选中年份变化，平滑滚动至顶
 watch(selectedYear, () => {
     window.scrollTo({
         top: 0,
@@ -213,20 +299,76 @@ watch(selectedYear, () => {
     position: relative;
     display: flex;
     gap: 24px;
-    padding: 24px 36px;
+    padding: 20px 24px;
     background: transparent;
     border-radius: 0;
     box-shadow: none;
     border-bottom: 1px solid rgba(150, 150, 150, 0.5);
     transition: transform 0.25s ease, background-color 0.25s ease;
     transform-origin: center left;
+    height: auto;
+    align-items: flex-start;
+    /* 顶部对齐 */
 }
 
 .publication-row:hover {
-    transform: scale(1.02);
+    transform: scale(1.012);
     background-color: var(--vp-bg);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border-bottom: none;
+}
+
+.thumb {
+    position: relative;
+    width: 280px;
+    padding: 8px;
+    border-radius: 6px;
+    aspect-ratio: 16 / 9;
+    flex-shrink: 0;
+    overflow: visible;
+    background: var(--vp-bg);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.venue-badge {
+    position: absolute;
+    padding: 6px 8px;
+    top: -1px;
+    left: -1px;
+    border-radius: 3px;
+    font-size: var(--vp-small);
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    line-height: 1.4;
+    color: var(--vp-bg);
+    background-color: rgba(110, 110, 110, 0.9);
+}
+
+/* 占位符容器样式 */
+.image-placeholder {
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--vp-c-brand-4);
+}
+
+/* 占位符文字样式 */
+.placeholder-text {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 /* 内容区域 */
@@ -300,13 +442,13 @@ watch(selectedYear, () => {
 
 @media (min-width: 1024px) {
     .container {
-        width: 84vw;
+        width: auto;
     }
 
     .content-area {
         display: flex;
         align-items: flex-start;
-        gap: 120px;
+        gap: 60px;
     }
 
     .year-filter {
@@ -354,8 +496,8 @@ watch(selectedYear, () => {
 /* 移动端适配 */
 @media (max-width: 768px) {
     .container {
-        max-width: 100vw;
-        padding: 20px 20px 40px 20px;
+        max-width: 100%;
+        padding: 20px 5vw 40px 5vw;
     }
 
     .content-area {
@@ -373,7 +515,7 @@ watch(selectedYear, () => {
 
     .year-filter button {
         min-width: 40px;
-        padding: 3px 5px;
+        padding: 4px 8px;
         flex-shrink: 0;
         white-space: nowrap;
         border-radius: 1px;
@@ -384,19 +526,23 @@ watch(selectedYear, () => {
     }
 
     .publication-row {
-        padding: 12px 6px;
+        padding: 12px 3vw;
         flex-direction: column;
+        align-items: flex-start;
         gap: 12px;
     }
 
     .thumb {
-        width: auto;
+        width: 100%;
+        height: 50vw;
         border-radius: 3px;
+        box-shadow: none;
     }
 
     .venue-badge {
         border-radius: 2px;
-        padding: 6px 9px;
+        font-size: var(--vp-p-size);
+        padding: 4px 6px;
     }
 
     .content {

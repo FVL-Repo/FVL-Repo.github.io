@@ -56,7 +56,7 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/publications"
+        "link": "/publications#2025"
     },
     {
         date: '2025-07-05',
@@ -251,7 +251,7 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/publications"
+        "link": "/publications#2022"
     },
     {
         "date": "2022-07-10",
@@ -355,6 +355,6 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/publications"
+        "link": "/publications#2022"
     }
 ]
