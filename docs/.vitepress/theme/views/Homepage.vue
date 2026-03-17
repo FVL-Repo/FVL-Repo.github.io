@@ -7,7 +7,7 @@
                     <slot :name="`page-${index}`">
                         <Carousel v-if="index === 0" />
                         <HotNews v-else-if="index === 1" />
-                        <Research v-else-if="index === 2" />
+                        <!-- <Research v-else-if="index === 2" /> -->
                         <template v-else>
                             {{ page }}
                         </template>
@@ -17,11 +17,12 @@
                 <!-- 最后一页：内容 + Footer -->
                 <template v-else>
                     <div class="last-page">
-                        <div class="last-content">
+                        <!-- <div class="last-content">
                             <slot :name="`page-${index}`">
                                 {{ page }}
                             </slot>
-                        </div>
+                        </div> -->
+                        <Research/>
 
                         <Footer :Footer_Data="Footer_Data" />
                     </div>
@@ -44,7 +45,7 @@ import HotNews from './HotNews.vue'
 import Research from './Research.vue'
 import Footer from '../components/Footer.vue'
 
-const pages = [0, 1, 2, 3]
+const pages = [0, 1, 2]
 const current = ref(0)
 const lastPageIndex = pages.length - 1
 
