@@ -25,7 +25,7 @@ export const researchList: ResearchItem[] = [
         image: '/assets/research/multimodal.png'
     },
     {
-        id: 'multimodal',
+        id: 'video-generation',
         title: {
             zh: '视频生成',
             en: 'Video Generation'
@@ -37,7 +37,7 @@ export const researchList: ResearchItem[] = [
         image: '/assets/research/video-generation.png'
     },
     {
-        id: 'multimodal',
+        id: 'embodied-ai',
         title: {
             zh: '具身智能',
             en: 'Embodied AI'
