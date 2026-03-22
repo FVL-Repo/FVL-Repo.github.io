@@ -141,7 +141,7 @@ onUnmounted(() => {
     /* 新增以下三行，让内部元素重叠 */
     display: grid;
     grid-template-columns: 1fr;
-    align-items: start;
+    align-items: stretch;
 }
 
 .research-card {
@@ -157,7 +157,7 @@ onUnmounted(() => {
 }
 
 .image-wrapper {
-    width: auto;              
+    width: 28vh;              
     height: 28vh;
     flex-shrink: 0;
     border-radius: 8px;
