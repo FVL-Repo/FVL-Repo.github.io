@@ -83,11 +83,13 @@ const sideNews = computed(() =>
 
 <style scoped>
 .hot-news {
+    height: calc(100vh - var(--vp-nav-height));
     padding: 0 8vw 12vh 8vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
     /* background: linear-gradient(to bottom, var(--vp-bg-soft) 60%, var(--vp-c-brand-soft) 100%); */
 }
 
