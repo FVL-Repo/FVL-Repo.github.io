@@ -2,6 +2,8 @@ export const content = {
     zh: {
         title: '加入我们',
         intro: '复旦大学视觉与学习实验室欢迎有志于从事计算机视觉、机器（深度）学习、可信人工智能等相关方向研究的同仁和同学加入我们的研究团队。',
+        more: "了解更多",
+        back: "返回",
         tabs: {
             postdoc: '博士后',
             graduate: '博士 / 硕士',
@@ -37,8 +39,8 @@ export const content = {
                 '按照学校相关政策，协助申请博士后公寓，协助子女申请复旦大学附属幼儿园和小学入学资格。'
             ],
             emailPrefix: '有意者请将简历发送至',
-            contact: '（陈智能老师）',
-            emailNote: '，邮件主题：“应聘博士后--姓名--专业--学校”。'
+            contact: '（陈智能老师）。',
+            emailNote: '邮件主题：“应聘博士后--姓名--专业--学校”。'
         },
         graduate: {
             title: '申请博士 / 硕士研究生',
@@ -59,6 +61,8 @@ export const content = {
     en: {
         title: 'Join Us',
         intro: 'Fudan Vision and Learning Laboratory welcomes colleagues and students interested in Computer Vision, Machine (Deep) Learning, Trustworthy AI, and related fields to join our research team.',
+        more: "Learn More",
+        back: "Back",
         tabs: {
             postdoc: 'Postdoctoral',
             graduate: 'PhD / Master',
@@ -94,15 +98,15 @@ export const content = {
                 'Assistance with postdoctoral housing and children\'s admission to Fudan University affiliated kindergarten/primary school, subject to university policies.'
             ],
             emailPrefix: 'Please send your CV to',
-            contact: ' (Prof. Zhineng Chen)',
-            emailNote: '. Email subject: "Postdoc Application--Name--Major--University".'
+            contact: ' (Prof. Zhineng Chen).',
+            emailNote: 'Email subject: "Postdoc Application--Name--Major--University".'
         },
         graduate: {
             title: 'PhD / Master Applicants',
             desc: 'We welcome outstanding students (both internal and external, including interdisciplinary candidates) to apply for PhD or Master\'s degrees. We particularly value candidates with strong research enthusiasm, excellent English reading and writing skills, strong teamwork spirit, a solid mathematical foundation, and proficient programming skills. Prior understanding of our research projects or relevant experience is a plus.',
             emailPrefix: 'Please send your CV to',
-            contact: ' (Prof. Zuxuan Wu)',
-            emailNote: '. Email subject: "PhD/Master Application - Name - Major - University".',
+            contact: ' (Prof. Zuxuan Wu).',
+            emailNote: 'Email subject: "PhD/Master Application - Name - Major - University".',
             note: 'Due to limited enrollment quotas, early contact is encouraged.'
         },
         undergraduate: {
@@ -111,8 +115,8 @@ export const content = {
             p2: 'We expect you to be proficient in programming languages (e.g., Python, C++, or MATLAB), and have a solid foundation in Linear Algebra, Statistics, and Machine Learning. Good mathematical grounding and English literature reading skills are required.',
             p3: 'You should have research passion, critical thinking skills, and a willingness to invest time and energy. We aim to cultivate your ability to conduct scientific exploration, master cutting-edge algorithms, and eventually propose problems and grasp research directions independently.',
             emailPrefix: 'Please send your CV and complete transcript to',
-            contact: ' (Prof. Zuxuan Wu)',
-            emailNote: '. Please list your familiar programming languages and past project experiences.'
+            contact: ' (Prof. Zuxuan Wu).',
+            emailNote: 'Please list your familiar programming languages and past project experiences.'
         }
     }
 }

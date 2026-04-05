@@ -30,7 +30,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '加入我们',
-      link: '/joinus',
+      link: '/joinus/index',
     },
   ]
 }

@@ -19,7 +19,9 @@ import Confetti from "./components/Confetti.vue";
 import NCard from './components/NCard.vue';
 import Homepage from './views/Homepage.vue';
 import Footer from './components/Footer.vue'
-import JoinUs from './views/JoinUs.vue';
+// import JoinUs from './views/JoinUs.vue.backup';
+import JoinUsIndex from './views/joinus/Index.vue';
+import PositionDetail from './views/joinus/PositionDetail.vue';
 import News from './views/News.vue';
 import Publications from './views/Publications.vue';
 import People from './views/People.vue';
@@ -31,7 +33,9 @@ export default {
     app.component("Confetti", Confetti); //注册全局组件
     app.component("Homepage", Homepage);
     app.component("Footer", Footer);
-    app.component("JoinUs", JoinUs);
+    // app.component("JoinUs", JoinUs);
+    app.component("JoinUsIndex", JoinUsIndex);
+    app.component("PositionDetail", PositionDetail);
     app.component("News", News);
     app.component("Publications", Publications);
     app.component("People", People);
