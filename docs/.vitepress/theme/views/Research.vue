@@ -150,7 +150,7 @@ onUnmounted(() => {
     background: var(--vp-c-bg-soft);
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
     align-items: center;
     height: auto;
     overflow: hidden;
@@ -221,8 +221,7 @@ onUnmounted(() => {
     .research-section {
         height: auto;
         width: 100vw;
-        min-height: calc(100vh - var(--vp-nav-height));
-        padding: 40px 10px;
+        padding: 10px 10px;
         overflow-x: hidden;
     }
 
@@ -238,8 +237,10 @@ onUnmounted(() => {
         flex-direction: column;
         height: auto;
         padding: 24px;
-        gap: 9px;
-        margin-bottom: 9px;
+        gap: 8px;
+        margin-bottom: 18px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     }
 
     .image-wrapper {

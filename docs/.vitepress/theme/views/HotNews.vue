@@ -135,7 +135,8 @@ const sideNews = computed(() =>
 
 @media (max-width: 768px) {
     .hot-news {
-        padding: 30px 20px 0 20px;
+        height: auto;
+        padding: 30px 20px;
     }
 
     .news-header {
