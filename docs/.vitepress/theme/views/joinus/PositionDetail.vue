@@ -165,6 +165,7 @@ const t = computed(() => content[currentLang.value])
     margin-bottom: 8px;
     line-height: 1.5;
     color: var(--vp-c-text-1);
+    font-size: var(--vp-p-size);
 }
 
 /* 联系方式区域 */
