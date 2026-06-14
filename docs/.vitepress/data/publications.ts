@@ -12,6 +12,231 @@ export interface PublicationItem {
 
 export const publicationsList: PublicationItem[] = [
     {
+        "year": "2026",
+        "authors": "Zhipeng Wei, Jingjing Chen, Feng Han, Yue Yu, Yu-Gang Jiang",
+        "title": "Enhancing Adversarial Transferability With Cost-Efficient Landscape Flattening",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2026",
+        "pdf": "https://doi.org/10.1109/TPAMI.2026.3664421",
+        "image": "/assets/publications/images/2026/tpami-zhipengwei.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yuchen Su, Zhineng Chen, Yongkun Du, Zuxuan Wu, Hongtao Xie, Yu-Gang Jiang",
+        "title": "LRANet++: Low-Rank Approximation Network for Accurate and Efficient Text Spotting",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2026",
+        "pdf": "https://doi.org/10.1109/TPAMI.2026.3650769",
+        "image": "/assets/publications/images/2026/tpami-yuchensu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Jiaming Zhang, Xin Wang, Xingjun Ma, Lingyu Qiu, Yu-Gang Jiang, Jitao Sang",
+        "title": "NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2026",
+        "pdf": "https://doi.org/10.1109/TPAMI.2026.3659598",
+        "image": "/assets/publications/images/2026/tpami-jiamingzhang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yuankun Yang, Li Zhang, Ziyang Xie, Zhiyuan Yuan, Jianfeng Feng, Xiatian Zhu, Yu-Gang Jiang",
+        "title": "Brain3D: Generating 3D Objects from fMRI",
+        "venue": "Int. J. Comput. Vis",
+        "venue_abbreviated": "IJCV 2026",
+        "pdf": "https://doi.org/10.1007/s11263-025-02609-x",
+        "image": "/assets/publications/images/2026/ijcv-yuankunyang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Henghui Ding, Chang Liu, Shuting He, Xudong Jiang, Yu-Gang Jiang",
+        "title": "GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation",
+        "venue": "Int. J. Comput. Vis",
+        "venue_abbreviated": "IJCV 2026",
+        "pdf": "https://doi.org/10.1007/s11263-026-02729-y",
+        "image": "/assets/publications/images/2026/ijcv-henghuiding.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yige Li, Jiabo He, Hanxun Huang, Jun Sun, Xingjun Ma, Yu-Gang Jiang",
+        "title": "Shortcuts Everywhere and Nowhere: Exploring Multi-Trigger Backdoor Attacks",
+        "venue": "IEEE Trans. Dependable Secur. Comput",
+        "venue_abbreviated": "TDSC 2026",
+        "pdf": "https://doi.org/10.1109/TDSC.2025.3605597",
+        "image": "/assets/publications/images/2026/tdsc-yigeli.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Jiarui Yang, Bin Zhu, Jingjing Chen, Yu-Gang Jiang",
+        "title": "Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward",
+        "venue": "AAAI",
+        "venue_abbreviated": "AAAI 2026",
+        "pdf": "https://doi.org/10.1609/aaai.v40i22.38937",
+        "image": "/assets/publications/images/2026/aaai-jiaruiyang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Wenhao Yao, Zhenxin Li, Shiyi Lan, Zi Wang, Xinglong Sun, José M. Álvarez, Zuxuan Wu",
+        "title": "DriveSuprim: Towards Precise Trajectory Selection for End-to-End Planning",
+        "venue": "AAAI",
+        "venue_abbreviated": "AAAI 2026",
+        "pdf": "https://doi.org/10.1609/aaai.v40i14.38178",
+        "image": "/assets/publications/images/2026/aaai-wenhaoyao.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Sicheng Xie, Haidong Cao, Zejia Weng, Zhen Xing, Haoran Chen, Shiwei Shen, Jiaqi Leng, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Human2Robot: Learning Robot Actions from Paired Human-Robot Videos",
+        "venue": "AAAI",
+        "venue_abbreviated": "AAAI 2026",
+        "pdf": "https://doi.org/10.1609/aaai.v40i13.38086",
+        "image": "/assets/publications/images/2026/aaai-sichengxie.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Junhao Xu, Jingjing Chen, Yang Jiao, Jiacheng Zhang, Zhiyu Tan, Hao Li, Yu-Gang Jiang",
+        "title": "Identity-Aware Vision-Language Model for Explainable Face Forgery Detection",
+        "venue": "AAAI",
+        "venue_abbreviated": "AAAI 2026",
+        "pdf": "https://doi.org/10.1609/aaai.v40i13.38108",
+        "image": "/assets/publications/images/2026/aaai-junhaoxu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yongkun Du, Miaomiao Zhao, Songlin Fan, Zhineng Chen, Caiyan Jia, Yu-Gang Jiang",
+        "title": "MDiff4STR: Mask Diffusion Model for Scene Text Recognition",
+        "venue": "AAAI",
+        "venue_abbreviated": "AAAI 2026",
+        "pdf": "https://doi.org/10.1609/aaai.v40i5.37370",
+        "image": "/assets/publications/images/2026/aaai-yongkundu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Haoyu Zhao, Jiaxi Gu, Shicong Wang, Tianyi Lu, Xing Zhang, Zuxuan Wu, Hang Xu, Yu-Gang Jiang",
+        "title": "LSTD: Long Short-Term Temporal Diffusion for Video Generation",
+        "venue": "IEEE Trans. Multim",
+        "venue_abbreviated": "TMM 2026",
+        "pdf": "https://doi.org/10.1109/TMM.2026.3651052",
+        "image": "/assets/publications/images/2026/tmm-haoyuzhao.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Ben Niu, Yu-Gang Jiang, Xing-xing Ju, Ying-ying Liu, Xiao-mei Wang",
+        "title": "Distributed prescribed-time algorithms of multi-agent systems for time-varying optimization problems with inequality constraints",
+        "venue": "Autom",
+        "venue_abbreviated": "Autom 2026",
+        "pdf": "https://doi.org/10.1016/j.automatica.2026.112982",
+        "image": "/assets/publications/images/2026/autom-benniu.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Yongkun Du, Zhineng Chen, Caiyan Jia, Xiaoting Yin, Chenxia Li, Yuning Du, Yu-Gang Jiang",
+        "title": "Context Perception Parallel Decoder for Scene Text Recognition",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2025",
+        "pdf": "https://doi.org/10.1109/TPAMI.2025.3545453",
+        "image": "/assets/publications/images/2025/tpami-yongkundu-1.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Hui Zhang, Zheng Wang, Dan Zeng, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "DiffusionAD: Norm-Guided One-Step Denoising Diffusion for Anomaly Detection",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2025",
+        "pdf": "https://doi.org/10.1109/TPAMI.2025.3570494",
+        "image": "/assets/publications/images/2025/tpami-huizhang.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Xuelin Qian, Wenxuan Wang, Yu-Gang Jiang, Xiangyang Xue, Yanwei Fu",
+        "title": "Dynamic Routing and Knowledge Re-Learning for Data-Free Black-Box Attack",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2025",
+        "pdf": "https://doi.org/10.1109/TPAMI.2024.3469952",
+        "image": "/assets/publications/images/2025/tpami-xuelinqian.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Yongkun Du, Zhineng Chen, Yuchen Su, Caiyan Jia, Yu-Gang Jiang",
+        "title": "Instruction-Guided Scene Text Recognition",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2025",
+        "pdf": "https://doi.org/10.1109/TPAMI.2025.3525526",
+        "image": "/assets/publications/images/2025/tpami-yongkundu.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Henghui Ding, Chang Liu, Shuting He, Kaining Ying, Xudong Jiang, Chen Change Loy, Yu-Gang Jiang",
+        "title": "MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmentation",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2025",
+        "pdf": "https://doi.org/10.1109/TPAMI.2025.3600507",
+        "image": "/assets/publications/images/2025/tpami-henghuiding.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Junke Wang, Zuxuan Wu, Dongdong Chen, Chong Luo, Xiyang Dai, Lu Yuan, Yu-Gang Jiang",
+        "title": "OmniTracker: Unifying Visual Object Tracking by Tracking-With-Detection",
+        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "venue_abbreviated": "TPAMI 2025",
+        "pdf": "https://doi.org/10.1109/TPAMI.2025.3529926",
+        "image": "/assets/publications/images/2025/tpami-junkewang.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Zhipeng Wei, Jingjing Chen, Yu-Gang Jiang",
+        "title": "What Do Visual Models Look At? Dilated Attention for Targeted Transferable Attacks",
+        "venue": "Int. J. Comput. Vis",
+        "venue_abbreviated": "IJCV 2025",
+        "pdf": "https://doi.org/10.1007/s11263-025-02552-x",
+        "image": "/assets/publications/images/2025/ijcv-zhipengwei.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Guoshan Liu, Hailong Yin, Bin Zhu, Jingjing Chen, Chong-Wah Ngo, Yu-Gang Jiang",
+        "title": "Retrieval Augmented Recipe Generation",
+        "venue": "WACV",
+        "venue_abbreviated": "WACV 2025",
+        "pdf": "https://doi.org/10.1109/WACV61041.2025.00244",
+        "image": "/assets/publications/images/2025/wacv-guoshanliu.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Hui Zhang, Tingwei Gao, Jie Shao, Zuxuan Wu",
+        "title": "BlockDance: Reuse Structurally Similar Spatio-Temporal Features to Accelerate Diffusion Transformers",
+        "venue": "CVPR",
+        "venue_abbreviated": "CVPR 2025",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BlockDance_Reuse_Structurally_Similar_Spatio-Temporal_Features_to_Accelerate_Diffusion_Transformers_CVPR_2025_paper.html",
+        "image": "/assets/publications/images/2025/cvpr-huizhang.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Zihao Zhang, Haoran Chen, Haoyu Zhao, Guansong Lu, Yanwei Fu, Hang Xu, Zuxuan Wu",
+        "title": "EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation",
+        "venue": "CVPR",
+        "venue_abbreviated": "CVPR 2025",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_EDEN_Enhanced_Diffusion_for_High-quality_Large-motion_Video_Frame_Interpolation_CVPR_2025_paper.html",
+        "image": "/assets/publications/images/2025/cvpr-zihaozhang.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Shuyuan Tu, Zhen Xing, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu",
+        "title": "StableAnimator: High-Quality Identity-Preserving Human Image Animation",
+        "venue": "CVPR",
+        "venue_abbreviated": "CVPR 2025",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025/html/Tu_StableAnimator_High-Quality_Identity-Preserving_Human_Image_Animation_CVPR_2025_paper.html",
+        "image": "/assets/publications/images/2025/cvpr-shuyuantu.png"
+    },
+    {
+        "year": "2025",
+        "authors": "Yang Jiao, Haibo Qiu, Zequn Jie, Shaoxiang Chen, Jingjing Chen, Lin Ma, Yu-Gang Jiang",
+        "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding",
+        "venue": "CVPR Workshops",
+        "venue_abbreviated": "CVPR 2025",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2025W/MMFM/html/Jiao_UniToken_Harmonizing_Multimodal_Understanding_and_Generation_through_Unified_Visual_Encoding_CVPRW_2025_paper.html",
+        "image": "/assets/publications/images/2025/cvpr-yangjiao.png"
+    },
+    {
         "year": "2025",
         "authors": "Wujian Peng, Lingchen Meng, Yitong Chen, Yiweng Xie, Yang Liu, Tao Gui, Hang Xu, Xipeng Qiu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "INST-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning.",
@@ -235,15 +460,6 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "https://dl.acm.org/doi/10.1145/3696415",
         "image": "/assets/publications/images/2025/csur-zhenxing.png",
         "venue_abbreviated": "CSUR 2025"
-    },
-    {
-        "year": "2025",
-        "authors": "Xuelin Qian, Wenxuan Wang, Yu-Gang Jiang, Xiangyang Xue, Yanwei Fu",
-        "title": "Dynamic Routing and Knowledge Re-Learning for Data-Free Black-Box Attack.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025.",
-        "pdf": "https://ieeexplore.ieee.org/document/10697391/",
-        "image": "/assets/publications/images/2025/tpami-xuelinqian.png",
-        "venue_abbreviated": "TPAMI 2025"
     },
     {
         "year": "2025",
