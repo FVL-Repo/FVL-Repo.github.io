@@ -115,7 +115,7 @@ const t = computed(() => content[currentLang.value])
 
 .content-card {
     background-color: var(--vp-bg);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 40px 50px;
     border: 1px solid var(--vp-c-gutter);
     box-shadow: var(--vp-shadow-1);
@@ -189,16 +189,15 @@ const t = computed(() => content[currentLang.value])
 
 .note-text {
     font-size: var(--vp-small);
+    line-height: 2;
     color: var(--vp-c-text-2);
 }
 
 .important-note {
-    margin-top: 16px;
-    padding: 6px 8px;
-    background-color: var(--vp-c-brand-soft);
-    border-left: 4px solid var(--vp-c-brand-1);
-    border-radius: 4px;
     font-size: var(--vp-small);
+    line-height: 2;
+    color: var(--vp-c-text-1);
+    font-weight: 500;
 }
 
 /* 切换动画 */
@@ -238,7 +237,7 @@ const t = computed(() => content[currentLang.value])
     }
 
     .content-card {
-        border-radius: 6px;
+        border-radius: 2px;
         padding: 20px;
     }
 
@@ -268,8 +267,6 @@ const t = computed(() => content[currentLang.value])
     }
 
     .important-note {
-        margin-top: 8px;
-        padding: 3px 6px;
         border-radius: 2px;
     }
 }

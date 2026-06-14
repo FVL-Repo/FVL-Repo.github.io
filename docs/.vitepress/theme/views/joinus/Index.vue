@@ -94,14 +94,14 @@ const getBrief = (key: string) => {
 .entry-card {
     background-color: var(--vp-bg);
     border: 1px solid var(--vp-c-gutter);
-    border-radius: 20px;
+    border-radius: 8px;
     padding: 20px 30px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .entry-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
     border-color: var(--vp-c-brand);
     box-shadow: var(--vp-shadow-3);
 }
@@ -146,7 +146,7 @@ const getBrief = (key: string) => {
 
     .entry-card {
         padding: 12px 16px;
-        border-radius: 6px;
+        border-radius: 4px;
     }
 
     .entry-card h2 {

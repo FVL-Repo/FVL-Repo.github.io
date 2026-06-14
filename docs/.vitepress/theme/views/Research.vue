@@ -71,7 +71,7 @@ onUnmounted(() => {
 
 <style scoped>
 .research-section {
-    max-width: 88vw;
+    max-width: 85vw;
     height: calc(100vh - var(--vp-nav-height));
     margin: 0 auto;
     padding: 50px 20px;
@@ -113,18 +113,16 @@ onUnmounted(() => {
     font-size: 1.25rem;
     font-weight: 500;
     color: var(--vp-c-text-2);
-    border-radius: 0 8px 8px 0;
-    /* 圆角只给右侧 */
     position: relative;
 }
 
 .nav-item:hover {
     color: var(--vp-c-brand-2);
-    transform: translateX(3px);
+    transform: translateX(1px);
 }
 
 .nav-item.active {
-    background: var(--vp-c-bg-soft);
+    background: var(--vp-c-);
     border-left-color: var(--vp-c-brand);
     color: var(--vp-c-brand);
     font-weight: 600;
@@ -147,10 +145,10 @@ onUnmounted(() => {
 .research-card {
     display: flex;
     gap: 40px;
-    background: var(--vp-c-bg-soft);
+    background: var(--vp-c-bg);
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     align-items: center;
     height: auto;
     overflow: hidden;
@@ -160,7 +158,7 @@ onUnmounted(() => {
     width: 28vh;              
     height: 28vh;
     flex-shrink: 0;
-    border-radius: 8px;
+    border-radius: 4px;
     overflow: hidden;
     position: relative;
     background: var(--vp-c-default-soft);
@@ -175,7 +173,7 @@ onUnmounted(() => {
 
 /* 悬浮时图片轻微放大 */
 .research-card:hover .image-wrapper img {
-    transform: scale(1.05);
+    transform: scale(1.025);
 }
 
 .text-content {
@@ -234,24 +232,25 @@ onUnmounted(() => {
     }
 
     .research-card {
+        background: transparent;
         flex-direction: column;
         height: auto;
-        padding: 24px;
-        gap: 8px;
-        margin-bottom: 18px;
-        border-radius: 8px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        padding: 0;
+        gap: 4px;
+        margin-bottom: 16px;
+        box-shadow: none;
     }
 
     .image-wrapper {
         width: 100%;
         height: auto;
         aspect-ratio: 1;
+        border-radius: 2px;
     }
 
     .card-item-title {
         font-size: 1rem;
-        margin-bottom: 12px;
+        margin-bottom: 8px;
     }
 
     .description {
