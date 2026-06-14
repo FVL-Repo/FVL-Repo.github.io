@@ -42,7 +42,7 @@ export const newsList = [
             zh: '',
             en: ''
         },
-        link: '/publications#2026'
+        link: 'publications#2026'
     },
     {
         date: '2026-01-27',
@@ -133,7 +133,7 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/publications#2025"
+        "link": "publications#2025"
     },
     {
         date: '2025-07-05',
@@ -328,7 +328,7 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/publications#2022"
+        "link": "publications#2022"
     },
     {
         "date": "2022-07-10",
@@ -393,7 +393,7 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/publications"
+        "link": "publications"
     },
     {
         "date": "2022-01-24",
@@ -432,6 +432,6 @@ export const newsList = [
             "zh": "",
             "en": ""
         },
-        "link": "/publications#2022"
+        "link": "publications#2022"
     }
 ]
