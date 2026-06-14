@@ -239,6 +239,7 @@ onUnmounted(() => {
         gap: 4px;
         margin-bottom: 16px;
         box-shadow: none;
+        border-radius: 0;
     }
 
     .image-wrapper {
