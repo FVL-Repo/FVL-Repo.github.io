@@ -339,6 +339,7 @@ watch(selectedYear, () => {
 
 .venue-badge {
     position: absolute;
+    min-width: 100px;
     padding: 6px 8px;
     top: -1px;
     left: -1px;
@@ -540,6 +541,7 @@ watch(selectedYear, () => {
     }
 
     .venue-badge {
+        min-width: 88px;
         border-radius: 2px;
         font-size: var(--vp-p-size);
         padding: 4px 6px;
