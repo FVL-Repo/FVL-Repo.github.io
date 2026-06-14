@@ -7,11 +7,88 @@ export interface NewsItem {
 
 export const newsList = [
     {
+        date: '2026-05-30',
+        image: '/assets/news/2026-05-30.png',
+        title: {
+            zh: '姜育刚教授荣获第四届全国创新争先奖状',
+            en: 'Professor Yu-Gang Jiang  Awarded the 4th National Award for Excellence in Innovation Certificate'
+        },
+        summary: {
+            zh: '5月30日，第四届全国创新争先奖表彰奖励大会在北京举行。姜育刚教授荣获第四届全国创新争先奖状。',
+            en: 'The Commendation Conference for the 4th National Award for Excellence in Innovation was held in Beijing on May 30. Professor Yu-Gang Jiang was awarded the Certificate.'
+        },
+        link: 'https://mp.weixin.qq.com/s/jnanLgxWL-6gaz_Cd49cvQ'
+    },
+    {
+        date: '2026-02-03',
+        image: '/assets/news/2026-02-03.png',
+        title: {
+            zh: '姜育刚教授荣获何梁何利基金奖',
+            en: 'Professor Yu-gang Jiang Wins the Ho Leung Ho Lee Foundation Science and Technology Award'
+        },
+        summary: {
+            zh: '2月2日，2025年度何梁何利基金科学与技术奖在北京颁奖。姜育刚教授荣获“科学与技术创新奖”',
+            en: 'On February 2, 2026, the award ceremony for the 2025 Ho Leung Ho Lee Foundation Science and Technology Awards was held in Beijing. Professor Yugang Jiang was honored with the Science and Technology Innovation Award.'
+        },
+        link: 'https://mp.weixin.qq.com/s/wQP7c_nZ4d7vPhbl-JELmw'
+    },
+    {
+        date: '2026-02-02',
+        title: {
+            zh: '20篇论文入选 ICLR2026',
+            en: '20 Papers Accepted by ICLR 2026'
+        },
+        summary: {
+            zh: '',
+            en: ''
+        },
+        link: '/publications#2026'
+    },
+    {
+        date: '2026-01-27',
+        image: '/assets/news/2026-01-27.png',
+        title: {
+            zh: '市重点实验室、校企联合实验室、基金委创新群体，同步启动！',
+            en: 'Joint Kick-off: Shanghai Key Lab, University-Enterprise Lab &amp; NSFC Creative Research Groups Project'
+        },
+        summary: {
+            zh: '2026年1月27日，上海市多模态具身智能重点实验室揭牌仪式暨国家自然科学基金创新研究群体项目启动会在复旦大学可信具身智能研究院举行。',
+            en: 'On January 27, 2026, The Institute of Trustworthy Embodied Artificial Intelligence at Fudan University hosted the unveiling ceremony for the Shanghai Key Laboratory of Multimodal Embodied Intelligence and the launch of the NSFC Creative Research Groups Project.'
+        },
+        link: 'https://mp.weixin.qq.com/s/Xo7rGjzaMzKvQYTj3lEu5Q'
+    },
+    {
+        date: '2025-12-31',
+        image: '/assets/news/2025-12-31.png',
+        title: {
+            zh: '《学习时报》刊发姜育刚教授署名文章：牢牢掌握人工智能治理主动权',
+            en: 'Study Times Features Article by Professor Yu-Gang Jiang on AI Governance'
+        },
+        summary: {
+            zh: '2025年12月31日，《学习时报》第06版“科技前沿”头条刊发了姜育刚教授的署名文章《牢牢掌握人工智能治理主动权》。',
+            en: 'On December 31, 2025, the "Science Frontier" section (Page 06) of Study Times featured a signed article by Professor Yu-Gang Jiang titled "Firmly Seize the Initiative in AI Governance."'
+        },
+        link: 'https://mp.weixin.qq.com/s/omvSIHGNIEo9dLa-SPt_HQ'
+    },
+    {
+        date: '2025-12-19',
+        image: '/assets/news/2025-12-19.png',
+        title: {
+            zh: '三年四项！博士生杜永坤、窦士涵获国家自然科学基金项目资助',
+            en: 'Yongkun Du and Shihan Dou Awarded NSFC Grants'
+        },
+        summary: {
+            zh: '近日，国家自然科学基金委员会公布了2025年国家自然科学基金青年学生基础研究项目（博士研究生）的评审结果，杜永坤、窦士涵同学成功获得资助。',
+            en: 'Recently, the National Natural Science Foundation of China (NSFC) announced the funding results of the 2025 Youth Student Basic Research Project for Doctoral. Yongkun Du and Shihan Dou were successfully awarded the grants.'
+        },
+        link: 'https://mp.weixin.qq.com/s/TlIBe2FRZp6V5mUa3al7pg'
+    },
+    {
         date: '2025-12-12',
         image: '/assets/news/2025-12-12.png',
         title: {
             zh: '姜育刚教授入选 2025 年度 ACM 杰出会员',
-            en: 'Prof. Yu-Gang Jiang elevated to ACM Distinguished Member'
+            en: 'Professor Yu-Gang Jiang elevated to ACM Distinguished Member'
         },
         summary: {
             zh: '近日，国际计算机学会（ACM）公布了2025年度杰出会员（Distinguished Member）评选结果，榜单汇聚了来自全球16个国家和地区的61位计算机领域专家，亚洲仅有11位上榜，中国学者占据7席。姜育刚教授凭借其在大规模视频分析领域的突出贡献成功入选。',
@@ -37,7 +114,7 @@ export const newsList = [
         image: '/assets/news/2025-10-20.png',
         title: {
             zh: '王君可获 2025 年度 CCF-CV 学术新锐奖',
-            en: 'Junke Wang received the CCF-CV Academic Rising Star Award in 2025'
+            en: 'Junke Wang Received the CCF-CV Academic Rising Star Award in 2025'
         },
         summary: {
             zh: '近日，中国计算机学会计算机视觉专委会（CCF-CV）2025年度工作会议成功召开，来自复旦大学视觉与学习实验室的博士生王君可荣获2025年度CCF-CV学术新锐奖，全国共有3人获此奖项。',
@@ -50,7 +127,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "十四篇论文被NeurIPS 2025接收",
-            "en": "Fourteen papers accepted by NeurIPS 2025"
+            "en": "Fourteen Papers Accepted by NeurIPS 2025"
         },
         "summary": {
             "zh": "",
@@ -63,7 +140,7 @@ export const newsList = [
         image: '/assets/news/2025-7-5.png',
         title: {
             zh: '15 篇论文入选 ICCV 2025',
-            en: 'Fifteen papers accepted by ICCV 2025'
+            en: 'Fifteen Papers Accepted by ICCV 2025'
         },
         summary: {
             zh: 'ICCV 2025 将于10月19日至23日在美国夏威夷檀香山会议中心召开。本次会议共收到11239篇有效投稿，最终录用2698篇论文，录用率为24.0%。复旦大学视觉与学习实验室共有15篇论文入选，研究成果涵盖具身智能、多模态大模型、图像与视频生成、多模态对抗攻防等多个重要方向。',
@@ -89,7 +166,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "姜育刚教授当选2024年度中国计算机学会会士（CCF Fellow）",
-            "en": "Prof. Yu-Gang Jiang elevated to CCF Fellow"
+            "en": "Professor Yu-Gang Jiang Elevated to CCF Fellow"
         },
         "summary": {
             "zh": "近日，中国计算机学会（CCF）公布了2024年CCF会士名单，复旦大学计算机科学技术学院姜育刚教授当选。",
@@ -102,7 +179,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "姜育刚团队获2023年度上海市技术发明一等奖",
-            "en": "FVL won Shanghai Technological Invention Award"
+            "en": "FVL Won Shanghai Technological Invention Award"
         },
         "summary": {
             "zh": "近日，2023年度上海市科学技术奖隆重揭晓，复旦大学计算机科学技术学院姜育刚教授、工程与应用技术研究院齐立哲研究员、大数据学院付彦伟教授等共同完成的项目《面向智能制造的跨域融合感知关键技术及应用》获上海市技术发明一等奖。",
@@ -115,7 +192,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "八篇论文被NeurIPS 2024接收",
-            "en": "Eight papers accepted by NeurIPS 2024"
+            "en": "Eight Papers Accepted by NeurIPS 2024"
         },
         "summary": {
             "zh": "",
@@ -128,7 +205,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "八篇论文被ECCV 2024接收",
-            "en": "Eight papers accepted by ECCV 2024"
+            "en": "Eight Papers Accepted by ECCV 2024"
         },
         "summary": {
             "zh": "",
@@ -141,7 +218,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "姜育刚团队获2023年度国家自然科学二等奖",
-            "en": "FVL won State Natural Science Award"
+            "en": "FVL Won State Natural Science Award"
         },
         "summary": {
             "zh": "6月24日，2023年度国家科学技术奖揭晓，复旦大学计算机科学技术学院姜育刚教授、吴祖煊副教授、薛向阳教授与大数据学院付彦伟教授等共同完成的项目“多元协同的视觉计算理论与方法”获国家自然科学奖二等奖。",
@@ -154,7 +231,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "实验室在CVPR 2024三项挑战赛中斩获冠军",
-            "en": "FVL won three challenges at CVPR 2024"
+            "en": "FVL Won Three Challenges at CVPR 2024"
         },
         "summary": {
             "zh": "2024年6月17日至21日，IEEE/CVF 国际计算机视觉与模式识别会议（CVPR）在美国西雅图召开。复旦大学视觉与学习实验室（FVL）共有7篇论文被大会接收，11名师生参会交流。FVL团队通过邀请报告、墙报等方式展示了实验室在视频内容识别、轻量级视频生成、图像内容编辑等方面的研究成果，并在大规模开放词汇目标检测等三项挑战赛中斩获冠军。",
@@ -167,7 +244,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "实验室在2024全球人工智能技术创新大赛算法挑战赛中荣获一等奖",
-            "en": "FVL won first prize at Global AI Innovation Contest 2024"
+            "en": "FVL Won First Prize at Global AI Innovation Contest 2024"
         },
         "summary": {
             "zh": "6月22日，2024全球人工智能技术创新大赛算法挑战赛在杭州市未来科技城圆满落幕。复旦大学视觉与学习实验室（FVL）的参赛团队“openocr”获得了大赛“无人机视角下的双光目标检测”赛道一等奖。",
@@ -180,7 +257,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "实验室毕业生陈绍祥入选2023中国图象图形学学会博士学位论文激励计划",
-            "en": "Dr. Shaoxiang Chen won outstanding doctoral thesis award from CSIG"
+            "en": "Dr. Shaoxiang Chen Won Outstanding Doctoral Thesis Award from CSIG"
         },
         "summary": {
             "zh": "近日，中国图象图形学学会（CSIG）发布“中国图象图形学学会博士学位论文激励计划”（原“CSIG优博”）入选名单。复旦大学视觉与学习实验室毕业生陈绍祥同学的博士学位论文《视觉与语言结合的视频理解方法研究》入选，导师为姜育刚教授。",
@@ -193,7 +270,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "姜育刚教授当选2024年度国际电气和电子工程师协会会士（IEEE Fellow）",
-            "en": "Prof. Yu-Gang Jiang elevated to IEEE Fellow"
+            "en": "Professor Yu-Gang Jiang Elevated to IEEE Fellow"
         },
         "summary": {
             "zh": "近日，国际电气和电子工程师协会（Institute of Electrical and Electronic Engineers，简称IEEE）公布了2024年度新晋会士（Fellow）名单，全球共323人。姜育刚教授因在大规模视频分析以及开源数据集方面做出杰出贡献，当选IEEE Fellow。",
@@ -206,7 +283,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "十一篇论文被CVPR 2023接收",
-            "en": "Eleven papers accepted by CVPR 2023"
+            "en": "Eleven Papers Accepted by CVPR 2023"
         },
         "summary": {
             "zh": "",
@@ -219,7 +296,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "陈绍祥获得2022年度上海市计算机学会优秀博士学位论文奖",
-            "en": "Shaoxiang Chen received outstanding thesis award from Shanghai Computer Society"
+            "en": "Shaoxiang Chen Received Outstanding Thesis Award from Shanghai Computer Society"
         },
         "summary": {
             "zh": "",
@@ -232,7 +309,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "最新报告—视频内容分析：现状与六大趋势",
-            "en": "Latest talk slides: Present and Future Trends of Video Content Analysis."
+            "en": "Latest Talk Slides: Present and Future Trends of Video Content Analysis."
         },
         "summary": {
             "zh": "",
@@ -245,7 +322,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "四篇论文被ECCV 2022接收，三篇论文被ACM MM 2022接收",
-            "en": "Four papers accepted by ECCV 2022 & three papers accepted by ACM MM 2022"
+            "en": "Four Papers Accepted by ECCV 2022 & Three Papers Accepted by ACM MM 2022"
         },
         "summary": {
             "zh": "",
@@ -258,7 +335,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "蒋林曦获得2021年度上海市计算机学会优秀硕士学位论文奖",
-            "en": "Linxi Jiang received outstanding thesis award from Shanghai Computer Society"
+            "en": "Linxi Jiang Received Outstanding Thesis Award from Shanghai Computer Society"
         },
         "summary": {
             "zh": "",
@@ -271,7 +348,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "姜育刚教授当选2022年度国际模式识别学会会士（IAPR Fellow）",
-            "en": "Prof. Yu-Gang Jiang elevated to IAPR Fellow"
+            "en": "Professor Yu-Gang Jiang Elevated to IAPR Fellow"
         },
         "summary": {
             "zh": "近日，复旦大学计算机科学技术学院姜育刚教授当选2022年度国际模式识别学会会士（IAPR Fellow），当选理由为“在大规模和可信视频理解以及开源数据集方面的学术贡献（for contributions to large-scale and trustworthy video understanding, and open-source datasets）”。",
@@ -284,7 +361,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "复旦大学首个国家科技创新2030—“新一代人工智能”重大项目正式启动",
-            "en": "FVL kicks off Fudan's first National \"Next Generation AI\" Project"
+            "en": "FVL Kicks off Fudan's First National \"Next Generation AI\" Project"
         },
         "summary": {
             "zh": "2022年4月26日，科技创新2030—“新一代人工智能”重大项目“数据安全与隐私保护下的机器学习技术”项目启动暨实施方案论证会在线上召开。项目由复旦大学牵头，负责人为姜育刚教授，参与单位包括上海交通大学、南京大学、浙江大学、华为技术有限公司、暨南大学、北京百度网讯科技有限公司、中国工商银行股份有限公司、翼健（上海）信息科技有限公司、华为云计算技术有限公司。该项目是我校牵头承担的首个国家科技创新2030—“新一代人工智能”重大项目。",
@@ -297,7 +374,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "开源了BEVT（BERT Pretraining of Video Transformers）的代码",
-            "en": "We released the code for BEVT: BERT Pretraining of Video Transformers"
+            "en": "We Released the Code for BEVT: BERT Pretraining of Video Transformers"
         },
         "summary": {
             "zh": "",
@@ -310,7 +387,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "五篇论文被CVPR 2022接收",
-            "en": "Five papers accepted by CVPR 2022"
+            "en": "Five Papers Accepted by CVPR 2022"
         },
         "summary": {
             "zh": "",
@@ -323,7 +400,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "开源了长尾视频识别数据集及代码",
-            "en": "We released the dataset and code for long-tailed video recognition"
+            "en": "We Released the Dataset and Code for Long-tailed Video Recognition"
         },
         "summary": {
             "zh": "",
@@ -336,7 +413,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "博士生傅宇倩被评选为复旦大学优秀学生",
-            "en": "PhD Candidate Yuqian Fu recognized as an outstanding student of Fudan Univeristy"
+            "en": "PhD Candidate Yuqian Fu Recognized as Outstanding Student of Fudan Univeristy"
         },
         "summary": {
             "zh": "傅宇倩，党员，计算机应用技术专业，计算机科学技术学院2020级博士生（硕博连读）。学年绩点3.73/4.0，位列专业第一，师从姜育刚教授，主要研究内容为计算机视觉，尤其是小样本图像/视频识别。目前以第一作者身份在领域国际顶级学术会议ACM MM、ACM ICMR上发表论文4篇，并著有国家授权发明专利1项。",
@@ -349,7 +426,7 @@ export const newsList = [
         "image": "",
         "title": {
             "zh": "四篇论文被AAAI 2022接收",
-            "en": "Four papers accepted by AAAI 2022"
+            "en": "Four Papers Accepted by AAAI 2022"
         },
         "summary": {
             "zh": "",
