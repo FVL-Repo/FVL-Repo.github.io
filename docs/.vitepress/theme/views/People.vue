@@ -1,7 +1,7 @@
 <template>
     <div class="all-people">
         <div class="container">
-            <h1 class="people-title">{{ t.pageTitle }}</h1>
+            <h1 class="people-title">{{ t.facultyTitle }}</h1>
 
             <div class="people-grid">
                 <component :is="person.website ? 'a' : 'div'" v-for="(person, index) in facultyList"
@@ -21,15 +21,102 @@
                     </div>
                 </component>
             </div>
+
+            <div class="section-divider" />
+
+            <h2 class="people-title postdoc-title">{{ t.postdocTitle }}</h2>
+
+            <div class="people-grid">
+                <component :is="student.website ? 'a' : 'div'" v-for="(student, index) in postdocList"
+                    :key="student.name.en" :href="student.website || undefined"
+                    :target="student.website ? '_blank' : undefined" rel="noopener noreferrer"
+                    class="person-card"
+                    :class="{ 'clickable': student.website }"
+                    :style="{ animationDelay: `${index * 100}ms` }">
+                    <div class="avatar-wrapper">
+                        <img :src="student.avatar" :alt="student.name[currentLang]" class="person-avatar" />
+                    </div>
+                    <div class="person-info">
+                        <h2 class="person-name">{{ student.name[currentLang] }}</h2>
+                        <p class="person-position">{{ student.year }}</p>
+                    </div>
+                </component>
+            </div>
+
+            <div class="section-divider" />
+
+            <h2 class="people-title phd-title">{{ t.phdTitle }}</h2>
+
+            <div class="people-grid">
+                <component :is="student.website ? 'a' : 'div'" v-for="(student, index) in phdList"
+                    :key="student.name.en" :href="student.website || undefined"
+                    :target="student.website ? '_blank' : undefined" rel="noopener noreferrer"
+                    class="person-card"
+                    :class="{ 'clickable': student.website }"
+                    :style="{ animationDelay: `${index * 100}ms` }">
+                    <div class="avatar-wrapper">
+                        <img :src="student.avatar" :alt="student.name[currentLang]" class="person-avatar" />
+                    </div>
+                    <div class="person-info">
+                        <h2 class="person-name">{{ student.name[currentLang] }}</h2>
+                        <p class="person-position">{{ student.year }}</p>
+                    </div>
+                </component>
+            </div>
+
+            <div class="section-divider" />
+
+            <h2 class="people-title master-title">{{ t.masterTitle }}</h2>
+
+            <div class="people-grid">
+                <component :is="student.website ? 'a' : 'div'" v-for="(student, index) in masterList"
+                    :key="student.name.en" :href="student.website || undefined"
+                    :target="student.website ? '_blank' : undefined" rel="noopener noreferrer"
+                    class="person-card"
+                    :class="{ 'clickable': student.website }"
+                    :style="{ animationDelay: `${index * 100}ms` }">
+                    <div class="avatar-wrapper">
+                        <img :src="student.avatar" :alt="student.name[currentLang]" class="person-avatar" />
+                    </div>
+                    <div class="person-info">
+                        <h2 class="person-name">{{ student.name[currentLang] }}</h2>
+                        <p class="person-position">{{ student.year }}</p>
+                    </div>
+                </component>
+            </div>
+
+            <div class="section-divider" />
+
+            <h2 class="people-title alumni-title">{{ t.alumniTitle }}</h2>
+
+            <div class="people-grid">
+                <component :is="alumni.website ? 'a' : 'div'" v-for="(alumni, index) in alumniList"
+                    :key="alumni.name.en" :href="alumni.website || undefined"
+                    :target="alumni.website ? '_blank' : undefined" rel="noopener noreferrer"
+                    class="person-card"
+                    :class="{ 'clickable': alumni.website }"
+                    :style="{ animationDelay: `${index * 100}ms` }">
+                    <div class="avatar-wrapper">
+                        <img :src="alumni.avatar" :alt="alumni.name[currentLang]" class="person-avatar" />
+                    </div>
+                    <div class="person-info">
+                        <h2 class="person-name">{{ alumni.name[currentLang] }}</h2>
+                        <p class="person-position">{{ alumni.year[currentLang] }}</p>
+                        <p v-if="alumni.company[currentLang]" class="person-description alumni-company">
+                            {{ alumni.company[currentLang] }}
+                        </p>
+                    </div>
+                </component>
+            </div>
         </div>
         <Footer />
     </div>
 </template>
 
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 import { useData } from 'vitepress'
-import { facultyList } from '../../data/people'
+import { facultyList, phdList, postdocList, masterList, alumniList } from '../../data/people'
 import Footer from '../components/Footer.vue'
 
 const { lang } = useData()
@@ -38,10 +125,18 @@ const currentLang = computed<'zh' | 'en'>(() =>
 )
 const TEXT = {
     zh: {
-        pageTitle: '教师',
+        facultyTitle: '教师',
+        phdTitle: '博士生',
+        postdocTitle: '博士后',
+        masterTitle: '硕士生',
+        alumniTitle: '毕业生'
     },
     en: {
-        pageTitle: 'Faculty',
+        facultyTitle: 'Faculty',
+        phdTitle: 'Doctoral Students',
+        postdocTitle: 'Postdocs',
+        masterTitle: 'Master Students',
+        alumniTitle: 'Alumni'
     }
 } as const
 
@@ -58,7 +153,7 @@ const t = computed(() => TEXT[currentLang.value])
 }
 
 .container {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto;
     padding: 50px;
     display: flex;
@@ -76,13 +171,12 @@ const t = computed(() => TEXT[currentLang.value])
 
 .people-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
     gap: 30px;
-    justify-items: center;
     margin: 0 auto;
     max-width: 1250px;
-    /* 限制最大宽度 */
     width: 100%;
+    justify-content: center;
 }
 
 .person-card {
@@ -177,6 +271,21 @@ const t = computed(() => TEXT[currentLang.value])
     line-height: 1.5;
 }
 
+.alumni-company {
+    margin: 0;
+}
+
+.section-divider {
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--vp-c-divider), transparent);
+    margin: 48px 0 40px;
+}
+
+.phd-title {
+    margin-top: 0 !important;
+    margin-bottom: 36px !important;
+}
+
 
 /* 响应式调整 */
 @media (min-width: 1024px) {
@@ -185,8 +294,7 @@ const t = computed(() => TEXT[currentLang.value])
     }
 
     .people-grid {
-        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-        /* 更宽屏多显示一列 */
+        grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
     }
 }
 
@@ -227,7 +335,7 @@ const t = computed(() => TEXT[currentLang.value])
 
 @media (min-width: 480px) and (max-width: 768px) {
     .people-grid {
-        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
         /* 手机横屏或小平板双列 */
     }
 }
