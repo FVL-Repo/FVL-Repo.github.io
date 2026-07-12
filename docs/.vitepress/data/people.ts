@@ -109,8 +109,8 @@ export const facultyList: Faculty[] = [
         name: { zh: '吴祖煊', en: 'Zuxuan Wu' },
         avatar: '/assets/people/faculty/ZuxuanWu.png',
         position: {
-            zh: '副教授',
-            en: 'Associate Professor'
+            zh: '教授',
+            en: 'Professor'
         },
         website: 'https://zxwu.azurewebsites.net/'
     },
