@@ -7,6 +7,19 @@ export interface NewsItem {
 
 export const newsList = [
     {
+        date: '2026-07-02',
+        image: '/assets/news/2026-07-02.png',
+        title: {
+            zh: '研究院成果获上海市科技进步一等奖',
+            en: 'TEAI Research Achievement Wins First Prize in Shanghai Science and Technology Progress Award'
+        },
+        summary: {
+            zh: '2025年度上海市科学技术奖评选结果新鲜出炉！研究院端侧多模态感知与交互关键技术及应用项目获科技进步奖一等奖。',
+            en: 'The results of the 2025 Shanghai Municipal Science and Technology Awards were recently announced. TEAI\'s project, "Key Technologies and Applications for On-device Multimodal Perception and Interaction," was awarded first prize in the Shanghai Science and Technology Progress Award category.'
+        },
+        link: 'https://mp.weixin.qq.com/s/H3fturxoE6BH7u0TpjLZtg'
+    },
+    {
         date: '2026-05-30',
         image: '/assets/news/2026-05-30.png',
         title: {
@@ -27,7 +40,7 @@ export const newsList = [
             en: 'Professor Yu-gang Jiang Wins the Ho Leung Ho Lee Foundation Science and Technology Award'
         },
         summary: {
-            zh: '2 月 2 日，2025 年度何梁何利基金科学与技术奖在北京颁奖。姜育刚教授荣获“科学与技术创新奖”',
+            zh: '2 月 2 日，2025 年度何梁何利基金科学与技术奖在北京颁奖。姜育刚教授荣获“科学与技术创新奖”。',
             en: 'On February 2, 2026, the award ceremony for the 2025 Ho Leung Ho Lee Foundation Science and Technology Awards was held in Beijing. Professor Yugang Jiang was honored with the Science and Technology Innovation Award.'
         },
         link: 'https://mp.weixin.qq.com/s/wQP7c_nZ4d7vPhbl-JELmw'
