@@ -89,24 +89,16 @@
 
             <h2 class="people-title alumni-title">{{ t.alumniTitle }}</h2>
 
-            <div class="people-grid">
-                <component :is="alumni.website ? 'a' : 'div'" v-for="(alumni, index) in alumniList"
-                    :key="alumni.name.en" :href="alumni.website || undefined"
-                    :target="alumni.website ? '_blank' : undefined" rel="noopener noreferrer"
-                    class="person-card"
-                    :class="{ 'clickable': alumni.website }"
-                    :style="{ animationDelay: `${index * 100}ms` }">
-                    <div class="avatar-wrapper">
-                        <img :src="alumni.avatar" :alt="alumni.name[currentLang]" class="person-avatar" />
-                    </div>
-                    <div class="person-info">
-                        <h2 class="person-name">{{ alumni.name[currentLang] }}</h2>
-                        <p class="person-position">{{ alumni.year[currentLang] }}</p>
-                        <p v-if="alumni.company[currentLang]" class="person-description alumni-company">
-                            {{ alumni.company[currentLang] }}
-                        </p>
-                    </div>
-                </component>
+            <div class="alumni-list">
+                <p v-for="alumni in alumniList" :key="alumni.name.en" class="alumni-line">
+                    <component :is="alumni.website ? 'a' : 'span'"
+                        :href="alumni.website || undefined"
+                        :target="alumni.website ? '_blank' : undefined"
+                        rel="noopener noreferrer"
+                        :class="{ 'alumni-link': alumni.website }">
+                        {{ formatAlumniText(alumni) }}
+                    </component>
+                </p>
             </div>
         </div>
         <Footer />
@@ -116,7 +108,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useData } from 'vitepress'
-import { facultyList, phdList, postdocList, masterList, alumniList } from '../../data/people'
+import { facultyList, phdList, postdocList, masterList, alumniList, type Alumni } from '../../data/people'
 import Footer from '../components/Footer.vue'
 
 const { lang } = useData()
@@ -141,6 +133,27 @@ const TEXT = {
 } as const
 
 const t = computed(() => TEXT[currentLang.value])
+
+function formatAlumniText(alumni: Alumni): string {
+    const name = alumni.name[currentLang.value]
+    const yearStr = alumni.year[currentLang.value]
+    const company = alumni.company[currentLang.value]?.trim()
+
+    if (currentLang.value === 'zh') {
+        const formattedYear = yearStr.replace(/^(\d{4})\s+/, '$1年')
+        let line = `${name}，${formattedYear}毕业`
+        if (company) {
+            line += `，毕业后到${company}工作`
+        }
+        return line + '。'
+    } else {
+        let line = `${name}, ${yearStr}`
+        if (company) {
+            line += `, ${company}`
+        }
+        return line
+    }
+}
 </script>
 
 <style scoped>
@@ -271,8 +284,26 @@ const t = computed(() => TEXT[currentLang.value])
     line-height: 1.5;
 }
 
-.alumni-company {
+.alumni-list {
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.alumni-line {
+    font-size: var(--vp-p-size);
+    line-height: 2.2;
+    color: var(--vp-c-text-1);
     margin: 0;
+}
+
+.alumni-line a.alumni-link {
+    color: var(--vp-c-brand-1);
+    text-decoration: none;
+}
+
+.alumni-line a.alumni-link:hover {
+    text-decoration: underline;
 }
 
 .section-divider {
