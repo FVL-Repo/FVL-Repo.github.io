@@ -13,9 +13,341 @@ export interface PublicationItem {
 export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
+        "authors": "Xingyao Lin, Xinghao Zhu, Tianyi Lu, Guojin Zhong, Sicheng Xie, Hui Zhang, Xipeng Qiu, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Ask-to-Clarify: Resolving Instruction Ambiguity through Multi-turn Dialogue.",
+        "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Pittsburgh, USA, Oct., 2026.",
+        "venue_abbreviated": "IROS 2026",
+        "pdf": "https://arxiv.org/pdf/2509.15061",
+        "code": "",
+        "image": "/assets/publications/images/2026/iros-xingyaolin.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Shengqi Xu, Guojin Zhong, Yang Liu, Fanjie Wang, Hu Luo, Hanyu Zhou, Weiyao Zhang, Ziyi Ye, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Seeing Touch from Motion: A Unified Modality-Aware Visuo-Tactile Policy with Tactile Motion Correlation.",
+        "venue": "The 19th European Conference on Computer Vision (ECCV), Malmö, Sweden, 2026.",
+        "venue_abbreviated": "ECCV 2026",
+        "pdf": "https://arxiv.org/pdf/2606.29941",
+        "code": "https://github.com/Shengqi77/ViTacMotor",
+        "image": "/assets/publications/images/2026/eccv-shengqixu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Hui Zhang, Juntao Liu, Zongkai Liu, Liqiang Niu, Fandong Meng, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "WeEdit: A Dataset, Benchmark and Glyph-Guided Framework for Text-centric Image Editing.",
+        "venue": "The 19th European Conference on Computer Vision (ECCV), Malmö, Sweden, 2026.",
+        "venue_abbreviated": "ECCV 2026",
+        "pdf": "https://arxiv.org/pdf/2603.11593",
+        "code": "https://github.com/HuiZhang0812/WeEdit",
+        "dataset": "https://huggingface.co/datasets/HuiZhang0812/WeEdit_benchmark",
+        "image": "/assets/publications/images/2026/eccv-huizhang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Haidong Cao, Wenjun Cao, Quanhao Li, Sicheng Xie, Zhiying Du, Jiaqi Leng, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "SegDiff: Segmented Trajectory Diffusion for Consistent and Adaptive Robot Manipulation.",
+        "venue": "The 19th European Conference on Computer Vision (ECCV), Malmö, Sweden, 2026.",
+        "venue_abbreviated": "ECCV 2026",
+        "pdf": "https://arxiv.org/pdf/2604.03581",
+        "code": "",
+        "image": "/assets/publications/images/2026/eccv-haidongcao.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Wenhao Yao, Xinglong Sun, Zhenxin Li, Shiyi Lan, Zi Wang, Jose M. Alvarez, Zuxuan Wu",
+        "title": "HAD: Combining Hierarchical Diffusion with Metric-Decoupled RL for End-to-End Driving.",
+        "venue": "The 19th European Conference on Computer Vision (ECCV), Malmö, Sweden, 2026.",
+        "venue_abbreviated": "ECCV 2026",
+        "pdf": "https://arxiv.org/pdf/2604.03581",
+        "code": "",
+        "image": "/assets/publications/images/2026/eccv-wenhaoyao.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Zuyao You, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Learning Accurate Segmentation Purely from Self-Supervision.",
+        "venue": "The 19th European Conference on Computer Vision (ECCV), Malmö, Sweden, 2026.",
+        "venue_abbreviated": "ECCV 2026",
+        "pdf": "https://arxiv.org/pdf/2602.23759",
+        "code": "",
+        "image": "/assets/publications/images/2026/eccv-zuyaoyou.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Xiang Zheng, Yutao Wu, Hanxun Huang, Yige Li, Xingjun Ma, Bo Li, Yu-Gang Jiang, Cong Wang",
+        "title": "Just Ask: Curious Code Agents Reveal System Prompts in Frontier LLMs.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2601.21233",
+        "code": "https://github.com/justask-icml/justasks",
+        "image": "/assets/publications/images/2026/icml-xiangzheng.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Shibo Hong, Boxian Ai, Jun Kuang, Wei Wang, FengJiao Chen, Zhongyuan Peng, Chenhao Huang, Yixin Cao",
+        "title": "DLEBench: Evaluating Small-scale Object Editing Ability for Instruction-based Image Editing Model.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2602.23622",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-shibohong.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Jiapeng Shi, Junke Wang, Zuyao You, Bo He, Zuxuan Wu",
+        "title": "VideoLoom: A Video Large Language Model for Joint Spatial-Temporal Understanding.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2601.07290",
+        "code": "https://github.com/JPShi12/VideoLoom",
+        "image": "/assets/publications/images/2026/icml-jiapengshi.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Hanxun Huang, Qizhou Wang, Xingjun Ma, Cihang Xie, Christopher Leckie, Sarah Erfani",
+        "title": "AudioMosaic: Contrastive Masked Audio Representation Learning.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2605.14231",
+        "code": "https://github.com/HanxunH/AudioMosaic",
+        "image": "/assets/publications/images/2026/icml-hanxunhuang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Chao Gong, Depeng Wang, Zhipeng Wei, Ya Guo, Huijia Zhu, Jingjing Chen",
+        "title": "EchoingPixels: Aliasing-Resistant Joint Token Reduction for Audio-Visual LLMs.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2512.10324",
+        "code": "https://github.com/CharlesGong12/EchoingPixels",
+        "image": "/assets/publications/images/2026/icml-chaogong.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Ziyao Tang, Pengkun Jiao, Xinhang Chen, Wei Liu, Shiyong Li, Jingjing Chen",
+        "title": "Predicting Future Utility: Global Combinatorial Optimization for Task-Agnostic KV Cache Eviction.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2602.08585",
+        "code": "https://github.com/baidu-baige/LU-KV",
+        "image": "/assets/publications/images/2026/icml-ziyaotang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Kang Chen, Yaoning Wang, Kai Xiong, Zhuoka Feng, Yu Minshen, Wenhe Sun, Haotian Chen, Yixin Cao",
+        "title": "Do LLMs Signal When They're Right? Evidence from Neuron Agreement.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://icml.cc/virtual/2026/poster/63161",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-kangchen.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Haoyu Zhao, Jiaxi Gu, Haoran Chen, Qingping Zheng, Yeying Jin, Hongyi Yang, Junqi Cheng, Yuang Zhang, Zenghui Lu, Huan Yu, Jie Jiang, Peng Shu, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "CameraNoise: Enabling Faithful Camera Control in Video Diffusion through Geometry-Flow-Guided Noise Warping.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2605.30774",
+        "code": "https://github.com/gulucaptain/CameraNoise",
+        "image": "/assets/publications/images/2026/icml-haoyuzhao.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yitong Sun, Yao Huang, Teng Li, Ranjie Duan, Yichi Zhang, Xingjun Ma, Hui Xue, Xingxing Wei",
+        "title": "MESA: Improving MoE Safety Alignment via Decentralized Expertise.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2606.00651",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-yitongsun.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yifeng Gao, Yifan Ding, Li Wang, Feida Huang, Ye Sun, Yixu Wang, Xin Wang, Yutao Wu, Hanxun Huang, Yunhao Feng, Yingshui Tan, Xingjun Ma, Yu-Gang Jiang",
+        "title": "FakeWorld 1.0: An Omni modal Benchmark for Fake Media and Content.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://icml.cc/virtual/2026/poster/63697",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-yifenggao.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yixu Wang, Yang Yao, Xin Wang, Yifeng Gao, Yan Teng, Xingjun Ma, Yingchun Wang",
+        "title": "Towards Context-Invariant Safety Alignment for Large Language Models.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2605.20994",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-yixuwang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Xinchang Wang, Yunhao Chen, Yuechen Zhang, Congcong Bian, Zihao Guo, Xingjun Ma, Hui Li",
+        "title": "RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2603.01544",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-xinchangwang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yujiong Shen, Yajie Yang, Zhiheng Xi, Binze Hu, Huayu Sha, Jiazheng Zhang, Qiyuan Peng, Junlin Shang, Jixuan Huang, Yutao Fan, Jingqi Tong, Shihan Dou, Ming Zhang, Lei Bai, Zhenfei Yin, Tao Gui, Xingjun Ma, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang",
+        "title": "SciAgentGym: Benchmarking Multi-Step Scientific Tool-use in LLM Agents.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2602.12984",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-yujiongshen.png"
+    },
+    // {
+    //     "year": "2026",
+    //     "authors": "Jiaming Zhang, Meng Ding, Shaopeng Fu, Jingfeng Zhang, Di Wang",
+    //     "title": "Benign Overfitting in Adversarial Training for Vision Transformers.",
+    //     "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+    //     "venue_abbreviated": "ICML 2026",
+    //     "pdf": "https://arxiv.org/pdf/2604.19724",
+    //     "code": "",
+    //     "image": "/assets/publications/images/2026/icml-jiamingzhang.png"
+    // },
+    {
+        "year": "2026",
+        "authors": "Shuqi Zhu, Yi Zhong, Ziyi Ye, Bangde Du, Yujia Zhou, Qingyao Ai, Yiqun Liu",
+        "title": "How do Humans Process AI-generated Hallucination Contents: a Neuroimaging Study.",
+        "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+        "venue_abbreviated": "ICML 2026",
+        "pdf": "https://arxiv.org/pdf/2605.16953",
+        "code": "",
+        "image": "/assets/publications/images/2026/icml-shuqizhu.png"
+    },
+
+    {
+        "year": "2026",
+        "authors": "Zhongyuan Peng, Yifan Yao, Kaijing Ma, Shuyue Guo, Yizhe Li, Yichi Zhang, Chenchen Zhang, Yifan Zhang, Zhouliang Yu, Luming Li, Minghao Liu, Yihang Xia, Jiawei Shen, Yuchen Wu, Yixin Cao, Zhaoxiang Zhang, Wenhao Huang, Jiaheng Liu, Ge Zhang",
+        "title": "CriticLean: Critic-Guided Reinforcement Learning for Mathematical Formalization.",
+        "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 3049-3088, San Diego, California, United States.",
+        "venue_abbreviated": "ACL 2026",
+        "pdf": "https://aclanthology.org/2026.acl-long.139.pdf",
+        "code": "",
+        "image": "/assets/publications/images/2026/acl-zhongyuanpeng.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Caijun Xu, Changyi Xiao, Zhongyuan Peng, Xinrun Wang, Yixin Cao",
+        "title": "SCALER:Synthetic Scalable Adaptive Learning Environment for Reasoning.",
+        "venue": "Findings of the Association for Computational Linguistics: ACL 2026, pages 31905-31923, San Diego, California, United States.",
+        "venue_abbreviated": "ACL 2026",
+        "pdf": "https://arxiv.org/pdf/2601.04809",
+        "code": "",
+        "image": "/assets/publications/images/2026/acl-caijunxu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yunhao Feng, Yige Li, Yutao Wu, Yingshui Tan, Yanming Guo, Yifan Ding, Kun Zhai, Xingjun Ma, Yu-Gang Jiang",
+        "title": "BackdoorAgent: A Unified Framework for Backdoor Attacks on LLM-based Agents.",
+        "venue": "Findings of the Association for Computational Linguistics: ACL 2026, pages 16115–16127, San Diego, California, United States.",
+        "venue_abbreviated": "ACL 2026",
+        "pdf": "https://arxiv.org/pdf/2601.04566",
+        "code": "",
+        "image": "/assets/publications/images/2026/acl-yunhaofeng.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yixu Wang, Xin Wang, Yang Yao, Xinyuan Li, Xibang Yang, Yan Teng, Xingjun Ma, Yingchun Wang",
+        "title": "AgenticEval: Toward Agentic and Self-Evolving Safety Evaluation of Large Language Models.",
+        "venue": "Findings of the Association for Computational Linguistics: ACL 2026, pages 14789–14808, San Diego, California, United States.",
+        "venue_abbreviated": "ACL 2026",
+        "pdf": "https://arxiv.org/pdf/2509.26100",
+        "code": "",
+        "image": "/assets/publications/images/2026/acl-yixuwang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Minghao Guo, Ziyi Ye, Wujiang Xu, Xi Zhu, Wenyue Hua, Dimitris N. Metaxas",
+        "title": "Individual Turing Test: A Case Study of LLM-based Simulation Using Longitudinal Personal Data.",
+        "venue": "ACM SIGIR Conference on Research & Development in Information Retrieval, Melbourne, Australia, 2026.",
+        "venue_abbreviated": "SIGIR 2026",
+        "pdf": "https://arxiv.org/pdf/2603.01289",
+        "code": "",
+        "image": "/assets/publications/images/2026/sigir-minghaoguo.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Zilong Wang, Xiang Zheng, Xiaosen Wang, Bo Wang, Xingjun Ma, Yu-Gang Jiang",
+        "title": "GenBreak: Red Teaming Text-to-Image Generators Using Large Language Models.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
+        "venue_abbreviated": "CVPR 2026",
+        "pdf": "https://arxiv.org/pdf/2506.10047",
+        "code": "",
+        "image": "/assets/publications/images/2026/cvpr-zilongwang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yiying Yang, Wei Cheng, Sijin Chen, Honghao Fu, Xianfang Zeng, Yujun Cai, Gang Yu, Xingjun Ma",
+        "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
+        "venue_abbreviated": "CVPR 2026",
+        "pdf": "https://arxiv.org/abs/2603.02138",
+        "code": "https://github.com/OpenVGLab/OmniLottie",
+        "image": "/assets/publications/images/2026/cvpr-yiyingyang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yiweng Xie, Bo He, Junke Wang, Xiangyu Zheng, Ziyi Ye, Zuxuan Wu",
+        "title": "FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
+        "venue_abbreviated": "CVPR 2026",
+        "pdf": "https://arxiv.org/abs/2603.02096",
+        "code": "https://yiwengxie.com/FluxMem/",
+        "image": "/assets/publications/images/2026/cvpr-yiwengxie.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Zhihao Sun, Zhiying Du, Xitong Yang, Zuxuan Wu",
+        "title": "HandWorld: Hand-Centric Unified Video Action Generation.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
+        "venue_abbreviated": "CVPR 2026",
+        "pdf": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_HandWorld_Hand-Centric_Unified_Video_Action_Generation_CVPR_2026_paper.pdf",
+        "code": "",
+        "image": "/assets/publications/images/2026/cvpr-zhihaosun.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Xingsong Ye, Yongkun Du, JiaXin Zhang, Chen Li, Jing Lyu, Zhineng Chen",
+        "title": "What Is Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
+        "venue_abbreviated": "CVPR 2026",
+        "pdf": "https://arxiv.org/abs/2602.06450",
+        "code": "https://github.com/YesianRohn/UnionST",
+        "image": "/assets/publications/images/2026/cvpr-xingsongye.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yitong Chen, Zuxuan Wu, Xipeng Qiu, Yu-Gang Jiang",
+        "title": "CaTok: Taming Mean Flows for One-Dimensional Causal Image Tokenization.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
+        "venue_abbreviated": "CVPR 2026",
+        "pdf": "https://arxiv.org/pdf/2603.06449",
+        "code": "https://sharelab-sii.github.io/catok-web/",
+        "image": "/assets/publications/images/2026/cvpr-yitongchen.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Quanhao Li, Zhen Xing, Rui Wang, Haidong Cao, Qi Dai, Daoguo Dong, Zuxuan Wu",
+        "title": "FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
+        "venue_abbreviated": "CVPR 2026",
+        "pdf": "https://arxiv.org/abs/2603.12146",
+        "code": "https://github.com/quanhaol/FlashMotion",
+        "image": "/assets/publications/images/2026/cvpr-quanhaoli.png"
+    },
+    {
+        "year": "2026",
         "authors": "Zhipeng Wei, Jingjing Chen, Feng Han, Yue Yu, Yu-Gang Jiang",
-        "title": "Enhancing Adversarial Transferability With Cost-Efficient Landscape Flattening",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "Enhancing Adversarial Transferability With Cost-Efficient Landscape Flattening.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 6, pp. 7050-7061, June 2026, doi: 10.1109/TPAMI.2026.3664421.",
         "venue_abbreviated": "TPAMI 2026",
         "pdf": "https://doi.org/10.1109/TPAMI.2026.3664421",
         "image": "/assets/publications/images/2026/tpami-zhipengwei.png"
@@ -23,8 +355,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Yuchen Su, Zhineng Chen, Yongkun Du, Zuxuan Wu, Hongtao Xie, Yu-Gang Jiang",
-        "title": "LRANet++: Low-Rank Approximation Network for Accurate and Efficient Text Spotting",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "LRANet++: Low-Rank Approximation Network for Accurate and Efficient Text Spotting.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 5, pp. 5620-5638, May 2026, doi: 10.1109/TPAMI.2026.3650769.",
         "venue_abbreviated": "TPAMI 2026",
         "pdf": "https://doi.org/10.1109/TPAMI.2026.3650769",
         "image": "/assets/publications/images/2026/tpami-yuchensu.png"
@@ -32,8 +364,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Jiaming Zhang, Xin Wang, Xingjun Ma, Lingyu Qiu, Yu-Gang Jiang, Jitao Sang",
-        "title": "NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 6, pp. 6615-6627, June 2026, doi: 10.1109/TPAMI.2026.3659598.",
         "venue_abbreviated": "TPAMI 2026",
         "pdf": "https://doi.org/10.1109/TPAMI.2026.3659598",
         "image": "/assets/publications/images/2026/tpami-jiamingzhang.png"
@@ -41,8 +373,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Yuankun Yang, Li Zhang, Ziyang Xie, Zhiyuan Yuan, Jianfeng Feng, Xiatian Zhu, Yu-Gang Jiang",
-        "title": "Brain3D: Generating 3D Objects from fMRI",
-        "venue": "Int. J. Comput. Vis",
+        "title": "Brain3D: Generating 3D Objects from fMRI.",
+        "venue": "Int J Comput Vis 134, 58 (2026).",
         "venue_abbreviated": "IJCV 2026",
         "pdf": "https://doi.org/10.1007/s11263-025-02609-x",
         "image": "/assets/publications/images/2026/ijcv-yuankunyang.png"
@@ -50,8 +382,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Henghui Ding, Chang Liu, Shuting He, Xudong Jiang, Yu-Gang Jiang",
-        "title": "GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation",
-        "venue": "Int. J. Comput. Vis",
+        "title": "GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation.",
+        "venue": "Int J Comput Vis 134, 79 (2026).",
         "venue_abbreviated": "IJCV 2026",
         "pdf": "https://doi.org/10.1007/s11263-026-02729-y",
         "image": "/assets/publications/images/2026/ijcv-henghuiding.png"
@@ -59,17 +391,127 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Yige Li, Jiabo He, Hanxun Huang, Jun Sun, Xingjun Ma, Yu-Gang Jiang",
-        "title": "Shortcuts Everywhere and Nowhere: Exploring Multi-Trigger Backdoor Attacks",
-        "venue": "IEEE Trans. Dependable Secur. Comput",
+        "title": "Shortcuts Everywhere and Nowhere: Exploring Multi-Trigger Backdoor Attacks.",
+        "venue": "IEEE Transactions on Dependable and Secure Computing, vol. 23, no. 1, pp. 343-355, Jan.-Feb. 2026, doi: 10.1109/TDSC.2025.3605597.",
         "venue_abbreviated": "TDSC 2026",
         "pdf": "https://doi.org/10.1109/TDSC.2025.3605597",
         "image": "/assets/publications/images/2026/tdsc-yigeli.png"
     },
     {
         "year": "2026",
+        "authors": "Siyin Wang, Jinlan Fu, Feihong Liu, Xinzhe He, Huangxuan Wu, Junhao Shi, Kexin Huang, Zhaoye Fei, Jingjing Gong, Zuxuan Wu, Yu-Gang Jiang, See-Kiong Ng, Tat-Seng Chua, Xipeng Qiu",
+        "title": "RoboOmni: Proactive Robot Manipulation in Omni-modal Context.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/pdf/2510.23763",
+        "code": "https://github.com/OpenMOSS/RoboOmni",
+        "image": "/assets/publications/images/2026/iclr-siyinwang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Xiaosong Jia, Yihang Sun, Junqi You, Songbur Wong, Zichen Zou, Junchi Yan, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Efficient-LVSM: Faster, Cheaper, and Better Large View Synthesis Model via Decoupled Co-Refinement Attention.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2602.06478",
+        "code": "https://efficient-lvsm.github.io/",
+        "image": "/assets/publications/images/2026/iclr-xiaosongjia.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Zhihao Sun, Tong Wu, Ruirui Tu, Daoguo Dong, Zuxuan Wu",
+        "title": "UniHand: A Unified Model for Diverse Controlled 4D Hand Motion Modeling.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2602.21631",
+        "code": "",
+        "image": "/assets/publications/images/2026/iclr-zhihaosun.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Zhiyuan Zhang, Xiaosong Jia, Guanyu Chen, Qifeng Li, Zuxuan Wu, Yu-Gang Jiang, Junchi Yan",
+        "title": "TrajTok: What makes for a good trajectory tokenizer in behavior generation?",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2506.21618",
+        "code": "",
+        "image": "/assets/publications/images/2026/iclr-zhiyuanzhang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Hui Zhang, Dexiang Hong, Maoke Yang, Yutao Cheng, Zhao Zhang, Weidong Chen, Jie Shao, Xinglong Wu, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "CreatiDesign: A Unified Multi-Conditional Diffusion Transformer for Creative Graphic Design.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/pdf/2505.19114",
+        "code": "https://github.com/HuiZhang0812/CreatiDesign",
+        "image": "/assets/publications/images/2026/iclr-huizhang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Hengyuan Xu, Wei Cheng, Peng Xing, Yixiao Fang, Shuhan Wu, Rui Wang, Xianfang Zeng, Daxin Jiang, Gang Yu, Xingjun Ma, Yu-Gang Jiang",
+        "title": "WithAnyone: Towards Controllable and ID Consistent Image Generation.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2510.14975",
+        "code": "https://github.com/Doby-Xu/WithAnyone",
+        "image": "/assets/publications/images/2026/iclr-hengyuanxu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Zhiheng Xi, Jixuan Huang, Chenyang Liao, Baodai Huang, Jiaqi Liu, Honglin Guo, yajie yang, Rui Zheng, Junjie Ye, Jiazheng Zhang, Wenxiang Chen, Wei He, Yiwen Ding, Guanyu Li, Zehui Chen, Zhengyin Du, Xuesong Yao, Yufei Xu, Jiecao Chen, Tao Gui, Zuxuan Wu, Qi Zhang, Xuanjing Huang, Yu-Gang Jiang",
+        "title": "AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2509.08755",
+        "code": "https://github.com/WooooDyy/AgentGym-RL",
+        "image": "/assets/publications/images/2026/iclr-zhihengxi.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, Zhangquan Chen, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan",
+        "title": "Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2509.21789",
+        "code": "https://github.com/YU-deep/ViF",
+        "image": "/assets/publications/images/2026/iclr-xinleiyu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Kaiyuan Cui, Yige Li, Yutao Wu, Xingjun Ma, Sarah M. Erfani, Christopher Leckie, Hanxun Huang",
+        "title": "Toward Universal and Transferable Jailbreak Attacks on Vision-Language Models.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2602.01025",
+        "code": "https://github.com/kaiyuanCui/UltraBreak",
+        "image": "/assets/publications/images/2026/iclr-kaiyuancui.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Shibo Hong, Jiahao Ying, Haiyuan Liang, Mengdi Zhang, Jun Kuang, Jiazheng Zhang, Yixin Cao",
+        "title": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/abs/2505.12795",
+        "code": "https://github.com/ALEX-nlp/UFEval",
+        "image": "/assets/publications/images/2026/iclr-shibohong.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Deheng Zhang, Yuqian Fu, Runyi Yang, Yang Miao, Tianwen Qian, Xu Zheng, Guolei Sun, Ajad Chhatkuli, Xuanjing Huang, Yu-Gang Jiang, Luc Van Gool, Danda Pani Paudel",
+        "title": "EgoNight: Towards Egocentric Vision Understanding at Night with a Challenging Benchmark.",
+        "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
+        "venue_abbreviated": "ICLR 2026",
+        "pdf": "https://arxiv.org/pdf/2510.06218",
+        "code": "",
+        "image": "/assets/publications/images/2026/iclr-dehengzhang.png"
+    },
+    {
+        "year": "2026",
         "authors": "Jiarui Yang, Bin Zhu, Jingjing Chen, Yu-Gang Jiang",
-        "title": "Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward",
-        "venue": "AAAI",
+        "title": "Actor-Critic for Continuous Action Chunks: A Reinforcement Learning Framework for Long-Horizon Robotic Manipulation with Sparse Reward.",
+        "venue": "The 40th AAAI Conference on Artificial Intelligence (AAAI), Singapore, 2026.",
         "venue_abbreviated": "AAAI 2026",
         "pdf": "https://doi.org/10.1609/aaai.v40i22.38937",
         "image": "/assets/publications/images/2026/aaai-jiaruiyang.png"
@@ -77,8 +519,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Wenhao Yao, Zhenxin Li, Shiyi Lan, Zi Wang, Xinglong Sun, José M. Álvarez, Zuxuan Wu",
-        "title": "DriveSuprim: Towards Precise Trajectory Selection for End-to-End Planning",
-        "venue": "AAAI",
+        "title": "DriveSuprim: Towards Precise Trajectory Selection for End-to-End Planning.",
+        "venue": "The 40th AAAI Conference on Artificial Intelligence (AAAI), Singapore, 2026.",
         "venue_abbreviated": "AAAI 2026",
         "pdf": "https://doi.org/10.1609/aaai.v40i14.38178",
         "image": "/assets/publications/images/2026/aaai-wenhaoyao.png"
@@ -86,8 +528,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Sicheng Xie, Haidong Cao, Zejia Weng, Zhen Xing, Haoran Chen, Shiwei Shen, Jiaqi Leng, Zuxuan Wu, Yu-Gang Jiang",
-        "title": "Human2Robot: Learning Robot Actions from Paired Human-Robot Videos",
-        "venue": "AAAI",
+        "title": "Human2Robot: Learning Robot Actions from Paired Human-Robot Videos.",
+        "venue": "The 40th AAAI Conference on Artificial Intelligence (AAAI), Singapore, 2026.",
         "venue_abbreviated": "AAAI 2026",
         "pdf": "https://doi.org/10.1609/aaai.v40i13.38086",
         "image": "/assets/publications/images/2026/aaai-sichengxie.png"
@@ -95,8 +537,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Junhao Xu, Jingjing Chen, Yang Jiao, Jiacheng Zhang, Zhiyu Tan, Hao Li, Yu-Gang Jiang",
-        "title": "Identity-Aware Vision-Language Model for Explainable Face Forgery Detection",
-        "venue": "AAAI",
+        "title": "Identity-Aware Vision-Language Model for Explainable Face Forgery Detection.",
+        "venue": "The 40th AAAI Conference on Artificial Intelligence (AAAI), Singapore, 2026.",
         "venue_abbreviated": "AAAI 2026",
         "pdf": "https://doi.org/10.1609/aaai.v40i13.38108",
         "image": "/assets/publications/images/2026/aaai-junhaoxu.png"
@@ -104,8 +546,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Yongkun Du, Miaomiao Zhao, Songlin Fan, Zhineng Chen, Caiyan Jia, Yu-Gang Jiang",
-        "title": "MDiff4STR: Mask Diffusion Model for Scene Text Recognition",
-        "venue": "AAAI",
+        "title": "MDiff4STR: Mask Diffusion Model for Scene Text Recognition.",
+        "venue": "The 40th AAAI Conference on Artificial Intelligence (AAAI), Singapore, 2026.",
         "venue_abbreviated": "AAAI 2026",
         "pdf": "https://doi.org/10.1609/aaai.v40i5.37370",
         "image": "/assets/publications/images/2026/aaai-yongkundu.png"
@@ -113,8 +555,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Haoyu Zhao, Jiaxi Gu, Shicong Wang, Tianyi Lu, Xing Zhang, Zuxuan Wu, Hang Xu, Yu-Gang Jiang",
-        "title": "LSTD: Long Short-Term Temporal Diffusion for Video Generation",
-        "venue": "IEEE Trans. Multim",
+        "title": "LSTD: Long Short-Term Temporal Diffusion for Video Generation.",
+        "venue": "IEEE Transactions on Multimedia, vol. 28, pp. 2460-2473, 2026, doi: 10.1109/TMM.2026.3651052.",
         "venue_abbreviated": "TMM 2026",
         "pdf": "https://doi.org/10.1109/TMM.2026.3651052",
         "image": "/assets/publications/images/2026/tmm-haoyuzhao.png"
@@ -122,8 +564,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
         "authors": "Ben Niu, Yu-Gang Jiang, Xing-xing Ju, Ying-ying Liu, Xiao-mei Wang",
-        "title": "Distributed prescribed-time algorithms of multi-agent systems for time-varying optimization problems with inequality constraints",
-        "venue": "Autom",
+        "title": "Distributed prescribed-time algorithms of multi-agent systems for time-varying optimization problems with inequality constraints.",
+        "venue": "Automatica, Volume 189, 2026, 112982, ISSN 0005-1098, https://doi.org/10.1016/j.automatica.2026.112982.",
         "venue_abbreviated": "Autom 2026",
         "pdf": "https://doi.org/10.1016/j.automatica.2026.112982",
         "image": "/assets/publications/images/2026/autom-benniu.png"
@@ -131,8 +573,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Yongkun Du, Zhineng Chen, Caiyan Jia, Xiaoting Yin, Chenxia Li, Yuning Du, Yu-Gang Jiang",
-        "title": "Context Perception Parallel Decoder for Scene Text Recognition",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "Context Perception Parallel Decoder for Scene Text Recognition.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 47, no. 6, pp. 4668-4683, June 2025, doi: 10.1109/TPAMI.2025.3545453.",
         "venue_abbreviated": "TPAMI 2025",
         "pdf": "https://doi.org/10.1109/TPAMI.2025.3545453",
         "image": "/assets/publications/images/2025/tpami-yongkundu-1.png"
@@ -140,8 +582,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Hui Zhang, Zheng Wang, Dan Zeng, Zuxuan Wu, Yu-Gang Jiang",
-        "title": "DiffusionAD: Norm-Guided One-Step Denoising Diffusion for Anomaly Detection",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "DiffusionAD: Norm-Guided One-Step Denoising Diffusion for Anomaly Detection.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 47, no. 8, pp. 7140-7152, Aug. 2025, doi: 10.1109/TPAMI.2025.3570494.",
         "venue_abbreviated": "TPAMI 2025",
         "pdf": "https://doi.org/10.1109/TPAMI.2025.3570494",
         "image": "/assets/publications/images/2025/tpami-huizhang.png"
@@ -149,8 +591,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Xuelin Qian, Wenxuan Wang, Yu-Gang Jiang, Xiangyang Xue, Yanwei Fu",
-        "title": "Dynamic Routing and Knowledge Re-Learning for Data-Free Black-Box Attack",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "Dynamic Routing and Knowledge Re-Learning for Data-Free Black-Box Attack.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 47, no. 1, pp. 486-501, Jan. 2025, doi: 10.1109/TPAMI.2024.3469952.",
         "venue_abbreviated": "TPAMI 2025",
         "pdf": "https://doi.org/10.1109/TPAMI.2024.3469952",
         "image": "/assets/publications/images/2025/tpami-xuelinqian.png"
@@ -158,8 +600,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Yongkun Du, Zhineng Chen, Yuchen Su, Caiyan Jia, Yu-Gang Jiang",
-        "title": "Instruction-Guided Scene Text Recognition",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "Instruction-Guided Scene Text Recognition.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 47, no. 4, pp. 2723-2738, April 2025, doi: 10.1109/TPAMI.2025.3525526.",
         "venue_abbreviated": "TPAMI 2025",
         "pdf": "https://doi.org/10.1109/TPAMI.2025.3525526",
         "image": "/assets/publications/images/2025/tpami-yongkundu.png"
@@ -167,8 +609,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Henghui Ding, Chang Liu, Shuting He, Kaining Ying, Xudong Jiang, Chen Change Loy, Yu-Gang Jiang",
-        "title": "MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmentation",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "MeViS: A Multi-Modal Dataset for Referring Motion Expression Video Segmentation.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 47, no. 12, pp. 11400-11416, Dec. 2025, doi: 10.1109/TPAMI.2025.3600507.",
         "venue_abbreviated": "TPAMI 2025",
         "pdf": "https://doi.org/10.1109/TPAMI.2025.3600507",
         "image": "/assets/publications/images/2025/tpami-henghuiding.png"
@@ -176,8 +618,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Junke Wang, Zuxuan Wu, Dongdong Chen, Chong Luo, Xiyang Dai, Lu Yuan, Yu-Gang Jiang",
-        "title": "OmniTracker: Unifying Visual Object Tracking by Tracking-With-Detection",
-        "venue": "IEEE Trans. Pattern Anal. Mach. Intell",
+        "title": "OmniTracker: Unifying Visual Object Tracking by Tracking-With-Detection.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 47, no. 4, pp. 3159-3174, April 2025, doi: 10.1109/TPAMI.2025.3529926.",
         "venue_abbreviated": "TPAMI 2025",
         "pdf": "https://doi.org/10.1109/TPAMI.2025.3529926",
         "image": "/assets/publications/images/2025/tpami-junkewang.png"
@@ -185,8 +627,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Zhipeng Wei, Jingjing Chen, Yu-Gang Jiang",
-        "title": "What Do Visual Models Look At? Dilated Attention for Targeted Transferable Attacks",
-        "venue": "Int. J. Comput. Vis",
+        "title": "What Do Visual Models Look At? Dilated Attention for Targeted Transferable Attacks.",
+        "venue": "Targeted Transferable Attacks. Int J Comput Vis 133, 8041-8058 (2025).",
         "venue_abbreviated": "IJCV 2025",
         "pdf": "https://doi.org/10.1007/s11263-025-02552-x",
         "image": "/assets/publications/images/2025/ijcv-zhipengwei.png"
@@ -194,8 +636,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Guoshan Liu, Hailong Yin, Bin Zhu, Jingjing Chen, Chong-Wah Ngo, Yu-Gang Jiang",
-        "title": "Retrieval Augmented Recipe Generation",
-        "venue": "WACV",
+        "title": "Retrieval Augmented Recipe Generation.",
+        "venue": "Winter Conference on Applications of Computer Vision (WACV), Tucson, AZ, USA, 2025.",
         "venue_abbreviated": "WACV 2025",
         "pdf": "https://doi.org/10.1109/WACV61041.2025.00244",
         "image": "/assets/publications/images/2025/wacv-guoshanliu.png"
@@ -203,8 +645,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Hui Zhang, Tingwei Gao, Jie Shao, Zuxuan Wu",
-        "title": "BlockDance: Reuse Structurally Similar Spatio-Temporal Features to Accelerate Diffusion Transformers",
-        "venue": "CVPR",
+        "title": "BlockDance: Reuse Structurally Similar Spatio-Temporal Features to Accelerate Diffusion Transformers.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA, 2025.",
         "venue_abbreviated": "CVPR 2025",
         "pdf": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_BlockDance_Reuse_Structurally_Similar_Spatio-Temporal_Features_to_Accelerate_Diffusion_Transformers_CVPR_2025_paper.html",
         "image": "/assets/publications/images/2025/cvpr-huizhang.png"
@@ -212,8 +654,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Zihao Zhang, Haoran Chen, Haoyu Zhao, Guansong Lu, Yanwei Fu, Hang Xu, Zuxuan Wu",
-        "title": "EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation",
-        "venue": "CVPR",
+        "title": "EDEN: Enhanced Diffusion for High-quality Large-motion Video Frame Interpolation.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA, 2025.",
         "venue_abbreviated": "CVPR 2025",
         "pdf": "https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_EDEN_Enhanced_Diffusion_for_High-quality_Large-motion_Video_Frame_Interpolation_CVPR_2025_paper.html",
         "image": "/assets/publications/images/2025/cvpr-zihaozhang.png"
@@ -221,8 +663,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Shuyuan Tu, Zhen Xing, Xintong Han, Zhi-Qi Cheng, Qi Dai, Chong Luo, Zuxuan Wu",
-        "title": "StableAnimator: High-Quality Identity-Preserving Human Image Animation",
-        "venue": "CVPR",
+        "title": "StableAnimator: High-Quality Identity-Preserving Human Image Animation.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Nashville, TN, USA, 2025.",
         "venue_abbreviated": "CVPR 2025",
         "pdf": "https://openaccess.thecvf.com/content/CVPR2025/html/Tu_StableAnimator_High-Quality_Identity-Preserving_Human_Image_Animation_CVPR_2025_paper.html",
         "image": "/assets/publications/images/2025/cvpr-shuyuantu.png"
@@ -230,8 +672,8 @@ export const publicationsList: PublicationItem[] = [
     {
         "year": "2025",
         "authors": "Yang Jiao, Haibo Qiu, Zequn Jie, Shaoxiang Chen, Jingjing Chen, Lin Ma, Yu-Gang Jiang",
-        "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding",
-        "venue": "CVPR Workshops",
+        "title": "UniToken: Harmonizing Multimodal Understanding and Generation through Unified Visual Encoding.",
+        "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, Nashville, TN, USA, 2025, pp. 3639-3649.",
         "venue_abbreviated": "CVPR 2025",
         "pdf": "https://openaccess.thecvf.com/content/CVPR2025W/MMFM/html/Jiao_UniToken_Harmonizing_Multimodal_Understanding_and_Generation_through_Unified_Visual_Encoding_CVPRW_2025_paper.html",
         "image": "/assets/publications/images/2025/cvpr-yangjiao.png"
@@ -240,7 +682,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Wujian Peng, Lingchen Meng, Yitong Chen, Yiweng Xie, Yang Liu, Tao Gui, Hang Xu, Xipeng Qiu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "INST-IT: Boosting Multimodal Instance Understanding via Explicit Visual Prompt Instruction Tuning.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2412.03565",
         "image": "/assets/publications/images/2025/neurips-wujianpeng.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -249,7 +691,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Danfeng Li, Hui Zhang, Sheng Wang, Jiacheng Li, Zuxuan Wu",
         "title": "Seg2Any: Open-set Segmentation-Mask-to-Image Generation with Precise Shape and Semantic Control.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/abs/2506.00596",
         "image": "/assets/publications/images/2025/neurips-danfengli.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -258,7 +700,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Junke Wang, Xun Wang, Qiushan Guo, Peize Sun, Weilin Huang, Zuxuan Wu, Yu-Gang Jiang",
         "title": "OmniGen-AR: AutoRegressive Any-to-Image Generation.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/abs/2504.11455",
         "image": "/assets/publications/images/2025/neurips-junkewang.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -267,7 +709,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Zhihao Sun, Haoran Jiang, Haoran Chen, Yixin Cao, Xipeng Qiu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "ForgerySleuth: Empowering Multimodal Large Language Models for Image Manipulation Detection.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2411.19466",
         "image": "/assets/publications/images/2025/neurips-zhihaosun.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -276,7 +718,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Rui Tian, Mingfei Gao, Mingze Xu, Jiaming Hu, Jiasen Lu, Zuxuan Wu, Yinfei Yang, Afshin Dehghan",
         "title": "UniGen: Enhanced Training & Test-Time Strategies for Unified Multimodal Understanding and Generation.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/abs/2505.14682",
         "image": "/assets/publications/images/2025/neurips-ruitian.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -285,7 +727,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Yiying Yang, Wei Cheng, Sijin Chen, Xianfang Zeng, Fukun Yin, Jiaxu Zhang, Liao Wang, Gang Yu, Xingjun Ma, Yu-Gang Jiang",
         "title": "OmniSVG: A Unified Scalable Vector Graphics Generation Model.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2504.06263",
         "image": "/assets/publications/images/2025/neurips-yiyingyang.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -294,7 +736,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Yu Li, Xingyu Qiu, Yuqian Fu, Jie Chen, Tianwen Qian, Xu Zheng, Danda Pani Paudel, Yanwei Fu, Xuanjing Huang, Luc Van Gool, Yu-Gang Jiang",
         "title": "Domain-RAG: Retrieval-Guided Compositional Image Generation for Cross-Domain Few-Shot Object Detection.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/abs/2506.05872",
         "image": "/assets/publications/images/2025/neurips-yuli.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -303,7 +745,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Ye Sun, Hao Zhang, Henghui Ding, Tiehua Zhang, Xingjun Ma, Yu-Gang Jiang",
         "title": "SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/abs/2505.18812",
         "image": "/assets/publications/images/2025/neurips-yesun.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -312,7 +754,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Xixian Liu, Rui Jiao, Zhiyuan Liu, Yurou Liu, Yang Liu, Ziheng Lu, Wenbing Huang, Yang Zhang, Yixin Cao",
         "title": "Learning 3D Anisotropic Noise Distributions Improves Molecular Force Fields.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2510.22123",
         "image": "/assets/publications/images/2025/neurips-xixianliu.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -321,7 +763,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Jiaxin Song, Yixu Wang, Jie Li, Xuan Tong, Rui Yu, Yan Teng, Xingjun Ma, Yingchun Wang",
         "title": "JailBound: Jailbreaking Internal Safety Boundaries of Vision-Language Models.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2505.19610",
         "image": "/assets/publications/images/2025/neurips-jiaxinsong.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -330,7 +772,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Yige Li, Hanxun Huang, Yunhan Zhao, Xingjun Ma, Jun Sun",
         "title": "BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks and Defenses on Large Language Models.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2408.12798",
         "image": "/assets/publications/images/2025/neurips-yigeli.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -339,7 +781,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Yixu Wang, Jiaxin Song, Yifeng Gao, Xin Wang, Yang Yao, Yan Teng, Xingjun Ma, Yingchun Wang, Yu-Gang Jiang",
         "title": "SafeVid: Toward Safety Aligned Video Large Multimodal Models.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2505.11926",
         "image": "/assets/publications/images/2025/neurips-yixuwang.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -348,7 +790,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Shanshan Li, Da Huang, Yu He, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue",
         "title": "TP-MDDN: Task-Preferenced Multi-Demand-Driven Navigation with Autonomous Decision-Making.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2511.17225",
         "image": "/assets/publications/images/2025/neurips-shanshanli.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -357,7 +799,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Zhi Jing, Siyuan Yang, Jicong Ao, Ting Xiao, Yu-Gang Jiang, Chenjia Bai",
         "title": "HumanoidGen: Data Generation for Bimanual Dexterous Manipulation via LLM Reasoning.",
-        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
         "pdf": "https://arxiv.org/pdf/2507.00833",
         "image": "/assets/publications/images/2025/neurips-zhijing.png",
         "venue_abbreviated": "NeurIPS 2025"
@@ -465,7 +907,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Haoran Chen, Micah Goldblum, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Adaptive Retention & Correction for Continual Learning.",
-        "venue": "International Conference on Learning Representations (ICLR), Singapore, 2025",
+        "venue": "International Conference on Learning Representations (ICLR), Singapore, 2025.",
         "pdf": "https://openreview.net/forum?id=9bLdbp46Q1",
         "image": "/assets/publications/images/2025/iclr-haoranchen.png",
         "venue_abbreviated": "ICLR 2025"
@@ -474,7 +916,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Yunhan Zhao, Xiang Zheng, Lin Luo, Yige Li, Xingjun Ma, Yu-Gang Jiang",
         "title": "BlueSuffix: Reinforced Blue Teaming for Vision-Language Models Against Jailbreak Attacks.",
-        "venue": "International Conference on Learning Representations (ICLR), Singapore, 2025",
+        "venue": "International Conference on Learning Representations (ICLR), Singapore, 2025.",
         "pdf": "https://openreview.net/forum?id=wwVGZRnAYG",
         "image": "/assets/publications/images/2025/iclr-yunhanzhao.png",
         "venue_abbreviated": "ICLR 2025"

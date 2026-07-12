@@ -427,6 +427,10 @@ watch(selectedYear, () => {
     color: var(--vp-c-brand-1);
 }
 
+.link-btn.dataset {
+    color: var(--vp-c-brand-1);
+}
+
 .link-btn .icon {
     width: var(--vp-small);
     height: var(--vp-small);
