@@ -1,11 +1,11 @@
 export const FooterData = {
     zh: {
-        address: '实验室地址: 上海市淞沪路2005号2号交叉学科楼5楼',
+        address: '实验室地址: 上海市杨浦区湾谷科技园二期D2栋6楼',
         copyright: (year: number) =>
             `© ${year} Fudan Vision and Learning Laboratory. All Rights Reserved.`
     },
     en: {
-        address: 'Address: 5F, No. 2 Interdisciplinary Research Building, 2005 Songhu Road, Shanghai 200438, China.',
+        address: 'Address: Floor 6, Building D2, Wangu Science Park Phase II, Yangpu District, Shanghai',
         copyright: (year: number) =>
             `© ${year} Fudan Vision and Learning Laboratory. All Rights Reserved.`
     }
