@@ -1054,7 +1054,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3680977",
         "image": "/assets/publications/images/2024/acm mm-yinxuangui.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1063,7 +1063,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681538",
         "image": "/assets/publications/images/2024/acm mm-wenzhuoxu.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1072,7 +1072,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3680622",
         "image": "/assets/publications/images/2024/acm mm-junhaoxu.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1081,7 +1081,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3680959",
         "image": "/assets/publications/images/2024/acm mm-ziyigao.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1090,7 +1090,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681390",
         "image": "/assets/publications/images/2024/acm mm-shuaizhao.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1099,7 +1099,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681032",
         "image": "/assets/publications/images/2024/acm mm-xinwang.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1108,7 +1108,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681092",
         "image": "/assets/publications/images/2024/acm mm-ruofanwang.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1117,7 +1117,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681506",
         "image": "/assets/publications/images/2024/acm mm-yangluo.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1126,7 +1126,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3685507",
         "image": "/assets/publications/images/2024/acm mm-yifenggao.png",
-        "venue_abbreviated": "ACM MM 2024"
+        "venue_abbreviated": "MM 2024"
     },
     {
         "year": "2024",
@@ -1630,7 +1630,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://arxiv.org/abs/2308.07119",
         "image": "/assets/publications/images/2023/acm mm-yilunzhang.png",
-        "venue_abbreviated": "ACM MM 2023"
+        "venue_abbreviated": "MM 2023"
     },
     {
         "year": "2023",
@@ -1639,7 +1639,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://dl.acm.org/doi/10.1145/3581783.3612102",
         "image": "/assets/publications/images/2023/acm mm-yanqiwu.png",
-        "venue_abbreviated": "ACM MM 2023"
+        "venue_abbreviated": "MM 2023"
     },
     {
         "year": "2023",
@@ -1648,7 +1648,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://dl.acm.org/doi/10.1145/3581783.3612110",
         "image": "/assets/publications/images/2023/acm mm-kaichen.png",
-        "venue_abbreviated": "ACM MM 2023"
+        "venue_abbreviated": "MM 2023"
     },
     {
         "year": "2023",
@@ -1657,7 +1657,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://arxiv.org/abs/2203.05186",
         "image": "/assets/publications/images/2023/acm mm-yangjiao.png",
-        "venue_abbreviated": "ACM MM 2023"
+        "venue_abbreviated": "MM 2023"
     },
     {
         "year": "2023",
@@ -1666,7 +1666,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3581783.3611940",
         "image": "/assets/publications/images/2023/acm mm-xuesong.png",
-        "venue_abbreviated": "ACM MM 2023"
+        "venue_abbreviated": "MM 2023"
     },
     {
         "year": "2023",
@@ -1855,7 +1855,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://arxiv.org/abs/2210.05392",
         "image": "/assets/publications/images/2022/acm mm-linhaizhuo.png",
-        "venue_abbreviated": "ACM MM 2022"
+        "venue_abbreviated": "MM 2022"
     },
     {
         "year": "2022",
@@ -1864,7 +1864,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://arxiv.org/abs/2210.05280",
         "image": "/assets/publications/images/2022/acm mm-yuqianfu.png",
-        "venue_abbreviated": "ACM MM 2022"
+        "venue_abbreviated": "MM 2022"
     },
     {
         "year": "2022",
@@ -1873,7 +1873,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3503161.3548313",
         "image": "/assets/publications/images/2022/acm mm-yuehaoyin.png",
-        "venue_abbreviated": "ACM MM 2022"
+        "venue_abbreviated": "MM 2022"
     },
     {
         "year": "2022",
@@ -1972,7 +1972,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://dl.acm.org/doi/10.1145/3474085.3475278",
         "image": "/assets/publications/images/2021/acm mm-zhengwang.png",
-        "venue_abbreviated": "ACM MM 2021"
+        "venue_abbreviated": "MM 2021"
     },
     {
         "year": "2021",
@@ -1981,7 +1981,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://arxiv.org/abs/2107.11978",
         "image": "/assets/publications/images/2021/acm mm-yuqianfu.png",
-        "venue_abbreviated": "ACM MM 2021"
+        "venue_abbreviated": "MM 2021"
     },
     {
         "year": "2021",
@@ -1990,7 +1990,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3474085.3475222",
         "image": "/assets/publications/images/2021/acm mm-yangjiao.png",
-        "venue_abbreviated": "ACM MM 2021"
+        "venue_abbreviated": "MM 2021"
     },
     {
         "year": "2021",
@@ -1999,7 +1999,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://arxiv.org/abs/2108.12868",
         "image": "/assets/publications/images/2021/acm mm-zejiaweng.png",
-        "venue_abbreviated": "ACM MM 2021"
+        "venue_abbreviated": "MM 2021"
     },
     {
         "year": "2021",
@@ -2305,7 +2305,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://arxiv.org/abs/1904.05181",
         "image": "/assets/publications/images/2019/acm mm-linxijiang.png",
-        "venue_abbreviated": "ACM MM 2019"
+        "venue_abbreviated": "MM 2019"
     },
     {
         "year": "2019",
@@ -2314,7 +2314,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351015",
         "image": "/assets/publications/images/2019/acm mm-yuqianfu.png",
-        "venue_abbreviated": "ACM MM 2019"
+        "venue_abbreviated": "MM 2019"
     },
     {
         "year": "2019",
@@ -2323,7 +2323,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351031",
         "image": "/assets/publications/images/2019/acm mm-juntongcheng.png",
-        "venue_abbreviated": "ACM MM 2019"
+        "venue_abbreviated": "MM 2019"
     },
     {
         "year": "2019",
@@ -2332,7 +2332,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351054",
         "image": "/assets/publications/images/2019/acm mm-changmaocheng.png",
-        "venue_abbreviated": "ACM MM 2019"
+        "venue_abbreviated": "MM 2019"
     },
     {
         "year": "2019",
@@ -2341,7 +2341,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/epdf/10.1145/3343031.3350900",
         "image": "/assets/publications/images/2019/acm mm-hangyulin.png",
-        "venue_abbreviated": "ACM MM 2019"
+        "venue_abbreviated": "MM 2019"
     },
     {
         "year": "2019",
@@ -2350,7 +2350,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351032",
         "image": "/assets/publications/images/2019/acm mm-wenxuanwang.png",
-        "venue_abbreviated": "ACM MM 2019"
+        "venue_abbreviated": "MM 2019"
     },
     {
         "year": "2019",
@@ -2629,7 +2629,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "https://arxiv.org/abs/1707.05691",
         "image": "/assets/publications/images/2017/acm mm-xintonghan.png",
-        "venue_abbreviated": "ACM MM 2017"
+        "venue_abbreviated": "MM 2017"
     },
     {
         "year": "2017",
@@ -2638,7 +2638,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/10.1145/3123266.3123379",
         "image": "/assets/publications/images/2017/acm mm-ruiweizhao.png",
-        "venue_abbreviated": "ACM MM 2017"
+        "venue_abbreviated": "MM 2017"
     },
     {
         "year": "2017",
@@ -2647,7 +2647,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "https://dl.acm.org/doi/10.1145/3123266.3123321",
         "image": "/assets/publications/images/2017/acm mm-junyanhe.png",
-        "venue_abbreviated": "ACM MM 2017"
+        "venue_abbreviated": "MM 2017"
     },
     {
         "year": "2017",
@@ -2656,7 +2656,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/epdf/10.1145/3123266.3123423",
         "image": "/assets/publications/images/2017/acm mm-weidongyin.png",
-        "venue_abbreviated": "ACM MM 2017"
+        "venue_abbreviated": "MM 2017"
     },
     {
         "year": "2017",
@@ -2665,7 +2665,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/pdf/10.1145/3123266.3123424",
         "image": "/assets/publications/images/2017/acm mm-kekehe.png",
-        "venue_abbreviated": "ACM MM 2017"
+        "venue_abbreviated": "MM 2017"
     },
     {
         "year": "2017",
@@ -2728,7 +2728,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
         "pdf": "https://dl.acm.org/citation.cfm?id=2964328",
         "image": "/assets/publications/images/2016/acm mm-zuxuanwu.png",
-        "venue_abbreviated": "ACM MM 2016"
+        "venue_abbreviated": "MM 2016"
     },
     {
         "year": "2016",
@@ -2737,7 +2737,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
         "pdf": "http://dl.acm.org/doi/epdf/10.1145/2964284.2964331",
         "image": "/assets/publications/images/2016/acm mm-qidai.png",
-        "venue_abbreviated": "ACM MM 2016"
+        "venue_abbreviated": "MM 2016"
     },
     {
         "year": "2016",
@@ -2836,7 +2836,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Brisbane, Australia, 2015.",
         "pdf": "/assets/publications/pdfs/modeling-spatial-temporal-clues-in-a-hybrid-deep-learning-framework-for-video-classification.pdf",
         "image": "/assets/publications/images/2015/acm mm-zuxuanwu.png",
-        "venue_abbreviated": "ACM MM 2015"
+        "venue_abbreviated": "MM 2015"
     },
     {
         "year": "2015",
@@ -2962,7 +2962,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "/assets/publications/pdfs/exploring-inter-feature-and-inter-class-relationships-with-deep-neural-networks-for-video-classification.pdf",
         "image": "/assets/publications/images/2014/acm mm-zuxuanwu.png",
-        "venue_abbreviated": "ACM MM 2014"
+        "venue_abbreviated": "MM 2014"
     },
     {
         "year": "2014",
@@ -2998,7 +2998,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "/assets/publications/pdfs/organizing-video-search-results-to-adapted-semantic-hierarchies-for-topic-based-browsing.pdf",
         "image": "/assets/publications/images/2014/acm mm-jiajunwang.png",
-        "venue_abbreviated": "ACM MM 2014"
+        "venue_abbreviated": "MM 2014"
     },
     {
         "year": "2014",
@@ -3007,7 +3007,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "/assets/publications/pdfs/real-time-summarization-of-user-generated-videos-based-on-semantic-recognition.pdf",
         "image": "/assets/publications/images/2014/acm mm-xiwang.png",
-        "venue_abbreviated": "ACM MM 2014"
+        "venue_abbreviated": "MM 2014"
     },
     {
         "year": "2014",
@@ -3142,7 +3142,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
         "pdf": "/assets/publications/pdfs/beauty-is-here-evaluating-aesthetics-in-videos-using-multimodal-features-and-free-training-data.pdf",
         "image": "/assets/publications/images/2013/acm mm-yanranwang.png",
-        "venue_abbreviated": "ACM MM 2013"
+        "venue_abbreviated": "MM 2013"
     },
     {
         "year": "2013",
@@ -3151,7 +3151,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
         "pdf": "/assets/publications/pdfs/strong-geometry-consistency-for-large-scale-partial-duplicate-image-search.pdf",
         "image": "/assets/publications/images/2013/acm mm-junqiangwang.png",
-        "venue_abbreviated": "ACM MM 2013"
+        "venue_abbreviated": "MM 2013"
     },
     {
         "year": "2013",
@@ -3232,7 +3232,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Nara, Japan, 2012. (Demo session)",
         "pdf": "/assets/publications/pdfs/a-fast-video-event-recognition-system-and-its-application-to-video-search.pdf",
         "image": "/assets/publications/images/2012/acm mm-yugangjiang.png",
-        "venue_abbreviated": "ACM MM 2012"
+        "venue_abbreviated": "MM 2012"
     },
     {
         "year": "2012",
@@ -3277,7 +3277,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
         "pdf": "/assets/publications/pdfs/towards-textually-describing-complex-video-contents-with-audio-visual-concept-classifiers.pdf",
         "image": "/assets/publications/images/2011/acm mm-chunchettan.png",
-        "venue_abbreviated": "ACM MM 2011"
+        "venue_abbreviated": "MM 2011"
     },
     {
         "year": "2011",
@@ -3286,7 +3286,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
         "pdf": "/assets/publications/pdfs/on-the-pooling-of-positive-examples-with-ontology-for-visual-concept-learning.pdf",
         "image": "/assets/publications/images/2011/acm mm-shiaizhu.png",
-        "venue_abbreviated": "ACM MM 2011"
+        "venue_abbreviated": "MM 2011"
     },
     {
         "year": "2011",
@@ -3376,7 +3376,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
         "pdf": "/assets/publications/pdfs/brain-state-decoding-for-rapid-image-retrieval.pdf",
         "image": "/assets/publications/images/2009/acm mm-junwang.png",
-        "venue_abbreviated": "ACM MM 2009"
+        "venue_abbreviated": "MM 2009"
     },
     {
         "year": "2009",
@@ -3385,7 +3385,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
         "pdf": "/assets/publications/pdfs/semantic-context-transfer-across-heterogeneous-sources-for-domain-adaptive-video-search.pdf",
         "image": "/assets/publications/images/2009/acm mm-yugangjiang.png",
-        "venue_abbreviated": "ACM MM 2009"
+        "venue_abbreviated": "MM 2009"
     },
     {
         "year": "2009",
@@ -3439,7 +3439,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Vancouver, Canada, 2008.",
         "pdf": "/assets/publications/pdfs/video-event-detection-using-motion-relativity-and-visual-relatedness.pdf",
         "image": "/assets/publications/images/2008/acm mm-fengwang.png",
-        "venue_abbreviated": "ACM MM 2008"
+        "venue_abbreviated": "MM 2008"
     },
     {
         "year": "2008",
@@ -3511,7 +3511,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM SIGMM Workshop on Multimedia Information Retrieval (MIR), in conjunction with ACM International Conference on Multimedia (ACM MM), Germany, 2007.",
         "pdf": "/assets/publications/pdfs/evaluating-bag-of-visual-words-representations-in-scene-classification.pdf",
         "image": "/assets/publications/images/2007/acm mm-junyang.png",
-        "venue_abbreviated": "ACM MM 2007"
+        "venue_abbreviated": "MM 2007"
     },
     {
         "year": "2007",
@@ -3529,7 +3529,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "ACM International Conference on Multimedia (ACM MM), Santa Barbara, CA, USA, 2006.",
         "pdf": "/assets/publications/pdfs/fast-tracking-of-near-duplicate-keyframes-in-broadcast-domain-with-transitivity-propagation.pdf",
         "image": "/assets/publications/images/2006/acm mm-chongwahngo.png",
-        "venue_abbreviated": "ACM MM 2006"
+        "venue_abbreviated": "MM 2006"
     },
     {
         "year": "2006",
