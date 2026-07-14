@@ -140,38 +140,6 @@ export const postdocList: Student[] = [
 export const phdList: Student[] = [
     {
         name: {
-            zh: '宋雪',
-            en: 'Xue Song'
-        },
-        avatar: '/assets/people/phd/XueSong.jpg',
-        year: '2021'
-    },
-    {
-        name: {
-            zh: '王锐',
-            en: 'Rui Wang'
-        },
-        avatar: '/assets/people/phd/RuiWang.jpg',
-        year: '2021'
-    },
-    {
-        name: {
-            zh: '陈昊然',
-            en: 'Haoran Chen'
-        },
-        avatar: '/assets/people/phd/HaoranChen.jpg',
-        year: '2021'
-    },
-    {
-        name: {
-            zh: '王君可',
-            en: 'Junke Wang'
-        },
-        avatar: '/assets/people/phd/JunkeWang.jpg',
-        year: '2021'
-    },
-    {
-        name: {
             zh: '陈凯',
             en: 'Kai Chen'
         },
@@ -232,6 +200,14 @@ export const phdList: Student[] = [
             en: 'Haoyu Zhao'
         },
         avatar: '/assets/people/phd/HaoyuZhao.jpg',
+        year: '2022'
+    },
+    {
+        name: {
+            zh: '黎腾',
+            en: 'Teng Li'
+        },
+        avatar: '/assets/people/phd/TengLi.png',
         year: '2022'
     },
     {
@@ -316,6 +292,14 @@ export const phdList: Student[] = [
     },
     {
         name: {
+            zh: '高子怡',
+            en: 'Ziyi Gao'
+        },
+        avatar: '/assets/people/master/ZiyiGao.png',
+        year: '2026'
+    },
+    {
+        name: {
             zh: '丁一凡',
             en: 'Yifan Ding'
         },
@@ -352,6 +336,14 @@ export const phdList: Student[] = [
             en: 'Shuyuan Tu'
         },
         avatar: '/assets/people/phd/ShuyuanTu.png',
+        year: '2023'
+    },
+    {
+        name: {
+            zh: '王佳煜',
+            en: 'Jiayu Wang'
+        },
+        avatar: '/assets/people/phd/JiayuWang.png',
         year: '2023'
     },
     {
@@ -400,14 +392,6 @@ export const phdList: Student[] = [
             en: 'Jiarui Yang'
         },
         avatar: '/assets/people/phd/JiaruiYang.png',
-        year: '2024'
-    },
-    {
-        name: {
-            zh: '刘震熙',
-            en: 'Zhenxi Liu'
-        },
-        avatar: '/assets/people/phd/ZhenxiLiu.png',
         year: '2024'
     },
     {
@@ -489,370 +473,218 @@ export const phdList: Student[] = [
         },
         avatar: '/assets/people/phd/YifeiSong.jpg',
         year: '2024'
+    },
+    {
+        name: {
+            zh: '高雅',
+            en: 'Ya Gao'
+        },
+        avatar: '/assets/people/phd/YaGao.png',
+        year: '2024'
+    },
+    {
+        name: {
+            zh: '刘浩航',
+            en: 'Haohang Liu'
+        },
+        avatar: '/assets/people/phd/HaohangLiu.png',
+        year: '2024'
+    },
+    {
+        name: {
+            zh: '陈康',
+            en: 'Kang Chen'
+        },
+        avatar: '/assets/people/phd/KangChen.png',
+        year: '2024'
+    },
+    {
+        name: {
+            zh: '林星耀',
+            en: 'Xingyao Lin'
+        },
+        avatar: '/assets/people/phd/XingyaoLin.jpg',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '陆天一',
+            en: 'Tianyi Lu'
+        },
+        avatar: '/assets/people/phd/TianyiLu.jpg',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '赵祥宇',
+            en: 'Xiangyu Zhao'
+        },
+        avatar: '/assets/people/phd/XiangyuZhao.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '杨亚婕',
+            en: 'Yajie Yang'
+        },
+        avatar: '/assets/people/phd/YajieYang.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '文茗',
+            en: 'Ming Wen'
+        },
+        avatar: '/assets/people/phd/MingWen.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '夏康杰',
+            en: 'Kangjie Xia'
+        },
+        avatar: '/assets/people/phd/KangjieXia.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '杨依颖',
+            en: 'Yiying Yang'
+        },
+        avatar: '/assets/people/phd/YiyingYang.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '杨曦邦',
+            en: 'Xibang Yang'
+        },
+        avatar: '/assets/people/phd/XibangYang.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '竺江港',
+            en: 'Jianggang Zhu'
+        },
+        avatar: '/assets/people/phd/JianggangZhu.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '苑红榜',
+            en: 'Hongbang Yuan'
+        },
+        avatar: '/assets/people/phd/HongbangYuan.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '彭中园',
+            en: 'Zhongyuan Peng'
+        },
+        avatar: '/assets/people/phd/ZhongyuanPeng.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '徐才峻',
+            en: 'Caijun Xu'
+        },
+        avatar: '/assets/people/phd/CaijunXu.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '孙闻鹤',
+            en: 'Wenhe Sun'
+        },
+        avatar: '/assets/people/phd/WenheSun.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '岳琮涵',
+            en: 'Conghan Yue'
+        },
+        avatar: '/assets/people/phd/ConghanYue.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '黄扬林',
+            en: 'Yanglin Huang'
+        },
+        avatar: '/assets/people/phd/YanglinHuang.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '王昊天',
+            en: 'Haotian Wang'
+        },
+        avatar: '/assets/people/phd/HaotianWang.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '许晟旗',
+            en: 'Shengqi Xu'
+        },
+        avatar: '/assets/people/phd/ShengqiXu.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '郑翔宇',
+            en: 'Xiangyu Zheng'
+        },
+        avatar: '/assets/people/phd/XiangyuZheng.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '方东',
+            en: 'Dong Fang'
+        },
+        avatar: '/assets/people/phd/DongFang.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '钟国金',
+            en: 'Guojin Zhong'
+        },
+        avatar: '/assets/people/phd/GuojinZhong.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '何崧铭',
+            en: 'Songming He'
+        },
+        avatar: '/assets/people/phd/SongmingHe.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '葛祖浩',
+            en: 'Zuhao Ge'
+        },
+        avatar: '/assets/people/phd/ZuhaoGe.png',
+        year: '2025'
+    },
+    {
+        name: {
+            zh: '龙怡天',
+            en: 'Yitian Long'
+        },
+        avatar: '/assets/people/phd/YitianLong.png',
+        year: '2025'
     }
 ]
 
 export const masterList: Student[] = [
-    {
-        name: {
-            zh: "林朝坤",
-            en: "Chaokun Lin"
-        },
-        avatar: "/assets/people/master/ChaokunLin.jpg",
-        year: "2021"
-    },
-    {
-        name: {
-            zh: "王雨轩",
-            en: "Yuxuan Wang"
-        },
-        avatar: "/assets/people/master/YuxuanWang.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "汪平",
-            en: "Ping Wang"
-        },
-        avatar: "/assets/people/master/PingWang.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "赵帅",
-            en: "Shuai Zhao"
-        },
-        avatar: "/assets/people/master/ShuaiZhao.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "陆天一",
-            en: "Tianyi Lu"
-        },
-        avatar: "/assets/people/master/TianyiLu.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "刘佳",
-            en: "Jia Liu"
-        },
-        avatar: "/assets/people/master/JiaLiu.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "潘兆龙",
-            en: "Zhaolong Pan"
-        },
-        avatar: "/assets/people/master/ZhaolongPan.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "周胜天",
-            en: "Shengtian Zhou"
-        },
-        avatar: "/assets/people/master/ShengtianZhou.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "刘茵",
-            en: "Yin Liu"
-        },
-        avatar: "/assets/people/master/YinLiu.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "郑伟杰",
-            en: "Weijie Zheng"
-        },
-        avatar: "/assets/people/master/WeijieZheng.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "桂引暄",
-            en: "Yinxuan Gui"
-        },
-        avatar: "/assets/people/master/YinxuanGui.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "苏红宇",
-            en: "Hongyu Su"
-        },
-        avatar: "/assets/people/master/HongyuSu.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "林星耀",
-            en: "Xingyao Lin"
-        },
-        avatar: "/assets/people/master/XingyaoLin.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "朱炳文",
-            en: "Bingwen Zhu"
-        },
-        avatar: "/assets/people/master/BingwenZhu.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "田文韬",
-            en: "Wentao Tian"
-        },
-        avatar: "/assets/people/master/WentaoTian.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "陈浩翔",
-            en: "Haoxiang Chen"
-        },
-        avatar: "/assets/people/master/HaoxiangChen.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "王智祥",
-            en: "Zhixiang Wang"
-        },
-        avatar: "/assets/people/master/ZhixiangWang.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "谢勇",
-            en: "Yong Xie"
-        },
-        avatar: "/assets/people/master/YongXie.jpg",
-        year: "2022"
-    },
-    {
-        name: {
-            zh: "许俊豪",
-            en: "Junhao Xu"
-        },
-        avatar: "/assets/people/master/JunhaoXu.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "陈品烨",
-            en: "Pinye Chen"
-        },
-        avatar: "/assets/people/master/PinyeChen.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "韩枫",
-            en: "Feng Han"
-        },
-        avatar: "/assets/people/master/FengHan.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "王佳煜",
-            en: "Jiayu Wang"
-        },
-        avatar: "/assets/people/master/JiayuWang.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "吴欣岚",
-            en: "Xinlan Wu"
-        },
-        avatar: "/assets/people/master/XinlanWu.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "殷海龙",
-            en: "Zhanghao Yin"
-        },
-        avatar: "/assets/people/master/ZhanghaoYin.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "高子怡",
-            en: "Ziyi Gao"
-        },
-        avatar: "/assets/people/master/ZiyiGao.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "雷一鸣",
-            en: "Yiming Lei"
-        },
-        avatar: "/assets/people/master/YimingLei.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "石璞",
-            en: "Pu Shi"
-        },
-        avatar: "/assets/people/master/PuShi.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "王学盛",
-            en: "Xuesheng Wang"
-        },
-        avatar: "/assets/people/master/XueshengWang.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "陈一鸣",
-            en: "Yiming Chen"
-        },
-        avatar: "/assets/people/master/YimingChen.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "赵永杰",
-            en: "Yongjie Zhao"
-        },
-        avatar: "/assets/people/master/YongjieZhao.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "程明泽",
-            en: "Mingze Cheng"
-        },
-        avatar: "/assets/people/master/MingzeCheng.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "何恩州",
-            en: "Enzhou He"
-        },
-        avatar: "/assets/people/master/EnzhouHe.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "赵蕴涵",
-            en: "Yunhan Zhao"
-        },
-        avatar: "/assets/people/master/YunhanZhao.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "罗林",
-            en: "Lin Luo"
-        },
-        avatar: "/assets/people/master/LinLuo.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "黄叙彬",
-            en: "Xubin Huang"
-        },
-        avatar: "/assets/people/master/XubinHuang.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "李潇",
-            en: "Xiao Li"
-        },
-        avatar: "/assets/people/master/XiaoLi.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "林嘉濠",
-            en: "Jiahao Lin"
-        },
-        avatar: "/assets/people/master/JiahaoLin.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "曲志久",
-            en: "Zhijiu Qu"
-        },
-        avatar: "/assets/people/master/ZhijiuQu.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "卡穆",
-            en: "Mu Ka"
-        },
-        avatar: "/assets/people/master/MuKa.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "李臻欣",
-            en: "Zhenxin Li"
-        },
-        avatar: "/assets/people/master/ZhenxinLi.png",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "姚文浩",
-            en: "Wenhao Yao"
-        },
-        avatar: "/assets/people/master/WenhaoYao.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "李丹峰",
-            en: "Danfeng Li"
-        },
-        avatar: "/assets/people/master/DanfengLi.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "谢思程",
-            en: "Sicheng Xie"
-        },
-        avatar: "/assets/people/master/SichengXie.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "尤祖尧",
-            en: "Zuyao You"
-        },
-        avatar: "/assets/people/master/ZuyaoYou.jpg",
-        year: "2023"
-    },
-    {
-        name: {
-            zh: "张子豪",
-            en: "Zihao Zhang"
-        },
-        avatar: "/assets/people/master/ZihaoZhang.jpg",
-        year: "2023"
-    },
     {
         name: {
             zh: "周士杰",
@@ -1068,10 +900,981 @@ export const masterList: Student[] = [
         },
         avatar: "/assets/people/master/HaidongCao.png",
         year: "2024"
+    },
+    {
+        name: {
+            zh: "刘震熙",
+            en: "Zhenxi Liu"
+        },
+        avatar: "/assets/people/master/ZhenxiLiu.png",
+        year: "2024"
+    },
+    {
+        name: {
+            zh: "陈笑雨",
+            en: "Xiaoyu Chen"
+        },
+        avatar: "/assets/people/master/XiaoyuChen.png",
+        year: "2024"
+    },
+    {
+        name: {
+            zh: "华佳彬",
+            en: "Jiabin Hua"
+        },
+        avatar: "/assets/people/master/JiabinHua.png",
+        year: "2024"
+    },
+    {
+        name: {
+            zh: "张睿琦",
+            en: "Ruiqi Zhang"
+        },
+        avatar: "/assets/people/master/RuiqiZhang.png",
+        year: "2024"
+    },
+    {
+        name: {
+            zh: "牟庭树",
+            en: "Tingshu Mou"
+        },
+        avatar: "/assets/people/master/TingshuMou.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "黎佳宇",
+            en: "Jiayu Li"
+        },
+        avatar: "/assets/people/master/JiayuLi.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "郑铭",
+            en: "Ming Zheng"
+        },
+        avatar: "/assets/people/master/MingZheng.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "黄飞达",
+            en: "Feida Huang"
+        },
+        avatar: "/assets/people/master/FeidaHuang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "王煊斐",
+            en: "Xuanfei Wang"
+        },
+        avatar: "/assets/people/master/XuanfeiWang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "时佳佳",
+            en: "Jiajia Shi"
+        },
+        avatar: "/assets/people/master/JiajiaShi.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "李妃",
+            en: "Fei Li"
+        },
+        avatar: "/assets/people/master/FeiLi.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "陈雨妍",
+            en: "Yuyan Chen"
+        },
+        avatar: "/assets/people/master/YuyanChen.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "唐梓耀",
+            en: "Ziyao Tang"
+        },
+        avatar: "/assets/people/master/ZiyaoTang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "蔡子豪",
+            en: "Zihao Cai"
+        },
+        avatar: "/assets/people/master/ZihaoCai.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "周宇航",
+            en: "Yuhang Zhou"
+        },
+        avatar: "/assets/people/master/YuhangZhou.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "朱子越",
+            en: "Ziyue Zhu"
+        },
+        avatar: "/assets/people/master/ZiyueZhu.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "王恒",
+            en: "Heng Wang"
+        },
+        avatar: "/assets/people/master/HengWang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "刘思远",
+            en: "Siyuan Liu"
+        },
+        avatar: "/assets/people/master/SiyuanLiu.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "余钒",
+            en: "Fan Yu"
+        },
+        avatar: "/assets/people/master/FanYu.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "陈昊天",
+            en: "Haotian Chen"
+        },
+        avatar: "/assets/people/master/HaotianChen.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "庄济宇",
+            en: "Jiyu Zhuang"
+        },
+        avatar: "/assets/people/master/JiyuZhuang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "陈品轩",
+            en: "Pinxuan Chen"
+        },
+        avatar: "/assets/people/master/PinxuanChen.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "肖云严",
+            en: "Yunyan Xiao"
+        },
+        avatar: "/assets/people/master/YunyanXiao.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "张为尧",
+            en: "Weiyao Zhang"
+        },
+        avatar: "/assets/people/master/WeiyaoZhang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "韩悦",
+            en: "Yue Han"
+        },
+        avatar: "/assets/people/master/YueHan.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "徐聪",
+            en: "Cong Xu"
+        },
+        avatar: "/assets/people/master/CongXu.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "李枳贤",
+            en: "Zhixian Li"
+        },
+        avatar: "/assets/people/master/ZhixianLi.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "周宇辰",
+            en: "Yuchen Zhou"
+        },
+        avatar: "/assets/people/master/YuchenZhou.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "刘卓瀚",
+            en: "Zhuohan Liu"
+        },
+        avatar: "/assets/people/master/ZhuohanLiu.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "王泽霄",
+            en: "Zexiao Wang"
+        },
+        avatar: "/assets/people/master/ZexiaoWang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "曹文骏",
+            en: "Wenjun Cao"
+        },
+        avatar: "/assets/people/master/WenjunCao.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "庞建鸿",
+            en: "Jianhong Pang"
+        },
+        avatar: "/assets/people/master/JianhongPang.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "刘扬",
+            en: "Yang Liu"
+        },
+        avatar: "/assets/people/master/YangLiu.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "吴超",
+            en: "Chao Wu"
+        },
+        avatar: "/assets/people/master/ChaoWu.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "马周原",
+            en: "Zhouyuan Ma"
+        },
+        avatar: "/assets/people/master/ZhouyuanMa.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "魏蓝",
+            en: "Lan Wei"
+        },
+        avatar: "/assets/people/master/LanWei.png",
+        year: "2025"
+    },
+    {
+        name: {
+            zh: "司盛宇",
+            en: "Shengyu Si"
+        },
+        avatar: "/assets/people/master/ShengyuSi.png",
+        year: "2025"
     }
 ]
 
 export const alumniList: Alumni[] = [
+    {
+        name: {
+            zh: "宋雪",
+            en: "Xue Song"
+        },
+        avatar: "/assets/people/alumni/XueSong.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "王锐",
+            en: "Rui Wang"
+        },
+        avatar: "/assets/people/alumni/RuiWang.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "陈昊然",
+            en: "Haoran Chen"
+        },
+        avatar: "/assets/people/alumni/HaoranChen.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "王君可",
+            en: "Junke Wang"
+        },
+        avatar: "/assets/people/alumni/JunkeWang.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "何恩州",
+            en: "Enzhou He"
+        },
+        avatar: "/assets/people/master/EnzhouHe.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "卡穆",
+            en: "Mu Ka"
+        },
+        avatar: "/assets/people/master/MuKa.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "吴欣岚",
+            en: "Xinlan Wu"
+        },
+        avatar: "/assets/people/master/XinlanWu.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "姚文浩",
+            en: "Wenhao Yao"
+        },
+        avatar: "/assets/people/master/WenhaoYao.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "尤祖尧",
+            en: "Zuyao You"
+        },
+        avatar: "/assets/people/master/ZuyaoYou.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "张子豪",
+            en: "Zihao Zhang"
+        },
+        avatar: "/assets/people/master/ZihaoZhang.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "曲志久",
+            en: "Zhijiu Qu"
+        },
+        avatar: "/assets/people/master/ZhijiuQu.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "李丹峰",
+            en: "Danfeng Li"
+        },
+        avatar: "/assets/people/master/DanfengLi.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "李潇",
+            en: "Xiao Li"
+        },
+        avatar: "/assets/people/master/XiaoLi.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "李臻欣",
+            en: "Zhenxin Li"
+        },
+        avatar: "/assets/people/master/ZhenxinLi.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "林嘉濠",
+            en: "Jiahao Lin"
+        },
+        avatar: "/assets/people/master/JiahaoLin.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "殷海龙",
+            en: "Zhanghao Yin"
+        },
+        avatar: "/assets/people/master/ZhanghaoYin.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "王学盛",
+            en: "Xuesheng Wang"
+        },
+        avatar: "/assets/people/master/XueshengWang.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "石璞",
+            en: "Pu Shi"
+        },
+        avatar: "/assets/people/master/PuShi.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "程明泽",
+            en: "Mingze Cheng"
+        },
+        avatar: "/assets/people/master/MingzeCheng.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "罗林",
+            en: "Lin Luo"
+        },
+        avatar: "/assets/people/master/LinLuo.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "许俊豪",
+            en: "Junhao Xu"
+        },
+        avatar: "/assets/people/master/JunhaoXu.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "谢思程",
+            en: "Sicheng Xie"
+        },
+        avatar: "/assets/people/master/SichengXie.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "赵永杰",
+            en: "Yongjie Zhao"
+        },
+        avatar: "/assets/people/master/YongjieZhao.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "赵蕴涵",
+            en: "Yunhan Zhao"
+        },
+        avatar: "/assets/people/master/YunhanZhao.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "陈一鸣",
+            en: "Yiming Chen"
+        },
+        avatar: "/assets/people/master/YimingChen.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "陈品烨",
+            en: "Pinye Chen"
+        },
+        avatar: "/assets/people/master/PinyeChen.png",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "雷一鸣",
+            en: "Yiming Lei"
+        },
+        avatar: "/assets/people/master/YimingLei.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "韩枫",
+            en: "Feng Han"
+        },
+        avatar: "/assets/people/master/FengHan.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "黄叙彬",
+            en: "Xubin Huang"
+        },
+        avatar: "/assets/people/master/XubinHuang.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "刘佳",
+            en: "Jia Liu"
+        },
+        avatar: "/assets/people/master/JiaLiu.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "刘茵",
+            en: "Yin Liu"
+        },
+        avatar: "/assets/people/master/YinLiu.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "周胜天",
+            en: "Shengtian Zhou"
+        },
+        avatar: "/assets/people/master/ShengtianZhou.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "朱炳文",
+            en: "Bingwen Zhu"
+        },
+        avatar: "/assets/people/master/BingwenZhu.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "桂引暄",
+            en: "Yinxuan Gui"
+        },
+        avatar: "/assets/people/master/YinxuanGui.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "汪平",
+            en: "Ping Wang"
+        },
+        avatar: "/assets/people/master/PingWang.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "潘兆龙",
+            en: "Zhaolong Pan"
+        },
+        avatar: "/assets/people/master/ZhaolongPan.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "王智祥",
+            en: "Zhixiang Wang"
+        },
+        avatar: "/assets/people/master/ZhixiangWang.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "王雨轩",
+            en: "Yuxuan Wang"
+        },
+        avatar: "/assets/people/master/YuxuanWang.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "田文韬",
+            en: "Wentao Tian"
+        },
+        avatar: "/assets/people/master/WentaoTian.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "苏红宇",
+            en: "Hongyu Su"
+        },
+        avatar: "/assets/people/master/HongyuSu.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "谢勇",
+            en: "Yong Xie"
+        },
+        avatar: "/assets/people/master/YongXie.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "赵帅",
+            en: "Shuai Zhao"
+        },
+        avatar: "/assets/people/master/ShuaiZhao.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "郑伟杰",
+            en: "Weijie Zheng"
+        },
+        avatar: "/assets/people/master/WeijieZheng.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "陈浩翔",
+            en: "Haoxiang Chen"
+        },
+        avatar: "/assets/people/master/HaoxiangChen.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "林朝坤",
+            en: "Chaokun Lin"
+        },
+        avatar: "/assets/people/master/ChaokunLin.jpg",
+        year: {
+            zh: "2025 硕士",
+            en: "2025 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
     {
         name: {
             zh: "魏志鹏",
@@ -1580,21 +2383,6 @@ export const alumniList: Alumni[] = [
         company: {
             zh: "上海樵弋机器人科技有限公司",
             en: "WOODMAN AI"
-        }
-    },
-    {
-        name: {
-            zh: "竺江港",
-            en: "Jianggang Zhu"
-        },
-        avatar: "/assets/people/alumni/JianggangZhu.jpg",
-        year: {
-            zh: "2023 硕士",
-            en: "2023 M.Eng"
-        },
-        company: {
-            zh: "",
-            en: ""
         }
     },
     {
