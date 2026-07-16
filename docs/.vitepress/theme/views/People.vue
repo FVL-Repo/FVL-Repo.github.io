@@ -142,7 +142,7 @@ const sortedAlumniList = computed(() =>
 function formatStudentDetail(student: Student, type: 'phd' | 'master'): string {
     if (currentLang.value === 'zh') {
         const degree = type === 'phd' ? '博士' : '硕士'
-        return `${student.year}年${degree}入学`
+        return `${student.year} 年${degree}入学`
     } else {
         const degree = type === 'phd' ? 'PhD' : 'Master'
         return `${degree} ${student.year}`
@@ -152,8 +152,13 @@ function formatStudentDetail(student: Student, type: 'phd' | 'master'): string {
 function formatAlumniDetail(alumni: Alumni): string {
     const yearStr = alumni.year[currentLang.value]
     if (currentLang.value === 'zh') {
-        const formattedYear = yearStr.replace(/^(\d{4})\s+/, '$1年')
-        return `${formattedYear}毕业`
+        // "2024 硕士" → "2024 年硕士毕业"；"2013 BSc" → "2013 年 BSc 毕业"
+        const formattedYear = yearStr.replace(/^(\d{4})\s+(.+)$/, (_match: string, year: string, rest: string) => {
+            const spacer = /^[A-Za-z]/.test(rest) ? ' ' : ''
+            return `${year} 年${spacer}${rest}`
+        })
+        const graduateSpacer = /[A-Za-z0-9]$/.test(formattedYear) ? ' ' : ''
+        return `${formattedYear}${graduateSpacer}毕业`
     } else {
         return yearStr
     }
