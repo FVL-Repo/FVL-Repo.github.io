@@ -4,17 +4,18 @@
 
         <div class="research-container">
             <aside v-if="!isMobile" class="research-sidebar">
-                <div v-for="item in researchList" :key="'nav-' + item.id" class="nav-item"
-                    :class="{ active: activeId === item.id }" @click="activeId = item.id">
+                <button v-for="item in researchList" :key="'nav-' + item.id" type="button" class="nav-item"
+                    :class="{ active: activeId === item.id }" :aria-pressed="activeId === item.id"
+                    @click="activeId = item.id">
                     {{ item.title[currentLang] }}
-                </div>
+                </button>
             </aside>
 
             <div class="research-content">
                 <transition-group name="fade-slide">
                     <article v-for="item in visibleList" :key="item.id" class="research-card">
                         <div class="image-wrapper">
-                            <img :src="item.image" :alt="item.title[currentLang]" />
+                            <img :src="item.image" :alt="item.title[currentLang]" loading="lazy" decoding="async" />
                         </div>
 
                         <div class="text-content">
@@ -108,21 +109,31 @@ onUnmounted(() => {
     cursor: pointer;
     background: transparent;
     /* 背景透明，去掉大方块感 */
+    border: none;
     border-left: 3px solid transparent;
-    transition: all 0.3s ease;
+    border-radius: 0 2px 2px 0;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+    font-family: inherit;
     font-size: 1.25rem;
     font-weight: 500;
+    line-height: 1.5;
+    text-align: left;
     color: var(--vp-c-text-2);
     position: relative;
 }
 
 .nav-item:hover {
     color: var(--vp-c-brand-2);
-    transform: translateX(1px);
+    background: var(--vp-c-default-soft);
+    transform: translateX(2px);
+}
+
+.nav-item:focus-visible {
+    outline: 2px solid var(--vp-c-brand-3);
+    outline-offset: 2px;
 }
 
 .nav-item.active {
-    background: var(--vp-c-);
     border-left-color: var(--vp-c-brand);
     color: var(--vp-c-brand);
     font-weight: 600;
@@ -147,18 +158,24 @@ onUnmounted(() => {
     gap: 40px;
     background: var(--vp-c-bg);
     padding: 40px;
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--vp-c-divider);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     align-items: center;
     height: auto;
     overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.research-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .image-wrapper {
     width: 28vh;              
     height: 28vh;
     flex-shrink: 0;
-    border-radius: 4px;
+    border-radius: 6px;
     overflow: hidden;
     position: relative;
     background: var(--vp-c-default-soft);
@@ -189,14 +206,16 @@ onUnmounted(() => {
 .card-item-title {
     font-size: 1.575rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     color: var(--vp-c-text-1);
+    position: relative;
 }
 
 .description {
     font-size: 1.25rem;
     line-height: 1.8;
     color: var(--vp-c-text-2);
+    text-align: justify;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -205,14 +224,30 @@ onUnmounted(() => {
 /* 过渡动画 */
 .fade-slide-enter-active,
 .fade-slide-leave-active {
-    transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease, transform 0.4s ease;
     grid-column: 1;
     grid-row: 1;
 }
 
-.fade-slide-enter-from,
+.fade-slide-enter-from {
+    opacity: 0;
+    transform: translateY(12px);
+}
+
 .fade-slide-leave-to {
     opacity: 0;
+    transform: translateY(-12px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .fade-slide-enter-active,
+    .fade-slide-leave-active,
+    .nav-item,
+    .image-wrapper img,
+    .research-card {
+        transition: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -237,9 +272,14 @@ onUnmounted(() => {
         height: auto;
         padding: 0;
         gap: 4px;
-        margin-bottom: 16px;
+        margin-bottom: 28px;
         box-shadow: none;
+        border: none;
         border-radius: 0;
+    }
+
+    .research-card:hover {
+        box-shadow: none;
     }
 
     .image-wrapper {
@@ -251,7 +291,9 @@ onUnmounted(() => {
 
     .card-item-title {
         font-size: 1rem;
+        margin-top: 8px;
         margin-bottom: 8px;
+        padding-bottom: 8px;
     }
 
     .description {
