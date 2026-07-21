@@ -172,34 +172,10 @@ export const phdList: Student[] = [
     },
     {
         name: {
-            zh: '王欣',
-            en: 'Xin Wang'
-        },
-        avatar: '/assets/people/phd/XinWang.jpg',
-        year: '2022'
-    },
-    {
-        name: {
             zh: '翟坤',
             en: 'Kun Zhai'
         },
         avatar: '/assets/people/phd/KunZhai.jpg',
-        year: '2022'
-    },
-    {
-        name: {
-            zh: '李时杰',
-            en: 'Shijie Li'
-        },
-        avatar: '/assets/people/phd/ShijieLi.jpg',
-        year: '2022'
-    },
-    {
-        name: {
-            zh: '赵浩宇',
-            en: 'Haoyu Zhao'
-        },
-        avatar: '/assets/people/phd/HaoyuZhao.jpg',
         year: '2022'
     },
     {
@@ -212,42 +188,10 @@ export const phdList: Student[] = [
     },
     {
         name: {
-            zh: '田睿',
-            en: 'Rui Tian'
-        },
-        avatar: '/assets/people/phd/RuiTian.jpg',
-        year: '2023'
-    },
-    {
-        name: {
-            zh: '张辉',
-            en: 'Hui Zhang'
-        },
-        avatar: '/assets/people/phd/HuiZhang.jpg',
-        year: '2023'
-    },
-    {
-        name: {
-            zh: '焦洋',
-            en: 'Yang Jiao'
-        },
-        avatar: '/assets/people/phd/YangJiao.jpg',
-        year: '2023'
-    },
-    {
-        name: {
             zh: '焦鹏昆',
             en: 'Pengkun Jiao'
         },
         avatar: '/assets/people/phd/PengkunJiao.jpg',
-        year: '2023'
-    },
-    {
-        name: {
-            zh: '罗扬',
-            en: 'Yang Luo'
-        },
-        avatar: '/assets/people/phd/YangLuo.jpg',
         year: '2023'
     },
     {
@@ -281,22 +225,6 @@ export const phdList: Student[] = [
         },
         avatar: '/assets/people/phd/ZiqiangXu.jpg',
         year: '2023'
-    },
-    {
-        name: {
-            zh: '王若凡',
-            en: 'Ruofan Wang'
-        },
-        avatar: '/assets/people/phd/RuofanWang.png',
-        year: '2023'
-    },
-    {
-        name: {
-            zh: '高子怡',
-            en: 'Ziyi Gao'
-        },
-        avatar: '/assets/people/master/ZiyiGao.png',
-        year: '2026'
     },
     {
         name: {
@@ -1262,6 +1190,126 @@ export const alumniList: Alumni[] = [
     },
     {
         name: {
+            zh: "王欣",
+            en: "Xin Wang"
+        },
+        avatar: "/assets/people/phd/XinWang.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "李时杰",
+            en: "Shijie Li"
+        },
+        avatar: "/assets/people/phd/ShijieLi.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "赵浩宇",
+            en: "Haoyu Zhao"
+        },
+        avatar: "/assets/people/phd/HaoyuZhao.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "田睿",
+            en: "Rui Tian"
+        },
+        avatar: "/assets/people/phd/RuiTian.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "张辉",
+            en: "Hui Zhang"
+        },
+        avatar: "/assets/people/phd/HuiZhang.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "焦洋",
+            en: "Yang Jiao"
+        },
+        avatar: "/assets/people/phd/YangJiao.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "罗扬",
+            en: "Yang Luo"
+        },
+        avatar: "/assets/people/phd/YangLuo.jpg",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "王若凡",
+            en: "Ruofan Wang"
+        },
+        avatar: "/assets/people/phd/RuofanWang.png",
+        year: {
+            zh: "2026 博士",
+            en: "2026 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
             zh: "何恩州",
             en: "Enzhou He"
         },
@@ -1611,6 +1659,21 @@ export const alumniList: Alumni[] = [
             en: "Feng Han"
         },
         avatar: "/assets/people/master/FengHan.jpg",
+        year: {
+            zh: "2026 硕士",
+            en: "2026 MS"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "高子怡",
+            en: "Ziyi Gao"
+        },
+        avatar: "/assets/people/master/ZiyiGao.png",
         year: {
             zh: "2026 硕士",
             en: "2026 MS"
