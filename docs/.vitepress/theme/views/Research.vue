@@ -73,7 +73,8 @@ onUnmounted(() => {
 <style scoped>
 .research-section {
     max-width: 85vw;
-    height: calc(100vh - var(--vp-nav-height));
+    /* min-height 代替固定 height：内容放不下时页面可滚动，而不是被裁切 */
+    min-height: calc(100vh - var(--vp-nav-height));
     margin: 0 auto;
     padding: 50px 20px;
     overflow: hidden;
@@ -97,15 +98,16 @@ onUnmounted(() => {
 
 /* 侧边索引样式 - 升级 */
 .research-sidebar {
-    flex: 0 0 260px;
-    padding-left: 20px;
+    /* 窄窗口下侧边栏随视口收窄，避免挤压右侧内容区 */
+    flex: 0 0 clamp(170px, 24vw, 260px);
+    padding-left: clamp(4px, 1.5vw, 20px);
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
 .nav-item {
-    padding: 16px 24px;
+    padding: clamp(10px, 1.5vw, 16px) clamp(12px, 2vw, 24px);
     cursor: pointer;
     background: transparent;
     /* 背景透明，去掉大方块感 */
@@ -114,7 +116,7 @@ onUnmounted(() => {
     border-radius: 0 2px 2px 0;
     transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
     font-family: inherit;
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 0.85rem + 0.5vw, 1.25rem);
     font-weight: 500;
     line-height: 1.5;
     text-align: left;
@@ -155,9 +157,9 @@ onUnmounted(() => {
 
 .research-card {
     display: flex;
-    gap: 40px;
+    gap: clamp(20px, 3vw, 40px);
     background: var(--vp-c-bg);
-    padding: 40px;
+    padding: clamp(20px, 3vw, 40px);
     border: 1px solid var(--vp-c-divider);
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -172,8 +174,10 @@ onUnmounted(() => {
 }
 
 .image-wrapper {
-    width: 28vh;              
-    height: 28vh;
+    /* 同时受视口宽度约束，避免窄窗口/竖屏下图片挤压文字区域 */
+    width: min(28vh, 22vw);
+    height: auto;
+    aspect-ratio: 1;
     flex-shrink: 0;
     border-radius: 6px;
     overflow: hidden;
@@ -204,18 +208,20 @@ onUnmounted(() => {
 }
 
 .card-item-title {
-    font-size: 1.575rem;
+    font-size: clamp(1.2rem, 1rem + 0.7vw, 1.575rem);
     font-weight: 600;
-    margin-bottom: 24px;
+    margin-bottom: clamp(12px, 2vw, 24px);
     color: var(--vp-c-text-1);
     position: relative;
+    overflow-wrap: break-word;
 }
 
 .description {
-    font-size: 1.25rem;
+    font-size: clamp(1rem, 0.9rem + 0.4vw, 1.25rem);
     line-height: 1.8;
     color: var(--vp-c-text-2);
     text-align: justify;
+    overflow-wrap: break-word;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
@@ -247,6 +253,26 @@ onUnmounted(() => {
     .image-wrapper img,
     .research-card {
         transition: none;
+    }
+}
+
+/* 中间过渡区间：桌面布局但空间有限（如浏览器窗口缩放） */
+@media (min-width: 769px) and (max-width: 1100px) {
+    .research-section {
+        max-width: 96vw;
+        padding: 30px 12px;
+        /* 让内容容器占满标题以下的剩余高度，实现垂直居中 */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-title {
+        margin-bottom: 6vh;
+    }
+
+    .research-container {
+        gap: 16px;
+        flex: 1;
     }
 }
 
