@@ -13,6 +13,78 @@ export interface PublicationItem {
 export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
+        "authors": "Zhipeng Wei, Jingjing Chen, Feng Han, Yue Yu, Yu-Gang Jiang",
+        "title": "Enhancing Adversarial Transferability With Cost-Efficient Landscape Flattening.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 6, pp. 7050-7061, June 2026, doi: 10.1109/TPAMI.2026.3664421.",
+        "venue_abbreviated": "TPAMI 2026",
+        "pdf": "https://doi.org/10.1109/TPAMI.2026.3664421",
+        "image": "/assets/publications/images/2026/tpami-zhipengwei.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yuchen Su, Zhineng Chen, Yongkun Du, Zuxuan Wu, Hongtao Xie, Yu-Gang Jiang",
+        "title": "LRANet++: Low-Rank Approximation Network for Accurate and Efficient Text Spotting.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 5, pp. 5620-5638, May 2026, doi: 10.1109/TPAMI.2026.3650769.",
+        "venue_abbreviated": "TPAMI 2026",
+        "pdf": "https://doi.org/10.1109/TPAMI.2026.3650769",
+        "image": "/assets/publications/images/2026/tpami-yuchensu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Jiaming Zhang, Xin Wang, Xingjun Ma, Lingyu Qiu, Yu-Gang Jiang, Jitao Sang",
+        "title": "NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 6, pp. 6615-6627, June 2026, doi: 10.1109/TPAMI.2026.3659598.",
+        "venue_abbreviated": "TPAMI 2026",
+        "pdf": "https://doi.org/10.1109/TPAMI.2026.3659598",
+        "image": "/assets/publications/images/2026/tpami-jiamingzhang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yuankun Yang, Li Zhang, Ziyang Xie, Zhiyuan Yuan, Jianfeng Feng, Xiatian Zhu, Yu-Gang Jiang",
+        "title": "Brain3D: Generating 3D Objects from fMRI.",
+        "venue": "Int J Comput Vis 134, 58 (2026).",
+        "venue_abbreviated": "IJCV 2026",
+        "pdf": "https://doi.org/10.1007/s11263-025-02609-x",
+        "image": "/assets/publications/images/2026/ijcv-yuankunyang.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Henghui Ding, Chang Liu, Shuting He, Xudong Jiang, Yu-Gang Jiang",
+        "title": "GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation.",
+        "venue": "Int J Comput Vis 134, 79 (2026).",
+        "venue_abbreviated": "IJCV 2026",
+        "pdf": "https://doi.org/10.1007/s11263-026-02729-y",
+        "image": "/assets/publications/images/2026/ijcv-henghuiding.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yige Li, Jiabo He, Hanxun Huang, Jun Sun, Xingjun Ma, Yu-Gang Jiang",
+        "title": "Shortcuts Everywhere and Nowhere: Exploring Multi-Trigger Backdoor Attacks.",
+        "venue": "IEEE Transactions on Dependable and Secure Computing, vol. 23, no. 1, pp. 343-355, Jan.-Feb. 2026, doi: 10.1109/TDSC.2025.3605597.",
+        "venue_abbreviated": "TDSC 2026",
+        "pdf": "https://doi.org/10.1109/TDSC.2025.3605597",
+        "image": "/assets/publications/images/2026/tdsc-yigeli.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Haoyu Zhao, Jiaxi Gu, Shicong Wang, Tianyi Lu, Xing Zhang, Zuxuan Wu, Hang Xu, Yu-Gang Jiang",
+        "title": "LSTD: Long Short-Term Temporal Diffusion for Video Generation.",
+        "venue": "IEEE Transactions on Multimedia, vol. 28, pp. 2460-2473, 2026, doi: 10.1109/TMM.2026.3651052.",
+        "venue_abbreviated": "TMM 2026",
+        "pdf": "https://doi.org/10.1109/TMM.2026.3651052",
+        "image": "/assets/publications/images/2026/tmm-haoyuzhao.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Ben Niu, Yu-Gang Jiang, Xing-xing Ju, Ying-ying Liu, Xiao-mei Wang",
+        "title": "Distributed prescribed-time algorithms of multi-agent systems for time-varying optimization problems with inequality constraints.",
+        "venue": "Automatica, Volume 189, 2026, 112982, ISSN 0005-1098, https://doi.org/10.1016/j.automatica.2026.112982.",
+        "venue_abbreviated": "Autom 2026",
+        "pdf": "https://doi.org/10.1016/j.automatica.2026.112982",
+        "image": "/assets/publications/images/2026/autom-benniu.png"
+    },
+    {
+        "year": "2026",
         "authors": "Xingyao Lin, Xinghao Zhu, Tianyi Lu, Guojin Zhong, Sicheng Xie, Hui Zhang, Xipeng Qiu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Ask-to-Clarify: Resolving Instruction Ambiguity through Multi-turn Dialogue.",
         "venue": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Pittsburgh, USA, Oct., 2026.",
@@ -202,16 +274,6 @@ export const publicationsList: PublicationItem[] = [
         "code": "",
         "image": "/assets/publications/images/2026/icml-yujiongshen.png"
     },
-    // {
-    //     "year": "2026",
-    //     "authors": "Jiaming Zhang, Meng Ding, Shaopeng Fu, Jingfeng Zhang, Di Wang",
-    //     "title": "Benign Overfitting in Adversarial Training for Vision Transformers.",
-    //     "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
-    //     "venue_abbreviated": "ICML 2026",
-    //     "pdf": "https://arxiv.org/pdf/2604.19724",
-    //     "code": "",
-    //     "image": "/assets/publications/images/2026/icml-jiamingzhang.png"
-    // },
     {
         "year": "2026",
         "authors": "Shuqi Zhu, Yi Zhong, Ziyi Ye, Bangde Du, Yujia Zhou, Qingyao Ai, Yiqun Liu",
@@ -222,7 +284,6 @@ export const publicationsList: PublicationItem[] = [
         "code": "",
         "image": "/assets/publications/images/2026/icml-shuqizhu.png"
     },
-
     {
         "year": "2026",
         "authors": "Zhongyuan Peng, Yifan Yao, Kaijing Ma, Shuyue Guo, Yizhe Li, Yichi Zhang, Chenchen Zhang, Yifan Zhang, Zhouliang Yu, Luming Li, Minghao Liu, Yihang Xia, Jiawei Shen, Yuchen Wu, Yixin Cao, Zhaoxiang Zhang, Wenhao Huang, Jiaheng Liu, Ge Zhang",
@@ -342,60 +403,6 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "https://arxiv.org/abs/2603.12146",
         "code": "https://github.com/quanhaol/FlashMotion",
         "image": "/assets/publications/images/2026/cvpr-quanhaoli.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Zhipeng Wei, Jingjing Chen, Feng Han, Yue Yu, Yu-Gang Jiang",
-        "title": "Enhancing Adversarial Transferability With Cost-Efficient Landscape Flattening.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 6, pp. 7050-7061, June 2026, doi: 10.1109/TPAMI.2026.3664421.",
-        "venue_abbreviated": "TPAMI 2026",
-        "pdf": "https://doi.org/10.1109/TPAMI.2026.3664421",
-        "image": "/assets/publications/images/2026/tpami-zhipengwei.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Yuchen Su, Zhineng Chen, Yongkun Du, Zuxuan Wu, Hongtao Xie, Yu-Gang Jiang",
-        "title": "LRANet++: Low-Rank Approximation Network for Accurate and Efficient Text Spotting.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 5, pp. 5620-5638, May 2026, doi: 10.1109/TPAMI.2026.3650769.",
-        "venue_abbreviated": "TPAMI 2026",
-        "pdf": "https://doi.org/10.1109/TPAMI.2026.3650769",
-        "image": "/assets/publications/images/2026/tpami-yuchensu.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Jiaming Zhang, Xin Wang, Xingjun Ma, Lingyu Qiu, Yu-Gang Jiang, Jitao Sang",
-        "title": "NAP-Tuning: Neural Augmented Prompt Tuning for Adversarially Robust Vision-Language Models.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 48, no. 6, pp. 6615-6627, June 2026, doi: 10.1109/TPAMI.2026.3659598.",
-        "venue_abbreviated": "TPAMI 2026",
-        "pdf": "https://doi.org/10.1109/TPAMI.2026.3659598",
-        "image": "/assets/publications/images/2026/tpami-jiamingzhang.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Yuankun Yang, Li Zhang, Ziyang Xie, Zhiyuan Yuan, Jianfeng Feng, Xiatian Zhu, Yu-Gang Jiang",
-        "title": "Brain3D: Generating 3D Objects from fMRI.",
-        "venue": "Int J Comput Vis 134, 58 (2026).",
-        "venue_abbreviated": "IJCV 2026",
-        "pdf": "https://doi.org/10.1007/s11263-025-02609-x",
-        "image": "/assets/publications/images/2026/ijcv-yuankunyang.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Henghui Ding, Chang Liu, Shuting He, Xudong Jiang, Yu-Gang Jiang",
-        "title": "GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation.",
-        "venue": "Int J Comput Vis 134, 79 (2026).",
-        "venue_abbreviated": "IJCV 2026",
-        "pdf": "https://doi.org/10.1007/s11263-026-02729-y",
-        "image": "/assets/publications/images/2026/ijcv-henghuiding.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Yige Li, Jiabo He, Hanxun Huang, Jun Sun, Xingjun Ma, Yu-Gang Jiang",
-        "title": "Shortcuts Everywhere and Nowhere: Exploring Multi-Trigger Backdoor Attacks.",
-        "venue": "IEEE Transactions on Dependable and Secure Computing, vol. 23, no. 1, pp. 343-355, Jan.-Feb. 2026, doi: 10.1109/TDSC.2025.3605597.",
-        "venue_abbreviated": "TDSC 2026",
-        "pdf": "https://doi.org/10.1109/TDSC.2025.3605597",
-        "image": "/assets/publications/images/2026/tdsc-yigeli.png"
     },
     {
         "year": "2026",
@@ -552,24 +559,16 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "https://doi.org/10.1609/aaai.v40i5.37370",
         "image": "/assets/publications/images/2026/aaai-yongkundu.png"
     },
-    {
-        "year": "2026",
-        "authors": "Haoyu Zhao, Jiaxi Gu, Shicong Wang, Tianyi Lu, Xing Zhang, Zuxuan Wu, Hang Xu, Yu-Gang Jiang",
-        "title": "LSTD: Long Short-Term Temporal Diffusion for Video Generation.",
-        "venue": "IEEE Transactions on Multimedia, vol. 28, pp. 2460-2473, 2026, doi: 10.1109/TMM.2026.3651052.",
-        "venue_abbreviated": "TMM 2026",
-        "pdf": "https://doi.org/10.1109/TMM.2026.3651052",
-        "image": "/assets/publications/images/2026/tmm-haoyuzhao.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Ben Niu, Yu-Gang Jiang, Xing-xing Ju, Ying-ying Liu, Xiao-mei Wang",
-        "title": "Distributed prescribed-time algorithms of multi-agent systems for time-varying optimization problems with inequality constraints.",
-        "venue": "Automatica, Volume 189, 2026, 112982, ISSN 0005-1098, https://doi.org/10.1016/j.automatica.2026.112982.",
-        "venue_abbreviated": "Autom 2026",
-        "pdf": "https://doi.org/10.1016/j.automatica.2026.112982",
-        "image": "/assets/publications/images/2026/autom-benniu.png"
-    },
+    // {
+    //     "year": "2026",
+    //     "authors": "Jiaming Zhang, Meng Ding, Shaopeng Fu, Jingfeng Zhang, Di Wang",
+    //     "title": "Benign Overfitting in Adversarial Training for Vision Transformers.",
+    //     "venue": "International Conference on Machine Learning (ICML), Seoul, South Korea, July, 2026.",
+    //     "venue_abbreviated": "ICML 2026",
+    //     "pdf": "https://arxiv.org/pdf/2604.19724",
+    //     "code": "",
+    //     "image": "/assets/publications/images/2026/icml-jiamingzhang.png"
+    // },
     {
         "year": "2025",
         "authors": "Yongkun Du, Zhineng Chen, Caiyan Jia, Xiaoting Yin, Chenxia Li, Yuning Du, Yu-Gang Jiang",
