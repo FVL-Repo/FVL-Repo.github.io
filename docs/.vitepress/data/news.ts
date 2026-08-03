@@ -84,19 +84,6 @@ export const newsList = [
         link: 'https://mp.weixin.qq.com/s/omvSIHGNIEo9dLa-SPt_HQ'
     },
     {
-        date: '2025-12-19',
-        image: '/assets/news/2025-12-19.png',
-        title: {
-            zh: '三年四项！博士生杜永坤、窦士涵获国家自然科学基金项目资助',
-            en: 'Yongkun Du and Shihan Dou Awarded NSFC Grants'
-        },
-        summary: {
-            zh: '近日，国家自然科学基金委员会公布了 2025 年国家自然科学基金青年学生基础研究项目（博士研究生）的评审结果，杜永坤、窦士涵同学成功获得资助。',
-            en: 'Recently, the National Natural Science Foundation of China (NSFC) announced the funding results of the 2025 Youth Student Basic Research Project for Doctoral. Yongkun Du and Shihan Dou were successfully awarded the grants.'
-        },
-        link: 'https://mp.weixin.qq.com/s/TlIBe2FRZp6V5mUa3al7pg'
-    },
-    {
         date: '2025-12-12',
         image: '/assets/news/2025-12-12.png',
         title: {
