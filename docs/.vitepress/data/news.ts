@@ -143,8 +143,8 @@ export const newsList = [
             en: 'Fifteen Papers Accepted by ICCV 2025'
         },
         summary: {
-            zh: 'ICCV 2025 将于 10 月 19 日至 23 日在美国夏威夷檀香山会议中心召开。本次会议共收到 11239 篇有效投稿，最终录用 2698 篇论文，录用率为 24.0%。复旦大学视觉与学习实验室共有 15 篇论文入选，研究成果涵盖具身智能、多模态大模型、图像与视频生成、多模态对抗攻防等多个重要方向。',
-            en: 'ICCV 2025 will be held from October 19 to 23 at the Honolulu Convention Center, Hawaii, USA. The conference received 11,239 valid submissions and accepted 2,698 papers, resulting in an acceptance rate of 24.0%. The Vision and Learning Laboratory at Fudan University had 15 papers accepted, covering key research areas such as embodied intelligence, multimodal large models, image and video generation, and multimodal adversarial learning.'
+            zh: '',
+            en: ''
         },
         link: 'https://mp.weixin.qq.com/s/aJyxSIK8zxGkPEmzngMmcg'
     },
