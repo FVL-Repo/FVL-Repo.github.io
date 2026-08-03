@@ -60,8 +60,8 @@ export const facultyList: Faculty[] = [
         name: { zh: '陈静静', en: 'Jingjing Chen' },
         avatar: '/assets/people/faculty/JingjingChen.png',
         position: {
-            zh: '副教授',
-            en: 'Associate Professor'
+            zh: '教授',
+            en: 'Professor'
         },
         website: 'https://jingjing1.github.io/'
     },
