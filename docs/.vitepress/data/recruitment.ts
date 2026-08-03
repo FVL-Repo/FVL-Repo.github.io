@@ -1,7 +1,7 @@
 export const content = {
     zh: {
         title: '加入我们',
-        intro: '复旦大学视觉与学习实验室欢迎有志于从事计算机视觉、机器（深度）学习、具身智能、可信人工智能等相关方向研究的同仁和同学加入我们的研究团队。',
+        intro: '复旦大学视觉与学习实验室欢迎有志于从事计算机视觉、机器（深度）学习、具身智能、可信人工智能等相关方向研究的研究者和同学加入我们的研究团队。',
         more: "了解更多",
         back: "返回",
         tabs: {
@@ -11,11 +11,12 @@ export const content = {
         },
         postdoc: {
             title: '申请博士后',
-            desc: '欢迎对本实验室研究方向或科研项目有浓厚兴趣的即将毕业或已毕业博士，加入复旦大学计算机科学与技术博士后工作站从事博士后研究。',
+            desc: '欢迎对本实验室研究方向或科研项目有浓厚兴趣的即将毕业或已毕业博士加入实验室研究。',
             directionsTitle: '主要研究方向（包括但不限于）：',
             directions: [
                 '计算机视觉（视频理解、文字检测与识别等）',
                 '视觉与语言、多模态分析与推理',
+                '具身智能',
                 '可信人工智能、鲁棒机器学习',
                 '人工智能在生物医疗、金融风控等领域的应用'
             ],
@@ -60,21 +61,22 @@ export const content = {
     },
     en: {
         title: 'Join Us',
-        intro: 'Fudan Vision and Learning Laboratory welcomes colleagues and students interested in Computer Vision, Machine (Deep) Learning, Embodied AI, Trustworthy AI, and related fields to join our research team.',
+        intro: 'Fudan Vision and Learning Laboratory welcomes researchers and students interested in Computer Vision, Machine (Deep) Learning, Embodied AI, Trustworthy AI, and related fields to join our research team.',
         more: "Learn More",
         back: "Back",
         tabs: {
-            postdoc: 'Postdoctoral',
+            postdoc: 'Postdoc',
             graduate: 'PhD / Master',
             undergraduate: 'Undergraduate'
         },
         postdoc: {
             title: 'Postdoctoral Positions',
-            desc: 'We invite highly motivated recent PhD graduates or candidates about to graduate, who have a strong interest in our research areas, to conduct postdoctoral research at the Postdoctoral Research Station of Computer Science and Technology, Fudan University.',
+            desc: 'We invite highly motivated recent PhD graduates or candidates about to graduate, who have a strong interest in our research areas, to conduct postdoctoral research in our lab.',
             directionsTitle: 'Research Areas include (but are not limited to):',
             directions: [
                 'Computer Vision (video understanding, text detection and recognition)',
                 'Vision and Language, multimodal analysis and reasoning',
+                'Embodied Intelligence and Robot Learning',
                 'Trustworthy AI and robust machine learning',
                 'AI applications in biomedicine, financial risk control, etc.'
             ],
