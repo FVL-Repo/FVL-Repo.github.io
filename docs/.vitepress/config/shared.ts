@@ -10,10 +10,11 @@ import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-i
 import { transformerTwoslash } from '@shikijs/vitepress-twoslash';
 
 export const shared = defineConfig({
+  base: '/',
   title: 'FVL',
   lastUpdated: false,
   appearance: false,
-  cleanUrls: true,
+  cleanUrls: false,
   metaChunk: true,
   ignoreDeadLinks: true,
   vite: {
