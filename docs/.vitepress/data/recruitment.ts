@@ -1,7 +1,7 @@
 export const content = {
     zh: {
         title: '加入我们',
-        intro: '复旦大学视觉与学习实验室欢迎有志于从事计算机视觉、机器（深度）学习、具身智能、可信人工智能等相关方向研究的研究者和同学加入我们的研究团队。',
+        intro: '复旦大学视觉与学习实验室欢迎有志于从事计算机视觉、机器（深度）学习、具身智能、可信人工智能等相关方向研究的研究者和同学加入我们的团队。',
         more: "了解更多",
         back: "返回",
         tabs: {
@@ -61,7 +61,7 @@ export const content = {
     },
     en: {
         title: 'Join Us',
-        intro: 'Fudan Vision and Learning Laboratory welcomes researchers and students interested in Computer Vision, Machine (Deep) Learning, Embodied AI, Trustworthy AI, and related fields to join our research team.',
+        intro: 'Fudan Vision and Learning Laboratory welcomes researchers and students interested in Computer Vision, Machine (Deep) Learning, Embodied AI, Trustworthy AI, and related fields to join our team.',
         more: "Learn More",
         back: "Back",
         tabs: {
