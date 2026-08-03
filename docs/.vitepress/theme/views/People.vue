@@ -22,7 +22,7 @@
                 </component>
             </div>
 
-            <div class="section-divider" />
+            <!-- <div class="section-divider" />
 
             <h2 class="people-title postdoc-title">{{ t.postdocTitle }}</h2>
 
@@ -95,7 +95,7 @@
                     </component>
                     <span class="alumni-detail">{{ formatAlumniDetail(alumni) }}</span>
                 </div>
-            </div>
+            </div> -->
         </div>
         <Footer />
     </div>
