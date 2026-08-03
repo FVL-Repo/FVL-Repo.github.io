@@ -1053,7 +1053,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Navigating Weight Prediction with Diet Diary.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3680977",
-        "image": "/assets/publications/images/2024/acm mm-yinxuangui.png",
+        "image": "/assets/publications/images/2024/mm-yinxuangui.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1062,7 +1062,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Highly Transferable Diffusion-based Unrestricted Adversarial Attack on Pre-trained Vision-Language Models.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681538",
-        "image": "/assets/publications/images/2024/acm mm-wenzhuoxu.png",
+        "image": "/assets/publications/images/2024/mm-wenzhuoxu.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1071,7 +1071,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Identity-Driven Multimedia Forgery Detection via Reference Assistance.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3680622",
-        "image": "/assets/publications/images/2024/acm mm-junhaoxu.png",
+        "image": "/assets/publications/images/2024/mm-junhaoxu.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1080,7 +1080,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "ReToMe-VA: Recursive Token Merging for Video Diffusion-based Unrestricted Adversarial Attack.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3680959",
-        "image": "/assets/publications/images/2024/acm mm-ziyigao.png",
+        "image": "/assets/publications/images/2024/mm-ziyigao.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1089,7 +1089,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Decoder Pre-Training with only Text for Scene Text Recognition.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681390",
-        "image": "/assets/publications/images/2024/acm mm-shuaizhao.png",
+        "image": "/assets/publications/images/2024/mm-shuaizhao.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1098,7 +1098,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "AdvQDet: Detecting Query-Based Adversarial Attacks with Adversarial Contrastive Prompt Tuning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681032",
-        "image": "/assets/publications/images/2024/acm mm-xinwang.png",
+        "image": "/assets/publications/images/2024/mm-xinwang.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1107,7 +1107,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "White-box Multimodal Jailbreaks Against Large Vision-Language Models.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681092",
-        "image": "/assets/publications/images/2024/acm mm-ruofanwang.png",
+        "image": "/assets/publications/images/2024/mm-ruofanwang.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1116,7 +1116,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "FreeEnhance: Tuning-Free Image Enhancement via Content-Consistent Noising-and-Denoising Process.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3681506",
-        "image": "/assets/publications/images/2024/acm mm-yangluo.png",
+        "image": "/assets/publications/images/2024/mm-yangluo.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1125,7 +1125,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "ModelLock: Locking Your Model With a Spell.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2024.",
         "pdf": "https://doi.org/10.1145/3664647.3685507",
-        "image": "/assets/publications/images/2024/acm mm-yifenggao.png",
+        "image": "/assets/publications/images/2024/mm-yifenggao.png",
         "venue_abbreviated": "MM 2024"
     },
     {
@@ -1629,7 +1629,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "On the Importance of Spatial Relations for Few-shot Action Recognition.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://arxiv.org/abs/2308.07119",
-        "image": "/assets/publications/images/2023/acm mm-yilunzhang.png",
+        "image": "/assets/publications/images/2023/mm-yilunzhang.png",
         "venue_abbreviated": "MM 2023"
     },
     {
@@ -1638,7 +1638,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Generalizing Face Forgery Detection via Uncertainty Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://dl.acm.org/doi/10.1145/3581783.3612102",
-        "image": "/assets/publications/images/2023/acm mm-yanqiwu.png",
+        "image": "/assets/publications/images/2023/mm-yanqiwu.png",
         "venue_abbreviated": "MM 2023"
     },
     {
@@ -1647,7 +1647,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "GCMA: Generative Cross-Modal Transferable Adversarial Attacks from Images to Videos.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://dl.acm.org/doi/10.1145/3581783.3612110",
-        "image": "/assets/publications/images/2023/acm mm-kaichen.png",
+        "image": "/assets/publications/images/2023/mm-kaichen.png",
         "venue_abbreviated": "MM 2023"
     },
     {
@@ -1656,7 +1656,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Suspected Object Matters: Rethinking Model's Prediction for One-stage Visual Grounding.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://arxiv.org/abs/2203.05186",
-        "image": "/assets/publications/images/2023/acm mm-yangjiao.png",
+        "image": "/assets/publications/images/2023/mm-yangjiao.png",
         "venue_abbreviated": "MM 2023"
     },
     {
@@ -1665,7 +1665,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Relation Triplet Construction for Cross-modal Text-to-Video Retrieval.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3581783.3611940",
-        "image": "/assets/publications/images/2023/acm mm-xuesong.png",
+        "image": "/assets/publications/images/2023/mm-xuesong.png",
         "venue_abbreviated": "MM 2023"
     },
     {
@@ -1854,7 +1854,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "TGDM: Target Guided Dynamic Mixup for Cross-Domain Few-Shot Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://arxiv.org/abs/2210.05392",
-        "image": "/assets/publications/images/2022/acm mm-linhaizhuo.png",
+        "image": "/assets/publications/images/2022/mm-linhaizhuo.png",
         "venue_abbreviated": "MM 2022"
     },
     {
@@ -1863,7 +1863,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "ME-D2N: Multi-Expert Domain Decompositional Network for Cross-Domain Few-Shot Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://arxiv.org/abs/2210.05280",
-        "image": "/assets/publications/images/2022/acm mm-yuqianfu.png",
+        "image": "/assets/publications/images/2022/mm-yuqianfu.png",
         "venue_abbreviated": "MM 2022"
     },
     {
@@ -1872,7 +1872,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Mix-DANN and Dynamic-Modal-Distillation for Video Domain Adaptation.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3503161.3548313",
-        "image": "/assets/publications/images/2022/acm mm-yuehaoyin.png",
+        "image": "/assets/publications/images/2022/mm-yuehaoyin.png",
         "venue_abbreviated": "MM 2022"
     },
     {
@@ -1971,7 +1971,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Visual Co-Occurrence Alignment Learning for Weakly-Supervised Video Moment Retrieval.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://dl.acm.org/doi/10.1145/3474085.3475278",
-        "image": "/assets/publications/images/2021/acm mm-zhengwang.png",
+        "image": "/assets/publications/images/2021/mm-zhengwang.png",
         "venue_abbreviated": "MM 2021"
     },
     {
@@ -1980,7 +1980,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by Labeled Target Data.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://arxiv.org/abs/2107.11978",
-        "image": "/assets/publications/images/2021/acm mm-yuqianfu.png",
+        "image": "/assets/publications/images/2021/mm-yuqianfu.png",
         "venue_abbreviated": "MM 2021"
     },
     {
@@ -1989,7 +1989,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Two-stage Visual Cues Enhancement Network for Referring Image Segmentation.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://dl.acm.org/doi/abs/10.1145/3474085.3475222",
-        "image": "/assets/publications/images/2021/acm mm-yangjiao.png",
+        "image": "/assets/publications/images/2021/mm-yangjiao.png",
         "venue_abbreviated": "MM 2021"
     },
     {
@@ -1998,7 +1998,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "A Multimodal Framework for Video Ads Understanding.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
         "pdf": "https://arxiv.org/abs/2108.12868",
-        "image": "/assets/publications/images/2021/acm mm-zejiaweng.png",
+        "image": "/assets/publications/images/2021/mm-zejiaweng.png",
         "venue_abbreviated": "MM 2021"
     },
     {
@@ -2304,7 +2304,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Black-box Adversarial Attacks on Video Recognition Models.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://arxiv.org/abs/1904.05181",
-        "image": "/assets/publications/images/2019/acm mm-linxijiang.png",
+        "image": "/assets/publications/images/2019/mm-linxijiang.png",
         "venue_abbreviated": "MM 2019"
     },
     {
@@ -2313,7 +2313,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Embodied One-Shot Video Recognition: Learning from Actions of a Virtual Embodied Agent.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351015",
-        "image": "/assets/publications/images/2019/acm mm-yuqianfu.png",
+        "image": "/assets/publications/images/2019/mm-yuqianfu.png",
         "venue_abbreviated": "MM 2019"
     },
     {
@@ -2322,7 +2322,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "TC-GAN: Triangle Cycle-Consistent GANs for Face Frontalization with Facial Features Preserved.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351031",
-        "image": "/assets/publications/images/2019/acm mm-juntongcheng.png",
+        "image": "/assets/publications/images/2019/mm-juntongcheng.png",
         "venue_abbreviated": "MM 2019"
     },
     {
@@ -2331,7 +2331,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Sparse Temporal Causal Convolution for Efficient Action Modeling.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351054",
-        "image": "/assets/publications/images/2019/acm mm-changmaocheng.png",
+        "image": "/assets/publications/images/2019/mm-changmaocheng.png",
         "venue_abbreviated": "MM 2019"
     },
     {
@@ -2340,7 +2340,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "TC-Net for iSBIR: Triplet Classification Network for Instance-level Sketch Based Image Retrieval.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/epdf/10.1145/3343031.3350900",
-        "image": "/assets/publications/images/2019/acm mm-hangyulin.png",
+        "image": "/assets/publications/images/2019/mm-hangyulin.png",
         "venue_abbreviated": "MM 2019"
     },
     {
@@ -2349,7 +2349,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Comp-GAN: Compositional Generative Adversarial Network in Synthesizing and Recognizing Facial Expression.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
         "pdf": "https://dl.acm.org/doi/10.1145/3343031.3351032",
-        "image": "/assets/publications/images/2019/acm mm-wenxuanwang.png",
+        "image": "/assets/publications/images/2019/mm-wenxuanwang.png",
         "venue_abbreviated": "MM 2019"
     },
     {
@@ -2628,7 +2628,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Learning Fashion Compatibility with Bidirectional LSTMs.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "https://arxiv.org/abs/1707.05691",
-        "image": "/assets/publications/images/2017/acm mm-xintonghan.png",
+        "image": "/assets/publications/images/2017/mm-xintonghan.png",
         "venue_abbreviated": "MM 2017"
     },
     {
@@ -2637,7 +2637,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Learning Semantic Feature Map for Visual Content Recognition.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/10.1145/3123266.3123379",
-        "image": "/assets/publications/images/2017/acm mm-ruiweizhao.png",
+        "image": "/assets/publications/images/2017/mm-ruiweizhao.png",
         "venue_abbreviated": "MM 2017"
     },
     {
@@ -2646,7 +2646,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Sketch Recognition with Deep Visual-Sequential Fusion Model.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "https://dl.acm.org/doi/10.1145/3123266.3123321",
-        "image": "/assets/publications/images/2017/acm mm-junyanhe.png",
+        "image": "/assets/publications/images/2017/mm-junyanhe.png",
         "venue_abbreviated": "MM 2017"
     },
     {
@@ -2655,7 +2655,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Learning to Generate and Edit Hairstyles.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/epdf/10.1145/3123266.3123423",
-        "image": "/assets/publications/images/2017/acm mm-weidongyin.png",
+        "image": "/assets/publications/images/2017/mm-weidongyin.png",
         "venue_abbreviated": "MM 2017"
     },
     {
@@ -2664,7 +2664,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Adaptively Weighted Multi-task Deep Network for Person Attribute Classification.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
         "pdf": "http://dl.acm.org/doi/pdf/10.1145/3123266.3123424",
-        "image": "/assets/publications/images/2017/acm mm-kekehe.png",
+        "image": "/assets/publications/images/2017/mm-kekehe.png",
         "venue_abbreviated": "MM 2017"
     },
     {
@@ -2727,7 +2727,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Multi-Stream Multi-Class Fusion of Deep Networks for Video Classification.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
         "pdf": "https://dl.acm.org/citation.cfm?id=2964328",
-        "image": "/assets/publications/images/2016/acm mm-zuxuanwu.png",
+        "image": "/assets/publications/images/2016/mm-zuxuanwu.png",
         "venue_abbreviated": "MM 2016"
     },
     {
@@ -2736,7 +2736,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Binary Optimized Hashing.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Amsterdam, The Netherlands, 2016.",
         "pdf": "http://dl.acm.org/doi/epdf/10.1145/2964284.2964331",
-        "image": "/assets/publications/images/2016/acm mm-qidai.png",
+        "image": "/assets/publications/images/2016/mm-qidai.png",
         "venue_abbreviated": "MM 2016"
     },
     {
@@ -2835,7 +2835,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Modeling Spatial-Temporal Clues in a Hybrid Deep Learning Framework for Video Classification.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Brisbane, Australia, 2015.",
         "pdf": "/assets/publications/pdfs/modeling-spatial-temporal-clues-in-a-hybrid-deep-learning-framework-for-video-classification.pdf",
-        "image": "/assets/publications/images/2015/acm mm-zuxuanwu.png",
+        "image": "/assets/publications/images/2015/mm-zuxuanwu.png",
         "venue_abbreviated": "MM 2015"
     },
     {
@@ -2961,7 +2961,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Exploring Inter-feature and Inter-class Relationships with Deep Neural Networks for Video Classification.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "/assets/publications/pdfs/exploring-inter-feature-and-inter-class-relationships-with-deep-neural-networks-for-video-classification.pdf",
-        "image": "/assets/publications/images/2014/acm mm-zuxuanwu.png",
+        "image": "/assets/publications/images/2014/mm-zuxuanwu.png",
         "venue_abbreviated": "MM 2014"
     },
     {
@@ -2997,7 +2997,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Organizing Video Search Results to Adapted Semantic Hierarchies for Topic-based Browsing.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "/assets/publications/pdfs/organizing-video-search-results-to-adapted-semantic-hierarchies-for-topic-based-browsing.pdf",
-        "image": "/assets/publications/images/2014/acm mm-jiajunwang.png",
+        "image": "/assets/publications/images/2014/mm-jiajunwang.png",
         "venue_abbreviated": "MM 2014"
     },
     {
@@ -3006,7 +3006,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Real-Time Summarization of User-Generated Videos Based on Semantic Recognition.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Orlando, USA, 2014.",
         "pdf": "/assets/publications/pdfs/real-time-summarization-of-user-generated-videos-based-on-semantic-recognition.pdf",
-        "image": "/assets/publications/images/2014/acm mm-xiwang.png",
+        "image": "/assets/publications/images/2014/mm-xiwang.png",
         "venue_abbreviated": "MM 2014"
     },
     {
@@ -3141,7 +3141,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Beauty is Here: Evaluating Aesthetics in Videos Using Multimodal Features and Free Training Data.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
         "pdf": "/assets/publications/pdfs/beauty-is-here-evaluating-aesthetics-in-videos-using-multimodal-features-and-free-training-data.pdf",
-        "image": "/assets/publications/images/2013/acm mm-yanranwang.png",
+        "image": "/assets/publications/images/2013/mm-yanranwang.png",
         "venue_abbreviated": "MM 2013"
     },
     {
@@ -3150,7 +3150,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Strong Geometry Consistency for Large Scale Partial-Duplicate Image Search.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Barcelona, Spain, 2013.",
         "pdf": "/assets/publications/pdfs/strong-geometry-consistency-for-large-scale-partial-duplicate-image-search.pdf",
-        "image": "/assets/publications/images/2013/acm mm-junqiangwang.png",
+        "image": "/assets/publications/images/2013/mm-junqiangwang.png",
         "venue_abbreviated": "MM 2013"
     },
     {
@@ -3231,7 +3231,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "A Fast Video Event Recognition System and Its Application to Video Search.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nara, Japan, 2012. (Demo session)",
         "pdf": "/assets/publications/pdfs/a-fast-video-event-recognition-system-and-its-application-to-video-search.pdf",
-        "image": "/assets/publications/images/2012/acm mm-yugangjiang.png",
+        "image": "/assets/publications/images/2012/mm-yugangjiang.png",
         "venue_abbreviated": "MM 2012"
     },
     {
@@ -3276,7 +3276,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Towards Textually Describing Complex Video Contents with Audio-Visual Concept Classifiers.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
         "pdf": "/assets/publications/pdfs/towards-textually-describing-complex-video-contents-with-audio-visual-concept-classifiers.pdf",
-        "image": "/assets/publications/images/2011/acm mm-chunchettan.png",
+        "image": "/assets/publications/images/2011/mm-chunchettan.png",
         "venue_abbreviated": "MM 2011"
     },
     {
@@ -3285,7 +3285,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "On the Pooling of Positive Examples with Ontology for Visual Concept Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Arizona, USA, 2011.",
         "pdf": "/assets/publications/pdfs/on-the-pooling-of-positive-examples-with-ontology-for-visual-concept-learning.pdf",
-        "image": "/assets/publications/images/2011/acm mm-shiaizhu.png",
+        "image": "/assets/publications/images/2011/mm-shiaizhu.png",
         "venue_abbreviated": "MM 2011"
     },
     {
@@ -3375,7 +3375,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Brain State Decoding for Rapid Image Retrieval.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
         "pdf": "/assets/publications/pdfs/brain-state-decoding-for-rapid-image-retrieval.pdf",
-        "image": "/assets/publications/images/2009/acm mm-junwang.png",
+        "image": "/assets/publications/images/2009/mm-junwang.png",
         "venue_abbreviated": "MM 2009"
     },
     {
@@ -3384,7 +3384,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Semantic Context Transfer across Heterogeneous Sources for Domain Adaptive Video Search.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.",
         "pdf": "/assets/publications/pdfs/semantic-context-transfer-across-heterogeneous-sources-for-domain-adaptive-video-search.pdf",
-        "image": "/assets/publications/images/2009/acm mm-yugangjiang.png",
+        "image": "/assets/publications/images/2009/mm-yugangjiang.png",
         "venue_abbreviated": "MM 2009"
     },
     {
@@ -3438,7 +3438,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Video Event Detection Using Motion Relativity and Visual Relatedness.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Vancouver, Canada, 2008.",
         "pdf": "/assets/publications/pdfs/video-event-detection-using-motion-relativity-and-visual-relatedness.pdf",
-        "image": "/assets/publications/images/2008/acm mm-fengwang.png",
+        "image": "/assets/publications/images/2008/mm-fengwang.png",
         "venue_abbreviated": "MM 2008"
     },
     {
@@ -3510,7 +3510,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Evaluating Bag-of-Visual-Words Representations in Scene Classification.",
         "venue": "ACM SIGMM Workshop on Multimedia Information Retrieval (MIR), in conjunction with ACM International Conference on Multimedia (ACM MM), Germany, 2007.",
         "pdf": "/assets/publications/pdfs/evaluating-bag-of-visual-words-representations-in-scene-classification.pdf",
-        "image": "/assets/publications/images/2007/acm mm-junyang.png",
+        "image": "/assets/publications/images/2007/mm-junyang.png",
         "venue_abbreviated": "MM 2007"
     },
     {
@@ -3528,7 +3528,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Fast Tracking of Near-Duplicate Keyframes in Broadcast Domain with Transitivity Propagation.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Santa Barbara, CA, USA, 2006.",
         "pdf": "/assets/publications/pdfs/fast-tracking-of-near-duplicate-keyframes-in-broadcast-domain-with-transitivity-propagation.pdf",
-        "image": "/assets/publications/images/2006/acm mm-chongwahngo.png",
+        "image": "/assets/publications/images/2006/mm-chongwahngo.png",
         "venue_abbreviated": "MM 2006"
     },
     {
