@@ -20,7 +20,7 @@ export const researchList: ResearchItem[] = [
         },
         description: {
             zh: '多模态大模型是驱动人工智能从单一语言智能迈向跨模态理解、生成与交互的通用智能形态的核心引擎。针对多源异构信息融合、跨场景泛化及可解释推理等关键瓶颈，实验室构建了“表征-架构-数据”三位一体的研究体系，致力于探索更契合人类感知与认知规律的智能新范式，实现系统化能力的全面跃升。',
-            en: 'Multimodal large language models (MLLMs) are driving AI toward cross-modal understanding, generation, and interaction. Our research focuses on key challenges in heterogeneous information fusion, cross-domain generalization, and interpretable reasoning. We develop integrated approaches to representation, architecture, and data for more capable and human-centered AI systems.'
+            en: 'Multimodal large language models (MLLMs) are driving AI toward cross-modal understanding, generation, and interaction. Our research focuses on key challenges in modality fusion, cross-domain generalization, and interpretable reasoning. We develop integrated approaches to representation, architecture, and data for more capable and human-centered AI systems.'
         },
         image: '/assets/research/multimodal.png'
     },
