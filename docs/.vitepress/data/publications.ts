@@ -42,7 +42,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2026",
         "authors": "Yuankun Yang, Li Zhang, Ziyang Xie, Zhiyuan Yuan, Jianfeng Feng, Xiatian Zhu, Yu-Gang Jiang",
         "title": "Brain3D: Generating 3D Objects from fMRI.",
-        "venue": "Int J Comput Vis 134, 58 (2026).",
+        "venue": "International Journal of Computer Vision (IJCV), vol. 134, article 58, 2026.",
         "venue_abbreviated": "IJCV 2026",
         "pdf": "https://doi.org/10.1007/s11263-025-02609-x",
         "image": "/assets/publications/images/2026/ijcv-yuankunyang.png"
@@ -51,7 +51,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2026",
         "authors": "Henghui Ding, Chang Liu, Shuting He, Xudong Jiang, Yu-Gang Jiang",
         "title": "GREx: Generalized Referring Expression Segmentation, Comprehension, and Generation.",
-        "venue": "Int J Comput Vis 134, 79 (2026).",
+        "venue": "International Journal of Computer Vision (IJCV), vol. 134, article 79, 2026.",
         "venue_abbreviated": "IJCV 2026",
         "pdf": "https://doi.org/10.1007/s11263-026-02729-y",
         "image": "/assets/publications/images/2026/ijcv-henghuiding.png"
@@ -627,7 +627,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2025",
         "authors": "Zhipeng Wei, Jingjing Chen, Yu-Gang Jiang",
         "title": "What Do Visual Models Look At? Dilated Attention for Targeted Transferable Attacks.",
-        "venue": "Targeted Transferable Attacks. Int J Comput Vis 133, 8041-8058 (2025).",
+        "venue": "International Journal of Computer Vision (IJCV), vol. 133, pp. 8041-8058, 2025.",
         "venue_abbreviated": "IJCV 2025",
         "pdf": "https://doi.org/10.1007/s11263-025-02552-x",
         "image": "/assets/publications/images/2025/ijcv-zhipengwei.png"
@@ -1419,7 +1419,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2024",
         "authors": "Tianlun Zheng, Zhineng Chen, Shancheng Fang, Hongtao Xie, Yu-Gang Jiang",
         "title": "CDistNet: Perceiving Multi-domain Character Distance for Robust Text Recognition.",
-        "venue": "International Journal of Computer Vision(IJCV), vol. 132, issue 2, pp. 300-318, 2024.",
+        "venue": "International Journal of Computer Vision (IJCV), vol. 132, issue 2, pp. 300-318, 2024.",
         "pdf": "https://link.springer.com/article/10.1007/s11263-023-01880-0",
         "image": "/assets/publications/images/2024/ijcv-tianlunzheng.png",
         "venue_abbreviated": "IJCV 2024"
@@ -2067,7 +2067,7 @@ export const publicationsList: PublicationItem[] = [
         "year": "2021",
         "authors": "Zuxuan Wu, Hengduo Li, Yingbin Zheng, Caiming Xiong, Yu-Gang Jiang, Larry S. Davis",
         "title": "A Coarse-to-Fine Framework for Resource Efficient Video Recognition.",
-        "venue": "International Journal of Computer Vision(IJCV), vol. 129, issue 11, pp. 2965-2977, 2021.",
+        "venue": "International Journal of Computer Vision (IJCV), vol. 129, issue 11, pp. 2965-2977, 2021.",
         "pdf": "https://doi.org/10.1007/s11263-021-01508-1",
         "image": "/assets/publications/images/2021/ijcv-zuxuanwu.png",
         "venue_abbreviated": "IJCV 2021"
