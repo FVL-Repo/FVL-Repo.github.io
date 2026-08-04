@@ -58,30 +58,12 @@ export const publicationsList: PublicationItem[] = [
     },
     {
         "year": "2026",
-        "authors": "Yige Li, Jiabo He, Hanxun Huang, Jun Sun, Xingjun Ma, Yu-Gang Jiang",
-        "title": "Shortcuts Everywhere and Nowhere: Exploring Multi-Trigger Backdoor Attacks.",
-        "venue": "IEEE Transactions on Dependable and Secure Computing (TDSC), vol. 23, pp. 343-355, 2026.",
-        "venue_abbreviated": "TDSC 2026",
-        "pdf": "https://doi.org/10.1109/TDSC.2025.3605597",
-        "image": "/assets/publications/images/2026/tdsc-yigeli.png"
-    },
-    {
-        "year": "2026",
         "authors": "Haoyu Zhao, Jiaxi Gu, Shicong Wang, Tianyi Lu, Xing Zhang, Zuxuan Wu, Hang Xu, Yu-Gang Jiang",
         "title": "LSTD: Long Short-Term Temporal Diffusion for Video Generation.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 28, pp. 2460-2473, 2026.",
         "venue_abbreviated": "TMM 2026",
         "pdf": "https://doi.org/10.1109/TMM.2026.3651052",
         "image": "/assets/publications/images/2026/tmm-haoyuzhao.png"
-    },
-    {
-        "year": "2026",
-        "authors": "Ben Niu, Yu-Gang Jiang, Xing-xing Ju, Ying-ying Liu, Xiao-mei Wang",
-        "title": "Distributed prescribed-time algorithms of multi-agent systems for time-varying optimization problems with inequality constraints.",
-        "venue": "Automatica (Autom), vol. 189, pp. 112982, 2026.",
-        "venue_abbreviated": "Autom 2026",
-        "pdf": "https://doi.org/10.1016/j.automatica.2026.112982",
-        "image": "/assets/publications/images/2026/autom-benniu.png"
     },
     {
         "year": "2026",
