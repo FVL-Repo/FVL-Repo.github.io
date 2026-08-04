@@ -625,6 +625,15 @@ export const publicationsList: PublicationItem[] = [
     },
     {
         "year": "2025",
+        "authors": "Zhen Xing, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "A Survey on Video Diffusion Models.",
+        "venue": "ACM Computing Surveys (CSUR), vol. 57, pp. 1-42, 2025.",
+        "pdf": "https://dl.acm.org/doi/10.1145/3696415",
+        "image": "/assets/publications/images/2025/csur-zhenxing.png",
+        "venue_abbreviated": "CSUR 2025"
+    },
+    {
+        "year": "2025",
         "authors": "Guoshan Liu, Hailong Yin, Bin Zhu, Jingjing Chen, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "Retrieval Augmented Recipe Generation.",
         "venue": "Winter Conference on Applications of Computer Vision (WACV), Tucson, AZ, USA, 2025.",
@@ -886,15 +895,6 @@ export const publicationsList: PublicationItem[] = [
     },
     {
         "year": "2025",
-        "authors": "Zhen Xing, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang",
-        "title": "A Survey on Video Diffusion Models.",
-        "venue": "ACM Computing Surveys (CSUR), vol. 57, pp. 1-42, 2025.",
-        "pdf": "https://dl.acm.org/doi/10.1145/3696415",
-        "image": "/assets/publications/images/2025/csur-zhenxing.png",
-        "venue_abbreviated": "CSUR 2025"
-    },
-    {
-        "year": "2025",
         "authors": "Haoran Chen, Micah Goldblum, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Adaptive Retention & Correction for Continual Learning.",
         "venue": "International Conference on Learning Representations (ICLR), Singapore, 2025.",
@@ -1018,6 +1018,69 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "https://arxiv.org/pdf/2501.02997",
         "image": "/assets/publications/images/2025/aaai-xiangzheng.png",
         "venue_abbreviated": "AAAI 2025"
+    },
+    {
+        "year": "2024",
+        "authors": "Tianxiang Sun, Xiaotian Zhang, Zhengfu He, Peng Li, Qinyuan Cheng, Xiangyang Liu, Hang Yan, Yunfan Shao, Qiong Tang, Shiduo Zhang, Xingjian Zhao, Ke Chen, Yining Zheng, Zhejian Zhou, Ruixiao Li, Jun Zhan, Yunhua Zhou, Linyang Li, Xiaogui Yang, Lingling Wu, Zhangyue Yin, Xuanjing Huang, Yu-Gang Jiang, Xipeng Qiu",
+        "title": "MOSS: An Open Conversational Large Language Model.",
+        "venue": "Machine Intelligence Research (MIR), vol. 21, pp. 888-905, 2024.",
+        "pdf": "https://link.springer.com/article/10.1007/s11633-024-1502-8",
+        "image": "/assets/publications/images/2024/machine-tianxiangsun.png",
+        "venue_abbreviated": "MIR 2024"
+    },
+    {
+        "year": "2024",
+        "authors": "Zuxuan Wu, Zejia Weng, Wujian Peng, Xitong Yang, Ang Li, Larry S. Davis, Yu-Gang Jiang",
+        "title": "Building an Open-Vocabulary Video CLIP Model with Better Architectures, Optimization and Data.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 46, pp. 4747-4762, 2024.",
+        "pdf": "https://arxiv.org/abs/2310.05010",
+        "image": "/assets/publications/images/2024/tpami-zuxuanwu.png",
+        "venue_abbreviated": "TPAMI 2024"
+    },
+    {
+        "year": "2024",
+        "authors": "Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Adaptive Cross-Modal Transferable Adversarial Attacks From Images to Videos.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 46, pp. 3772-3783, 2024.",
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/10375740",
+        "image": "/assets/publications/images/2024/tpami-zhipengwei.png",
+        "venue_abbreviated": "TPAMI 2024"
+    },
+    {
+        "year": "2024",
+        "authors": "Tianwen Qian, Ran Cui, Jingjing Chen, Pai Peng, Xiaowei Guo, Yu-Gang Jiang",
+        "title": "Locate Before Answering: Answer Guided Question Localization for Video Question Answering.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 26, pp. 4554-4563, 2024.",
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/10278436",
+        "image": "/assets/publications/images/2024/tmm-tianwenqian.png",
+        "venue_abbreviated": "TMM 2024"
+    },
+    {
+        "year": "2024",
+        "authors": "Xingjun Ma, Linxi Jiang, Hanxun Huang, Zejia Weng, James Bailey, Yu-Gang Jiang",
+        "title": "Imbalanced gradients: a subtle cause of overestimated adversarial robustness.",
+        "venue": "Machine Learning (ML), vol. 113, pp. 2301-2326, 2024.",
+        "pdf": "https://link.springer.com/article/10.1007/s10994-023-06328-7",
+        "image": "/assets/publications/images/2024/machine-learning-xingjunma.png",
+        "venue_abbreviated": "ML 2024"
+    },
+    {
+        "year": "2024",
+        "authors": "Zejia Weng, Zuxuan Wu, Hengduo Li, Jingjing Chen, Yu-Gang Jiang",
+        "title": "HCMS: Hierarchical and Conditional Modality Selection for Efficient Video Recognition.",
+        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 20, pp. 35:1-35:18, 2024.",
+        "pdf": "https://dl.acm.org/doi/abs/10.1145/3572776",
+        "image": "/assets/publications/images/2024/tomm-zejiaweng.png",
+        "venue_abbreviated": "TOMM 2024"
+    },
+    {
+        "year": "2024",
+        "authors": "Tianlun Zheng, Zhineng Chen, Shancheng Fang, Hongtao Xie, Yu-Gang Jiang",
+        "title": "CDistNet: Perceiving Multi-domain Character Distance for Robust Text Recognition.",
+        "venue": "International Journal of Computer Vision (IJCV), vol. 132, pp. 300-318, 2024.",
+        "pdf": "https://link.springer.com/article/10.1007/s11263-023-01880-0",
+        "image": "/assets/publications/images/2024/ijcv-tianlunzheng.png",
+        "venue_abbreviated": "IJCV 2024"
     },
     {
         "year": "2024",
@@ -1344,67 +1407,67 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "AAAI 2024"
     },
     {
-        "year": "2024",
-        "authors": "Tianxiang Sun, Xiaotian Zhang, Zhengfu He, Peng Li, Qinyuan Cheng, Xiangyang Liu, Hang Yan, Yunfan Shao, Qiong Tang, Shiduo Zhang, Xingjian Zhao, Ke Chen, Yining Zheng, Zhejian Zhou, Ruixiao Li, Jun Zhan, Yunhua Zhou, Linyang Li, Xiaogui Yang, Lingling Wu, Zhangyue Yin, Xuanjing Huang, Yu-Gang Jiang, Xipeng Qiu",
-        "title": "MOSS: An Open Conversational Large Language Model.",
-        "venue": "Machine Intelligence Research (MIR), vol. 21, pp. 888-905, 2024.",
-        "pdf": "https://link.springer.com/article/10.1007/s11633-024-1502-8",
-        "image": "/assets/publications/images/2024/machine-tianxiangsun.png",
-        "venue_abbreviated": "MIR 2024"
+        "year": "2023",
+        "authors": "Jingjing Chen, Linhai Zhuo, Zhipeng Wei, Hao Zhang, Huazhu Fu,    Yu-Gang Jiang",
+        "title": "Knowledge driven weights estimation for large-scale few-shot image recognition.",
+        "venue": "Pattern Recognition (PR), vol. 142, pp. 109668, 2023.",
+        "pdf": "https://www.sciencedirect.com/science/article/pii/S0031320323003692",
+        "image": "/assets/publications/images/2023/pattern-recognition-jingjingchen.png",
+        "venue_abbreviated": "PR 2023"
     },
     {
-        "year": "2024",
-        "authors": "Zuxuan Wu, Zejia Weng, Wujian Peng, Xitong Yang, Ang Li, Larry S. Davis, Yu-Gang Jiang",
-        "title": "Building an Open-Vocabulary Video CLIP Model with Better Architectures, Optimization and Data.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 46, pp. 4747-4762, 2024.",
-        "pdf": "https://arxiv.org/abs/2310.05010",
-        "image": "/assets/publications/images/2024/tpami-zuxuanwu.png",
-        "venue_abbreviated": "TPAMI 2024"
+        "year": "2023",
+        "authors": "Zhipeng Wei, Jingjing Chen, Micah Goldblum, Zuxuan Wu, Tom Goldstein, Yu-Gang Jiang, Larry S. Davis",
+        "title": "Towards Transferable Adversarial Attacks on Image and Video Transformers.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 32, pp. 6346-6358, 2023.",
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/10319323",
+        "image": "/assets/publications/images/2023/tip-zhipengwei.png",
+        "venue_abbreviated": "TIP 2023"
     },
     {
-        "year": "2024",
-        "authors": "Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
-        "title": "Adaptive Cross-Modal Transferable Adversarial Attacks From Images to Videos.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 46, pp. 3772-3783, 2024.",
-        "pdf": "https://ieeexplore.ieee.org/abstract/document/10375740",
-        "image": "/assets/publications/images/2024/tpami-zhipengwei.png",
-        "venue_abbreviated": "TPAMI 2024"
+        "year": "2023",
+        "authors": "Rui Wang, Zuxuan Wu, Zejia Weng, Jingjing Chen, Guo-Jun Qi, Yu-Gang Jiang",
+        "title": "Cross-Domain Contrastive Learning for Unsupervised Domain Adaptation.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 1665-1673, 2023.",
+        "pdf": "https://ieeexplore.ieee.org/document/9695359",
+        "image": "/assets/publications/images/2023/tmm-ruiwang.png",
+        "venue_abbreviated": "TMM 2023"
     },
     {
-        "year": "2024",
-        "authors": "Tianwen Qian, Ran Cui, Jingjing Chen, Pai Peng, Xiaowei Guo, Yu-Gang Jiang",
-        "title": "Locate Before Answering: Answer Guided Question Localization for Video Question Answering.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 26, pp. 4554-4563, 2024.",
-        "pdf": "https://ieeexplore.ieee.org/abstract/document/10278436",
-        "image": "/assets/publications/images/2024/tmm-tianwenqian.png",
-        "venue_abbreviated": "TMM 2024"
+        "year": "2023",
+        "authors": "Junke Wang, Shaoxiang Chen, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "FT-TDR: Frequency-Guided Transformer and Top-Down Refinement Network for Blind Face Inpainting.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 2382-2392, 2023.",
+        "pdf": "https://ieeexplore.ieee.org/document/9695189",
+        "image": "/assets/publications/images/2023/tmm-junkewang.png",
+        "venue_abbreviated": "TMM 2023"
     },
     {
-        "year": "2024",
-        "authors": "Xingjun Ma, Linxi Jiang, Hanxun Huang, Zejia Weng, James Bailey, Yu-Gang Jiang",
-        "title": "Imbalanced gradients: a subtle cause of overestimated adversarial robustness.",
-        "venue": "Machine Learning (ML), vol. 113, pp. 2301-2326, 2024.",
-        "pdf": "https://link.springer.com/article/10.1007/s10994-023-06328-7",
-        "image": "/assets/publications/images/2024/machine-learning-xingjunma.png",
-        "venue_abbreviated": "ML 2024"
+        "year": "2023",
+        "authors": "Tianwen Qian, Jingjing Chen, Shaoxiang Chen, Bo Wu, Yu-Gang Jiang",
+        "title": "Scene Graph Refinement Network for Visual Question Answering.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 3950-3961, 2023.",
+        "pdf": "https://ieeexplore.ieee.org/document/9762027",
+        "image": "/assets/publications/images/2023/tmm-tianwenqian.png",
+        "venue_abbreviated": "TMM 2023"
     },
     {
-        "year": "2024",
-        "authors": "Zejia Weng, Zuxuan Wu, Hengduo Li, Jingjing Chen, Yu-Gang Jiang",
-        "title": "HCMS: Hierarchical and Conditional Modality Selection for Efficient Video Recognition.",
-        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 20, pp. 35:1-35:18, 2024.",
-        "pdf": "https://dl.acm.org/doi/abs/10.1145/3572776",
-        "image": "/assets/publications/images/2024/tomm-zejiaweng.png",
-        "venue_abbreviated": "TOMM 2024"
+        "year": "2023",
+        "authors": "Jixiang Gao, Jingjing Chen, Huazhu Fu, Yu-Gang Jiang",
+        "title": "Dynamic Mixup for Multi-Label Long-Tailed Food Ingredient Recognition.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 4764-4773, 2023.",
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/9794570",
+        "image": "/assets/publications/images/2023/tmm-jixianggao.png",
+        "venue_abbreviated": "TMM 2023"
     },
     {
-        "year": "2024",
-        "authors": "Tianlun Zheng, Zhineng Chen, Shancheng Fang, Hongtao Xie, Yu-Gang Jiang",
-        "title": "CDistNet: Perceiving Multi-domain Character Distance for Robust Text Recognition.",
-        "venue": "International Journal of Computer Vision (IJCV), vol. 132, pp. 300-318, 2024.",
-        "pdf": "https://link.springer.com/article/10.1007/s11263-023-01880-0",
-        "image": "/assets/publications/images/2024/ijcv-tianlunzheng.png",
-        "venue_abbreviated": "IJCV 2024"
+        "year": "2023",
+        "authors": "Fan Luo, Shaoxiang Chen, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Self-Supervised Learning for Semi-Supervised Temporal Language Grounding.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 7747-7757, 2023.",
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/9978670",
+        "image": "/assets/publications/images/2023/tmm-fanluo.png",
+        "venue_abbreviated": "TMM 2023"
     },
     {
         "year": "2023",
@@ -1543,69 +1606,6 @@ export const publicationsList: PublicationItem[] = [
     },
     {
         "year": "2023",
-        "authors": "Jingjing Chen, Linhai Zhuo, Zhipeng Wei, Hao Zhang, Huazhu Fu,    Yu-Gang Jiang",
-        "title": "Knowledge driven weights estimation for large-scale few-shot image recognition.",
-        "venue": "Pattern Recognition (PR), vol. 142, pp. 109668, 2023.",
-        "pdf": "https://www.sciencedirect.com/science/article/pii/S0031320323003692",
-        "image": "/assets/publications/images/2023/pattern-recognition-jingjingchen.png",
-        "venue_abbreviated": "PR 2023"
-    },
-    {
-        "year": "2023",
-        "authors": "Zhipeng Wei, Jingjing Chen, Micah Goldblum, Zuxuan Wu, Tom Goldstein, Yu-Gang Jiang, Larry S. Davis",
-        "title": "Towards Transferable Adversarial Attacks on Image and Video Transformers.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 32, pp. 6346-6358, 2023.",
-        "pdf": "https://ieeexplore.ieee.org/abstract/document/10319323",
-        "image": "/assets/publications/images/2023/tip-zhipengwei.png",
-        "venue_abbreviated": "TIP 2023"
-    },
-    {
-        "year": "2023",
-        "authors": "Rui Wang, Zuxuan Wu, Zejia Weng, Jingjing Chen, Guo-Jun Qi, Yu-Gang Jiang",
-        "title": "Cross-Domain Contrastive Learning for Unsupervised Domain Adaptation.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 1665-1673, 2023.",
-        "pdf": "https://ieeexplore.ieee.org/document/9695359",
-        "image": "/assets/publications/images/2023/tmm-ruiwang.png",
-        "venue_abbreviated": "TMM 2023"
-    },
-    {
-        "year": "2023",
-        "authors": "Junke Wang, Shaoxiang Chen, Zuxuan Wu, Yu-Gang Jiang",
-        "title": "FT-TDR: Frequency-Guided Transformer and Top-Down Refinement Network for Blind Face Inpainting.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 2382-2392, 2023.",
-        "pdf": "https://ieeexplore.ieee.org/document/9695189",
-        "image": "/assets/publications/images/2023/tmm-junkewang.png",
-        "venue_abbreviated": "TMM 2023"
-    },
-    {
-        "year": "2023",
-        "authors": "Tianwen Qian, Jingjing Chen, Shaoxiang Chen, Bo Wu, Yu-Gang Jiang",
-        "title": "Scene Graph Refinement Network for Visual Question Answering.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 3950-3961, 2023.",
-        "pdf": "https://ieeexplore.ieee.org/document/9762027",
-        "image": "/assets/publications/images/2023/tmm-tianwenqian.png",
-        "venue_abbreviated": "TMM 2023"
-    },
-    {
-        "year": "2023",
-        "authors": "Jixiang Gao, Jingjing Chen, Huazhu Fu, Yu-Gang Jiang",
-        "title": "Dynamic Mixup for Multi-Label Long-Tailed Food Ingredient Recognition.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 4764-4773, 2023.",
-        "pdf": "https://ieeexplore.ieee.org/abstract/document/9794570",
-        "image": "/assets/publications/images/2023/tmm-jixianggao.png",
-        "venue_abbreviated": "TMM 2023"
-    },
-    {
-        "year": "2023",
-        "authors": "Fan Luo, Shaoxiang Chen, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
-        "title": "Self-Supervised Learning for Semi-Supervised Temporal Language Grounding.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 25, pp. 7747-7757, 2023.",
-        "pdf": "https://ieeexplore.ieee.org/abstract/document/9978670",
-        "image": "/assets/publications/images/2023/tmm-fanluo.png",
-        "venue_abbreviated": "TMM 2023"
-    },
-    {
-        "year": "2023",
         "authors": "Yilun Zhang, Yuqian Fu, Xingjun Ma, Lizhe Qi, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "On the Importance of Spatial Relations for Few-shot Action Recognition.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
@@ -1741,6 +1741,33 @@ export const publicationsList: PublicationItem[] = [
     },
     {
         "year": "2022",
+        "authors": "Yuqian Fu, Yanwei Fu, Jingjing Chen, Yu-Gang Jiang",
+        "title": "Generalized Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by Labeled Target Data.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 31, pp. 7078-7090, 2022.",
+        "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9942934",
+        "image": "/assets/publications/images/2022/tip-yuqianfu.png",
+        "venue_abbreviated": "TIP 2022"
+    },
+    {
+        "year": "2022",
+        "authors": "Zuxuan Wu, Hengduo Li, Caiming Xiong, Yu-Gang Jiang, Larry S. Davis",
+        "title": "A Dynamic Frame Selection Framework for Fast Video Recognition.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 44, pp. 1699-1711, 2022.",
+        "pdf": "https://doi.org/10.1109/TPAMI.2020.3029425",
+        "image": "/assets/publications/images/2022/tpami-zuxuanwu.png",
+        "venue_abbreviated": "TPAMI 2022"
+    },
+    {
+        "year": "2022",
+        "authors": "Xing Zhang, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "SAM: Modeling Scene, Object and Action With Semantics Attention Modules for Video Recognition.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 24, pp. 313-322, 2022.",
+        "pdf": "https://doi.org/10.1109/TMM.2021.3050058",
+        "image": "/assets/publications/images/2022/tmm-xingzhang.png",
+        "venue_abbreviated": "TMM 2022"
+    },
+    {
+        "year": "2022",
         "authors": "Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Cross-Modal Transferable Adversarial Attacks from Images to Videos.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), New Orleans, USA, 2022.",
@@ -1822,15 +1849,6 @@ export const publicationsList: PublicationItem[] = [
     },
     {
         "year": "2022",
-        "authors": "Yuqian Fu, Yanwei Fu, Jingjing Chen, Yu-Gang Jiang",
-        "title": "Generalized Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by Labeled Target Data.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 31, pp. 7078-7090, 2022.",
-        "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9942934",
-        "image": "/assets/publications/images/2022/tip-yuqianfu.png",
-        "venue_abbreviated": "TIP 2022"
-    },
-    {
-        "year": "2022",
         "authors": "Linhai Zhuo, Yuqian Fu, Jingjing Chen, Yixin Cao, Yu-Gang Jiang",
         "title": "TGDM: Target Guided Dynamic Mixup for Cross-Domain Few-Shot Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
@@ -1902,22 +1920,58 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "AAAI 2022"
     },
     {
-        "year": "2022",
-        "authors": "Zuxuan Wu, Hengduo Li, Caiming Xiong, Yu-Gang Jiang, Larry S. Davis",
-        "title": "A Dynamic Frame Selection Framework for Fast Video Recognition.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 44, pp. 1699-1711, 2022.",
-        "pdf": "https://doi.org/10.1109/TPAMI.2020.3029425",
-        "image": "/assets/publications/images/2022/tpami-zuxuanwu.png",
-        "venue_abbreviated": "TPAMI 2022"
+        "year": "2021",
+        "authors": "Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu, Hang Yu, Wei Liu, Xiangyang Xue, Yu-Gang Jiang",
+        "title": "Pixel2Mesh: 3D Mesh Model Generation via Image Guided Deformation.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 43, pp. 3600-3613, 2021.",
+        "pdf": "https://ieeexplore.ieee.org/abstract/document/9055070",
+        "image": "/assets/publications/images/2021/tpami-nanyangwang.png",
+        "venue_abbreviated": "TPAMI 2021"
     },
     {
-        "year": "2022",
-        "authors": "Xing Zhang, Zuxuan Wu, Yu-Gang Jiang",
-        "title": "SAM: Modeling Scene, Object and Action With Semantics Attention Modules for Video Recognition.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 24, pp. 313-322, 2022.",
-        "pdf": "https://doi.org/10.1109/TMM.2021.3050058",
-        "image": "/assets/publications/images/2022/tmm-xingzhang.png",
-        "venue_abbreviated": "TMM 2022"
+        "year": "2021",
+        "authors": "Xue Song, Baohan Xu, Yu-Gang Jiang",
+        "title": "Predicting Content Similarity via Multimodal Modeling for Video-In-Video Advertising.",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 31, pp. 569-581, 2021.",
+        "pdf": "https://ieeexplore.ieee.org/document/9031288",
+        "image": "/assets/publications/images/2021/tcsvt-xuesong.png",
+        "venue_abbreviated": "TCSVT 2021"
+    },
+    {
+        "year": "2021",
+        "authors": "Jingjing Chen, Bin Zhu, Chong-Wah Ngo, Tat-Seng Chua, Yu-Gang Jiang",
+        "title": "A Study of Multi-Task and Region-Wise Deep Learning for Food Ingredient Recognition.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 30, pp. 1514-1526, 2021.",
+        "pdf": "https://ieeexplore.ieee.org/document/9305995",
+        "image": "/assets/publications/images/2021/tip-jingjingchen.png",
+        "venue_abbreviated": "TIP 2021"
+    },
+    {
+        "year": "2021",
+        "authors": "Renfeng Ma, Xipeng Qiu, Qi Zhang, Xiangkun Hu, Yu-Gang Jiang, Xuanjing Huang",
+        "title": "Co-Attention Memory Network for Multimodal Microblog's Hashtag Recommendation.",
+        "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), vol. 33, pp. 388-400, 2021.",
+        "pdf": "https://ieeexplore.ieee.org/document/8784219",
+        "image": "/assets/publications/images/2021/tkde-renfengma.png",
+        "venue_abbreviated": "TKDE 2021"
+    },
+    {
+        "year": "2021",
+        "authors": "Zuxuan Wu, Hengduo Li, Yingbin Zheng, Caiming Xiong, Yu-Gang Jiang, Larry S. Davis",
+        "title": "A Coarse-to-Fine Framework for Resource Efficient Video Recognition.",
+        "venue": "International Journal of Computer Vision (IJCV), vol. 129, pp. 2965-2977, 2021.",
+        "pdf": "https://doi.org/10.1007/s11263-021-01508-1",
+        "image": "/assets/publications/images/2021/ijcv-zuxuanwu.png",
+        "venue_abbreviated": "IJCV 2021"
+    },
+    {
+        "year": "2021",
+        "authors": "Zheng Wang, Jianguo Li, Yu-Gang Jiang",
+        "title": "Story-driven Video Editing.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 23, pp. 4027-4036, 2021.",
+        "pdf": "https://doi.org/10.1109/TMM.2020.3037461",
+        "image": "/assets/publications/images/2021/tmm-zhengwang.png",
+        "venue_abbreviated": "TMM 2021"
     },
     {
         "year": "2021",
@@ -2010,114 +2064,6 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "CVPR 2021"
     },
     {
-        "year": "2021",
-        "authors": "Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu, Hang Yu, Wei Liu, Xiangyang Xue, Yu-Gang Jiang",
-        "title": "Pixel2Mesh: 3D Mesh Model Generation via Image Guided Deformation.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 43, pp. 3600-3613, 2021.",
-        "pdf": "https://ieeexplore.ieee.org/abstract/document/9055070",
-        "image": "/assets/publications/images/2021/tpami-nanyangwang.png",
-        "venue_abbreviated": "TPAMI 2021"
-    },
-    {
-        "year": "2021",
-        "authors": "Xue Song, Baohan Xu, Yu-Gang Jiang",
-        "title": "Predicting Content Similarity via Multimodal Modeling for Video-In-Video Advertising.",
-        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 31, pp. 569-581, 2021.",
-        "pdf": "https://ieeexplore.ieee.org/document/9031288",
-        "image": "/assets/publications/images/2021/tcsvt-xuesong.png",
-        "venue_abbreviated": "TCSVT 2021"
-    },
-    {
-        "year": "2021",
-        "authors": "Jingjing Chen, Bin Zhu, Chong-Wah Ngo, Tat-Seng Chua, Yu-Gang Jiang",
-        "title": "A Study of Multi-Task and Region-Wise Deep Learning for Food Ingredient Recognition.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 30, pp. 1514-1526, 2021.",
-        "pdf": "https://ieeexplore.ieee.org/document/9305995",
-        "image": "/assets/publications/images/2021/tip-jingjingchen.png",
-        "venue_abbreviated": "TIP 2021"
-    },
-    {
-        "year": "2021",
-        "authors": "Renfeng Ma, Xipeng Qiu, Qi Zhang, Xiangkun Hu, Yu-Gang Jiang, Xuanjing Huang",
-        "title": "Co-Attention Memory Network for Multimodal Microblog's Hashtag Recommendation.",
-        "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), vol. 33, pp. 388-400, 2021.",
-        "pdf": "https://ieeexplore.ieee.org/document/8784219",
-        "image": "/assets/publications/images/2021/tkde-renfengma.png",
-        "venue_abbreviated": "TKDE 2021"
-    },
-    {
-        "year": "2021",
-        "authors": "Zuxuan Wu, Hengduo Li, Yingbin Zheng, Caiming Xiong, Yu-Gang Jiang, Larry S. Davis",
-        "title": "A Coarse-to-Fine Framework for Resource Efficient Video Recognition.",
-        "venue": "International Journal of Computer Vision (IJCV), vol. 129, pp. 2965-2977, 2021.",
-        "pdf": "https://doi.org/10.1007/s11263-021-01508-1",
-        "image": "/assets/publications/images/2021/ijcv-zuxuanwu.png",
-        "venue_abbreviated": "IJCV 2021"
-    },
-    {
-        "year": "2021",
-        "authors": "Zheng Wang, Jianguo Li, Yu-Gang Jiang",
-        "title": "Story-driven Video Editing.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 23, pp. 4027-4036, 2021.",
-        "pdf": "https://doi.org/10.1109/TMM.2020.3037461",
-        "image": "/assets/publications/images/2021/tmm-zhengwang.png",
-        "venue_abbreviated": "TMM 2021"
-    },
-    {
-        "year": "2020",
-        "authors": "Shihao Zhao, Xingjun Ma, Xiang Zheng, James Bailey, Jingjing Chen, Yu-Gang Jiang",
-        "title": "Clean-Label Backdoor Attacks on Video Recognition Models.",
-        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
-        "pdf": "https://arxiv.org/abs/2003.03030",
-        "image": "/assets/publications/images/2020/cvpr-shihaozhao.png",
-        "venue_abbreviated": "CVPR 2020"
-    },
-    {
-        "year": "2020",
-        "authors": "Shaoteng Liu, Jingjing Chen, Liangming Pan, Chong-Wah Ngo, Tat-Seng Chua, Yu-Gang Jiang",
-        "title": "Hyperbolic Visual Embedding Learning for Zero-Shot Recognition.",
-        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
-        "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Hyperbolic_Visual_Embedding_Learning_for_Zero-Shot_Recognition_CVPR_2020_paper.html",
-        "image": "/assets/publications/images/2020/cvpr-shaotengliu.png",
-        "venue_abbreviated": "CVPR 2020"
-    },
-    {
-        "year": "2020",
-        "authors": "Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue",
-        "title": "Sketch-BERT: Learning Sketch Bidirectional Encoder Representation from Transformers by Self-supervised Learning of Sketch Gestalt.",
-        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
-        "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Sketch-BERT_Learning_Sketch_Bidirectional_Encoder_Representation_From_Transformers_by_Self-Supervised_CVPR_2020_paper.pdf",
-        "image": "/assets/publications/images/2020/cvpr-hangyulin.png",
-        "venue_abbreviated": "CVPR 2020"
-    },
-    {
-        "year": "2020",
-        "authors": "Wenxuan Wang, Yanwei Fu, Xuelin Qian, Yu-Gang Jiang, Qi Tian, Xiangyang Xue",
-        "title": "FM^2u-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification.",
-        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
-        "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_FM2u-Net_Face_Morphological_Multi-Branch_Network_for_Makeup-Invariant_Face_Verification_CVPR_2020_paper.pdf",
-        "image": "/assets/publications/images/2020/cvpr-wenxuanwang.png",
-        "venue_abbreviated": "CVPR 2020"
-    },
-    {
-        "year": "2020",
-        "authors": "Zhi-Peng Wei, Jingjing Chen, Xingxing Wei, Lingxi Jiang, Tat-Seng Chua, Fengfeng Zhou, Yu-Gang Jiang",
-        "title": "Heuristic Black-box Adversarial Attacks on Video Recognition Models.",
-        "venue": "The 34th AAAI Conference on Artificial Intelligence (AAAI), New York, USA, 2020.",
-        "pdf": "https://arxiv.org/abs/1911.09449",
-        "image": "/assets/publications/images/2020/aaai-zhipengwei.png",
-        "venue_abbreviated": "AAAI 2020"
-    },
-    {
-        "year": "2020",
-        "authors": "Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue",
-        "title": "Feature Deformation Meta-Networks in Image Captioning of Novel Objects.",
-        "venue": "The 34th AAAI Conference on Artificial Intelligence (AAAI), New York, USA, 2020.",
-        "pdf": "https://ojs.aaai.org//index.php/AAAI/article/view/6620",
-        "image": "/assets/publications/images/2020/aaai-tingjiacao.png",
-        "venue_abbreviated": "AAAI 2020"
-    },
-    {
         "year": "2020",
         "authors": "Guoyun Tu, Yanwei Fu, Jiarui Gao, Boyang Li, Yu-Gang Jiang, Xiangyang Xue",
         "title": "A Multi-task Neural Approach for Emotion Attribution, Classification and Summarization.",
@@ -2206,6 +2152,105 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "https://doi.org/10.1109/TCSVT.2019.2927118",
         "image": "/assets/publications/images/2020/tcsvt-chengmingxu.png",
         "venue_abbreviated": "TCSVT 2020"
+    },
+    {
+        "year": "2020",
+        "authors": "Shihao Zhao, Xingjun Ma, Xiang Zheng, James Bailey, Jingjing Chen, Yu-Gang Jiang",
+        "title": "Clean-Label Backdoor Attacks on Video Recognition Models.",
+        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
+        "pdf": "https://arxiv.org/abs/2003.03030",
+        "image": "/assets/publications/images/2020/cvpr-shihaozhao.png",
+        "venue_abbreviated": "CVPR 2020"
+    },
+    {
+        "year": "2020",
+        "authors": "Shaoteng Liu, Jingjing Chen, Liangming Pan, Chong-Wah Ngo, Tat-Seng Chua, Yu-Gang Jiang",
+        "title": "Hyperbolic Visual Embedding Learning for Zero-Shot Recognition.",
+        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
+        "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Hyperbolic_Visual_Embedding_Learning_for_Zero-Shot_Recognition_CVPR_2020_paper.html",
+        "image": "/assets/publications/images/2020/cvpr-shaotengliu.png",
+        "venue_abbreviated": "CVPR 2020"
+    },
+    {
+        "year": "2020",
+        "authors": "Hangyu Lin, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue",
+        "title": "Sketch-BERT: Learning Sketch Bidirectional Encoder Representation from Transformers by Self-supervised Learning of Sketch Gestalt.",
+        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
+        "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Lin_Sketch-BERT_Learning_Sketch_Bidirectional_Encoder_Representation_From_Transformers_by_Self-Supervised_CVPR_2020_paper.pdf",
+        "image": "/assets/publications/images/2020/cvpr-hangyulin.png",
+        "venue_abbreviated": "CVPR 2020"
+    },
+    {
+        "year": "2020",
+        "authors": "Wenxuan Wang, Yanwei Fu, Xuelin Qian, Yu-Gang Jiang, Qi Tian, Xiangyang Xue",
+        "title": "FM^2u-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification.",
+        "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
+        "pdf": "https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_FM2u-Net_Face_Morphological_Multi-Branch_Network_for_Makeup-Invariant_Face_Verification_CVPR_2020_paper.pdf",
+        "image": "/assets/publications/images/2020/cvpr-wenxuanwang.png",
+        "venue_abbreviated": "CVPR 2020"
+    },
+    {
+        "year": "2020",
+        "authors": "Zhi-Peng Wei, Jingjing Chen, Xingxing Wei, Lingxi Jiang, Tat-Seng Chua, Fengfeng Zhou, Yu-Gang Jiang",
+        "title": "Heuristic Black-box Adversarial Attacks on Video Recognition Models.",
+        "venue": "The 34th AAAI Conference on Artificial Intelligence (AAAI), New York, USA, 2020.",
+        "pdf": "https://arxiv.org/abs/1911.09449",
+        "image": "/assets/publications/images/2020/aaai-zhipengwei.png",
+        "venue_abbreviated": "AAAI 2020"
+    },
+    {
+        "year": "2020",
+        "authors": "Tingjia Cao, Ke Han, Xiaomei Wang, Lin Ma, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue",
+        "title": "Feature Deformation Meta-Networks in Image Captioning of Novel Objects.",
+        "venue": "The 34th AAAI Conference on Artificial Intelligence (AAAI), New York, USA, 2020.",
+        "pdf": "https://ojs.aaai.org//index.php/AAAI/article/view/6620",
+        "image": "/assets/publications/images/2020/aaai-tingjiacao.png",
+        "venue_abbreviated": "AAAI 2020"
+    },
+    {
+        "year": "2019",
+        "authors": "Xiaoyu Liu, Shunda Pan, Qi Zhang, Yu-Gang Jiang, Xuanjing Huang",
+        "title": "Reformulating Natural Language Queries using Sequence-to-Sequence Models.",
+        "venue": "Science China Information Sciences (SCIS), vol. 62, pp. 229103:1-229103:3, 2019.",
+        "pdf": "http://scis.scichina.com/en/2019/229103.pdf",
+        "image": "/assets/publications/images/2019/science-xiaoyuliu.png",
+        "venue_abbreviated": "Science China Information Sciences"
+    },
+    {
+        "year": "2019",
+        "authors": "Baohan Xu, Hao Ye, Yingbin Zheng, Heng Wang, Tianyu Luwang, Yu-Gang Jiang",
+        "title": "Dense Dilated Network for Video Action Recognition.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 28, pp. 4941-4953, 2019.",
+        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3206025.3206028",
+        "image": "/assets/publications/images/2019/tip-baohanxu.png",
+        "venue_abbreviated": "TIP 2019"
+    },
+    {
+        "year": "2019",
+        "authors": "Zitian Chen, Yanwei Fu, Yinda Zhang, Yu-Gang Jiang, Xiangyang Xue, Leonid Sigal",
+        "title": "Multi-level Semantic Feature Augmentation for One-shot Learning.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 28, pp. 4594-4605, 2019.",
+        "pdf": "https://arxiv.org/abs/1804.05298",
+        "image": "/assets/publications/images/2019/tip-zitianchen.png",
+        "venue_abbreviated": "TIP 2019"
+    },
+    {
+        "year": "2019",
+        "authors": "Rui-Wei Zhao, Zuxuan Wu, Qi Zhang, Jianguo Li, Yu-Gang Jiang",
+        "title": "Visual Content Recognition by Exploiting Semantic Feature Map with Attention and Multi-task Learning.",
+        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 15, pp. 6:1-6:22, 2019.",
+        "pdf": "https://dl.acm.org/doi/10.1145/3231739",
+        "image": "/assets/publications/images/2019/tomm-ruiweizhao.png",
+        "venue_abbreviated": "TOMM 2019"
+    },
+    {
+        "year": "2019",
+        "authors": "Jinhui Tang, Xiangbo Shu, Zechao Li, Yu-Gang Jiang, Qi Tian",
+        "title": "Social Anchor-Unit Graph Regularized Tensor Completion for Large-Scale Image Retagging.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 41, pp. 2027-2034, 2019.",
+        "pdf": "https://ieeexplore.ieee.org/document/8673651",
+        "image": "/assets/publications/images/2019/tpami-jinhuitang.png",
+        "venue_abbreviated": "TPAMI 2019"
     },
     {
         "year": "2019",
@@ -2361,49 +2406,85 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "ICMR 2019"
     },
     {
-        "year": "2019",
-        "authors": "Xiaoyu Liu, Shunda Pan, Qi Zhang, Yu-Gang Jiang, Xuanjing Huang",
-        "title": "Reformulating Natural Language Queries using Sequence-to-Sequence Models.",
-        "venue": "Science China Information Sciences (SCIS), vol. 62, pp. 229103:1-229103:3, 2019.",
-        "pdf": "http://scis.scichina.com/en/2019/229103.pdf",
-        "image": "/assets/publications/images/2019/science-xiaoyuliu.png",
-        "venue_abbreviated": "Science China Information Sciences"
+        "year": "2018",
+        "authors": "Yu-Gang Jiang, Zuxuan Wu, Jinhui Tang, Zechao Li, Xiangyang Xue, Shih-Fu Chang",
+        "title": "Modeling Multimodal Clues in a Hybrid Deep Learning Framework for Video Classification.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 20, pp. 3137-3147, 2018.",
+        "pdf": "https://arxiv.org/abs/1706.04508",
+        "image": "/assets/publications/images/2018/tmm-yugangjiang.png",
+        "venue_abbreviated": "TMM 2018"
     },
     {
-        "year": "2019",
-        "authors": "Baohan Xu, Hao Ye, Yingbin Zheng, Heng Wang, Tianyu Luwang, Yu-Gang Jiang",
-        "title": "Dense Dilated Network for Video Action Recognition.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 28, pp. 4941-4953, 2019.",
-        "pdf": "https://dl.acm.org/doi/pdf/10.1145/3206025.3206028",
-        "image": "/assets/publications/images/2019/tip-baohanxu.png",
-        "venue_abbreviated": "TIP 2019"
+        "year": "2018",
+        "authors": "Xiangnan He, Zhankui He, Jingkuan Song, Zhenguang Liu, Yu-Gang Jiang, Tat-Seng Chua",
+        "title": "NAIS: Neural Attentive Item Similarity Model for Recommendation.",
+        "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), vol. 30, pp. 2354-2366, 2018.",
+        "pdf": "https://arxiv.org/pdf/1809.07053",
+        "image": "/assets/publications/images/2018/tkde-xiangnanhe.png",
+        "venue_abbreviated": "TKDE 2018"
     },
     {
-        "year": "2019",
-        "authors": "Zitian Chen, Yanwei Fu, Yinda Zhang, Yu-Gang Jiang, Xiangyang Xue, Leonid Sigal",
-        "title": "Multi-level Semantic Feature Augmentation for One-shot Learning.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 28, pp. 4594-4605, 2019.",
-        "pdf": "https://arxiv.org/abs/1804.05298",
-        "image": "/assets/publications/images/2019/tip-zitianchen.png",
-        "venue_abbreviated": "TIP 2019"
+        "year": "2018",
+        "authors": "Xi Zhang, Yanwei Fu, Shanshan Jiang, Yu-Gang Jiang, Xiangyang Xue, Gady Agam",
+        "title": "Stacked Multichannel Autoencoder - An Efficient Way of Learning Synthetic Data.",
+        "venue": "Multimedia Tools and Applications (MTAP), vol. 77, pp. 26563-26580, 2018.",
+        "pdf": "https://www.researchgate.net/publication/324539497_Stacked_multichannel_autoencoder_-_an_efficient_way_of_learning_from_synthetic_data",
+        "image": "/assets/publications/images/2018/multimedia-xizhang.png",
+        "venue_abbreviated": "Multimedia Tools and Applications 2018"
     },
     {
-        "year": "2019",
-        "authors": "Rui-Wei Zhao, Zuxuan Wu, Qi Zhang, Jianguo Li, Yu-Gang Jiang",
-        "title": "Visual Content Recognition by Exploiting Semantic Feature Map with Attention and Multi-task Learning.",
-        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 15, pp. 6:1-6:22, 2019.",
-        "pdf": "https://dl.acm.org/doi/10.1145/3231739",
-        "image": "/assets/publications/images/2019/tomm-ruiweizhao.png",
-        "venue_abbreviated": "TOMM 2019"
+        "year": "2018",
+        "authors": "Yu-Gang Jiang, Minjun Li, Xi Wang, Wei Liu, Xian-Sheng Hua",
+        "title": "DeepProduct: Mobile Product Search with Portable Deep Features.",
+        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 14, pp. 50:1-50:18, 2018.",
+        "pdf": "https://dl.acm.org/doi/10.1145/3184745",
+        "image": "/assets/publications/images/2018/tomm-yugangjiang.png",
+        "venue_abbreviated": "TOMM 2018"
     },
     {
-        "year": "2019",
-        "authors": "Jinhui Tang, Xiangbo Shu, Zechao Li, Yu-Gang Jiang, Qi Tian",
-        "title": "Social Anchor-Unit Graph Regularized Tensor Completion for Large-Scale Image Retagging.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 41, pp. 2027-2034, 2019.",
-        "pdf": "https://ieeexplore.ieee.org/document/8673651",
-        "image": "/assets/publications/images/2019/tpami-jinhuitang.png",
-        "venue_abbreviated": "TPAMI 2019"
+        "year": "2018",
+        "authors": "Baohan Xu, Yanwei Fu, Yu-Gang Jiang, Boyang Li, Leonid Sigal",
+        "title": "Heterogeneous Knowledge Transfer in Video Emotion Recognition, Attribution and Summarization.",
+        "venue": "IEEE Transactions on Affective Computing (TAC), vol. 9, pp. 255-270, 2018.",
+        "pdf": "https://arxiv.org/pdf/1511.04798",
+        "image": "/assets/publications/images/2018/tac-baohanxu.png",
+        "venue_abbreviated": "TAC 2018"
+    },
+    {
+        "year": "2018",
+        "authors": "Jun-Yan He, Xiao Wu, Yu-Gang Jiang, Qiang Peng, Ramesh Jain",
+        "title": "Hookworm Detection in Wireless Capsule Endoscopy Images with Deep Learning.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 27, pp. 2379-2392, 2018.",
+        "pdf": "https://ieeexplore.ieee.org/document/8279473",
+        "image": "/assets/publications/images/2018/tip-junyanhe.png",
+        "venue_abbreviated": "TIP 2018"
+    },
+    {
+        "year": "2018",
+        "authors": "Xiangbo Shu, Jinhui Tang, Guo-Jun Qi, Zechao Li, Yu-Gang Jiang, Shuicheng Yan",
+        "title": "Image Classification with Tailored Fine-grained Dictionaries.",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 28, pp. 454-467, 2018.",
+        "pdf": "https://ieeexplore.ieee.org/document/7563311",
+        "image": "/assets/publications/images/2018/tcsvt-xiangboshu.png",
+        "venue_abbreviated": "TCSVT 2018"
+    },
+    {
+        "year": "2018",
+        "authors": "Yu-Gang Jiang, Zuxuan Wu, Jun Wang, Xiangyang Xue, Shih-Fu Chang",
+        "title": "Exploiting Feature and Class Relationships in Video Categorization with Regularized Deep Neural Networks.",
+        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 40, pp. 352-364, 2018.",
+        "pdf": "https://arxiv.org/abs/1502.07209",
+        "image": "/assets/publications/images/2018/tpami-yugangjiang.png",
+        "venue_abbreviated": "TPAMI 2018"
+    },
+    {
+        "year": "2018",
+        "authors": "Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue, Leonid Sigal, Shaogang Gong",
+        "title": "Recent Advances in Zero-shot Recognition: Toward Data-Efficient Understanding of Visual Content.",
+        "venue": "IEEE Signal Processing Magazine (SPM), vol. 35, pp. 112-125, 2018.",
+        "pdf": "https://ieeexplore.ieee.org/document/8253589",
+        "image": "/assets/publications/images/2018/spm-yanweifu.png",
+        "venue_abbreviated": "SPM 2018"
     },
     {
         "year": "2018",
@@ -2488,93 +2569,12 @@ export const publicationsList: PublicationItem[] = [
     },
     {
         "year": "2018",
-        "authors": "Yu-Gang Jiang, Zuxuan Wu, Jinhui Tang, Zechao Li, Xiangyang Xue, Shih-Fu Chang",
-        "title": "Modeling Multimodal Clues in a Hybrid Deep Learning Framework for Video Classification.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 20, pp. 3137-3147, 2018.",
-        "pdf": "https://arxiv.org/abs/1706.04508",
-        "image": "/assets/publications/images/2018/tmm-yugangjiang.png",
-        "venue_abbreviated": "TMM 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Xiangnan He, Zhankui He, Jingkuan Song, Zhenguang Liu, Yu-Gang Jiang, Tat-Seng Chua",
-        "title": "NAIS: Neural Attentive Item Similarity Model for Recommendation.",
-        "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), vol. 30, pp. 2354-2366, 2018.",
-        "pdf": "https://arxiv.org/pdf/1809.07053",
-        "image": "/assets/publications/images/2018/tkde-xiangnanhe.png",
-        "venue_abbreviated": "TKDE 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Xi Zhang, Yanwei Fu, Shanshan Jiang, Yu-Gang Jiang, Xiangyang Xue, Gady Agam",
-        "title": "Stacked Multichannel Autoencoder - An Efficient Way of Learning Synthetic Data.",
-        "venue": "Multimedia Tools and Applications (MTAP), vol. 77, pp. 26563-26580, 2018.",
-        "pdf": "https://www.researchgate.net/publication/324539497_Stacked_multichannel_autoencoder_-_an_efficient_way_of_learning_from_synthetic_data",
-        "image": "/assets/publications/images/2018/multimedia-xizhang.png",
-        "venue_abbreviated": "Multimedia Tools and Applications 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Yu-Gang Jiang, Minjun Li, Xi Wang, Wei Liu, Xian-Sheng Hua",
-        "title": "DeepProduct: Mobile Product Search with Portable Deep Features.",
-        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 14, pp. 50:1-50:18, 2018.",
-        "pdf": "https://dl.acm.org/doi/10.1145/3184745",
-        "image": "/assets/publications/images/2018/tomm-yugangjiang.png",
-        "venue_abbreviated": "TOMM 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Baohan Xu, Yanwei Fu, Yu-Gang Jiang, Boyang Li, Leonid Sigal",
-        "title": "Heterogeneous Knowledge Transfer in Video Emotion Recognition, Attribution and Summarization.",
-        "venue": "IEEE Transactions on Affective Computing (TAC), vol. 9, pp. 255-270, 2018.",
-        "pdf": "https://arxiv.org/pdf/1511.04798",
-        "image": "/assets/publications/images/2018/tac-baohanxu.png",
-        "venue_abbreviated": "TAC 2018"
-    },
-    {
-        "year": "2018",
         "authors": "Zuxuan Wu, Ting Yao, Yanwei Fu, Yu-Gang Jiang",
         "title": "Deep Learning for Video Classification and Captioning.",
         "venue": "In Frontiers of Multimedia Research, Shih-Fu Chang (Ed.), Association for Computing Machinery and Morgan & Claypool, New York, NY, USA, pp. 3-29, 2018.",
         "pdf": "https://arxiv.org/pdf/1609.06782v1.pdf",
         "image": "/assets/publications/images/2018/frontiers of multimedia research-zuxuanwu.png",
         "venue_abbreviated": "Frontiers of Multimedia Research 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Jun-Yan He, Xiao Wu, Yu-Gang Jiang, Qiang Peng, Ramesh Jain",
-        "title": "Hookworm Detection in Wireless Capsule Endoscopy Images with Deep Learning.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 27, pp. 2379-2392, 2018.",
-        "pdf": "https://ieeexplore.ieee.org/document/8279473",
-        "image": "/assets/publications/images/2018/tip-junyanhe.png",
-        "venue_abbreviated": "TIP 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Xiangbo Shu, Jinhui Tang, Guo-Jun Qi, Zechao Li, Yu-Gang Jiang, Shuicheng Yan",
-        "title": "Image Classification with Tailored Fine-grained Dictionaries.",
-        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 28, pp. 454-467, 2018.",
-        "pdf": "https://ieeexplore.ieee.org/document/7563311",
-        "image": "/assets/publications/images/2018/tcsvt-xiangboshu.png",
-        "venue_abbreviated": "TCSVT 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Yu-Gang Jiang, Zuxuan Wu, Jun Wang, Xiangyang Xue, Shih-Fu Chang",
-        "title": "Exploiting Feature and Class Relationships in Video Categorization with Regularized Deep Neural Networks.",
-        "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 40, pp. 352-364, 2018.",
-        "pdf": "https://arxiv.org/abs/1502.07209",
-        "image": "/assets/publications/images/2018/tpami-yugangjiang.png",
-        "venue_abbreviated": "TPAMI 2018"
-    },
-    {
-        "year": "2018",
-        "authors": "Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue, Leonid Sigal, Shaogang Gong",
-        "title": "Recent Advances in Zero-shot Recognition: Toward Data-Efficient Understanding of Visual Content.",
-        "venue": "IEEE Signal Processing Magazine (SPM), vol. 35, pp. 112-125, 2018.",
-        "pdf": "https://ieeexplore.ieee.org/document/8253589",
-        "image": "/assets/publications/images/2018/spm-yanweifu.png",
-        "venue_abbreviated": "SPM 2018"
     },
     {
         "year": "2017",
@@ -2584,6 +2584,15 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "https://arxiv.org/abs/1604.06182",
         "image": "/assets/publications/images/2017/cviu-haroonidrees.png",
         "venue_abbreviated": "CVIU 2017"
+    },
+    {
+        "year": "2017",
+        "authors": "Jiawei Gu, Rui-Wei Zhao, Yu-Gang Jiang",
+        "title": "Video Copy Detection Method: A Review (In Chinese).",
+        "venue": "Journal of Computer Research and Development (JCRD), vol. 54, pp. 1238-1250, 2017.",
+        "pdf": "/assets/publications/pdfs/video-copy-detection-method-a-review-in-chinese.pdf",
+        "image": "/assets/publications/images/2017/journal of computer research and development-jiaweigu.png",
+        "venue_abbreviated": "Journal of Computer Research and Development 2017"
     },
     {
         "year": "2017",
@@ -2694,13 +2703,31 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "AAAI 2017"
     },
     {
-        "year": "2017",
-        "authors": "Jiawei Gu, Rui-Wei Zhao, Yu-Gang Jiang",
-        "title": "Video Copy Detection Method: A Review (In Chinese).",
-        "venue": "Journal of Computer Research and Development (JCRD), vol. 54, pp. 1238-1250, 2017.",
-        "pdf": "/assets/publications/pdfs/video-copy-detection-method-a-review-in-chinese.pdf",
-        "image": "/assets/publications/images/2017/journal of computer research and development-jiaweigu.png",
-        "venue_abbreviated": "Journal of Computer Research and Development 2017"
+        "year": "2016",
+        "authors": "Yu-Gang Jiang, Jiajun Wang, Qiang Wang, Wei Liu, Chong-Wah Ngo",
+        "title": "Hierarchical Visualization of Video Search Results for Topic-based Browsing.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 18, pp. 2161-2170, 2016.",
+        "pdf": "/assets/publications/pdfs/hierarchical-visualization-of-video-search-results-for-topic-based-browsing.pdf",
+        "image": "/assets/publications/images/2016/tmm-yugangjiang.png",
+        "venue_abbreviated": "TMM 2016"
+    },
+    {
+        "year": "2016",
+        "authors": "Yu-Gang Jiang, Jiajun Wang",
+        "title": "Partial Copy Detection in Videos: A Benchmark and an Evaluation of Popular Methods.",
+        "venue": "IEEE Transactions on Big Data (TBD), vol. 2, pp. 32-42, 2016.",
+        "pdf": "/assets/publications/pdfs/partial-copy-detection-in-videos-a-benchmark-and-an-evaluation-of-popular-methods.pdf",
+        "image": "/assets/publications/images/2016/ieee-yugangjiang.png",
+        "venue_abbreviated": "IEEE Transactions on Big Data 2016"
+    },
+    {
+        "year": "2016",
+        "authors": "Baohan Xu, Xi Wang, Yu-Gang Jiang",
+        "title": "Fast Summarization of User-Generated Videos: Exploiting Semantic, Emotional and Quality Clues.",
+        "venue": "IEEE Multimedia (IEEE MM), vol. 23, pp. 23-33, 2016.",
+        "pdf": "/assets/publications/pdfs/fast-summarization-of-user-generated-videos-exploiting-semantic-emotional-and-quality-clues.pdf",
+        "image": "/assets/publications/images/2016/ieee-baohanxu.png",
+        "venue_abbreviated": "IEEE Multimedia 2016"
     },
     {
         "year": "2016",
@@ -2784,31 +2811,49 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "MediaEval 2016"
     },
     {
-        "year": "2016",
-        "authors": "Yu-Gang Jiang, Jiajun Wang, Qiang Wang, Wei Liu, Chong-Wah Ngo",
-        "title": "Hierarchical Visualization of Video Search Results for Topic-based Browsing.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 18, pp. 2161-2170, 2016.",
-        "pdf": "/assets/publications/pdfs/hierarchical-visualization-of-video-search-results-for-topic-based-browsing.pdf",
-        "image": "/assets/publications/images/2016/tmm-yugangjiang.png",
-        "venue_abbreviated": "TMM 2016"
+        "year": "2015",
+        "authors": "Hanli Wang, Fengkuangtian Zhu, Bo Xiao, Lei Wang, Yu-Gang Jiang",
+        "title": "GPU-based MapReduce for Large-scale Near-duplicate Video Retrieval.",
+        "venue": "Multimedia Tools and Applications (MTAP), vol. 74, pp. 10515-10534, 2015.",
+        "pdf": "/assets/publications/pdfs/gpu-based-mapreduce-for-large-scale-near-duplicate-video-retrieval.pdf",
+        "image": "/assets/publications/images/2015/multimedia tools and applications-hanliwang.png",
+        "venue_abbreviated": "Multimedia Tools and Applications 2015"
     },
     {
-        "year": "2016",
-        "authors": "Yu-Gang Jiang, Jiajun Wang",
-        "title": "Partial Copy Detection in Videos: A Benchmark and an Evaluation of Popular Methods.",
-        "venue": "IEEE Transactions on Big Data (TBD), vol. 2, pp. 32-42, 2016.",
-        "pdf": "/assets/publications/pdfs/partial-copy-detection-in-videos-a-benchmark-and-an-evaluation-of-popular-methods.pdf",
-        "image": "/assets/publications/images/2016/ieee-yugangjiang.png",
-        "venue_abbreviated": "IEEE Transactions on Big Data 2016"
+        "year": "2015",
+        "authors": "Buyue Qian, Xiang Wang, Nan Cao, Hongfei Li, Yu-Gang Jiang",
+        "title": "A Relative Similarity Based Method for Interactive Patient Risk Prediction.",
+        "venue": "Data Mining and Knowledge Discovery (DMKD), vol. 29, pp. 1070-1093, 2015.",
+        "pdf": "/assets/publications/pdfs/a-relative-similarity-based-method-for-interactive-patient-risk-prediction.pdf",
+        "image": "/assets/publications/images/2015/dmkd-buyueqian.png",
+        "venue_abbreviated": "DMKD 2015"
     },
     {
-        "year": "2016",
-        "authors": "Baohan Xu, Xi Wang, Yu-Gang Jiang",
-        "title": "Fast Summarization of User-Generated Videos: Exploiting Semantic, Emotional and Quality Clues.",
-        "venue": "IEEE Multimedia (IEEE MM), vol. 23, pp. 23-33, 2016.",
-        "pdf": "/assets/publications/pdfs/fast-summarization-of-user-generated-videos-exploiting-semantic-emotional-and-quality-clues.pdf",
-        "image": "/assets/publications/images/2016/ieee-baohanxu.png",
-        "venue_abbreviated": "IEEE Multimedia 2016"
+        "year": "2015",
+        "authors": "Yu-Gang Jiang, Qi Dai, Wei Liu, Xiangyang Xue, Chong-Wah Ngo",
+        "title": "Human Action Recognition in Unconstrained Videos by Explicit Motion Modeling.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 24, pp. 3781-3795, 2015.",
+        "pdf": "/assets/publications/pdfs/human-action-recognition-in-unconstrained-videos-by-explicit-motion-modeling.pdf",
+        "image": "/assets/publications/images/2015/tip-yugangjiang.png",
+        "venue_abbreviated": "TIP 2015"
+    },
+    {
+        "year": "2015",
+        "authors": "Yu-Gang Jiang, Qi Dai, Tao Mei, Yong Rui, Shih-Fu Chang",
+        "title": "Super Fast Event Recognition in Internet Videos.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 17, pp. 1-13, 2015.",
+        "pdf": "/assets/publications/pdfs/super-fast-event-recognition-in-internet-videos.pdf",
+        "image": "/assets/publications/images/2015/tmm-yugangjiang.png",
+        "venue_abbreviated": "TMM 2015"
+    },
+    {
+        "year": "2015",
+        "authors": "Hanli Wang, Bo Xiao, Lei Wang, Fengkuangtian Zhu, Yu-Gang Jiang, Jun Wu",
+        "title": "CHCF: A Cloud-based Heterogeneous Computing Framework for Large-Scale Image Retrieval.",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 25, pp. 1900-1913, 2015.",
+        "pdf": "/assets/publications/pdfs/chcf-a-cloud-based-heterogeneous-computing-framework-for-large-scale-image-retrieval.pdf",
+        "image": "/assets/publications/images/2015/tcsvt-hanliwang.png",
+        "venue_abbreviated": "TCSVT 2015"
     },
     {
         "year": "2015",
@@ -2892,49 +2937,49 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "CBMI 2015"
     },
     {
-        "year": "2015",
-        "authors": "Hanli Wang, Fengkuangtian Zhu, Bo Xiao, Lei Wang, Yu-Gang Jiang",
-        "title": "GPU-based MapReduce for Large-scale Near-duplicate Video Retrieval.",
-        "venue": "Multimedia Tools and Applications (MTAP), vol. 74, pp. 10515-10534, 2015.",
-        "pdf": "/assets/publications/pdfs/gpu-based-mapreduce-for-large-scale-near-duplicate-video-retrieval.pdf",
-        "image": "/assets/publications/images/2015/multimedia tools and applications-hanliwang.png",
-        "venue_abbreviated": "Multimedia Tools and Applications 2015"
+        "year": "2014",
+        "authors": "Song Tan, Yu-Gang Jiang, Chong-Wah Ngo",
+        "title": "Placing Videos on a Semantic Hierarchy for Search Result Navigation.",
+        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 10, pp. 37:1-37:20, 2014.",
+        "pdf": "/assets/publications/pdfs/placing-videos-on-a-semantic-hierarchy-for-search-result-navigation.pdf",
+        "image": "/assets/publications/images/2014/tomm-songtan.png",
+        "venue_abbreviated": "TOMM 2014"
     },
     {
-        "year": "2015",
-        "authors": "Buyue Qian, Xiang Wang, Nan Cao, Hongfei Li, Yu-Gang Jiang",
-        "title": "A Relative Similarity Based Method for Interactive Patient Risk Prediction.",
-        "venue": "Data Mining and Knowledge Discovery (DMKD), vol. 29, pp. 1070-1093, 2015.",
-        "pdf": "/assets/publications/pdfs/a-relative-similarity-based-method-for-interactive-patient-risk-prediction.pdf",
-        "image": "/assets/publications/images/2015/dmkd-buyueqian.png",
-        "venue_abbreviated": "DMKD 2015"
+        "year": "2014",
+        "authors": "Feng Wang, Zhanhu Sun, Yu-Gang Jiang, Chong-Wah Ngo",
+        "title": "Video Event Detection Using Motion Relativity and Feature Selection.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 16, pp. 1303-1315, 2014.",
+        "pdf": "/assets/publications/pdfs/video-event-detection-using-motion-relativity-and-feature-selection.pdf",
+        "image": "/assets/publications/images/2014/tmm-fengwang.png",
+        "venue_abbreviated": "TMM 2014"
     },
     {
-        "year": "2015",
-        "authors": "Yu-Gang Jiang, Qi Dai, Wei Liu, Xiangyang Xue, Chong-Wah Ngo",
-        "title": "Human Action Recognition in Unconstrained Videos by Explicit Motion Modeling.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 24, pp. 3781-3795, 2015.",
-        "pdf": "/assets/publications/pdfs/human-action-recognition-in-unconstrained-videos-by-explicit-motion-modeling.pdf",
-        "image": "/assets/publications/images/2015/tip-yugangjiang.png",
-        "venue_abbreviated": "TIP 2015"
+        "year": "2014",
+        "authors": "I-Hong Jhuo, Guangnan Ye, Shenghua Gao, Dong Liu, Yu-Gang Jiang, D. T. Lee, Shih-Fu Chang",
+        "title": "Discovering Joint Audio-Visual Codewords for Video Event Detection.",
+        "venue": "Machine Vision and Applications (MVA), vol. 25, pp. 33-47, 2014.",
+        "pdf": "/assets/publications/pdfs/discovering-joint-audio-visual-codewords-for-video-event-detection.pdf",
+        "image": "/assets/publications/images/2014/mva-ihongjhuo.png",
+        "venue_abbreviated": "MVA 2014"
     },
     {
-        "year": "2015",
-        "authors": "Yu-Gang Jiang, Qi Dai, Tao Mei, Yong Rui, Shih-Fu Chang",
-        "title": "Super Fast Event Recognition in Internet Videos.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 17, pp. 1-13, 2015.",
-        "pdf": "/assets/publications/pdfs/super-fast-event-recognition-in-internet-videos.pdf",
-        "image": "/assets/publications/images/2015/tmm-yugangjiang.png",
-        "venue_abbreviated": "TMM 2015"
+        "year": "2014",
+        "authors": "Zhi-Neng Chen, Chong-Wah Ngo, Wei Zhang, Juan Cao, Yu-Gang Jiang",
+        "title": "Name-Face Association in Web Videos: A Large-Scale Dataset, Baselines, and Open Issues.",
+        "venue": "Journal of Computer Science and Technology (JCST), vol. 29, pp. 785-798, 2014.",
+        "pdf": "/assets/publications/pdfs/name-face-association-in-web-videos-a-large-scale-dataset-baselines-and-open-issues.pdf",
+        "image": "/assets/publications/images/2014/pr-zhinengchen.png",
+        "venue_abbreviated": "JCST 2014"
     },
     {
-        "year": "2015",
-        "authors": "Hanli Wang, Bo Xiao, Lei Wang, Fengkuangtian Zhu, Yu-Gang Jiang, Jun Wu",
-        "title": "CHCF: A Cloud-based Heterogeneous Computing Framework for Large-Scale Image Retrieval.",
-        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 25, pp. 1900-1913, 2015.",
-        "pdf": "/assets/publications/pdfs/chcf-a-cloud-based-heterogeneous-computing-framework-for-large-scale-image-retrieval.pdf",
-        "image": "/assets/publications/images/2015/tcsvt-hanliwang.png",
-        "venue_abbreviated": "TCSVT 2015"
+        "year": "2014",
+        "authors": "Buyue Qian, Xiang Wang, Nan Cao, Yu-Gang Jiang, Ian Davidson",
+        "title": "Learning Multiple Relative Attributes With Humans in the Loop.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 23, pp. 5573-5585, 2014.",
+        "pdf": "/assets/publications/pdfs/learning-multiple-relative-attributes-with-humans-in-the-loop.pdf",
+        "image": "/assets/publications/images/2014/tip-buyueqian.png",
+        "venue_abbreviated": "TIP 2014"
     },
     {
         "year": "2014",
@@ -3045,49 +3090,22 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "MMM 2014"
     },
     {
-        "year": "2014",
-        "authors": "Song Tan, Yu-Gang Jiang, Chong-Wah Ngo",
-        "title": "Placing Videos on a Semantic Hierarchy for Search Result Navigation.",
-        "venue": "ACM Transactions on Multimedia Computing, Communications and Applications (TOMM), vol. 10, pp. 37:1-37:20, 2014.",
-        "pdf": "/assets/publications/pdfs/placing-videos-on-a-semantic-hierarchy-for-search-result-navigation.pdf",
-        "image": "/assets/publications/images/2014/tomm-songtan.png",
-        "venue_abbreviated": "TOMM 2014"
+        "year": "2013",
+        "authors": "Yu-Gang Jiang, Subhabrata Bhattacharya, Shih-Fu Chang, Mubarak Shah",
+        "title": "High-Level Event Recognition in Unconstrained Videos.",
+        "venue": "International Journal of Multimedia Information Retrieval (IJMIR), vol. 2, pp. 73-101, 2013.",
+        "pdf": "/assets/publications/pdfs/high-level-event-recognition-in-unconstrained-videos.pdf",
+        "image": "/assets/publications/images/2013/ijmir-yugangjiang.png",
+        "venue_abbreviated": "IJMIR 2013"
     },
     {
-        "year": "2014",
-        "authors": "Feng Wang, Zhanhu Sun, Yu-Gang Jiang, Chong-Wah Ngo",
-        "title": "Video Event Detection Using Motion Relativity and Feature Selection.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 16, pp. 1303-1315, 2014.",
-        "pdf": "/assets/publications/pdfs/video-event-detection-using-motion-relativity-and-feature-selection.pdf",
-        "image": "/assets/publications/images/2014/tmm-fengwang.png",
-        "venue_abbreviated": "TMM 2014"
-    },
-    {
-        "year": "2014",
-        "authors": "I-Hong Jhuo, Guangnan Ye, Shenghua Gao, Dong Liu, Yu-Gang Jiang, D. T. Lee, Shih-Fu Chang",
-        "title": "Discovering Joint Audio-Visual Codewords for Video Event Detection.",
-        "venue": "Machine Vision and Applications (MVA), vol. 25, pp. 33-47, 2014.",
-        "pdf": "/assets/publications/pdfs/discovering-joint-audio-visual-codewords-for-video-event-detection.pdf",
-        "image": "/assets/publications/images/2014/mva-ihongjhuo.png",
-        "venue_abbreviated": "MVA 2014"
-    },
-    {
-        "year": "2014",
-        "authors": "Zhi-Neng Chen, Chong-Wah Ngo, Wei Zhang, Juan Cao, Yu-Gang Jiang",
-        "title": "Name-Face Association in Web Videos: A Large-Scale Dataset, Baselines, and Open Issues.",
-        "venue": "Journal of Computer Science and Technology (JCST), vol. 29, pp. 785-798, 2014.",
-        "pdf": "/assets/publications/pdfs/name-face-association-in-web-videos-a-large-scale-dataset-baselines-and-open-issues.pdf",
-        "image": "/assets/publications/images/2014/pr-zhinengchen.png",
-        "venue_abbreviated": "JCST 2014"
-    },
-    {
-        "year": "2014",
-        "authors": "Buyue Qian, Xiang Wang, Nan Cao, Yu-Gang Jiang, Ian Davidson",
-        "title": "Learning Multiple Relative Attributes With Humans in the Loop.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 23, pp. 5573-5585, 2014.",
-        "pdf": "/assets/publications/pdfs/learning-multiple-relative-attributes-with-humans-in-the-loop.pdf",
-        "image": "/assets/publications/images/2014/tip-buyueqian.png",
-        "venue_abbreviated": "TIP 2014"
+        "year": "2013",
+        "authors": "Yu-Gang Jiang, Jun Wang, Xiangyang Xue, Shih-Fu Chang",
+        "title": "Query-Adaptive Image Search with Hash Codes.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 15, pp. 442-453, 2013.",
+        "pdf": "/assets/publications/pdfs/query-adaptive-image-search-with-hash-codes.pdf",
+        "image": "/assets/publications/images/2013/tmm-yugangjiang.png",
+        "venue_abbreviated": "TMM 2013"
     },
     {
         "year": "2013",
@@ -3153,22 +3171,22 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "MediaEval 2013"
     },
     {
-        "year": "2013",
-        "authors": "Yu-Gang Jiang, Subhabrata Bhattacharya, Shih-Fu Chang, Mubarak Shah",
-        "title": "High-Level Event Recognition in Unconstrained Videos.",
-        "venue": "International Journal of Multimedia Information Retrieval (IJMIR), vol. 2, pp. 73-101, 2013.",
-        "pdf": "/assets/publications/pdfs/high-level-event-recognition-in-unconstrained-videos.pdf",
-        "image": "/assets/publications/images/2013/ijmir-yugangjiang.png",
-        "venue_abbreviated": "IJMIR 2013"
+        "year": "2012",
+        "authors": "Shiai Zhu, Chong-Wah Ngo, Yu-Gang Jiang",
+        "title": "Sampling and Ontologically Pooling Web Images for Visual Concept Learning.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 14, pp. 1068-1078, 2012.",
+        "pdf": "/assets/publications/pdfs/sampling-and-ontologically-pooling-web-images-for-visual-concept-learning.pdf",
+        "image": "/assets/publications/images/2012/tmm-shiaizhu.png",
+        "venue_abbreviated": "TMM 2012"
     },
     {
-        "year": "2013",
-        "authors": "Yu-Gang Jiang, Jun Wang, Xiangyang Xue, Shih-Fu Chang",
-        "title": "Query-Adaptive Image Search with Hash Codes.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 15, pp. 442-453, 2013.",
-        "pdf": "/assets/publications/pdfs/query-adaptive-image-search-with-hash-codes.pdf",
-        "image": "/assets/publications/images/2013/tmm-yugangjiang.png",
-        "venue_abbreviated": "TMM 2013"
+        "year": "2012",
+        "authors": "Yu-Gang Jiang, Qi Dai, Jun Wang, Chong-Wah Ngo, Xiangyang Xue, Shih-Fu Chang",
+        "title": "Fast Semantic Diffusion for Large Scale Context-Based Image and Video Annotation.",
+        "venue": "IEEE Transactions on Image Processing (TIP), vol. 21, pp. 3080-3091, 2012.",
+        "pdf": "/assets/publications/pdfs/fast-semantic-diffusion-for-large-scale-context-based-image-and-video-annotation.pdf",
+        "image": "/assets/publications/images/2012/tip-yugangjiang.png",
+        "venue_abbreviated": "TIP 2012"
     },
     {
         "year": "2012",
@@ -3234,22 +3252,22 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "ICMR 2012"
     },
     {
-        "year": "2012",
-        "authors": "Shiai Zhu, Chong-Wah Ngo, Yu-Gang Jiang",
-        "title": "Sampling and Ontologically Pooling Web Images for Visual Concept Learning.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 14, pp. 1068-1078, 2012.",
-        "pdf": "/assets/publications/pdfs/sampling-and-ontologically-pooling-web-images-for-visual-concept-learning.pdf",
-        "image": "/assets/publications/images/2012/tmm-shiaizhu.png",
-        "venue_abbreviated": "TMM 2012"
+        "year": "2011",
+        "authors": "Yu-Gang Jiang, Zhenguo Li, Shih-Fu Chang",
+        "title": "Modeling Scene and Object Contexts for Human Action Retrieval with Few Examples.",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 21, pp. 674-681, 2011.",
+        "pdf": "/assets/publications/pdfs/modeling-scene-and-object-contexts-for-human-action-retrieval-with-few-examples.pdf",
+        "image": "/assets/publications/images/2011/tcsvt-yugangjiang.png",
+        "venue_abbreviated": "TCSVT 2011"
     },
     {
-        "year": "2012",
-        "authors": "Yu-Gang Jiang, Qi Dai, Jun Wang, Chong-Wah Ngo, Xiangyang Xue, Shih-Fu Chang",
-        "title": "Fast Semantic Diffusion for Large Scale Context-Based Image and Video Annotation.",
-        "venue": "IEEE Transactions on Image Processing (TIP), vol. 21, pp. 3080-3091, 2012.",
-        "pdf": "/assets/publications/pdfs/fast-semantic-diffusion-for-large-scale-context-based-image-and-video-annotation.pdf",
-        "image": "/assets/publications/images/2012/tip-yugangjiang.png",
-        "venue_abbreviated": "TIP 2012"
+        "year": "2011",
+        "authors": "Xiao-Yong Wei, Yu-Gang Jiang, Chong-Wah Ngo",
+        "title": "Concept-Driven Multi-Modality Fusion for Video Search.",
+        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 21, pp. 62-73, 2011.",
+        "pdf": "/assets/publications/pdfs/concept-driven-multi-modality-fusion-for-video-search.pdf",
+        "image": "/assets/publications/images/2011/tcsvt-xiaoyongwei.png",
+        "venue_abbreviated": "TCSVT 2011"
     },
     {
         "year": "2011",
@@ -3306,24 +3324,6 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "TRECVID 2011"
     },
     {
-        "year": "2011",
-        "authors": "Yu-Gang Jiang, Zhenguo Li, Shih-Fu Chang",
-        "title": "Modeling Scene and Object Contexts for Human Action Retrieval with Few Examples.",
-        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 21, pp. 674-681, 2011.",
-        "pdf": "/assets/publications/pdfs/modeling-scene-and-object-contexts-for-human-action-retrieval-with-few-examples.pdf",
-        "image": "/assets/publications/images/2011/tcsvt-yugangjiang.png",
-        "venue_abbreviated": "TCSVT 2011"
-    },
-    {
-        "year": "2011",
-        "authors": "Xiao-Yong Wei, Yu-Gang Jiang, Chong-Wah Ngo",
-        "title": "Concept-Driven Multi-Modality Fusion for Video Search.",
-        "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 21, pp. 62-73, 2011.",
-        "pdf": "/assets/publications/pdfs/concept-driven-multi-modality-fusion-for-video-search.pdf",
-        "image": "/assets/publications/images/2011/tcsvt-xiaoyongwei.png",
-        "venue_abbreviated": "TCSVT 2011"
-    },
-    {
         "year": "2010",
         "authors": "Yu-Gang Jiang, Jun Yang, Chong-Wah Ngo, Alexander G. Hauptmann",
         "title": "Representations of Keypoint-Based Semantic Concept Detection: A Comprehensive Study.",
@@ -3349,6 +3349,15 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "/assets/publications/pdfs/on-the-sampling-of-web-images-for-learning-visual-concept-classifiers.pdf",
         "image": "/assets/publications/images/2010/civr-shiaizhu.png",
         "venue_abbreviated": "CIVR 2010"
+    },
+    {
+        "year": "2009",
+        "authors": "Yu-Gang Jiang, Chong-Wah Ngo",
+        "title": "Visual Word Proximity and Linguistics for Semantic Video Indexing and Near-Duplicate Retrieval.",
+        "venue": "Computer Vision and Image Understanding (CVIU), vol. 113, pp. 405-414, 2009.",
+        "pdf": "/assets/publications/pdfs/visual-word-proximity-and-linguistics-for-semantic-video-indexing-and-near-duplicate-retrieval.pdf",
+        "image": "/assets/publications/images/2009/cviu-yugangjiang.png",
+        "venue_abbreviated": "CVIU 2009"
     },
     {
         "year": "2009",
@@ -3405,13 +3414,13 @@ export const publicationsList: PublicationItem[] = [
         "venue_abbreviated": "TRECVID 2009"
     },
     {
-        "year": "2009",
-        "authors": "Yu-Gang Jiang, Chong-Wah Ngo",
-        "title": "Visual Word Proximity and Linguistics for Semantic Video Indexing and Near-Duplicate Retrieval.",
-        "venue": "Computer Vision and Image Understanding (CVIU), vol. 113, pp. 405-414, 2009.",
-        "pdf": "/assets/publications/pdfs/visual-word-proximity-and-linguistics-for-semantic-video-indexing-and-near-duplicate-retrieval.pdf",
-        "image": "/assets/publications/images/2009/cviu-yugangjiang.png",
-        "venue_abbreviated": "CVIU 2009"
+        "year": "2008",
+        "authors": "Xiao-Yong Wei, Chong-Wah Ngo, Yu-Gang Jiang",
+        "title": "Selection of Concept Detectors for Video Search by Ontology-Enriched Semantic Spaces.",
+        "venue": "IEEE Transactions on Multimedia (TMM), vol. 10, pp. 1085-1096, 2008.",
+        "pdf": "/assets/publications/pdfs/selection-of-concept-detectors-for-video-search-by-ontology-enriched-semantic-spaces.pdf",
+        "image": "/assets/publications/images/2008/tmm-xiaoyongwei.png",
+        "venue_abbreviated": "TMM 2008"
     },
     {
         "year": "2008",
@@ -3466,15 +3475,6 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "/assets/publications/pdfs/beyond-semantic-search-what-you-observe-may-not-be-what-you-think.pdf",
         "image": "/assets/publications/images/2008/trecvid-chongwahngo.png",
         "venue_abbreviated": "TRECVID 2008"
-    },
-    {
-        "year": "2008",
-        "authors": "Xiao-Yong Wei, Chong-Wah Ngo, Yu-Gang Jiang",
-        "title": "Selection of Concept Detectors for Video Search by Ontology-Enriched Semantic Spaces.",
-        "venue": "IEEE Transactions on Multimedia (TMM), vol. 10, pp. 1085-1096, 2008.",
-        "pdf": "/assets/publications/pdfs/selection-of-concept-detectors-for-video-search-by-ontology-enriched-semantic-spaces.pdf",
-        "image": "/assets/publications/images/2008/tmm-xiaoyongwei.png",
-        "venue_abbreviated": "TMM 2008"
     },
     {
         "year": "2007",
