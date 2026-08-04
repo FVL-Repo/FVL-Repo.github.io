@@ -2214,7 +2214,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "Science China Information Sciences (SCIS), vol. 62, pp. 229103:1-229103:3, 2019.",
         "pdf": "http://scis.scichina.com/en/2019/229103.pdf",
         "image": "/assets/publications/images/2019/science-xiaoyuliu.png",
-        "venue_abbreviated": "Science China Information Sciences"
+        "venue_abbreviated": "SCIS 2019"
     },
     {
         "year": "2019",
@@ -2430,7 +2430,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "Multimedia Tools and Applications (MTAP), vol. 77, pp. 26563-26580, 2018.",
         "pdf": "https://www.researchgate.net/publication/324539497_Stacked_multichannel_autoencoder_-_an_efficient_way_of_learning_from_synthetic_data",
         "image": "/assets/publications/images/2018/multimedia-xizhang.png",
-        "venue_abbreviated": "Multimedia Tools and Applications 2018"
+        "venue_abbreviated": "MTAP 2018"
     },
     {
         "year": "2018",
@@ -2592,7 +2592,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "Journal of Computer Research and Development (JCRD), vol. 54, pp. 1238-1250, 2017.",
         "pdf": "/assets/publications/pdfs/video-copy-detection-method-a-review-in-chinese.pdf",
         "image": "/assets/publications/images/2017/journal of computer research and development-jiaweigu.png",
-        "venue_abbreviated": "Journal of Computer Research and Development 2017"
+        "venue_abbreviated": "JCRD 2017"
     },
     {
         "year": "2017",
@@ -2718,7 +2718,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "IEEE Transactions on Big Data (TBD), vol. 2, pp. 32-42, 2016.",
         "pdf": "/assets/publications/pdfs/partial-copy-detection-in-videos-a-benchmark-and-an-evaluation-of-popular-methods.pdf",
         "image": "/assets/publications/images/2016/ieee-yugangjiang.png",
-        "venue_abbreviated": "IEEE Transactions on Big Data 2016"
+        "venue_abbreviated": "TBD 2016"
     },
     {
         "year": "2016",
@@ -2727,7 +2727,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "IEEE Multimedia (IEEE MM), vol. 23, pp. 23-33, 2016.",
         "pdf": "/assets/publications/pdfs/fast-summarization-of-user-generated-videos-exploiting-semantic-emotional-and-quality-clues.pdf",
         "image": "/assets/publications/images/2016/ieee-baohanxu.png",
-        "venue_abbreviated": "IEEE Multimedia 2016"
+        "venue_abbreviated": "IEEE MM 2016"
     },
     {
         "year": "2016",
@@ -2817,7 +2817,7 @@ export const publicationsList: PublicationItem[] = [
         "venue": "Multimedia Tools and Applications (MTAP), vol. 74, pp. 10515-10534, 2015.",
         "pdf": "/assets/publications/pdfs/gpu-based-mapreduce-for-large-scale-near-duplicate-video-retrieval.pdf",
         "image": "/assets/publications/images/2015/multimedia tools and applications-hanliwang.png",
-        "venue_abbreviated": "Multimedia Tools and Applications 2015"
+        "venue_abbreviated": "MTAP 2015"
     },
     {
         "year": "2015",
