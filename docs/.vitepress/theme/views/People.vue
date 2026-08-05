@@ -41,7 +41,7 @@
                         <p class="person-position">{{ student.year }}</p>
                     </div>
                 </component>
-            </div>
+            </div> -->
 
             <div class="section-divider" />
 
@@ -95,7 +95,7 @@
                     </component>
                     <span class="alumni-detail">{{ formatAlumniDetail(alumni) }}</span>
                 </div>
-            </div> -->
+            </div>
         </div>
         <Footer />
     </div>

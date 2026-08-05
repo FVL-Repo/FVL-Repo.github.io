@@ -140,38 +140,6 @@ export const postdocList: Student[] = [
 export const phdList: Student[] = [
     {
         name: {
-            zh: '陈凯',
-            en: 'Kai Chen'
-        },
-        avatar: '/assets/people/phd/KaiChen.jpg',
-        year: '2022'
-    },
-    {
-        name: {
-            zh: '翁泽佳',
-            en: 'Zejia Weng'
-        },
-        avatar: '/assets/people/phd/ZejiaWeng.jpg',
-        year: '2022'
-    },
-    {
-        name: {
-            zh: '孟令琛',
-            en: 'Lingchen Meng'
-        },
-        avatar: '/assets/people/phd/LingchenMeng.jpg',
-        year: '2022'
-    },
-    {
-        name: {
-            zh: '邢桢',
-            en: 'Zhen Xing'
-        },
-        avatar: '/assets/people/phd/ZhenXing.jpg',
-        year: '2022'
-    },
-    {
-        name: {
             zh: '翟坤',
             en: 'Kun Zhai'
         },
@@ -1700,6 +1668,66 @@ export const alumniList: Alumni[] = [
     },
     {
         name: {
+            zh: "陈凯",
+            en: "Kai Chen"
+        },
+        avatar: "/assets/people/phd/KaiChen.jpg",
+        year: {
+            zh: "2025 博士",
+            en: "2025 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "翁泽佳",
+            en: "Zejia Weng"
+        },
+        avatar: "/assets/people/phd/ZejiaWeng.jpg",
+        year: {
+            zh: "2025 博士",
+            en: "2025 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "孟令琛",
+            en: "Lingchen Meng"
+        },
+        avatar: "/assets/people/phd/LingchenMeng.jpg",
+        year: {
+            zh: "2025 博士",
+            en: "2025 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
+            zh: "邢桢",
+            en: "Zhen Xing"
+        },
+        avatar: "/assets/people/phd/ZhenXing.jpg",
+        year: {
+            zh: "2025 博士",
+            en: "2025 PhD"
+        },
+        company: {
+            zh: "",
+            en: ""
+        }
+    },
+    {
+        name: {
             zh: "刘佳",
             en: "Jia Liu"
         },
@@ -1713,6 +1741,7 @@ export const alumniList: Alumni[] = [
             en: ""
         }
     },
+
     {
         name: {
             zh: "刘茵",
