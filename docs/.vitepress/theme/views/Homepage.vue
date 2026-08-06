@@ -128,6 +128,7 @@ const checkMobile = () => {
 }
 
 const checkDark = () => {
+    if (typeof document === 'undefined') return
     const isDark = isMobile.value || current.value === 0;
     document.documentElement.style.setProperty(
         '--vp-nav-color',
@@ -152,6 +153,7 @@ const checkDark = () => {
 }
 
 const removeDark = () => {
+    if (typeof document === 'undefined') return
     document.documentElement.style.setProperty('--vp-nav-color', 'var(--vp-bg-soft)')
     document.documentElement.style.setProperty('--vp-nav-text', 'var(--vp-c-text-1)')
     document.documentElement.style.setProperty('--vp-nav-text-activate', 'var(--vp-c-brand-1)')
