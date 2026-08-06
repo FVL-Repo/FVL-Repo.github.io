@@ -2,7 +2,7 @@
     <div class="recruitment-page">
         <div class="container">
             <nav class="back-nav">
-                <a href="./"> ← {{ t.back }}</a>
+                <a href="joinus"> ← {{ t.back }}</a>
             </nav>
 
             <div class="content-card">

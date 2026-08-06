@@ -32,7 +32,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: 'Join Us',
-      link: '/en/joinus/index',
+      link: '/en/joinus',
     }
   ]
 }

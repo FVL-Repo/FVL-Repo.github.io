@@ -7,7 +7,7 @@
             </header>
 
             <div class="entry-grid">
-                <a v-for="item in tabs" :key="item.key" :href="item.key" class="entry-card">
+                <a v-for="item in tabs" :key="item.key" :href="`joinus-${item.key}`" class="entry-card">
                     <div class="card-content">
                         <h2>{{ item.label }}</h2>
                         <p>{{ getBrief(item.key) }}</p>
