@@ -2911,50 +2911,5 @@ export const alumniList: Alumni[] = [
             zh: "中国科学院上海高等研究院",
             en: "SARI, CAS"
         }
-    },
-    {
-        name: {
-            zh: "朱历轩",
-            en: "Lixuan Zhu"
-        },
-        avatar: "/assets/people/alumni/LixuanZhu.png",
-        year: {
-            zh: "2013 BSc",
-            en: "2013 BSc"
-        },
-        company: {
-            zh: "Master Student at NYU",
-            en: "Master Student at NYU"
-        }
-    },
-    {
-        name: {
-            zh: "史自强",
-            en: "Ziqiang Shi"
-        },
-        avatar: "/assets/people/alumni/ZiqiangShi.png",
-        year: {
-            zh: "2013 BSc",
-            en: "2013 BSc"
-        },
-        company: {
-            zh: "Master Student at UCLA",
-            en: "Master Student at UCLA"
-        }
-    },
-    {
-        name: {
-            zh: "张彤韬",
-            en: "Tongtao Zhang"
-        },
-        avatar: "/assets/people/alumni/TongtaoZhang.png",
-        year: {
-            zh: "2013 Visiting Student",
-            en: "2013 Visiting Student"
-        },
-        company: {
-            zh: "PhD student at RPI, USA",
-            en: "PhD student at RPI, USA"
-        }
     }
 ]

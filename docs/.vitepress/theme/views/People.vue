@@ -22,80 +22,101 @@
                 </component>
             </div>
 
-            <!-- <div class="section-divider" />
-
-            <h2 class="people-title postdoc-title">{{ t.postdocTitle }}</h2>
-
-            <div class="people-grid">
-                <component :is="student.website ? 'a' : 'div'" v-for="(student, index) in postdocList"
-                    :key="student.name.en" :href="student.website || undefined"
-                    :target="student.website ? '_blank' : undefined" rel="noopener noreferrer"
-                    class="person-card"
-                    :class="{ 'clickable': student.website }"
-                    :style="{ animationDelay: `${index * 100}ms` }">
-                    <div class="avatar-wrapper">
-                        <img :src="student.avatar" :alt="student.name[currentLang]" class="person-avatar" />
-                    </div>
-                    <div class="person-info">
-                        <h2 class="person-name">{{ student.name[currentLang] }}</h2>
-                        <p class="person-position">{{ student.year }}</p>
-                    </div>
-                </component>
-            </div> -->
-
-            <div class="section-divider" />
-
             <h2 class="people-title phd-title">{{ t.phdTitle }}</h2>
-
-            <div class="student-list">
-                <div v-for="student in phdList" :key="student.name.en" class="student-item">
-                    <component :is="student.website ? 'a' : 'span'"
-                        :href="student.website || undefined"
-                        :target="student.website ? '_blank' : undefined"
-                        rel="noopener noreferrer"
-                        class="student-name"
-                        :class="{ 'student-link': student.website }">
-                        {{ student.name[currentLang] }}
-                    </component>
-                    <span class="student-detail">{{ formatStudentDetail(student, 'phd') }}</span>
-                </div>
+            <div class="year-sections">
+                <section v-for="group in phdByYear" :key="`phd-${group.year}`" class="year-section">
+                    <div class="year-header">
+                        <div class="year-header-left">
+                            <span class="year-num">{{ group.year }}</span>
+                            <span class="year-label">{{ t.enrolledSuffix }}</span>
+                        </div>
+                        <span class="year-divider-line" />
+                    </div>
+                    <div class="chip-grid">
+                        <component :is="s.website ? 'a' : 'span'" v-for="s in group.list" :key="s.name.en"
+                            :href="s.website || undefined"
+                            :target="s.website ? '_blank' : undefined"
+                            rel="noopener noreferrer"
+                            class="name-chip"
+                            :class="{ 'chip-link': s.website }">
+                            {{ s.name[currentLang] }}
+                        </component>
+                    </div>
+                </section>
             </div>
-
-            <div class="section-divider" />
 
             <h2 class="people-title master-title">{{ t.masterTitle }}</h2>
-
-            <div class="student-list">
-                <div v-for="student in masterList" :key="student.name.en" class="student-item">
-                    <component :is="student.website ? 'a' : 'span'"
-                        :href="student.website || undefined"
-                        :target="student.website ? '_blank' : undefined"
-                        rel="noopener noreferrer"
-                        class="student-name"
-                        :class="{ 'student-link': student.website }">
-                        {{ student.name[currentLang] }}
-                    </component>
-                    <span class="student-detail">{{ formatStudentDetail(student, 'master') }}</span>
-                </div>
+            <div class="year-sections">
+                <section v-for="group in masterByYear" :key="`ms-${group.year}`" class="year-section">
+                    <div class="year-header">
+                        <div class="year-header-left">
+                            <span class="year-num">{{ group.year }}</span>
+                            <span class="year-label">{{ t.enrolledSuffix }}</span>
+                        </div>
+                        <span class="year-divider-line" />
+                    </div>
+                    <div class="chip-grid">
+                        <component :is="s.website ? 'a' : 'span'" v-for="s in group.list" :key="s.name.en"
+                            :href="s.website || undefined"
+                            :target="s.website ? '_blank' : undefined"
+                            rel="noopener noreferrer"
+                            class="name-chip"
+                            :class="{ 'chip-link': s.website }">
+                            {{ s.name[currentLang] }}
+                        </component>
+                    </div>
+                </section>
             </div>
 
-            <div class="section-divider" />
-
-            <h2 class="people-title alumni-title">{{ t.alumniTitle }}</h2>
-
-            <div class="alumni-list">
-                <div v-for="alumni in sortedAlumniList" :key="alumni.name.en" class="alumni-item">
-                    <component :is="alumni.website ? 'a' : 'span'"
-                        :href="alumni.website || undefined"
-                        :target="alumni.website ? '_blank' : undefined"
-                        rel="noopener noreferrer"
-                        class="alumni-name"
-                        :class="{ 'alumni-link': alumni.website }">
-                        {{ alumni.name[currentLang] }}
-                    </component>
-                    <span class="alumni-detail">{{ formatAlumniDetail(alumni) }}</span>
+            <template v-if="phdAlumniByYear.length">
+                <h2 class="people-title alumni-title">{{ t.phdAlumniTitle }}</h2>
+                <div class="year-sections">
+                    <section v-for="group in phdAlumniByYear" :key="`phd-alum-${group.year}`" class="year-section">
+                        <div class="year-header">
+                            <div class="year-header-left">
+                                <span class="year-num">{{ group.year }}</span>
+                                <span class="year-label">{{ t.graduatedSuffix }}</span>
+                            </div>
+                            <span class="year-divider-line" />
+                        </div>
+                        <div class="chip-grid">
+                            <component :is="a.website ? 'a' : 'span'" v-for="a in group.list" :key="a.name.en"
+                                :href="a.website || undefined"
+                                :target="a.website ? '_blank' : undefined"
+                                rel="noopener noreferrer"
+                                class="name-chip"
+                                :class="{ 'chip-link': a.website }">
+                                {{ a.name[currentLang] }}
+                            </component>
+                        </div>
+                    </section>
                 </div>
-            </div>
+            </template>
+
+            <template v-if="masterAlumniByYear.length">
+                <h2 class="people-title alumni-title">{{ t.masterAlumniTitle }}</h2>
+                <div class="year-sections">
+                    <section v-for="group in masterAlumniByYear" :key="`ms-alum-${group.year}`" class="year-section">
+                        <div class="year-header">
+                            <div class="year-header-left">
+                                <span class="year-num">{{ group.year }}</span>
+                                <span class="year-label">{{ t.graduatedSuffix }}</span>
+                            </div>
+                            <span class="year-divider-line" />
+                        </div>
+                        <div class="chip-grid">
+                            <component :is="a.website ? 'a' : 'span'" v-for="a in group.list" :key="a.name.en"
+                                :href="a.website || undefined"
+                                :target="a.website ? '_blank' : undefined"
+                                rel="noopener noreferrer"
+                                class="name-chip"
+                                :class="{ 'chip-link': a.website }">
+                                {{ a.name[currentLang] }}
+                            </component>
+                        </div>
+                    </section>
+                </div>
+            </template>
         </div>
         <Footer />
     </div>
@@ -104,65 +125,104 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useData } from 'vitepress'
-import { facultyList, phdList, postdocList, masterList, alumniList, type Alumni, type Student } from '../../data/people'
+import { facultyList, phdList, masterList, alumniList, type Alumni, type Student } from '../../data/people'
 import Footer from '../components/Footer.vue'
 
 const { lang } = useData()
 const currentLang = computed<'zh' | 'en'>(() =>
     lang.value.startsWith('zh') ? 'zh' : 'en'
 )
+
 const TEXT = {
     zh: {
         facultyTitle: '教师',
         phdTitle: '博士生',
-        postdocTitle: '博士后',
         masterTitle: '硕士生',
-        alumniTitle: '毕业生'
+        phdAlumniTitle: '博士毕业生',
+        masterAlumniTitle: '硕士毕业生',
+        otherAlumniTitle: '本科毕业生',
+        enrolledSuffix: '年入学',
+        graduatedSuffix: '年毕业',
+        countSuffix: '人'
     },
     en: {
         facultyTitle: 'Faculty',
         phdTitle: 'Doctoral Students',
-        postdocTitle: 'Postdocs',
         masterTitle: 'Master Students',
-        alumniTitle: 'Alumni'
+        phdAlumniTitle: 'PhD Alumni',
+        masterAlumniTitle: 'Master Alumni',
+        otherAlumniTitle: 'Undergraduate Alumni',
+        enrolledSuffix: ' Enrolled',
+        graduatedSuffix: ' Graduated',
+        countSuffix: ''
     }
 } as const
 
 const t = computed(() => TEXT[currentLang.value])
 
-function getAlumniGraduationYear(alumni: Alumni): number {
-    const match = alumni.year.zh.match(/^(\d{4})/)
+function formatCount(n: number): string {
+    if (currentLang.value === 'zh') {
+        return `${n} 人`
+    }
+    return n === 1 ? '1 member' : `${n} members`
+}
+
+interface YearGroup<T> {
+    year: string
+    list: T[]
+}
+
+function parseYear(raw: string): number {
+    const match = raw.match(/(\d{4})/)
     return match ? Number(match[1]) : 0
 }
 
-const sortedAlumniList = computed(() =>
-    [...alumniList].sort((a, b) => getAlumniGraduationYear(b) - getAlumniGraduationYear(a))
+function groupStudentsByYear(list: Student[]): YearGroup<Student>[] {
+    const map = new Map<number, Student[]>()
+    for (const s of list) {
+        const y = parseYear(s.year)
+        if (!map.has(y)) map.set(y, [])
+        map.get(y)!.push(s)
+    }
+    return [...map.entries()]
+        .sort((a, b) => b[0] - a[0])
+        .map(([year, list]) => ({ year: String(year), list }))
+}
+
+const phdByYear = computed(() => groupStudentsByYear(phdList))
+const masterByYear = computed(() => groupStudentsByYear(masterList))
+
+type AlumniDegree = 'phd' | 'master' | 'other'
+
+function classifyAlumni(a: Alumni): AlumniDegree {
+    const zh = a.year.zh || ''
+    const en = a.year.en || ''
+    if (zh.includes('博士') || /\bPhD\b/i.test(en)) return 'phd'
+    if (zh.includes('硕士') || /\bM\.?(S|Eng)\b/i.test(en) || /Master/i.test(en)) return 'master'
+    return 'other'
+}
+
+function groupAlumniByYear(list: Alumni[]): YearGroup<Alumni>[] {
+    const map = new Map<number, Alumni[]>()
+    for (const a of list) {
+        const y = parseYear(a.year.zh) || parseYear(a.year.en)
+        if (!map.has(y)) map.set(y, [])
+        map.get(y)!.push(a)
+    }
+    return [...map.entries()]
+        .sort((a, b) => b[0] - a[0])
+        .map(([year, list]) => ({ year: String(year), list }))
+}
+
+const phdAlumniByYear = computed(() =>
+    groupAlumniByYear(alumniList.filter(a => classifyAlumni(a) === 'phd'))
 )
-
-function formatStudentDetail(student: Student, type: 'phd' | 'master'): string {
-    if (currentLang.value === 'zh') {
-        const degree = type === 'phd' ? '博士' : '硕士'
-        return `${student.year} 年${degree}入学`
-    } else {
-        const degree = type === 'phd' ? 'PhD' : 'Master'
-        return `${degree} ${student.year}`
-    }
-}
-
-function formatAlumniDetail(alumni: Alumni): string {
-    const yearStr = alumni.year[currentLang.value]
-    if (currentLang.value === 'zh') {
-        // "2024 硕士" → "2024 年硕士毕业"；"2013 BSc" → "2013 年 BSc 毕业"
-        const formattedYear = yearStr.replace(/^(\d{4})\s+(.+)$/, (_match: string, year: string, rest: string) => {
-            const spacer = /^[A-Za-z]/.test(rest) ? ' ' : ''
-            return `${year} 年${spacer}${rest}`
-        })
-        const graduateSpacer = /[A-Za-z0-9]$/.test(formattedYear) ? ' ' : ''
-        return `${formattedYear}${graduateSpacer}毕业`
-    } else {
-        return yearStr
-    }
-}
+const masterAlumniByYear = computed(() =>
+    groupAlumniByYear(alumniList.filter(a => classifyAlumni(a) === 'master'))
+)
+const otherAlumniByYear = computed(() =>
+    groupAlumniByYear(alumniList.filter(a => classifyAlumni(a) === 'other'))
+)
 </script>
 
 <style scoped>
@@ -193,10 +253,10 @@ function formatAlumniDetail(alumni: Alumni): string {
 
 .people-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     gap: 30px;
     margin: 0 auto;
-    max-width: 1250px;
+    max-width: 1200px;
     width: 100%;
     justify-content: center;
 }
@@ -218,7 +278,6 @@ function formatAlumniDetail(alumni: Alumni): string {
     opacity: 0;
 }
 
-/* 动画效果 */
 @keyframes fade-in-up {
     from {
         opacity: 0;
@@ -241,14 +300,11 @@ function formatAlumniDetail(alumni: Alumni): string {
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 18px;
-    /* border: 2px solid var(--vp-c-brand-1); */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    /* 防止被挤压 */
     background-color: var(--vp-c-bg-alt);
-    /* 占位符背景色 */
 }
 
 .person-avatar {
@@ -256,14 +312,6 @@ function formatAlumniDetail(alumni: Alumni): string {
     height: 100%;
     object-fit: cover;
     display: block;
-}
-
-.person-avatar-placeholder {
-    font-size: 48px;
-    font-weight: 600;
-    color: var(--vp-c-brand-2);
-    text-transform: uppercase;
-    line-height: 1;
 }
 
 .person-info {
@@ -293,142 +341,109 @@ function formatAlumniDetail(alumni: Alumni): string {
     line-height: 1.5;
 }
 
-.student-list {
-    max-width: 1040px;
-    margin: 0 auto;
+/* ---------- Year-grouped sections (students / alumni) ---------- */
+
+.year-sections {
+    max-width: 1200px;
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 16px 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
-.student-item {
+.year-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.year-header {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 0 4px;
+}
+
+.year-header-left {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    flex-shrink: 0;
+}
+
+.year-num {
+    font-size: var(--vp-h1-size);
+    font-weight: var(--vp-h1-weight);
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: var(--vp-c-brand-1);
+    font-variant-numeric: tabular-nums;
+}
+
+.year-label {
+    font-size: var(--vp-small);
+    font-weight: 500;
+    line-height: 1;
+    color: var(--vp-c-text-2);
+}
+
+.year-divider-line {
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, var(--vp-c-brand-4), transparent);
+    align-self: center;
+}
+
+.chip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 12px 12px;
+}
+
+.name-chip {
     position: relative;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 18px;
-    min-height: 76px;
-    padding: 16px 20px 16px 24px;
+    padding: 16px 18px;
+    min-height: 48px;
     overflow: hidden;
     background-color: var(--vp-bg);
     border: 1px solid var(--vp-c-brand-5);
-    border-radius: 8px;
+    border-radius: 6px;
+    color: var(--vp-c-brand-1);
+    text-decoration: none;
+    font-size: var(--vp-p-size);
+    font-weight: 500;
+    line-height: 1;
     transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
-.student-item::before {
+.name-chip::before {
     position: absolute;
-    top: 18px;
-    bottom: 18px;
+    top: 12px;
+    bottom: 12px;
     left: 0;
     width: 3px;
-    background-color: var(--vp-c-brand-3);
+    background-color: var(--vp-c-brand-2);
     border-radius: 0 3px 3px 0;
     content: "";
 }
 
-.student-item:hover {
+.name-chip:hover {
     background-color: var(--vp-c-brand-5);
     border-color: var(--vp-c-brand-4);
 }
 
-.student-name {
-    font-size: var(--vp-h3-size);
-    line-height: 1.5;
-    font-weight: var(--vp-h2-weight);
-    color: var(--vp-c-brand-1);
-    text-decoration: none;
-}
-
-.student-name.student-link:hover {
+.name-chip.chip-link:hover {
     text-decoration: underline;
     text-underline-offset: 4px;
 }
 
-.student-name.student-link:focus-visible {
+.name-chip.chip-link:focus-visible {
     border-radius: 2px;
     outline: 2px solid var(--vp-c-brand-3);
     outline-offset: 3px;
-}
-
-.student-detail {
-    flex-shrink: 0;
-    padding: 5px 10px;
-    font-size: var(--vp-small);
-    line-height: 1.4;
-    color: var(--vp-c-brand-2);
-    background-color: var(--vp-c-brand-5);
-    border-radius: 999px;
-}
-
-.alumni-list {
-    max-width: 1040px;
-    margin: 0 auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px 16px;
-}
-
-.alumni-item {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 18px;
-    min-height: 76px;
-    padding: 16px 20px 16px 24px;
-    overflow: hidden;
-    background-color: var(--vp-bg);
-    border: 1px solid var(--vp-c-brand-5);
-    border-radius: 8px;
-    transition: background-color 0.2s ease, border-color 0.2s ease;
-}
-
-.alumni-item::before {
-    position: absolute;
-    top: 18px;
-    bottom: 18px;
-    left: 0;
-    width: 3px;
-    background-color: var(--vp-c-brand-3);
-    border-radius: 0 3px 3px 0;
-    content: "";
-}
-
-.alumni-item:hover {
-    background-color: var(--vp-c-brand-5);
-    border-color: var(--vp-c-brand-4);
-}
-
-.alumni-name {
-    font-size: var(--vp-h3-size);
-    line-height: 1.5;
-    font-weight: var(--vp-h2-weight);
-    color: var(--vp-c-brand-1);
-    text-decoration: none;
-}
-
-.alumni-name.alumni-link:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-}
-
-.alumni-name.alumni-link:focus-visible {
-    border-radius: 2px;
-    outline: 2px solid var(--vp-c-brand-3);
-    outline-offset: 3px;
-}
-
-.alumni-detail {
-    flex-shrink: 0;
-    padding: 5px 10px;
-    font-size: var(--vp-small);
-    line-height: 1.4;
-    color: var(--vp-c-brand-2);
-    background-color: var(--vp-c-brand-5);
-    border-radius: 999px;
 }
 
 .section-divider {
@@ -437,34 +452,45 @@ function formatAlumniDetail(alumni: Alumni): string {
     margin: 48px 0 40px;
 }
 
-.phd-title {
-    margin-top: 0 !important;
+.phd-title,
+.master-title,
+.alumni-title {
+    margin-top: 72px !important;
     margin-bottom: 36px !important;
 }
 
+.section-divider + .people-title {
+    margin-top: 0 !important;
+}
 
-/* 响应式调整 */
-@media (min-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .container {
-        width: 84vw;
+        width: 88vw;
     }
 
     .people-grid {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     }
 }
 
 @media (max-width: 768px) {
     .container {
-        padding: 20px 48px 40px 48px;
+        width: 84vw;
+        padding: 20px 0 40px 0;
     }
 
     .people-title {
         margin-bottom: 30px;
     }
 
+    .phd-title,
+    .master-title,
+    .alumni-title {
+        margin-top: 48px !important;
+    }
+
     .people-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
         gap: 20px;
     }
 
@@ -478,42 +504,43 @@ function formatAlumniDetail(alumni: Alumni): string {
         margin-bottom: 12px;
     }
 
-    .person-avatar-placeholder {
-        font-size: 40px;
-    }
-
     .person-description {
         max-width: none;
     }
 
-    .student-list,
-    .alumni-list {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (min-width: 480px) and (max-width: 768px) {
-    .people-grid {
-        grid-template-columns: repeat(auto-fit, minmax(240px, 280px));
-        /* 手机横屏或小平板双列 */
-    }
-}
-
-@media (max-width: 560px) {
-    .container {
-        padding-right: 24px;
-        padding-left: 24px;
+    .year-sections {
+        gap: 36px;
     }
 
-    .student-list,
-    .alumni-list {
-        grid-template-columns: 1fr;
+    .year-section {
+        gap: 18px;
     }
 
-    .student-item,
-    .alumni-item {
-        min-height: 68px;
-        padding: 13px 16px 13px 20px;
+    .year-header {
+        gap: 8px;
+    }
+
+    .year-header-left {
+        gap: 6px;
+    }
+
+    .chip-grid {
+        grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+        gap: 8px 8px;
+    }
+
+    .name-chip {
+        padding: 8px 12px;
+        min-height: 32px;
+        border-radius: 4px;
+    }
+
+    .name-chip::before {
+        top: 6px;
+        bottom: 6px;
+        left: 0;
+        width: 2px;
+        border-radius: 0 2px 2px 0;
     }
 }
 </style>
