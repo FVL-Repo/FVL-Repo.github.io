@@ -16,7 +16,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: 'Home',
-      link: '/en/',
+      link: '/en/index',
     },
     {
       text: 'News',

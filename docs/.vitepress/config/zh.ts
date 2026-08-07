@@ -14,7 +14,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: '主页',
-      link: '/',
+      link: '/index',
     },
     {
       text: '新闻',
