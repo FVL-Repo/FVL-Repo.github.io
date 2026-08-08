@@ -75,7 +75,7 @@
                         <div class="year-header">
                             <div class="year-header-left">
                                 <span class="year-num">{{ group.year }}</span>
-                                <span class="year-label">{{ t.graduatedSuffix }}</span>
+                                <span class="year-label">{{ group.isCombined ? t.graduatedCombinedSuffix : t.graduatedSuffix }}</span>
                             </div>
                             <span class="year-divider-line" />
                         </div>
@@ -100,7 +100,7 @@
                         <div class="year-header">
                             <div class="year-header-left">
                                 <span class="year-num">{{ group.year }}</span>
-                                <span class="year-label">{{ t.graduatedSuffix }}</span>
+                                <span class="year-label">{{ group.isCombined ? t.graduatedCombinedSuffix : t.graduatedSuffix }}</span>
                             </div>
                             <span class="year-divider-line" />
                         </div>
@@ -143,6 +143,7 @@ const TEXT = {
         otherAlumniTitle: '本科毕业生',
         enrolledSuffix: '年入学',
         graduatedSuffix: '年毕业',
+        graduatedCombinedSuffix: '年及之前毕业',
         countSuffix: '人'
     },
     en: {
@@ -154,6 +155,7 @@ const TEXT = {
         otherAlumniTitle: 'Undergraduate Alumni',
         enrolledSuffix: ' Enrolled',
         graduatedSuffix: ' Graduated',
+        graduatedCombinedSuffix: ' & Earlier Graduated',
         countSuffix: ''
     }
 } as const
@@ -170,7 +172,10 @@ function formatCount(n: number): string {
 interface YearGroup<T> {
     year: string
     list: T[]
+    isCombined?: boolean
 }
+
+const ALUMNI_COMBINE_CUTOFF = 2022
 
 function parseYear(raw: string): number {
     const match = raw.match(/(\d{4})/)
@@ -204,14 +209,24 @@ function classifyAlumni(a: Alumni): AlumniDegree {
 
 function groupAlumniByYear(list: Alumni[]): YearGroup<Alumni>[] {
     const map = new Map<number, Alumni[]>()
+    let hasPreCutoff = false
     for (const a of list) {
-        const y = parseYear(a.year.zh) || parseYear(a.year.en)
+        const rawYear = parseYear(a.year.zh) || parseYear(a.year.en)
+        let y = rawYear
+        if (rawYear > 0 && rawYear < ALUMNI_COMBINE_CUTOFF) {
+            hasPreCutoff = true
+            y = ALUMNI_COMBINE_CUTOFF
+        }
         if (!map.has(y)) map.set(y, [])
         map.get(y)!.push(a)
     }
     return [...map.entries()]
         .sort((a, b) => b[0] - a[0])
-        .map(([year, list]) => ({ year: String(year), list }))
+        .map(([year, list]) => ({
+            year: String(year),
+            list,
+            isCombined: year === ALUMNI_COMBINE_CUTOFF && hasPreCutoff
+        }))
 }
 
 const phdAlumniByYear = computed(() =>
