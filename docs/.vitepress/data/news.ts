@@ -373,7 +373,7 @@ export const newsList = [
         "date": "2022-03-29",
         "image": "",
         "title": {
-            "zh": "开源了 BEVT（BERT Pretraining of Video Transformers）的代码",
+            "zh": "BEVT（BERT Pretraining of Video Transformers）代码开源",
             "en": "We Released the Code for BEVT: BERT Pretraining of Video Transformers"
         },
         "summary": {
@@ -399,7 +399,7 @@ export const newsList = [
         "date": "2022-01-24",
         "image": "",
         "title": {
-            "zh": "开源了长尾视频识别数据集及代码",
+            "zh": "长尾视频识别数据集及代码开源",
             "en": "We Released the Dataset and Code for Long-tailed Video Recognition"
         },
         "summary": {
