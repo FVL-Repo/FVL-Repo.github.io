@@ -177,6 +177,31 @@ interface YearGroup<T> {
 
 const ALUMNI_COMBINE_CUTOFF = 2022
 
+const enNameCollator = new Intl.Collator('en', {
+    sensitivity: 'base',
+    ignorePunctuation: true,
+    numeric: true
+})
+
+function splitEnName(full: string): { first: string; last: string } {
+    const parts = full.trim().split(/\s+/).filter(Boolean)
+    if (parts.length === 0) return { first: '', last: '' }
+    const last = parts[parts.length - 1]
+    const first = parts.slice(0, -1).join(' ')
+    return { first, last }
+}
+
+function compareByEnName(
+    a: { name: { zh: string; en: string } },
+    b: { name: { zh: string; en: string } }
+): number {
+    const ea = splitEnName(a.name.en || '')
+    const eb = splitEnName(b.name.en || '')
+    const lastCmp = enNameCollator.compare(ea.last, eb.last)
+    if (lastCmp !== 0) return lastCmp
+    return enNameCollator.compare(ea.first, eb.first)
+}
+
 function parseYear(raw: string): number {
     const match = raw.match(/(\d{4})/)
     return match ? Number(match[1]) : 0
@@ -191,7 +216,10 @@ function groupStudentsByYear(list: Student[]): YearGroup<Student>[] {
     }
     return [...map.entries()]
         .sort((a, b) => b[0] - a[0])
-        .map(([year, list]) => ({ year: String(year), list }))
+        .map(([year, list]) => ({
+            year: String(year),
+            list: [...list].sort(compareByEnName)
+        }))
 }
 
 const phdByYear = computed(() => groupStudentsByYear(phdList))
@@ -224,7 +252,7 @@ function groupAlumniByYear(list: Alumni[]): YearGroup<Alumni>[] {
         .sort((a, b) => b[0] - a[0])
         .map(([year, list]) => ({
             year: String(year),
-            list,
+            list: [...list].sort(compareByEnName),
             isCombined: year === ALUMNI_COMBINE_CUTOFF && hasPreCutoff
         }))
 }
