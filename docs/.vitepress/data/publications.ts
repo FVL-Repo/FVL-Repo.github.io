@@ -351,7 +351,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "OmniLottie: Generating Vector Animations via Parameterized Lottie Tokens.",
         "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
         "venue_abbreviated": "CVPR 2026",
-        "pdf": "https://arxiv.org/abs/2603.02138",
+        "pdf": "https://arxiv.org/pdf/2603.02138",
         "code": "https://github.com/OpenVGLab/OmniLottie",
         "image": "/assets/publications/images/2026/cvpr-yiyingyang.png"
     },
@@ -361,7 +361,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "FluxMem: Adaptive Hierarchical Memory for Streaming Video Understanding.",
         "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
         "venue_abbreviated": "CVPR 2026",
-        "pdf": "https://arxiv.org/abs/2603.02096",
+        "pdf": "https://arxiv.org/pdf/2603.02096",
         "code": "https://yiwengxie.com/FluxMem/",
         "image": "/assets/publications/images/2026/cvpr-yiwengxie.png"
     },
@@ -381,7 +381,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "What Is Wrong with Synthetic Data for Scene Text Recognition? A Strong Synthetic Engine with Diverse Simulations and Self-Evolution.",
         "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
         "venue_abbreviated": "CVPR 2026",
-        "pdf": "https://arxiv.org/abs/2602.06450",
+        "pdf": "https://arxiv.org/pdf/2602.06450",
         "code": "https://github.com/YesianRohn/UnionST",
         "image": "/assets/publications/images/2026/cvpr-xingsongye.png"
     },
@@ -401,7 +401,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance.",
         "venue": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), Denver, CO, USA, 2026.",
         "venue_abbreviated": "CVPR 2026",
-        "pdf": "https://arxiv.org/abs/2603.12146",
+        "pdf": "https://arxiv.org/pdf/2603.12146",
         "code": "https://github.com/quanhaol/FlashMotion",
         "image": "/assets/publications/images/2026/cvpr-quanhaoli.png"
     },
@@ -421,7 +421,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Efficient-LVSM: Faster, Cheaper, and Better Large View Synthesis Model via Decoupled Co-Refinement Attention.",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2602.06478",
+        "pdf": "https://arxiv.org/pdf/2602.06478",
         "code": "https://efficient-lvsm.github.io/",
         "image": "/assets/publications/images/2026/iclr-xiaosongjia.png"
     },
@@ -431,7 +431,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "UniHand: A Unified Model for Diverse Controlled 4D Hand Motion Modeling.",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2602.21631",
+        "pdf": "https://arxiv.org/pdf/2602.21631",
         "code": "",
         "image": "/assets/publications/images/2026/iclr-zhihaosun.png"
     },
@@ -441,7 +441,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "TrajTok: What makes for a good trajectory tokenizer in behavior generation?",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2506.21618",
+        "pdf": "https://arxiv.org/pdf/2506.21618",
         "code": "",
         "image": "/assets/publications/images/2026/iclr-zhiyuanzhang.png"
     },
@@ -461,7 +461,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "WithAnyone: Towards Controllable and ID Consistent Image Generation.",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2510.14975",
+        "pdf": "https://arxiv.org/pdf/2510.14975",
         "code": "https://github.com/Doby-Xu/WithAnyone",
         "image": "/assets/publications/images/2026/iclr-hengyuanxu.png"
     },
@@ -471,7 +471,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "AgentGym-RL: An Open-Source Framework to Train LLM Agents for Long-Horizon Decision Making via Multi-Turn RL.",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2509.08755",
+        "pdf": "https://arxiv.org/pdf/2509.08755",
         "code": "https://github.com/WooooDyy/AgentGym-RL",
         "image": "/assets/publications/images/2026/iclr-zhihengxi.png"
     },
@@ -481,7 +481,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow.",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2509.21789",
+        "pdf": "https://arxiv.org/pdf/2509.21789",
         "code": "https://github.com/YU-deep/ViF",
         "image": "/assets/publications/images/2026/iclr-xinleiyu.png"
     },
@@ -491,7 +491,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "Toward Universal and Transferable Jailbreak Attacks on Vision-Language Models.",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2602.01025",
+        "pdf": "https://arxiv.org/pdf/2602.01025",
         "code": "https://github.com/kaiyuanCui/UltraBreak",
         "image": "/assets/publications/images/2026/iclr-kaiyuancui.png"
     },
@@ -501,7 +501,7 @@ export const publicationsList: PublicationItem[] = [
         "title": "FRABench and UFEval: Unified Fine-grained Evaluation with Task and Aspect Generalization.",
         "venue": "International Conference on Learning Representations (ICLR), Rio de Janeiro, Brazil, 2026.",
         "venue_abbreviated": "ICLR 2026",
-        "pdf": "https://arxiv.org/abs/2505.12795",
+        "pdf": "https://arxiv.org/pdf/2505.12795",
         "code": "https://github.com/ALEX-nlp/UFEval",
         "image": "/assets/publications/images/2026/iclr-shibohong.png"
     },
@@ -710,7 +710,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Danfeng Li, Hui Zhang, Sheng Wang, Jiacheng Li, Zuxuan Wu",
         "title": "Seg2Any: Open-set Segmentation-Mask-to-Image Generation with Precise Shape and Semantic Control.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2506.00596",
+        "pdf": "https://arxiv.org/pdf/2506.00596",
         "image": "/assets/publications/images/2025/neurips-danfengli.png",
         "venue_abbreviated": "NeurIPS 2025"
     },
@@ -719,7 +719,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Junke Wang, Xun Wang, Qiushan Guo, Peize Sun, Weilin Huang, Zuxuan Wu, Yu-Gang Jiang",
         "title": "OmniGen-AR: AutoRegressive Any-to-Image Generation.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2504.11455",
+        "pdf": "https://arxiv.org/pdf/2504.11455",
         "image": "/assets/publications/images/2025/neurips-junkewang.png",
         "venue_abbreviated": "NeurIPS 2025"
     },
@@ -737,7 +737,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Rui Tian, Mingfei Gao, Mingze Xu, Jiaming Hu, Jiasen Lu, Zuxuan Wu, Yinfei Yang, Afshin Dehghan",
         "title": "UniGen: Enhanced Training & Test-Time Strategies for Unified Multimodal Understanding and Generation.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2505.14682",
+        "pdf": "https://arxiv.org/pdf/2505.14682",
         "image": "/assets/publications/images/2025/neurips-ruitian.png",
         "venue_abbreviated": "NeurIPS 2025"
     },
@@ -755,7 +755,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yu Li, Xingyu Qiu, Yuqian Fu, Jie Chen, Tianwen Qian, Xu Zheng, Danda Pani Paudel, Yanwei Fu, Xuanjing Huang, Luc Van Gool, Yu-Gang Jiang",
         "title": "Domain-RAG: Retrieval-Guided Compositional Image Generation for Cross-Domain Few-Shot Object Detection.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2506.05872",
+        "pdf": "https://arxiv.org/pdf/2506.05872",
         "image": "/assets/publications/images/2025/neurips-yuli.png",
         "venue_abbreviated": "NeurIPS 2025"
     },
@@ -764,7 +764,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Ye Sun, Hao Zhang, Henghui Ding, Tiehua Zhang, Xingjun Ma, Yu-Gang Jiang",
         "title": "SAMA: Towards Multi-Turn Referential Grounded Video Chat with Large Language Models.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), San Diego, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2505.18812",
+        "pdf": "https://arxiv.org/pdf/2505.18812",
         "image": "/assets/publications/images/2025/neurips-yesun.png",
         "venue_abbreviated": "NeurIPS 2025"
     },
@@ -827,7 +827,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Pengkun Jiao, Bin Zhu, Jingjing Chen, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "From Holistic to Localized: Local Enhanced Adapters for Efficient Visual Instruction Fine-Tuning.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2411.12787",
+        "pdf": "https://arxiv.org/pdf/2411.12787",
         "image": "/assets/publications/images/2025/iccv-pengkunjiao.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -836,7 +836,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Kaining Ying, Henghui Ding, Guangquan Jie, Yu-Gang Jiang",
         "title": "Towards Omnimodal Expressions and Reasoning in Referring Audio-Visual Segmentation.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2507.22886",
+        "pdf": "https://arxiv.org/pdf/2507.22886",
         "image": "/assets/publications/images/2025/iccv-kainingying.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -845,7 +845,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Shiduo Zhang, Zhe Xu, Peiju Liu, Xiaopeng Yu, Qinghui Gao, Yuan Li, Zhaoye Fei, Zhangyue Yin, Zuxuan Wu, Yu-Gang Jiang, Xipeng Qiu",
         "title": "VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2412.18194",
+        "pdf": "https://arxiv.org/pdf/2412.18194",
         "image": "/assets/publications/images/2025/iccv-shiduozhang.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -854,7 +854,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yongkun Du, Zhineng Chen, Hongtao Xie, Caiyan Jia, Yu-Gang Jiang",
         "title": "SVTRv2: CTC Beats Encoder-Decoder Models in Scene Text Recognition.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2411.15858",
+        "pdf": "https://arxiv.org/pdf/2411.15858",
         "image": "/assets/publications/images/2025/iccv-yongkundu.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -863,7 +863,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Shuyuan Tu, Qi Dai, Zihao Zhang, Sicheng Xie, Zhi-Qi Cheng, Chong Luo, Xintong Han, Zuxuan Wu, Yu-Gang Jiang",
         "title": "MotionFollower: Editing Video Motion via Score-Guided Diffusion.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2405.20325",
+        "pdf": "https://arxiv.org/pdf/2405.20325",
         "image": "/assets/publications/images/2025/iccv-shuyuantu.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -872,7 +872,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Ruofan Wang, Juncheng Li, Yixu Wang, Bo Wang, Xiaosen Wang, Yan Teng, Yingchun Wang, Xingjun Ma, Yu-Gang Jiang",
         "title": "IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2411.00827",
+        "pdf": "https://arxiv.org/pdf/2411.00827",
         "image": "/assets/publications/images/2025/iccv-ruofanwang.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -881,7 +881,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Haoran Chen, Ping Wang, Zihan Zhou, Xu Zhang, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Achieving More with Less: Additive Prompt Tuning for Rehearsal-Free Class-Incremental Learning.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2503.07979",
+        "pdf": "https://arxiv.org/pdf/2503.07979",
         "image": "/assets/publications/images/2025/iccv-haoranchen.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -890,7 +890,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhen Xing, Qi Dai, Zejia Weng, Zuxuan Wu, Yu-Gang Jiang",
         "title": "AID: Adapting Image2Video Diffusion Models for Instruction-guided Video Prediction.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2406.06465",
+        "pdf": "https://arxiv.org/pdf/2406.06465",
         "image": "/assets/publications/images/2025/iccv-zhenxing.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -899,7 +899,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Rui Tian, Qi Dai, Jianmin Bao, Kai Qiu, Yifan Yang, Chong Luo, Zuxuan Wu, Yu-Gang Jiang",
         "title": "REDUCIO! Generating 1K Video within 16 Seconds using Extremely Compressed Motion Latents.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2411.13552",
+        "pdf": "https://arxiv.org/pdf/2411.13552",
         "image": "/assets/publications/images/2025/iccv-ruitian.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -908,7 +908,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Hui Zhang, Dexiang Hong, Yitong Wang, Jie Shao, Xinglong Wu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "CreatiLayout: Siamese Multimodal Diffusion Transformer for Creative Layout-to-Image Generation.",
         "venue": "International Conference on Computer Vision (ICCV), 2025.",
-        "pdf": "https://arxiv.org/abs/2412.03859",
+        "pdf": "https://arxiv.org/pdf/2412.03859",
         "image": "/assets/publications/images/2025/iccv-huizhang.png",
         "venue_abbreviated": "ICCV 2025"
     },
@@ -935,7 +935,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yitong Chen, Wenhao Yao, Lingchen Meng, Sihong Wu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Comprehensive Multi-Modal Prototypes are Simple and Effective Classifiers for Vast-Vocabulary Object Detection.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2412.17800",
+        "pdf": "https://arxiv.org/pdf/2412.17800",
         "image": "/assets/publications/images/2025/aaai-yitongchen.png",
         "venue_abbreviated": "AAAI 2025"
     },
@@ -944,7 +944,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yuchen Su, Zhineng Chen, Yongkun Du, Zhilong Ji, Kai Hu, Jinfeng Bai, Xieping Gao",
         "title": "Explicit Relational Reasoning Network for Scene Text Detection.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2412.14692",
+        "pdf": "https://arxiv.org/pdf/2412.14692",
         "image": "/assets/publications/images/2025/aaai-yuchensu.png",
         "venue_abbreviated": "AAAI 2025"
     },
@@ -962,7 +962,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yongkun Du, Zhineng Chen, Caiyan Jia, Xieping Gao, Yu-Gang Jiang",
         "title": "Out of Length Text Recognition with Sub-String Matching.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2407.12317",
+        "pdf": "https://arxiv.org/pdf/2407.12317",
         "image": "/assets/publications/images/2025/aaai-yongkundu.png",
         "venue_abbreviated": "AAAI 2025"
     },
@@ -980,7 +980,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Hui Zhang, Zuxuan Wu, Zhen Xing, Jie Shao, Yu-Gang Jiang",
         "title": "AdaDiff: Adaptive Step Selection for Fast Diffusion Models.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2311.14768",
+        "pdf": "https://arxiv.org/pdf/2311.14768",
         "image": "/assets/publications/images/2025/aaai-huizhang.png",
         "venue_abbreviated": "AAAI 2025"
     },
@@ -989,7 +989,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yuchen Yan, Jin Jiang, Yang Liu, Yixin Cao, Xin Xu, Mengdi Zhang, Xunliang Cai, Jian Shao",
         "title": "S^3cMath: Spontaneous Step-level Self-correction Makes Large Language Models Better Mathematical Reasoners.",
         "venue": "The 39th AAAI Conference on Artificial Intelligence (AAAI),  Philadelphia, USA, 2025.",
-        "pdf": "https://arxiv.org/abs/2409.01524",
+        "pdf": "https://arxiv.org/pdf/2409.01524",
         "image": "/assets/publications/images/2025/aaai-yuchenyan.png",
         "venue_abbreviated": "AAAI 2025"
     },
@@ -1052,7 +1052,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zuxuan Wu, Zejia Weng, Wujian Peng, Xitong Yang, Ang Li, Larry S. Davis, Yu-Gang Jiang",
         "title": "Building an Open-Vocabulary Video CLIP Model with Better Architectures, Optimization and Data.",
         "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 46, pp. 4747-4762, 2024.",
-        "pdf": "https://arxiv.org/abs/2310.05010",
+        "pdf": "https://arxiv.org/pdf/2310.05010",
         "image": "/assets/publications/images/2024/tpami-zuxuanwu.png",
         "venue_abbreviated": "TPAMI 2024"
     },
@@ -1214,7 +1214,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Lingchen Meng, Jianwei Yang, Rui Tian, Xiyang Dai, Zuxuan Wu, JianFeng Gao, Yu-Gang Jiang",
         "title": "Deepstack: Deeply Stacking Visual Tokensis Surprisingly Simple and Effective for LMMs.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2024.",
-        "pdf": "https://arxiv.org/abs/2406.04334",
+        "pdf": "https://arxiv.org/pdf/2406.04334",
         "image": "/assets/publications/images/2024/neurips-lingchenmeng.png",
         "venue_abbreviated": "NeurIPS 2024"
     },
@@ -1223,7 +1223,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yang Jiao, Shaoxiang Chen, Zequn Jie, Jingjing Chen, Lin Ma, Yu-Gang Jiang",
         "title": "Lumen: Unleashing Versatile Vision-Centric Capabilities of Large Multimodal Models.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2024.",
-        "pdf": "https://arxiv.org/abs/2403.07304",
+        "pdf": "https://arxiv.org/pdf/2403.07304",
         "image": "/assets/publications/images/2024/neurips-yangjiao.png",
         "venue_abbreviated": "NeurIPS 2024"
     },
@@ -1232,7 +1232,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yubo Ma, Yuhang Zang, Liangyu Chen, Meiqi Chen, Yizhu Jiao, Xinze Li, Xinyuan Lu, Ziyu Liu, Yan Ma, Xiaoyi Dong, Pan Zhang, Liangming Pan, Yu-Gang Jiang, Jiaqi Wang, Yixin Cao, Aixin Sun",
         "title": "MMLongBench-Doc: Benchmarking Long-context Document Understanding with Visualizations.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2024.",
-        "pdf": "https://arxiv.org/abs/2407.01523",
+        "pdf": "https://arxiv.org/pdf/2407.01523",
         "image": "/assets/publications/images/2024/neurips-yuboma.png",
         "venue_abbreviated": "NeurIPS 2024"
     },
@@ -1241,7 +1241,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Jiahao Ying, Yixin Cao, Yushi Bai, Qianru Sun, Bo Wang, Wei Tang, Zhaojun Ding, Yizhe Yang, Xuanjing Huang, Shuicheng Yan",
         "title": "Automating Dataset Updates Towards Reliable and Timely Evaluation of Large Language Models.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2024.",
-        "pdf": "https://arxiv.org/abs/2402.11894",
+        "pdf": "https://arxiv.org/pdf/2402.11894",
         "image": "/assets/publications/images/2024/neurips-jiahaoying.png",
         "venue_abbreviated": "NeurIPS 2024"
     },
@@ -1259,7 +1259,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Junke Wang, Yi Jiang, Zehuan Yuan, Binyue Peng, Zuxuan Wu, Yu-Gang Jiang",
         "title": "OmniTokenizer: A Joint Image-Video Tokenizer for Visual Generation.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2024.",
-        "pdf": "https://arxiv.org/abs/2406.09399",
+        "pdf": "https://arxiv.org/pdf/2406.09399",
         "image": "/assets/publications/images/2024/neurips-junkewang.png",
         "venue_abbreviated": "NeurIPS 2024"
     },
@@ -1277,7 +1277,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Ye Sun, Hao Zhang, Tihua Zhang, Xingjun Ma, Yu-Gang Jiang",
         "title": "UnSeg: One Universal Unlearnable Example Generator is Enough against All Image Segmentation.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), Vancouver, Canada, 2024.",
-        "pdf": "https://arxiv.org/abs/2410.09909",
+        "pdf": "https://arxiv.org/pdf/2410.09909",
         "image": "/assets/publications/images/2024/neurips-yesun.png",
         "venue_abbreviated": "NeurIPS 2024"
     },
@@ -1286,7 +1286,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Haoyu Zhao, Tianyi Lu, Jiaxi Gu, Xing Zhang, Qingping Zheng, Zuxuan Wu, Hang Xu, Yu-Gang Jiang",
         "title": "MagDiff: Multi-Alignment Diffusion for High-Fidelity Video Generation and Editing.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2311.17338",
+        "pdf": "https://arxiv.org/pdf/2311.17338",
         "image": "/assets/publications/images/2024/eccv-haoyuzhao.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1295,7 +1295,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Haibo Yang, Yang Chen, Yingwei Pan, Ting Yao, Zhineng Chen, Zuxuan Wu, Yu-Gang Jiang, Tao Mei",
         "title": "DreamMesh: Jointly Manipulating and Texturing Triangle Meshes for Text-to-3D Generation.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2409.07454",
+        "pdf": "https://arxiv.org/pdf/2409.07454",
         "image": "/assets/publications/images/2024/eccv-haiboyang.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1304,7 +1304,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Chao Gong*, Kai Chen*, Zhipeng Wei, Jingjing Chen, Yu-Gang Jiang",
         "title": "Reliable and Efficient Concept Erasure of Text-to-Image Diffusion Models.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2407.12383",
+        "pdf": "https://arxiv.org/pdf/2407.12383",
         "image": "/assets/publications/images/2024/eccv-chaogong.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1313,7 +1313,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Pengkun Jiao, Na Zhao, Jingjing Chen, Yu-Gang Jiang",
         "title": "Unlocking Textual and Visual Wisdom: Open-Vocabulary 3D Object Detection Enhanced by Comprehensive Guidance from Text and Image.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2407.05256",
+        "pdf": "https://arxiv.org/pdf/2407.05256",
         "image": "/assets/publications/images/2024/eccv-pengkunjiao.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1322,7 +1322,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Haoran Chen, Zuxuan Wu, Xintong Han, Menglin Jia, Yu-Gang Jiang",
         "title": "PromptFusion: Decoupling Stability and Plasticity for Continual Learning.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2303.07223",
+        "pdf": "https://arxiv.org/pdf/2303.07223",
         "image": "/assets/publications/images/2024/eccv-haoranchen.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1331,7 +1331,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Lingchen Meng, Shiyi Lan, Hengduo Li, Jose M. Alvarez, Zuxuan Wu, Yu-Gang Jiang",
         "title": "SegIC: Unleashing the Emergent Correspondence for In-Context Segmentation.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2311.14671",
+        "pdf": "https://arxiv.org/pdf/2311.14671",
         "image": "/assets/publications/images/2024/eccv-lingchenmeng.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1340,7 +1340,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Jiaming Zhang, Xingjun Ma, Xin Wang, Lingyu Qiu, Jiaqi Wang, Yu-Gang Jiang, Jitao Sang",
         "title": "Adversarial Prompt Tuning for Vision-Language Models.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2311.11261",
+        "pdf": "https://arxiv.org/pdf/2311.11261",
         "image": "/assets/publications/images/2024/eccv-jiamingzhang.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1349,7 +1349,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yifu Chen, Jingwen Chen, Yingwei Pan, Yehao Li, Ting Yao, Zhineng Chen, Tao Mei",
         "title": "Improving Text-guided Object Inpainting with semantic Pre-inpainting.",
         "venue": "European Conference on Computer Vision (ECCV), Milano, Italy, 2024.",
-        "pdf": "https://arxiv.org/abs/2409.08260",
+        "pdf": "https://arxiv.org/pdf/2409.08260",
         "image": "/assets/publications/images/2024/eccv-yifuchen.png",
         "venue_abbreviated": "ECCV 2024"
     },
@@ -1358,7 +1358,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Xue Song, Jiequan Cui, Hanwang Zhang, Jingjing Chen, Richang Hong, Yu-Gang Jiang",
         "title": "Doubly Abductive Counterfactual Inference for Text-based Image Editing.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle WA, USA, 2024.",
-        "pdf": "https://arxiv.org/abs/2403.02981",
+        "pdf": "https://arxiv.org/pdf/2403.02981",
         "image": "/assets/publications/images/2024/cvpr-xuesong.png",
         "venue_abbreviated": "CVPR 2024"
     },
@@ -1367,7 +1367,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Junke Wang, Dongdong Chen, Chong Luo, Bo He, Lu Yuan, Zuxuan Wu, Yu-Gang Jiang",
         "title": "OmniVid: A Generative Framework for Universal Video Understanding.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle WA, USA, 2024.",
-        "pdf": "https://arxiv.org/abs/2403.17935",
+        "pdf": "https://arxiv.org/pdf/2403.17935",
         "image": "/assets/publications/images/2024/cvpr-junkewang.png",
         "venue_abbreviated": "CVPR 2024"
     },
@@ -1376,7 +1376,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Shuyuan Tu, Qi Dai, Zhi-Qi Cheng, Han Hu, Xintong Han, Zuxuan Wu, Yu-Gang Jiang",
         "title": "MotionEditor: Editing Video Motion via Content-Aware Diffusion.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle WA, USA, 2024.",
-        "pdf": "https://arxiv.org/abs/2311.18830",
+        "pdf": "https://arxiv.org/pdf/2311.18830",
         "image": "/assets/publications/images/2024/cvpr-shuyuantu.png",
         "venue_abbreviated": "CVPR 2024"
     },
@@ -1385,7 +1385,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yang Luo, Zhineng Chen, Peng Zhou, Zuxuan Wu, Xieping Gao, Yu-Gang Jiang",
         "title": "Learning to Rank Patches for Unbiased Image Redundancy Reduction.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle WA, USA, 2024.",
-        "pdf": "https://arxiv.org/abs/2404.00680",
+        "pdf": "https://arxiv.org/pdf/2404.00680",
         "image": "/assets/publications/images/2024/cvpr-yangluo.png",
         "venue_abbreviated": "CVPR 2024"
     },
@@ -1394,7 +1394,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhen Xing, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "SimDA: Simple Diffusion Adapter for Efficient Video Generation.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle WA, USA, 2024.",
-        "pdf": "https://arxiv.org/abs/2308.09710",
+        "pdf": "https://arxiv.org/pdf/2308.09710",
         "image": "/assets/publications/images/2024/cvpr-zhenxing.png",
         "venue_abbreviated": "CVPR 2024"
     },
@@ -1493,7 +1493,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Junke Wang, Dongdong Chen, Zuxuan Wu, Chong Luo, Chuanxin Tang, Xiyang Dai, Yucheng Zhao, Yujia Xie, Lu Yuan, Yu-Gang Jiang",
         "title": "Look Before You Match: Instance Understanding Matters in Video Object Segmentation.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2212.06826",
+        "pdf": "https://arxiv.org/pdf/2212.06826",
         "image": "/assets/publications/images/2023/cvpr-junkewang.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1502,7 +1502,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Lu Yuan, Yu-Gang Jiang",
         "title": "Masked Video Distillation: Rethinking Masked Feature Modeling for Self-supervised Video Representation Learning.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2212.04500",
+        "pdf": "https://arxiv.org/pdf/2212.04500",
         "image": "/assets/publications/images/2023/cvpr-ruiwang.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1511,7 +1511,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhen Xing, Qi Dai, Han Hu, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "SVFormer: Semi-Supervised Video Transformer for Action Recognition.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2211.13222",
+        "pdf": "https://arxiv.org/pdf/2211.13222",
         "image": "/assets/publications/images/2023/cvpr-zhenxing.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1520,7 +1520,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yang Jiao, Zequn Jie, Shaoxiang Chen, Jingjing Chen, Lin Ma, Yu-Gang Jiang",
         "title": "MSMDFusion: Fusing LiDAR and Camera at Multiple Scales with Multi-Depth Seeds for 3D Object Detection.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2209.03102",
+        "pdf": "https://arxiv.org/pdf/2209.03102",
         "image": "/assets/publications/images/2023/cvpr-yangjiao.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1529,7 +1529,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Lingchen Meng, Xiyang Dai, Yinpeng Chen, Pengchuan Zhang, Dongdong Chen, Mengchen Liu, Jianfeng Wang, Zuxuan Wu, Lu Yuan, Yu-Gang Jiang",
         "title": "Detection Hub: Unifying Object Detection Datasets via Query Adaptation on Language Embedding.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2206.03484",
+        "pdf": "https://arxiv.org/pdf/2206.03484",
         "image": "/assets/publications/images/2023/cvpr-lingchenmeng.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1538,7 +1538,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Hui Zhang, Zuxuan Wu, Zheng Wang, Zhineng Chen, Yu-Gang Jiang",
         "title": "Prototypical Residual Networks for Anomaly Detection and Localization.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2212.02031",
+        "pdf": "https://arxiv.org/pdf/2212.02031",
         "image": "/assets/publications/images/2023/cvpr-huizhang.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1547,7 +1547,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yuqian Fu, Yu Xie, Yanwei Fu, Yu-Gang Jiang",
         "title": "Meta Style Adversarial Training for Cross-Domain Few-Shot Learning.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2302.09309",
+        "pdf": "https://arxiv.org/pdf/2302.09309",
         "image": "/assets/publications/images/2023/cvpr-yuqianfu.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1556,7 +1556,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Rui Tian, Zuxuan Wu, Qi Dai, Han Hu, Yu Qiao, Yu-Gang Jiang",
         "title": "ResFormer: Scaling ViTs with Multi-Resolution Training.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2212.00776",
+        "pdf": "https://arxiv.org/pdf/2212.00776",
         "image": "/assets/publications/images/2023/cvpr-ruitian.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1565,7 +1565,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Jiaming Zhang, Xingjun Ma, Qi Yi, Jitao Sang, Yu-Gang Jiang, Yaowei Wang, Changsheng Xu",
         "title": "Unlearnable Clusters: Towards Label-agnostic Unlearnable Examples.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2301.01217",
+        "pdf": "https://arxiv.org/pdf/2301.01217",
         "image": "/assets/publications/images/2023/cvpr-jiamingzhang.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1574,7 +1574,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Enhancing the Self-Universality for Transferable Targeted Attacks.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vancouver, Canada, 2023.",
-        "pdf": "https://arxiv.org/abs/2209.03716",
+        "pdf": "https://arxiv.org/pdf/2209.03716",
         "image": "/assets/publications/images/2023/cvpr-zhipengwei.png",
         "venue_abbreviated": "CVPR 2023"
     },
@@ -1592,7 +1592,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Haoran Chen, Xintong Han, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Multi-Prompt Alignment for Multi-Source Unsupervised Domain Adaptation.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2023.",
-        "pdf": "https://arxiv.org/abs/2209.15210",
+        "pdf": "https://arxiv.org/pdf/2209.15210",
         "image": "/assets/publications/images/2023/neurips-haoranchen.png",
         "venue_abbreviated": "NeurIPS 2023"
     },
@@ -1601,7 +1601,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Lingchen Meng, Xiyang Dai, Jianwei Yang, Dongdong Chen, Yinpeng Chen, Mengchen Liu, Yi-Ling Chen, Zuxuan Wu, Lu Yuan, Yu-Gang Jiang",
         "title": "Learning from Rich Semantics and Coarse Locations for Long-tailed Object Detection.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), 2023.",
-        "pdf": "https://arxiv.org/abs/2310.12152",
+        "pdf": "https://arxiv.org/pdf/2310.12152",
         "image": "/assets/publications/images/2023/neurips-lingchenmeng.png",
         "venue_abbreviated": "NeurIPS 2023"
     },
@@ -1610,7 +1610,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Shuyuan Tu, Qi Dai, Zuxuan Wu, Zhi-Qi Cheng, Han Hu, Yu-Gang Jiang",
         "title": "Implicit Temporal Modeling with Learnable Alignment for Video Recognition.",
         "venue": "International Conference on Computer Vision (ICCV), 2023.",
-        "pdf": "https://arxiv.org/abs/2304.10465",
+        "pdf": "https://arxiv.org/pdf/2304.10465",
         "image": "/assets/publications/images/2023/iccv-shuyuantu.png",
         "venue_abbreviated": "ICCV 2023"
     },
@@ -1619,7 +1619,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Tianlun Zheng, Zhineng Chen, BingChen Huang, Wei Zhang, Yu-Gang Jiang",
         "title": "MRN: Multiplexed Routing Network for Incremental Multilingual Text Recognition.",
         "venue": "International Conference on Computer Vision (ICCV), 2023.",
-        "pdf": "https://arxiv.org/abs/2305.14758",
+        "pdf": "https://arxiv.org/pdf/2305.14758",
         "image": "/assets/publications/images/2023/iccv-tianlunzheng.png",
         "venue_abbreviated": "ICCV 2023"
     },
@@ -1628,7 +1628,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yilun Zhang, Yuqian Fu, Xingjun Ma, Lizhe Qi, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "On the Importance of Spatial Relations for Few-shot Action Recognition.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
-        "pdf": "https://arxiv.org/abs/2308.07119",
+        "pdf": "https://arxiv.org/pdf/2308.07119",
         "image": "/assets/publications/images/2023/mm-yilunzhang.png",
         "venue_abbreviated": "MM 2023"
     },
@@ -1655,7 +1655,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yang Jiao, Zequn Jie, Jingjing Chen, Lin Ma, Yu-Gang Jiang",
         "title": "Suspected Object Matters: Rethinking Model's Prediction for One-stage Visual Grounding.",
         "venue": "ACM International Conference on Multimedia (ACM MM), 2023.",
-        "pdf": "https://arxiv.org/abs/2203.05186",
+        "pdf": "https://arxiv.org/pdf/2203.05186",
         "image": "/assets/publications/images/2023/mm-yangjiao.png",
         "venue_abbreviated": "MM 2023"
     },
@@ -1682,7 +1682,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yige Li, Xixiang Lyu, Xingjun Ma, Nodens Koren, Lingjuan Lyu, Bo Li, Yu-Gang Jiang",
         "title": "Reconstructive Neuron Pruning for Backdoor Defense.",
         "venue": "International Conference on Machine Learning (ICML), 2023.",
-        "pdf": "https://arxiv.org/abs/2305.14876",
+        "pdf": "https://arxiv.org/pdf/2305.14876",
         "image": "/assets/publications/images/2023/icml-yigeli.png",
         "venue_abbreviated": "ICML 2023"
     },
@@ -1691,7 +1691,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zejia Weng, Xitong Yang, Ang Li, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Open-VCLIP: Transforming CLIP to an Open-vocabulary Video Model via Interpolated Weight Optimization.",
         "venue": "International Conference on Machine Learning (ICML), 2023.",
-        "pdf": "https://arxiv.org/abs/2302.00624",
+        "pdf": "https://arxiv.org/pdf/2302.00624",
         "image": "/assets/publications/images/2023/icml-zejiaweng.png",
         "venue_abbreviated": "ICML 2023"
     },
@@ -1700,7 +1700,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yujing Jiang, Xingjun Ma, Sarah M. Erfani, James Bailey",
         "title": "Backdoor Attacks on Time Series: A Generative Approach.",
         "venue": "IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), 2023.",
-        "pdf": "https://arxiv.org/abs/2211.07915",
+        "pdf": "https://arxiv.org/pdf/2211.07915",
         "image": "/assets/publications/images/2023/satml-yujingjiang.png",
         "venue_abbreviated": "SaTML 2023"
     },
@@ -1718,7 +1718,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Hanxun Huang, Xingjun Ma, Sarah M. Erfani, James Bailey",
         "title": "Distilling Cognitive Backdoor Patterns within an Image.",
         "venue": "International Conference on Learning Representations (ICLR), 2023.",
-        "pdf": "https://arxiv.org/abs/2301.10908",
+        "pdf": "https://arxiv.org/pdf/2301.10908",
         "image": "/assets/publications/images/2023/iclr-hanxunhuang.png",
         "venue_abbreviated": "ICLR 2023"
     },
@@ -1727,7 +1727,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zixuan Su, Jingjing Chen, Lei Pang, Chong-Wah Ngo, Yu-Gang Jiang",
         "title": "Adaptive Split-Fusion Transformer.",
         "venue": "IEEE International Conference on Multimedia and Expo (ICME), 2023.",
-        "pdf": "https://arxiv.org/abs/2204.12196",
+        "pdf": "https://arxiv.org/pdf/2204.12196",
         "image": "/assets/publications/images/2023/icme-zixuansu.png",
         "venue_abbreviated": "ICME 2023"
     },
@@ -1754,7 +1754,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Bingchen Huang, Zhineng Chen, Peng Zhou, Jiayin Chen, Zuxuan Wu",
         "title": "Resolving Task Confusion in Dynamic Expansion Architectures for Class Incremental Learning.",
         "venue": "The AAAI Conference on Artificial Intelligence (AAAI), Washington DC, USA, 2023.",
-        "pdf": "https://arxiv.org/abs/2212.14284",
+        "pdf": "https://arxiv.org/pdf/2212.14284",
         "image": "/assets/publications/images/2023/aaai-bingchenhuang.png",
         "venue_abbreviated": "AAAI 2023"
     },
@@ -1790,7 +1790,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Cross-Modal Transferable Adversarial Attacks from Images to Videos.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), New Orleans, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2112.05379v1",
+        "pdf": "https://arxiv.org/pdf/2112.05379v1",
         "image": "/assets/publications/images/2022/cvpr-zhipengwei.png",
         "venue_abbreviated": "CVPR 2022"
     },
@@ -1808,7 +1808,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Junke Wang, Zuxuan Wu, Jingjing Chen, Xintong Han, Abhinav Shrivastava, Ser-Nam Lim, Yu-Gang Jiang",
         "title": "ObjectFormer for Image Manipulation Detection and Localization.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), New Orleans, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2203.14681",
+        "pdf": "https://arxiv.org/pdf/2203.14681",
         "image": "/assets/publications/images/2022/cvpr-junkewang.png",
         "venue_abbreviated": "CVPR 2022"
     },
@@ -1817,7 +1817,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Lingchen Meng, Hengduo Li, Bor-Chun Chen, Shiyi Lan, Zuxuan Wu, Yu-Gang Jiang, Ser-Nam Lim",
         "title": "AdaViT: Adaptive Vision Transformers for Efficient Image Recognition.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), New Orleans, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2111.15668",
+        "pdf": "https://arxiv.org/pdf/2111.15668",
         "image": "/assets/publications/images/2022/cvpr-lingchenmeng.png",
         "venue_abbreviated": "CVPR 2022"
     },
@@ -1826,7 +1826,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Rui Wang, Dongdong Chen, Zuxuan Wu, Yinpeng Chen, Xiyang Dai, Mengchen Liu, Yu-Gang Jiang, Luowei Zhou, Lu Yuan",
         "title": "BEVT: BERT Pretraining of Video Transformers.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), New Orleans, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2112.01529",
+        "pdf": "https://arxiv.org/pdf/2112.01529",
         "image": "/assets/publications/images/2022/cvpr-ruiwang.png",
         "venue_abbreviated": "CVPR 2022"
     },
@@ -1835,7 +1835,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yang Jiao, Shaoxiang Chen, Zequn Jie, Jingjing Chen, Lin Ma, Yu-Gang Jiang",
         "title": "MORE: Multi-Order RElation Mining for Dense Captioning in 3D Scenes.",
         "venue": "European Conference on Computer Vision (ECCV), Tel-Aviv, Israel, 2022.",
-        "pdf": "https://arxiv.org/abs/2203.05203",
+        "pdf": "https://arxiv.org/pdf/2203.05203",
         "image": "/assets/publications/images/2022/eccv-yangjiao.png",
         "venue_abbreviated": "ECCV 2022"
     },
@@ -1853,7 +1853,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zejia Weng, Xitong Yang, Ang Li, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Semi-Supervised Vision Transformers.",
         "venue": "European Conference on Computer Vision (ECCV), Tel-Aviv, Israel, 2022.",
-        "pdf": "https://arxiv.org/abs/2111.11067",
+        "pdf": "https://arxiv.org/pdf/2111.11067",
         "image": "/assets/publications/images/2022/eccv-zejiaweng.png",
         "venue_abbreviated": "ECCV 2022"
     },
@@ -1862,7 +1862,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Junke Wang, Xitong Yang, Hengduo Li, Li Liu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Efficient Video Transformers with Spatial-Temporal Token Selection.",
         "venue": "European Conference on Computer Vision (ECCV), Tel-Aviv, Israel, 2022.",
-        "pdf": "https://arxiv.org/abs/2111.11591",
+        "pdf": "https://arxiv.org/pdf/2111.11591",
         "image": "/assets/publications/images/2022/eccv-junkewang.png",
         "venue_abbreviated": "ECCV 2022"
     },
@@ -1871,7 +1871,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Linhai Zhuo, Yuqian Fu, Jingjing Chen, Yixin Cao, Yu-Gang Jiang",
         "title": "TGDM: Target Guided Dynamic Mixup for Cross-Domain Few-Shot Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
-        "pdf": "https://arxiv.org/abs/2210.05392",
+        "pdf": "https://arxiv.org/pdf/2210.05392",
         "image": "/assets/publications/images/2022/mm-linhaizhuo.png",
         "venue_abbreviated": "MM 2022"
     },
@@ -1880,7 +1880,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yuqian Fu, Yu Xie, Yanwei Fu, Jingjing Chen, Yu-Gang Jiang",
         "title": "ME-D2N: Multi-Expert Domain Decompositional Network for Cross-Domain Few-Shot Learning.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Lisbon, Portugal, 2022.",
-        "pdf": "https://arxiv.org/abs/2210.05280",
+        "pdf": "https://arxiv.org/pdf/2210.05280",
         "image": "/assets/publications/images/2022/mm-yuqianfu.png",
         "venue_abbreviated": "MM 2022"
     },
@@ -1907,7 +1907,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Boosting the Transferability of Video Adversarial Examples via Temporal Translation.",
         "venue": "The 36th AAAI Conference on Artificial Intelligence (AAAI), Honolulu, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2110.09075",
+        "pdf": "https://arxiv.org/pdf/2110.09075",
         "image": "/assets/publications/images/2022/aaai-zhipengwei.png",
         "venue_abbreviated": "AAAI 2022"
     },
@@ -1916,7 +1916,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Kai Chen, Zhipeng Wei, Jingjing Chen, Zuxuan Wu, Yu-Gang Jiang",
         "title": "Attacking Video Recognition Models with Bullet-Screen Comments.",
         "venue": "The 36th AAAI Conference on Artificial Intelligence (AAAI), Honolulu, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2110.15629",
+        "pdf": "https://arxiv.org/pdf/2110.15629",
         "image": "/assets/publications/images/2022/aaai-kaichen.png",
         "venue_abbreviated": "AAAI 2022"
     },
@@ -1925,7 +1925,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhipeng Wei, Jingjing Chen, Micah Goldblum, Zuxuan Wu, Tom Goldstein, Yu-Gang Jiang",
         "title": "Towards transferable adversarial attacks on vision transformers.",
         "venue": "The 36th AAAI Conference on Artificial Intelligence (AAAI), Honolulu, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2109.04176",
+        "pdf": "https://arxiv.org/pdf/2109.04176",
         "image": "/assets/publications/images/2022/aaai-zhipengwei.png",
         "venue_abbreviated": "AAAI 2022"
     },
@@ -1934,7 +1934,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Hengduo Li, Zuxuan Wu, Abhinav Shrivastava, Larry S. Davis",
         "title": "Rethinking Pseudo Labels for Semi-Supervised Object Detection.",
         "venue": "The 36th AAAI Conference on Artificial Intelligence (AAAI), Honolulu, USA, 2022.",
-        "pdf": "https://arxiv.org/abs/2106.00168",
+        "pdf": "https://arxiv.org/pdf/2106.00168",
         "image": "/assets/publications/images/2022/aaai-hengduoli.png",
         "venue_abbreviated": "AAAI 2022"
     },
@@ -1997,7 +1997,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Bojia Zi, Shihao Zhao, Xingjun Ma, Yu-Gang Jiang",
         "title": "Revisiting Adversarial Robustness Distillation: Robust Soft Labels Make Student Better.",
         "venue": "International Conference on Computer Vision (ICCV), Virtual, 2021.",
-        "pdf": "https://arxiv.org/abs/2108.07969",
+        "pdf": "https://arxiv.org/pdf/2108.07969",
         "image": "/assets/publications/images/2021/iccv-bojiazi.png",
         "venue_abbreviated": "ICCV 2021"
     },
@@ -2015,7 +2015,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Xing Zhang, Zuxuan Wu, Zejia Weng, Huazhu Fu, Jingjing Chen, Yu-Gang Jiang, Larry Davis",
         "title": "VideoLT: Large-scale Long-tailed Video Recognition.",
         "venue": "International Conference on Computer Vision (ICCV), Virtual, 2021.",
-        "pdf": "https://arxiv.org/abs/2105.02668",
+        "pdf": "https://arxiv.org/pdf/2105.02668",
         "image": "/assets/publications/images/2021/iccv-xingzhang.png",
         "venue_abbreviated": "ICCV 2021"
     },
@@ -2033,7 +2033,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yuqian Fu, Yanwei Fu, Yu-Gang Jiang",
         "title": "Meta-FDMixup: Cross-Domain Few-Shot Learning Guided by Labeled Target Data.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
-        "pdf": "https://arxiv.org/abs/2107.11978",
+        "pdf": "https://arxiv.org/pdf/2107.11978",
         "image": "/assets/publications/images/2021/mm-yuqianfu.png",
         "venue_abbreviated": "MM 2021"
     },
@@ -2051,7 +2051,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zejia Weng, Lingchen Meng, Rui Wang, Zuxuan Wu, Yu-Gang Jiang",
         "title": "A Multimodal Framework for Video Ads Understanding.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Chengdu, China, 2021.",
-        "pdf": "https://arxiv.org/abs/2108.12868",
+        "pdf": "https://arxiv.org/pdf/2108.12868",
         "image": "/assets/publications/images/2021/mm-zejiaweng.png",
         "venue_abbreviated": "MM 2021"
     },
@@ -2060,7 +2060,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yuqian Fu, Yanwei Fu, Yu-Gang Jiang",
         "title": "Can Action be Imitated? Learn to Reconstruct and Transfer Human Dynamics from Videos.",
         "venue": "ACM International Conference on Multimedia Retrieval (ICMR), Virtual, 2021.",
-        "pdf": "https://arxiv.org/abs/2107.11756",
+        "pdf": "https://arxiv.org/pdf/2107.11756",
         "image": "/assets/publications/images/2021/icmr-yuqianfu.png",
         "venue_abbreviated": "ICMR 2021"
     },
@@ -2087,7 +2087,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Guoyun Tu, Yanwei Fu, Jiarui Gao, Boyang Li, Yu-Gang Jiang, Xiangyang Xue",
         "title": "A Multi-task Neural Approach for Emotion Attribution, Classification and Summarization.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 22, pp. 148-159, 2020.",
-        "pdf": "https://arxiv.org/abs/1812.09041",
+        "pdf": "https://arxiv.org/pdf/1812.09041",
         "image": "/assets/publications/images/2020/tmm-guoyuntu.png",
         "venue_abbreviated": "TMM 2020"
     },
@@ -2177,7 +2177,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Shihao Zhao, Xingjun Ma, Xiang Zheng, James Bailey, Jingjing Chen, Yu-Gang Jiang",
         "title": "Clean-Label Backdoor Attacks on Video Recognition Models.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Seattle, USA, 2020.",
-        "pdf": "https://arxiv.org/abs/2003.03030",
+        "pdf": "https://arxiv.org/pdf/2003.03030",
         "image": "/assets/publications/images/2020/cvpr-shihaozhao.png",
         "venue_abbreviated": "CVPR 2020"
     },
@@ -2213,7 +2213,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhi-Peng Wei, Jingjing Chen, Xingxing Wei, Lingxi Jiang, Tat-Seng Chua, Fengfeng Zhou, Yu-Gang Jiang",
         "title": "Heuristic Black-box Adversarial Attacks on Video Recognition Models.",
         "venue": "The 34th AAAI Conference on Artificial Intelligence (AAAI), New York, USA, 2020.",
-        "pdf": "https://arxiv.org/abs/1911.09449",
+        "pdf": "https://arxiv.org/pdf/1911.09449",
         "image": "/assets/publications/images/2020/aaai-zhipengwei.png",
         "venue_abbreviated": "AAAI 2020"
     },
@@ -2249,7 +2249,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zitian Chen, Yanwei Fu, Yinda Zhang, Yu-Gang Jiang, Xiangyang Xue, Leonid Sigal",
         "title": "Multi-level Semantic Feature Augmentation for One-shot Learning.",
         "venue": "IEEE Transactions on Image Processing (TIP), vol. 28, pp. 4594-4605, 2019.",
-        "pdf": "https://arxiv.org/abs/1804.05298",
+        "pdf": "https://arxiv.org/pdf/1804.05298",
         "image": "/assets/publications/images/2019/tip-zitianchen.png",
         "venue_abbreviated": "TIP 2019"
     },
@@ -2312,7 +2312,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Qiaoben You, Zheng Wang, Jianguo Li, Yinpeng Dong, Yu-Gang Jiang, Jun Zhu",
         "title": "Composite Binary Decomposition Network.",
         "venue": "The 33rd AAAI Conference on Artificial Intelligence (AAAI), Honolulu, Hawaii, USA, 2019.",
-        "pdf": "https://arxiv.org/abs/1811.06668",
+        "pdf": "https://arxiv.org/pdf/1811.06668",
         "image": "/assets/publications/images/2019/aaai-qiaobenyou.png",
         "venue_abbreviated": "AAAI 2019"
     },
@@ -2348,7 +2348,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Linxi Jiang, Xingjun Ma, Shaoxiang Chen, James Bailey, Yu-Gang Jiang",
         "title": "Black-box Adversarial Attacks on Video Recognition Models.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Nice, France, 2019.",
-        "pdf": "https://arxiv.org/abs/1904.05181",
+        "pdf": "https://arxiv.org/pdf/1904.05181",
         "image": "/assets/publications/images/2019/mm-linxijiang.png",
         "venue_abbreviated": "MM 2019"
     },
@@ -2429,7 +2429,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yu-Gang Jiang, Zuxuan Wu, Jinhui Tang, Zechao Li, Xiangyang Xue, Shih-Fu Chang",
         "title": "Modeling Multimodal Clues in a Hybrid Deep Learning Framework for Video Classification.",
         "venue": "IEEE Transactions on Multimedia (TMM), vol. 20, pp. 3137-3147, 2018.",
-        "pdf": "https://arxiv.org/abs/1706.04508",
+        "pdf": "https://arxiv.org/pdf/1706.04508",
         "image": "/assets/publications/images/2018/tmm-yugangjiang.png",
         "venue_abbreviated": "TMM 2018"
     },
@@ -2492,7 +2492,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Yu-Gang Jiang, Zuxuan Wu, Jun Wang, Xiangyang Xue, Shih-Fu Chang",
         "title": "Exploiting Feature and Class Relationships in Video Categorization with Regularized Deep Neural Networks.",
         "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 40, pp. 352-364, 2018.",
-        "pdf": "https://arxiv.org/abs/1502.07209",
+        "pdf": "https://arxiv.org/pdf/1502.07209",
         "image": "/assets/publications/images/2018/tpami-yugangjiang.png",
         "venue_abbreviated": "TPAMI 2018"
     },
@@ -2510,7 +2510,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Nanyang Wang, Yinda Zhang, Zhuwen Li, Yanwei Fu, Wei Liu, Yu-Gang Jiang",
         "title": "Pixel2Mesh: Generating 3D Mesh Models from Single RGB Images.",
         "venue": "European Conference on Computer Vision (ECCV), Munich, Germany, 2018.",
-        "pdf": "https://arxiv.org/abs/1804.01654",
+        "pdf": "https://arxiv.org/pdf/1804.01654",
         "image": "/assets/publications/images/2018/eccv-nanyangwang.png",
         "venue_abbreviated": "ECCV 2018"
     },
@@ -2519,7 +2519,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Minjun Li, Haozhi Huang, Lin Ma, Wei Liu, Tong Zhang, Yu-Gang Jiang",
         "title": "Unsupervised Image-to-Image Translation with Stacked Cycle-Consistent Adversarial Networks.",
         "venue": "European Conference on Computer Vision (ECCV), Munich, Germany, 2018.",
-        "pdf": "https://arxiv.org/abs/1807.08536",
+        "pdf": "https://arxiv.org/pdf/1807.08536",
         "image": "/assets/publications/images/2018/eccv-minjunli.png",
         "venue_abbreviated": "ECCV 2018"
     },
@@ -2528,7 +2528,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Xuelin Qian, Yanwei Fu, Tao Xiang, Wenxuan Wang, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Pose-Normalized Image Generation for Person Re-identification.",
         "venue": "European Conference on Computer Vision (ECCV), Munich, Germany, 2018.",
-        "pdf": "https://arxiv.org/abs/1712.02225",
+        "pdf": "https://arxiv.org/pdf/1712.02225",
         "image": "/assets/publications/images/2018/eccv-xuelinqian.png",
         "venue_abbreviated": "ECCV 2018"
     },
@@ -2537,7 +2537,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Wenhao Jiang, Lin Ma, Yu-Gang Jiang, Wei Liu, Tong Zhang",
         "title": "Recurrent Fusion Network for Image Captioning.",
         "venue": "European Conference on Computer Vision (ECCV), Munich, Germany, 2018.",
-        "pdf": "https://arxiv.org/abs/1807.09986",
+        "pdf": "https://arxiv.org/pdf/1807.09986",
         "image": "/assets/publications/images/2018/eccv-wenhaojiang.png",
         "venue_abbreviated": "ECCV 2018"
     },
@@ -2546,7 +2546,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Changmao Cheng, Yanwei Fu, Yu-Gang Jiang, Wei Liu, Wenlian Lu, Jianfeng Feng, Xiangyang Xue",
         "title": "Dual Skipping Networks.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, USA, 2018.",
-        "pdf": "https://arxiv.org/abs/1710.10386",
+        "pdf": "https://arxiv.org/pdf/1710.10386",
         "image": "/assets/publications/images/2018/cvpr-changmaocheng.png",
         "venue_abbreviated": "CVPR 2018"
     },
@@ -2600,7 +2600,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Haroon Idrees, Amir R. Zamir, Yu-Gang Jiang, Alex Gorban, Ivan Laptev, Rahul Sukthankar, Mubarak Shah",
         "title": "The THUMOS Challenge on Action Recognition for Videos 'in the Wild'.",
         "venue": "Computer Vision and Image Understanding (CVIU), vol. 155, pp. 1-23, 2017.",
-        "pdf": "https://arxiv.org/abs/1604.06182",
+        "pdf": "https://arxiv.org/pdf/1604.06182",
         "image": "/assets/publications/images/2017/cviu-haroonidrees.png",
         "venue_abbreviated": "CVIU 2017"
     },
@@ -2618,7 +2618,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhiqiang Shen, Zhuang Liu, Jianguo Li, Yu-Gang Jiang, Yurong Chen, Xiangyang Xue",
         "title": "DSOD: Learning Deeply Supervised Object Detectors from Scratch.",
         "venue": "International Conference on Computer Vision (ICCV), Italy, 2017.",
-        "pdf": "https://arxiv.org/abs/1708.01241",
+        "pdf": "https://arxiv.org/pdf/1708.01241",
         "image": "/assets/publications/images/2017/iccv-zhiqiangshen.png",
         "venue_abbreviated": "ICCV 2017"
     },
@@ -2627,7 +2627,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Xuelin Qian, Yanwei Fu, Yu-Gang Jiang, Tao Xiang, Xiangyang Xue",
         "title": "Multi-scale Deep Learning Architectures for Person Re-identification.",
         "venue": "International Conference on Computer Vision (ICCV), Italy, 2017.",
-        "pdf": "https://arxiv.org/abs/1709.05165",
+        "pdf": "https://arxiv.org/pdf/1709.05165",
         "image": "/assets/publications/images/2017/iccv-xuelinqian.png",
         "venue_abbreviated": "ICCV 2017"
     },
@@ -2636,7 +2636,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Xintong Han, Zuxuan Wu, Yu-Gang Jiang, Larry Davis",
         "title": "Learning Fashion Compatibility with Bidirectional LSTMs.",
         "venue": "ACM International Conference on Multimedia (ACM MM), Mountain View, USA, 2017.",
-        "pdf": "https://arxiv.org/abs/1707.05691",
+        "pdf": "https://arxiv.org/pdf/1707.05691",
         "image": "/assets/publications/images/2017/mm-xintonghan.png",
         "venue_abbreviated": "MM 2017"
     },
@@ -2681,7 +2681,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhiqiang Shen, Jianguo Li, Zhou Su, Minjun Li, Yurong Chen, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Weakly Supervised Dense Video Captioning.",
         "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Hawaii, USA, 2017.",
-        "pdf": "https://arxiv.org/abs/1704.01502v1",
+        "pdf": "https://arxiv.org/pdf/1704.01502v1",
         "image": "/assets/publications/images/2017/cvpr-zhiqiangshen.png",
         "venue_abbreviated": "CVPR 2017"
     },
@@ -2708,7 +2708,7 @@ export const publicationsList: PublicationItem[] = [
         "authors": "Zhiqiang Shen, Yu-Gang Jiang, Xiangyang Xue",
         "title": "Iterative Object and Part Transfer for Fine-Grained Recognition.",
         "venue": "IEEE International Conference on Multimedia & Expo (ICME), Hong Kong, China, 2017.",
-        "pdf": "https://arxiv.org/abs/1703.09983v1",
+        "pdf": "https://arxiv.org/pdf/1703.09983v1",
         "image": "/assets/publications/images/2017/icme-zhiqiangshen.png",
         "venue_abbreviated": "ICME 2017"
     },
