@@ -13,6 +13,25 @@ export interface PublicationItem {
 export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
+        "authors": "Xingyao Lin, Guojin Zhong, Tianyi Lu, Ziyi Ye, Yichen Zhu, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "ActiveMimic: Egocentric Video Pretraining with Active Perception.",
+        "venue": "Conference on Robot Learning (CoRL), Austin, Texas, US, November, 2026.",
+        "venue_abbreviated": "CoRL 2026",
+        "pdf": "https://arxiv.org/pdf/2606.06194",
+        "image": "/assets/publications/images/2026/corl-xingyaolin.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Tianyi Lu, Hui Zhang, Zijie Diao, Junke Wang, Shengqi Xu, Xingyao Lin, Guojin Zhong, Ziyi Ye, Peng Wang, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "ThinkingVLA: Interleaved Vision and Language Reasoning for Robotic Manipulation.",
+        "venue": "Conference on Robot Learning (CoRL), Austin, Texas, US, November, 2026.",
+        "venue_abbreviated": "CoRL 2026",
+        "pdf": "https://arxiv.org/pdf/2606.17937",
+        "dataset": "https://huggingface.co/collections/ShareLab-SII/thinkingvla",
+        "image": "/assets/publications/images/2026/corl-tianyilu.png"
+    },
+    {
+        "year": "2026",
         "authors": "Zhipeng Wei, Jingjing Chen, Feng Han, Yue Yu, Yu-Gang Jiang",
         "title": "Enhancing Adversarial Transferability With Cost-Efficient Landscape Flattening.",
         "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), vol. 48, pp. 7050-7061, 2026.",
