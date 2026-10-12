@@ -13,6 +13,125 @@ export interface PublicationItem {
 export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
+        "authors": "Yongkun Du, Pinxuan Chen, Xuye Ying, Zhineng Chen",
+        "title": "DocPTBench: Benchmarking End-to-End Photographed Document Parsing and Translation.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2511.18434",
+        "image": "/assets/publications/images/2026/neurips-yongkundu.png"
+    },
+    // {
+    //     "year": "2026",
+    //     "authors": "Xingsong Ye, Yongkun Du, Jiaxin Zhang, Chong Sun, Zhineng Chen",
+    //     "title": "Real In, Real Out: What If We Only Use Real Data for Scene Text Editing?",
+    //     "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+    //     "venue_abbreviated": "NeurIPS 2026",
+    //     "pdf": "",
+    //     "code": "https://github.com/YesianRohn/TextRIRO",
+    //     "image": "/assets/publications/images/2026/neurips-xingsongye.png"
+    // },
+    {
+        "year": "2026",
+        "authors": "Yitong Chen, Zijie Diao, Junke Wang, Lingyu Kong, Yixuan Ren, Bo He, Yu-Gang Jiang, Zuxuan Wu",
+        "title": "IDEAL: In-DEpth ALignment Makes A Discrete Representation AutoEncoder.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2606.11096",
+        "image": "/assets/publications/images/2026/neurips-yitongchen.png"
+    },
+    // {
+    //     "year": "2026",
+    //     "authors": "Kun Zhai, Teng Li, Yunhao Feng, Xingjun Ma",
+    //     "title": "ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers.",
+    //     "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+    //     "venue_abbreviated": "NeurIPS 2026",
+    //     "pdf": "",
+    //     "image": "/assets/publications/images/2026/neurips-kunzhai.png"
+    // },
+    {
+        "year": "2026",
+        "authors": "Shuyuan Tu, Qi Tian, Zihan Yang, Yue Wu, Xintong Han, Weijie Kong, Jiangfeng Xiong, Jian-Wei Zhang, Zhao Zhong, Liefeng Bo, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Baton: Explicit Semantic Blueprints for Joint Video-Audio Generation.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2605.25195",
+        "image": "/assets/publications/images/2026/neurips-shuyuantu-baton.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Shuyuan Tu, Yueming Pan, Yinming Huang, Xintong Han, Zhen Xing, Qi Dai, Chong Luo, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "StableAvatar: Infinite-Length Audio-Driven Avatar Video Generation.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2508.08248",
+        "image": "/assets/publications/images/2026/neurips-shuyuantu-stableavatar.png"
+    },
+    // {
+    //     "year": "2026",
+    //     "authors": "Shujian Gao, Yuan Wang, Jiamei Yan, Penghao Zhou, Qinglei Wang, Jiangtao Yan, Zuxuan Wu, Yu-Gang Jiang",
+    //     "title": "Not All Tokens Should Be Treated Equally: Context Credits Reassignment.",
+    //     "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+    //     "venue_abbreviated": "NeurIPS 2026",
+    //     "pdf": "",
+    //     "image": "/assets/publications/images/2026/neurips-shujiangao.png"
+    // },
+    {
+        "year": "2026",
+        "authors": "Yutao Wu, Xiao Liu, Hanxun Huang, Yige Li, Xiang Zheng, Yifeng Gao, Cong Wang, Bo Li, Xingjun Ma, Yu-Gang Jiang",
+        "title": "Internal Safety Collapse in Frontier Large Language Models.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2603.23509",
+        // Figure 2, page 3 of the linked paper.
+        "image": "/assets/publications/images/2026/neurips-yutaowu.png"
+    },
+    // {
+    //     "year": "2026",
+    //     "authors": "",
+    //     "title": ".",
+    //     "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+    //     "venue_abbreviated": "NeurIPS 2026",
+    //     "pdf": "",
+    //     "image": ""
+    // },
+    // {
+    //     "year": "2026",
+    //     "authors": "",
+    //     "title": ".",
+    //     "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+    //     "venue_abbreviated": "NeurIPS 2026",
+    //     "pdf": "",
+    //     "image": ""
+    // },
+    {
+        "year": "2026",
+        "authors": "Zichen Zou, Xiaosong Jia, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "Attention Itself Could Retrieve. RetrieveVGGT: Training-Free Long Context Streaming 3D Reconstruction via Query-Key Similarity Retrieval.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2605.09644",
+        "image": "/assets/publications/images/2026/neurips-zichenzou.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Yihang Wu, Yihang Sun, Shaofeng Zhang, Zuxuan Wu, Junchi Yan, Xiaosong Jia, Yu-Gang Jiang",
+        "title": "Resolving Representation Ambiguity in Feedforward Novel View Synthesis Transformer via Semantic-Spatial Decoupling.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2605.18599",
+        "image": "/assets/publications/images/2026/neurips-yihangwu.png"
+    },
+    {
+        "year": "2026",
+        "authors": "Shengyu Si, Yuanzhuo Lu, Ruimeng Yang, Ziyi Ye, Zuxuan Wu, Yu-Gang Jiang",
+        "title": "VLA-Pro: Cross-Task Procedural Memory Transfer for Vision-Language-Action Models.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2605.29562",
+        "image": "/assets/publications/images/2026/neurips-shengyusi.png"
+    },
+    {
+        "year": "2026",
         "authors": "Xingyao Lin, Guojin Zhong, Tianyi Lu, Ziyi Ye, Yichen Zhu, Zuxuan Wu, Yu-Gang Jiang",
         "title": "ActiveMimic: Egocentric Video Pretraining with Active Perception.",
         "venue": "Conference on Robot Learning (CoRL), Austin, Texas, US, November, 2026.",
