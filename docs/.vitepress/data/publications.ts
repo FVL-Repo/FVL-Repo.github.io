@@ -13,6 +13,16 @@ export interface PublicationItem {
 export const publicationsList: PublicationItem[] = [
     {
         "year": "2026",
+        "authors": "Jiapeng Shi, Qiuxia Hou, Jiaqi Leng, Junke Wang, Yanhao Zhang, Haonan Lu, Ziyi Ye, Zuxuan Wu",
+        "title": "EVA-Cap: Optimizing Audiovisual Video Captioning via Event-Centric Alignment.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2610.22186",
+        // "code": "https://github.com/OPPO-Mente-Lab/EVA-Cap",
+        "image": "/assets/publications/images/2026/neurips-jiapengshi.png"
+    },
+    {
+        "year": "2026",
         "authors": "Yongkun Du, Pinxuan Chen, Xuye Ying, Zhineng Chen",
         "title": "DocPTBench: Benchmarking End-to-End Photographed Document Parsing and Translation.",
         "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
