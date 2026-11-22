@@ -4,6 +4,8 @@ dist
 .vscode
 .idea
 docs/.vitepress/cache
+docs/.vitepress/.temp
+*.timestamp-*.mjs
 .DS_Store
 *.zip
 *.backup
