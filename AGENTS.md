@@ -319,6 +319,8 @@ PR 描述写动机、影响范围与验证方式（是否本地跑过 `npm run d
 6. **中文使用全角标点**；完整的英文句子、英文书名与产品名内部保留半角标点。不重复使用标点，`！！` 写作 `！`。
 7. **内联链接、行内代码与中文之间也加空格**：`详情见 [提交说明](https://example.com) 中的约定`。指北将此列为争议项，本仓库统一采用"加空格"的写法。
 
+英文标题另有约定：直接以成果、事件或人物为主语，避免每条都以 `FVL` 开头；`FVL` 只在确有必要强调归属时出现，例如 `EMNLP 2026 Outstanding Paper Award for Large-Model Evaluation`，而不是 `FVL Research Wins EMNLP 2026 Outstanding Paper Award`。
+
 检查清单：
 
 - [ ] `zh` 字段中没有"中文紧贴英文或数字"的片段，例如 `获2026国际…`、`简称IEEE`。
