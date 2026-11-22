@@ -49,15 +49,16 @@ export const publicationsList: PublicationItem[] = [
         "pdf": "https://arxiv.org/pdf/2606.11096",
         "image": "/assets/publications/images/2026/neurips-yitongchen.png"
     },
-    // {
-    //     "year": "2026",
-    //     "authors": "Kun Zhai, Teng Li, Yunhao Feng, Xingjun Ma",
-    //     "title": "ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers.",
-    //     "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
-    //     "venue_abbreviated": "NeurIPS 2026",
-    //     "pdf": "",
-    //     "image": "/assets/publications/images/2026/neurips-kunzhai.png"
-    // },
+    {
+        "year": "2026",
+        "authors": "Kun Zhai, Teng Li, Yunhao Feng, Xingjun Ma",
+        "title": "ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers.",
+        "venue": "Advances in Neural Information Processing Systems (NeurIPS), Sydney, Australia, 2026.",
+        "venue_abbreviated": "NeurIPS 2026",
+        "pdf": "https://arxiv.org/pdf/2610.22871",
+        // Figure 1: https://arxiv.org/html/2610.22871v1/figures/over.png
+        "image": "/assets/publications/images/2026/neurips-kunzhai.png",
+    },
     {
         "year": "2026",
         "authors": "Shuyuan Tu, Qi Tian, Zihan Yang, Yue Wu, Xintong Han, Weijie Kong, Jiangfeng Xiong, Jian-Wei Zhang, Zhao Zhong, Liefeng Bo, Zuxuan Wu, Yu-Gang Jiang",
