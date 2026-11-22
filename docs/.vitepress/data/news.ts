@@ -11,7 +11,7 @@ export const newsList = [
         image: '/assets/news/2026-11-05.png',
         title: {
             zh: '实验室成果荣获 EMNLP 杰出论文奖',
-            en: 'FVL Research Wins EMNLP 2026 Outstanding Paper Award'
+            en: 'EMNLP 2026 Outstanding Paper Award for Large-Model Evaluation'
         },
         summary: {
             zh: '近日，自然语言处理领域顶级国际会议 EMNLP 2026 在匈牙利召开，实验室大模型评测研究成果荣获大会“杰出论文奖（Outstanding Paper Award）”。该成果由复旦大学牵头，阿里巴巴、上海创智学院合作完成。',
@@ -24,7 +24,7 @@ export const newsList = [
         image: '/assets/news/2026-10-27.png',
         title: {
             zh: '实验室获 2026 国际具身智能技能大赛“质检检测”赛项第一名',
-            en: 'FVL Wins First Place in Quality Inspection at 2026 International Embodied Intelligence Skills Competition'
+            en: 'First Place in Quality Inspection at the 2026 Embodied Intelligence Skills Competition'
         },
         summary: {
             zh: '10 月 23 日至 25 日，2026 全球开发者先锋大会（GDPS 2026）暨国际具身智能技能大赛在上海张江科学会堂举行。实验室与上海新智具身智能科技有限公司组成联合团队参加比赛，获得检测分析赛道质检检测赛项第一名。',
@@ -37,7 +37,7 @@ export const newsList = [
         image: '/assets/news/2026-09-02.png',
         title: {
             zh: '实验室成果获 2025 奥林帕斯先锋奖',
-            en: 'FVL Research Wins 2025 OlympusMons Pioneer Award'
+            en: '2025 OlympusMons Pioneer Award for Ultra-Lightweight Document Parsing'
         },
         summary: {
             zh: '2026 年 8 月 29 日，华为公司在 2026 全球数据存储教授论坛上揭晓了 2025 奥林帕斯奖获奖名单，实验室团队从来自全球 30 所高校及研究机构的 160 多位专家学者中脱颖而出，凭借《超轻量文档图像解析及知识提取》成果获 2025 奥林帕斯先锋奖。',
@@ -50,7 +50,7 @@ export const newsList = [
         image: '/assets/news/2026-07-20.png',
         title: {
             zh: '实验室成果获首届 WAIC-Academic 最佳学生论文奖',
-            en: 'FVL Research Wins Best Student Paper Award at the First WAIC-Academic'
+            en: 'Best Student Paper Award at WAIC-Academic 2026'
         },
         summary: {
             zh: '近日，首届世界人工智能大会·学术（WAIC-Academic，简称 WAICA）公布获奖结果。实验室针对视觉基础模型的研究成果《Enhancing Vision Foundation Models via Multimodal Continual Pre-Training》荣获“最佳学生论文奖”。',
