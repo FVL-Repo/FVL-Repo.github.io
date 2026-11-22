@@ -7,6 +7,58 @@ export interface NewsItem {
 
 export const newsList = [
     {
+        date: '2026-11-05',
+        image: '/assets/news/2026-11-05.png',
+        title: {
+            zh: '实验室成果荣获 EMNLP 杰出论文奖',
+            en: 'FVL Research Wins EMNLP 2026 Outstanding Paper Award'
+        },
+        summary: {
+            zh: '近日，自然语言处理领域顶级国际会议 EMNLP 2026 在匈牙利召开，实验室大模型评测研究成果荣获大会“杰出论文奖（Outstanding Paper Award）”。该成果由复旦大学牵头，阿里巴巴、上海创智学院合作完成。',
+            en: 'EMNLP 2026, a top international conference in natural language processing, was recently held in Hungary. FVL\'s research on large-model evaluation received the conference\'s Outstanding Paper Award. The work was led by Fudan University in collaboration with Alibaba and the Shanghai Innovation Institute.'
+        },
+        link: 'https://mp.weixin.qq.com/s/pUaLgj73kxUJVv2BM29mcw'
+    },
+    {
+        date: '2026-10-27',
+        image: '/assets/news/2026-10-27.png',
+        title: {
+            zh: '实验室获 2026 国际具身智能技能大赛“质检检测”赛项第一名',
+            en: 'FVL Wins First Place in Quality Inspection at 2026 International Embodied Intelligence Skills Competition'
+        },
+        summary: {
+            zh: '10 月 23 日至 25 日，2026 全球开发者先锋大会（GDPS 2026）暨国际具身智能技能大赛在上海张江科学会堂举行。实验室与上海新智具身智能科技有限公司组成联合团队参加比赛，获得检测分析赛道质检检测赛项第一名。',
+            en: 'From October 23 to 25, the 2026 Global Developers Pioneer Conference (GDPS 2026) and the International Embodied Intelligence Skills Competition were held at the Zhangjiang Science Hall in Shanghai. A joint team of FVL and Shanghai NeoteAI Intelligent Technology Co., Ltd. won first place in the quality inspection event of the inspection and analysis track.'
+        },
+        link: 'https://mp.weixin.qq.com/s/gmGUhsKQApFbVSi1v25tHQ'
+    },
+    {
+        date: '2026-09-02',
+        image: '/assets/news/2026-09-02.png',
+        title: {
+            zh: '实验室成果获 2025 奥林帕斯先锋奖',
+            en: 'FVL Research Wins 2025 OlympusMons Pioneer Award'
+        },
+        summary: {
+            zh: '2026 年 8 月 29 日，华为公司在 2026 全球数据存储教授论坛上揭晓了 2025 奥林帕斯奖获奖名单，实验室团队从来自全球 30 所高校及研究机构的 160 多位专家学者中脱颖而出，凭借《超轻量文档图像解析及知识提取》成果获 2025 奥林帕斯先锋奖。',
+            en: 'On August 29, 2026, Huawei announced the winners of the 2025 OlympusMons Awards at the 2026 Global Data Storage Professors Forum. The FVL team stood out from more than 160 experts from 30 universities and research institutions worldwide, winning the 2025 OlympusMons Pioneer Award for its work on ultra-lightweight document image parsing and knowledge extraction.'
+        },
+        link: 'https://mp.weixin.qq.com/s/Xb1x0PI9EYWdTtpQ_Z9SXA'
+    },
+    {
+        date: '2026-07-20',
+        image: '/assets/news/2026-07-20.png',
+        title: {
+            zh: '实验室成果获首届 WAIC-Academic 最佳学生论文奖',
+            en: 'FVL Research Wins Best Student Paper Award at the First WAIC-Academic'
+        },
+        summary: {
+            zh: '近日，首届世界人工智能大会·学术（WAIC-Academic，简称 WAICA）公布获奖结果。实验室针对视觉基础模型的研究成果《Enhancing Vision Foundation Models via Multimodal Continual Pre-Training》荣获“最佳学生论文奖”。',
+            en: 'The first World AI Conference–Academic (WAIC-Academic, WAICA) has announced its award results. FVL\'s work on vision foundation models, "Enhancing Vision Foundation Models via Multimodal Continual Pre-Training," received the Best Student Paper Award.'
+        },
+        link: 'https://mp.weixin.qq.com/s/f0GkS6IhJbNz119PUnTCYw'
+    },
+    {
         date: '2026-07-02',
         image: '/assets/news/2026-07-02.png',
         title: {
@@ -14,7 +66,7 @@ export const newsList = [
             en: 'FVL Research Achievement Wins First Prize in Shanghai Science and Technology Progress Award'
         },
         summary: {
-            zh: '2025年度上海市科学技术奖评选结果新鲜出炉！实验室端侧多模态感知与交互关键技术及应用项目获科技进步奖一等奖。',
+            zh: '2025 年度上海市科学技术奖评选结果新鲜出炉！实验室端侧多模态感知与交互关键技术及应用项目获科技进步奖一等奖。',
             en: 'The results of the 2025 Shanghai Municipal Science and Technology Awards were recently announced. FVL\'s project, "Key Technologies and Applications for On-device Multimodal Perception and Interaction," was awarded first prize in the Shanghai Science and Technology Progress Award category.'
         },
         link: 'https://mp.weixin.qq.com/s/H3fturxoE6BH7u0TpjLZtg'
@@ -260,7 +312,7 @@ export const newsList = [
             "en": "Dr. Shaoxiang Chen Won Outstanding Doctoral Thesis Award from CSIG"
         },
         "summary": {
-            "zh": "近日，中国图象图形学学会（CSIG）发布“中国图象图形学学会博士学位论文激励计划”（原“CSIG优博”）入选名单。复旦大学视觉与学习实验室毕业生陈绍祥同学的博士学位论文《视觉与语言结合的视频理解方法研究》入选，导师为姜育刚教授。",
+            "zh": "近日，中国图象图形学学会（CSIG）发布“中国图象图形学学会博士学位论文激励计划”（原“CSIG 优博”）入选名单。复旦大学视觉与学习实验室毕业生陈绍祥同学的博士学位论文《视觉与语言结合的视频理解方法研究》入选，导师为姜育刚教授。",
             "en": "Recently, the China Society of Image and Graphics (CSIG) released the list for the \"Doctoral Dissertation Incentive Program\" (formerly CSIG Outstanding Doctoral Dissertation Award). The dissertation titled \"Research on Video Understanding Methods Combining Vision and Language\" by Dr. Shaoxiang Chen, a graduate of Fudan Vision and Learning Laboratory, was selected. His supervisor is Professor Yu-Gang Jiang."
         },
         "link": "https://mp.weixin.qq.com/s/Q6oGE0PMFKhlIgMIY4o_Iw"
@@ -273,7 +325,7 @@ export const newsList = [
             "en": "Professor Yu-Gang Jiang Elevated to IEEE Fellow"
         },
         "summary": {
-            "zh": "近日，国际电气和电子工程师协会（Institute of Electrical and Electronic Engineers，简称IEEE）公布了 2024 年度新晋会士（Fellow）名单，全球共 323 人。姜育刚教授因在大规模视频分析以及开源数据集方面做出杰出贡献，当选 IEEE Fellow。",
+            "zh": "近日，国际电气和电子工程师协会（Institute of Electrical and Electronic Engineers，简称 IEEE）公布了 2024 年度新晋会士（Fellow）名单，全球共 323 人。姜育刚教授因在大规模视频分析以及开源数据集方面做出杰出贡献，当选 IEEE Fellow。",
             "en": "Recently, the Institute of Electrical and Electronics Engineers (IEEE) announced the list of 2024 Fellows, totaling 323 individuals worldwide. Professor Yu-Gang Jiang was elected as an IEEE Fellow in recognition of his outstanding contributions to large-scale video analysis and open-source datasets."
         },
         "link": "https://mp.weixin.qq.com/s/BEsSdJZc-K0s3ZrnkG0sgQ"
